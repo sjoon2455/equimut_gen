@@ -1,0 +1,12 @@
+Program Name;Mutant Name;Result;Status;Operator;Program Graph Node;Primitive Arc?;Source Primitive Arc?;Target Primitive Arc?;Equivalent?;Distance Begin;Distance Begin (min);Distance Begin (max);Distance Begin (avg);Distance End;Distance End (min);Distance End (max);Distance End (avg);Source Node;Target Node;Sources Nodes are primitive?;Targets Nodes are primitive?;Complexity;Type Statement;PS;OS;pageRank;hub;authority
+Insert;ROR_18;Nonequivalent;Nonequivalent;ROR;5;0;1;1;0;0;[3, 6];3;6;4.5;[3, 7, 4, 6];3;7;5.0;[4];[10, 6];[1];[1, 0];3;If;0.8095238095238095;0.76;0.07;0.0;0.293
+Insert;AOIU_13;Nonequivalent;Nonequivalent;AOIU;8;0;1;0;1;0;[6, 9, 8];6;9;7.666666666666667;[3];3;3;3.0;[7];[7];[1];[1];4;Assignment;0.6363636363636364;0.7692307692307693;0.112;0.0;0.0
+Insert;LOI_7;Nonequivalent;Nonequivalent;LOI;5;0;1;1;0;0;[3, 6];3;6;4.5;[3, 7, 4, 6];3;7;5.0;[4];[10, 6];[1];[1, 0];3;If;0.8095238095238095;0.8;0.07;0.0;0.293
+Insert;LOI_17;Nonequivalent;Nonequivalent;LOI;8;0;1;0;1;0;[6, 9, 8];6;9;7.666666666666667;[3];3;3;3.0;[7];[7];[1];[1];4;Assignment;0.6363636363636364;0.8;0.112;0.0;0.0
+Insert;AOIS_26;Nonequivalent;Nonequivalent;AOIS;6;0;0;0;0;0;[4, 7];4;7;5.5;[3, 5];3;5;4.0;[5];[7];[1];[1];2;Assignment;0.6923076923076923;0.6923076923076923;0.051;0.0;0.0
+Insert;SDL_12;Nonequivalent;Nonequivalent;SDL;10;0;1;0;1;0;[4, 7];4;7;5.5;[2, 6];2;6;4.0;[5];[4];[1];[1];1;Declaration;0.6666666666666666;0.8181818181818182;0.051;0.0;0.0
+Insert;AOIS_50;Nonequivalent;Nonequivalent;AOIS;8;0;1;0;1;0;[6, 9, 8];6;9;7.666666666666667;[3];3;3;3.0;[7];[7];[1];[1];4;Assignment;0.6363636363636364;0.6923076923076923;0.112;0.0;0.0
+Insert;AOIU_6;Nonequivalent;Nonequivalent;AOIU;5;0;1;1;0;0;[3, 6];3;6;4.5;[3, 7, 4, 6];3;7;5.0;[4];[10, 6];[1];[1, 0];3;If;0.8095238095238095;0.7692307692307693;0.07;0.0;0.293
+Insert;AOIS_25;Nonequivalent;Nonequivalent;AOIS;6;0;0;0;0;0;[4, 7];4;7;5.5;[3, 5];3;5;4.0;[5];[7];[1];[1];2;Assignment;0.6923076923076923;0.6923076923076923;0.051;0.0;0.0
+Insert;AOIS_6;Nonequivalent;Nonequivalent;AOIS;1;0;1;1;1;0;[0];0;0;0.0;[3, 6, 10, 7, 9, 2];2;10;6.166666666666667;[];[3, 2];[];[0, 1];1;If;0.8636363636363636;0.6923076923076923;0.021;0.0;0.0
+Insert;SDL_16;Nonequivalent;Nonequivalent;SDL;8;0;1;0;1;0;[6, 9, 8];6;9;7.666666666666667;[3];3;3;3.0;[7];[7];[1];[1];4;Assignment;0.6363636363636364;0.8181818181818182;0.112;0.0;0.0

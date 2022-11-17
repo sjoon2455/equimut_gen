@@ -1,0 +1,162 @@
+#
+Mutant name: AOIU_2
+Status: Equivalent
+Operator: AOIU
+Type statement: Block
+Position score: 0.6666666666666666
+Operator score: 0.5625
+Program graph node: 2
+
+#
+Mutant name: SDL_3
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.6973684210526315
+Operator score: 0.6923076923076923
+Program graph node: 8
+
+#
+Mutant name: AOIU_12
+Status: Equivalent
+Operator: AOIU
+Type statement: Block
+Position score: 0.6973684210526315
+Operator score: 0.5625
+Program graph node: 8
+
+#
+Mutant name: ROR_15
+Status: Equivalent
+Operator: ROR
+Type statement: Block
+Position score: 0.6428571428571429
+Operator score: 0.7894736842105263
+Program graph node: 7
+
+#
+Mutant name: ODL_11
+Status: Equivalent
+Operator: ODL
+Type statement: Block
+Position score: 0.7419354838709677
+Operator score: 0.625
+Program graph node: 6
+
+#
+Mutant name: AOIU_8
+Status: Equivalent
+Operator: AOIU
+Type statement: Block
+Position score: 0.7419354838709677
+Operator score: 0.5625
+Program graph node: 6
+
+#
+Mutant name: VDL_10
+Status: Equivalent
+Operator: VDL
+Type statement: Block
+Position score: 0.6973684210526315
+Operator score: 0.8
+Program graph node: 8
+
+#
+Mutant name: AORB_9
+Status: Equivalent
+Operator: AORB
+Type statement: Block
+Position score: 0.7419354838709677
+Operator score: 0.65625
+Program graph node: 6
+
+#
+Mutant name: SDL_13
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.6973684210526315
+Operator score: 0.6923076923076923
+Program graph node: 8
+
+#
+Mutant name: AOIU_38
+Status: Equivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 1.0
+Operator score: 0.5625
+Program graph node: 1
+
+#
+Mutant name: ROR_408
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.7894736842105263
+Program graph node: 1
+
+#
+Mutant name: ODL_18
+Status: Equivalent
+Operator: ODL
+Type statement: Block
+Position score: 0.6973684210526315
+Operator score: 0.625
+Program graph node: 8
+
+#
+Mutant name: CDL_4
+Status: Equivalent
+Operator: CDL
+Type statement: Block
+Position score: 0.6973684210526315
+Operator score: 0.5
+Program graph node: 8
+
+#
+Mutant name: SDL_7
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.7419354838709677
+Operator score: 0.6923076923076923
+Program graph node: 6
+
+#
+Mutant name: SDL_11
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.6973684210526315
+Operator score: 0.6923076923076923
+Program graph node: 8
+
+#
+Mutant name: AOIU_7
+Status: Equivalent
+Operator: AOIU
+Type statement: Block
+Position score: 0.7419354838709677
+Operator score: 0.5625
+Program graph node: 6
+
+#
+Mutant name: ROR_576
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.6206896551724138
+Operator score: 0.7894736842105263
+Program graph node: 4
+
+#
+Mutant name: AORB_15
+Status: Equivalent
+Operator: AORB
+Type statement: Block
+Position score: 0.7419354838709677
+Operator score: 0.65625
+Program graph node: 6
+

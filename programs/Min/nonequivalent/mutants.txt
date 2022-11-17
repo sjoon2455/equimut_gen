@@ -1,0 +1,45 @@
+#
+Mutant name: AOIU_2
+Status: Nonequivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.6538461538461539
+Operator score: 0.6
+Program graph node: 1
+
+#
+Mutant name: AOIS_4
+Status: Nonequivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.6538461538461539
+Operator score: 0.4444444444444444
+Program graph node: 1
+
+#
+Mutant name: AOIS_10
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6538461538461539
+Operator score: 0.4444444444444444
+Program graph node: 1
+
+#
+Mutant name: AOIU_4
+Status: Nonequivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.625
+Operator score: 0.6
+Program graph node: 2
+
+#
+Mutant name: LOI_2
+Status: Nonequivalent
+Operator: LOI
+Type statement: If
+Position score: 0.6538461538461539
+Operator score: 0.8
+Program graph node: 1
+

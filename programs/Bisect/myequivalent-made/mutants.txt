@@ -1,0 +1,54 @@
+#
+Mutant name: VR_3
+Status: Equivalent
+Operator: VR
+Type statement: Assignment
+Position score: 1.0
+Operator score: 1
+Program graph node: 1
+
+#
+Mutant name: VR_2
+Status: Equivalent
+Operator: VR
+Type statement: If
+Position score: 1.0
+Operator score: 1
+Program graph node: 1
+
+#
+Mutant name: VR_5
+Status: Equivalent
+Operator: VR
+Type statement: If
+Position score: 1.0
+Operator score: 1
+Program graph node: 1
+
+#
+Mutant name: VR_4
+Status: Equivalent
+Operator: VR
+Type statement: If
+Position score: 1.0
+Operator score: 1
+Program graph node: 1
+
+#
+Mutant name: VR_7
+Status: Equivalent
+Operator: VR
+Type statement: Assignment
+Position score: 1.0
+Operator score: 1
+Program graph node: 1
+
+#
+Mutant name: VR_6
+Status: Equivalent
+Operator: VR
+Type statement: If
+Position score: 1.0
+Operator score: 1
+Program graph node: 1
+

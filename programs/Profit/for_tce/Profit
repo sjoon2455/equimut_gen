@@ -1,0 +1,80 @@
+Compiled from "Profit.java"
+public class Profit {
+  public Profit();
+    Code:
+       0: aload_0
+       1: invokespecial #9                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static double func(double);
+    Code:
+       0: dload_0
+       1: ldc2_w        #12                 // double 100000.0d
+       4: dcmpg
+       5: ifgt          17
+       8: dload_0
+       9: ldc2_w        #14                 // double 0.1d
+      12: dmul
+      13: dstore_0
+      14: goto          127
+      17: dload_0
+      18: ldc2_w        #16                 // double 200000.0d
+      21: dcmpg
+      22: ifgt          42
+      25: ldc2_w        #18                 // double 10000.0d
+      28: dload_0
+      29: ldc2_w        #20                 // double 0.075d
+      32: dmul
+      33: dadd
+      34: ldc2_w        #22                 // double 7500.0d
+      37: dsub
+      38: dstore_0
+      39: goto          127
+      42: dload_0
+      43: ldc2_w        #24                 // double 400000.0d
+      46: dcmpg
+      47: ifgt          67
+      50: ldc2_w        #26                 // double 17500.0d
+      53: dload_0
+      54: ldc2_w        #28                 // double 0.05d
+      57: dmul
+      58: dadd
+      59: ldc2_w        #18                 // double 10000.0d
+      62: dsub
+      63: dstore_0
+      64: goto          127
+      67: dload_0
+      68: ldc2_w        #30                 // double 600000.0d
+      71: dcmpg
+      72: ifgt          88
+      75: ldc2_w        #32                 // double 27500.0d
+      78: dload_0
+      79: ldc2_w        #34                 // double 0.03d
+      82: dmul
+      83: dadd
+      84: dstore_0
+      85: goto          127
+      88: dload_0
+      89: ldc2_w        #36                 // double 1000000.0d
+      92: dcmpg
+      93: ifgt          113
+      96: ldc2_w        #38                 // double 33500.0d
+      99: dload_0
+     100: ldc2_w        #40                 // double 0.015d
+     103: dmul
+     104: dadd
+     105: ldc2_w        #42                 // double 9000.0d
+     108: dsub
+     109: dstore_0
+     110: goto          127
+     113: ldc2_w        #44                 // double 39500.0d
+     116: dload_0
+     117: ldc2_w        #46                 // double 0.01d
+     120: dmul
+     121: dadd
+     122: ldc2_w        #18                 // double 10000.0d
+     125: dsub
+     126: dstore_0
+     127: dload_0
+     128: dreturn
+}

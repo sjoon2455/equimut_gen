@@ -1,0 +1,54 @@
+#
+Mutant name: ROR_12
+Status: Equivalent
+Operator: ROR
+Type statement: For
+Position score: 0.6875
+Operator score: 0.76
+Program graph node: 4
+
+#
+Mutant name: AOIU_4
+Status: Equivalent
+Operator: AOIU
+Type statement: For
+Position score: 0.6875
+Operator score: 0.7692307692307693
+Program graph node: 4
+
+#
+Mutant name: ROR_13
+Status: Equivalent
+Operator: ROR
+Type statement: For
+Position score: 0.6875
+Operator score: 0.76
+Program graph node: 4
+
+#
+Mutant name: ROR_10
+Status: Equivalent
+Operator: ROR
+Type statement: For
+Position score: 0.6875
+Operator score: 0.76
+Program graph node: 4
+
+#
+Mutant name: ROR_26
+Status: Equivalent
+Operator: ROR
+Type statement: For
+Position score: 0.8928571428571429
+Operator score: 0.76
+Program graph node: 7
+
+#
+Mutant name: LOI_4
+Status: Equivalent
+Operator: LOI
+Type statement: For
+Position score: 0.6875
+Operator score: 0.8
+Program graph node: 4
+

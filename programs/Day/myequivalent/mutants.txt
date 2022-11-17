@@ -1,0 +1,72 @@
+#
+Mutant name: SDL_42
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.8
+Operator score: 0.8888888888888888
+Program graph node: 13
+
+#
+Mutant name: AOIS_5
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7894736842105263
+Operator score: 0.375
+Program graph node: 16
+
+#
+Mutant name: SDL_5
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.5
+Operator score: 0.8888888888888888
+Program graph node: 2
+
+#
+Mutant name: SDL_29
+Status: Equivalent
+Operator: SDL
+Type statement: Declaration
+Position score: 0.0
+Operator score: 0.8888888888888888
+Program graph node: 15
+
+#
+Mutant name: SDL_28
+Status: Equivalent
+Operator: SDL
+Type statement: Declaration
+Position score: 0.8
+Operator score: 0.8888888888888888
+Program graph node: 13
+
+#
+Mutant name: COR_4
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.8333333333333334
+Program graph node: 18
+
+#
+Mutant name: SDL_30
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.8
+Operator score: 0.8888888888888888
+Program graph node: 13
+
+#
+Mutant name: AOIS_6
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7894736842105263
+Operator score: 0.375
+Program graph node: 16
+

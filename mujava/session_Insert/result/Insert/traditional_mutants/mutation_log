@@ -1,0 +1,166 @@
+AORB_1:26:int_insert(int):i + 1 => i * 1
+AORB_2:26:int_insert(int):i + 1 => i / 1
+AORB_3:26:int_insert(int):i + 1 => i % 1
+AORB_4:26:int_insert(int):i + 1 => i - 1
+AORS_1:22:int_insert(int):i++ => i--
+AORS_2:26:int_insert(int):j++ => j--
+AODU_1:12:int_insert(int):-14 => 14
+AOIU_1:19:int_insert(int):number => -number
+AOIU_2:19:int_insert(int):end => -end
+AOIU_3:20:int_insert(int):number => -number
+AOIU_4:22:int_insert(int):i => -i
+AOIU_5:23:int_insert(int):i => -i
+AOIU_6:23:int_insert(int):number => -number
+AOIU_7:24:int_insert(int):i => -i
+AOIU_8:25:int_insert(int):number => -number
+AOIU_9:26:int_insert(int):i => -i
+AOIU_10:26:int_insert(int):j => -j
+AOIU_11:27:int_insert(int):j => -j
+AOIU_12:28:int_insert(int):mytemp1 => -mytemp1
+AOIU_13:29:int_insert(int):mytemp2 => -mytemp2
+AOIS_1:19:int_insert(int):number => ++number
+AOIS_2:19:int_insert(int):number => --number
+AOIS_3:19:int_insert(int):number => number++
+AOIS_4:19:int_insert(int):number => number--
+AOIS_5:19:int_insert(int):end => ++end
+AOIS_6:19:int_insert(int):end => --end
+AOIS_7:19:int_insert(int):end => end++
+AOIS_8:19:int_insert(int):end => end--
+AOIS_9:20:int_insert(int):number => ++number
+AOIS_10:20:int_insert(int):number => --number
+AOIS_11:20:int_insert(int):number => number++
+AOIS_12:20:int_insert(int):number => number--
+AOIS_13:22:int_insert(int):i => ++i
+AOIS_14:22:int_insert(int):i => --i
+AOIS_15:22:int_insert(int):i => i++
+AOIS_16:22:int_insert(int):i => i--
+AOIS_17:23:int_insert(int):i => ++i
+AOIS_18:23:int_insert(int):i => --i
+AOIS_19:23:int_insert(int):i => i++
+AOIS_20:23:int_insert(int):i => i--
+AOIS_21:23:int_insert(int):number => ++number
+AOIS_22:23:int_insert(int):number => --number
+AOIS_23:23:int_insert(int):number => number++
+AOIS_24:23:int_insert(int):number => number--
+AOIS_25:24:int_insert(int):i => ++i
+AOIS_26:24:int_insert(int):i => --i
+AOIS_27:24:int_insert(int):i => i++
+AOIS_28:24:int_insert(int):i => i--
+AOIS_29:25:int_insert(int):number => ++number
+AOIS_30:25:int_insert(int):number => --number
+AOIS_31:25:int_insert(int):number => number++
+AOIS_32:25:int_insert(int):number => number--
+AOIS_33:26:int_insert(int):i => ++i
+AOIS_34:26:int_insert(int):i => --i
+AOIS_35:26:int_insert(int):i => i++
+AOIS_36:26:int_insert(int):i => i--
+AOIS_37:26:int_insert(int):j => ++j
+AOIS_38:26:int_insert(int):j => --j
+AOIS_39:26:int_insert(int):j => j++
+AOIS_40:26:int_insert(int):j => j--
+AOIS_41:27:int_insert(int):j => ++j
+AOIS_42:27:int_insert(int):j => --j
+AOIS_43:27:int_insert(int):j => j++
+AOIS_44:27:int_insert(int):j => j--
+AOIS_45:28:int_insert(int):mytemp1 => ++mytemp1
+AOIS_46:28:int_insert(int):mytemp1 => --mytemp1
+AOIS_47:28:int_insert(int):mytemp1 => mytemp1++
+AOIS_48:28:int_insert(int):mytemp1 => mytemp1--
+AOIS_49:29:int_insert(int):mytemp2 => ++mytemp2
+AOIS_50:29:int_insert(int):mytemp2 => --mytemp2
+AOIS_51:29:int_insert(int):mytemp2 => mytemp2++
+AOIS_52:29:int_insert(int):mytemp2 => mytemp2--
+ROR_1:19:int_insert(int): number >= end  =>   number > end
+ROR_2:19:int_insert(int): number >= end  =>   number < end
+ROR_3:19:int_insert(int): number >= end  =>   number <= end
+ROR_4:19:int_insert(int): number >= end  =>   number == end
+ROR_5:19:int_insert(int): number >= end  =>   number != end
+ROR_6:19:int_insert(int): number >= end  =>   true
+ROR_7:19:int_insert(int): number >= end  =>   false
+ROR_8:22:int_insert(int): i < 3  =>   i > 3
+ROR_9:22:int_insert(int): i < 3  =>   i >= 3
+ROR_10:22:int_insert(int): i < 3  =>   i <= 3
+ROR_11:22:int_insert(int): i < 3  =>   i == 3
+ROR_12:22:int_insert(int): i < 3  =>   i != 3
+ROR_13:22:int_insert(int): i < 3  =>   true
+ROR_14:22:int_insert(int): i < 3  =>   false
+ROR_15:23:int_insert(int): a[i] > number  =>   a[i] >= number
+ROR_16:23:int_insert(int): a[i] > number  =>   a[i] < number
+ROR_17:23:int_insert(int): a[i] > number  =>   a[i] <= number
+ROR_18:23:int_insert(int): a[i] > number  =>   a[i] == number
+ROR_19:23:int_insert(int): a[i] > number  =>   a[i] != number
+ROR_20:23:int_insert(int): a[i] > number  =>   true
+ROR_21:23:int_insert(int): a[i] > number  =>   false
+ROR_22:26:int_insert(int): j < 4  =>   j > 4
+ROR_23:26:int_insert(int): j < 4  =>   j >= 4
+ROR_24:26:int_insert(int): j < 4  =>   j <= 4
+ROR_25:26:int_insert(int): j < 4  =>   j == 4
+ROR_26:26:int_insert(int): j < 4  =>   j != 4
+ROR_27:26:int_insert(int): j < 4  =>   true
+ROR_28:26:int_insert(int): j < 4  =>   false
+COI_1:19:int_insert(int): number >= end  =>  !(number >= end)
+COI_2:22:int_insert(int): i < 3  =>  !(i < 3)
+COI_3:23:int_insert(int): a[i] > number  =>  !(a[i] > number)
+COI_4:26:int_insert(int): j < 4  =>  !(j < 4)
+LOI_1:19:int_insert(int):number => ~number
+LOI_2:19:int_insert(int):end => ~end
+LOI_3:20:int_insert(int):number => ~number
+LOI_4:22:int_insert(int):i => ~i
+LOI_5:22:int_insert(int):i => ~i
+LOI_6:23:int_insert(int):i => ~i
+LOI_7:23:int_insert(int):number => ~number
+LOI_8:24:int_insert(int):i => ~i
+LOI_9:25:int_insert(int):i => ~i
+LOI_10:25:int_insert(int):number => ~number
+LOI_11:26:int_insert(int):i => ~i
+LOI_12:26:int_insert(int):j => ~j
+LOI_13:26:int_insert(int):j => ~j
+LOI_14:27:int_insert(int):j => ~j
+LOI_15:28:int_insert(int):j => ~j
+LOI_16:28:int_insert(int):mytemp1 => ~mytemp1
+LOI_17:29:int_insert(int):mytemp2 => ~mytemp2
+SDL_1:35:int_insert(int): int[] a = new int[]{ -14, 6, 28, 0 }; int mytemp1; int mytemp2; int end; int i; int j; end = a[2]; if (number >= end) {     a[3] = number; } else {     for (i = 0; i < 3; i++) {         if (a[i] > number) {             mytemp1 = a[i];             a[i] = number;             for (j = i + 1; j < 4; j++) {                 mytemp2 = a[j];                 a[j] = mytemp1;                 mytemp1 = mytemp2;             }             break;         }     } } return a;  =>   int[] a = new int[]{ -14, 6, 28, 0 }; int mytemp1; int mytemp2; int end; int i; int j; if (number >= end) {     a[3] = number; } else {     for (i = 0; i < 3; i++) {         if (a[i] > number) {             mytemp1 = a[i];             a[i] = number;             for (j = i + 1; j < 4; j++) {                 mytemp2 = a[j];                 a[j] = mytemp1;                 mytemp1 = mytemp2;             }             break;         }     } } return a;
+SDL_2:20:int_insert(int): int[] a = new int[]{ -14, 6, 28, 0 }; int mytemp1; int mytemp2; int end; int i; int j; end = a[2]; if (number >= end) {     a[3] = number; } else {     for (i = 0; i < 3; i++) {         if (a[i] > number) {             mytemp1 = a[i];             a[i] = number;             for (j = i + 1; j < 4; j++) {                 mytemp2 = a[j];                 a[j] = mytemp1;                 mytemp1 = mytemp2;             }             break;         }     } } return a;  =>   int[] a = new int[]{ -14, 6, 28, 0 }; int mytemp1; int mytemp2; int end; int i; int j; end = a[2]; return a;
+SDL_3:20:int_insert(int): a[3] = number;  =>  
+SDL_4:35:int_insert(int): if (number >= end) {     a[3] = number; } else {     for (i = 0; i < 3; i++) {         if (a[i] > number) {             mytemp1 = a[i];             a[i] = number;             for (j = i + 1; j < 4; j++) {                 mytemp2 = a[j];                 a[j] = mytemp1;                 mytemp1 = mytemp2;             }             break;         }     } }  =>   if (true) {     a[3] = number; } else {     for (i = 0; i < 3; i++) {         if (a[i] > number) {             mytemp1 = a[i];             a[i] = number;             for (j = i + 1; j < 4; j++) {                 mytemp2 = a[j];                 a[j] = mytemp1;                 mytemp1 = mytemp2;             }             break;         }     } }
+SDL_5:22:int_insert(int): for (i = 0; i < 3; i++) {     if (a[i] > number) {         mytemp1 = a[i];         a[i] = number;         for (j = i + 1; j < 4; j++) {             mytemp2 = a[j];             a[j] = mytemp1;             mytemp1 = mytemp2;         }         break;     } }  =>  
+SDL_6:23:int_insert(int): if (a[i] > number) {     mytemp1 = a[i];     a[i] = number;     for (j = i + 1; j < 4; j++) {         mytemp2 = a[j];         a[j] = mytemp1;         mytemp1 = mytemp2;     }     break; }  =>  
+SDL_7:34:int_insert(int): for (i = 0; i < 3; i++) {     if (a[i] > number) {         mytemp1 = a[i];         a[i] = number;         for (j = i + 1; j < 4; j++) {             mytemp2 = a[j];             a[j] = mytemp1;             mytemp1 = mytemp2;         }         break;     } }  =>   for (;; i++) {     if (a[i] > number) {         mytemp1 = a[i];         a[i] = number;         for (j = i + 1; j < 4; j++) {             mytemp2 = a[j];             a[j] = mytemp1;             mytemp1 = mytemp2;         }         break;     } }
+SDL_8:34:int_insert(int): for (i = 0; i < 3; i++) {     if (a[i] > number) {         mytemp1 = a[i];         a[i] = number;         for (j = i + 1; j < 4; j++) {             mytemp2 = a[j];             a[j] = mytemp1;             mytemp1 = mytemp2;         }         break;     } }  =>   for (; i < 3;) {     if (a[i] > number) {         mytemp1 = a[i];         a[i] = number;         for (j = i + 1; j < 4; j++) {             mytemp2 = a[j];             a[j] = mytemp1;             mytemp1 = mytemp2;         }         break;     } }
+SDL_9:31:int_insert(int): mytemp1 = a[i]; a[i] = number; for (j = i + 1; j < 4; j++) {     mytemp2 = a[j];     a[j] = mytemp1;     mytemp1 = mytemp2; } break;  =>   a[i] = number; for (j = i + 1; j < 4; j++) {     mytemp2 = a[j];     a[j] = mytemp1;     mytemp1 = mytemp2; } break;
+SDL_10:31:int_insert(int): mytemp1 = a[i]; a[i] = number; for (j = i + 1; j < 4; j++) {     mytemp2 = a[j];     a[j] = mytemp1;     mytemp1 = mytemp2; } break;  =>   mytemp1 = a[i]; for (j = i + 1; j < 4; j++) {     mytemp2 = a[j];     a[j] = mytemp1;     mytemp1 = mytemp2; } break;
+SDL_11:27:int_insert(int): mytemp1 = a[i]; a[i] = number; for (j = i + 1; j < 4; j++) {     mytemp2 = a[j];     a[j] = mytemp1;     mytemp1 = mytemp2; } break;  =>   mytemp1 = a[i]; a[i] = number; break;
+SDL_12:31:int_insert(int): mytemp1 = a[i]; a[i] = number; for (j = i + 1; j < 4; j++) {     mytemp2 = a[j];     a[j] = mytemp1;     mytemp1 = mytemp2; } break;  =>   mytemp1 = a[i]; a[i] = number; for (j = i + 1; j < 4; j++) {     mytemp2 = a[j];     a[j] = mytemp1;     mytemp1 = mytemp2; }
+SDL_13:33:int_insert(int): if (a[i] > number) {     mytemp1 = a[i];     a[i] = number;     for (j = i + 1; j < 4; j++) {         mytemp2 = a[j];         a[j] = mytemp1;         mytemp1 = mytemp2;     }     break; }  =>   if (true) {     mytemp1 = a[i];     a[i] = number;     for (j = i + 1; j < 4; j++) {         mytemp2 = a[j];         a[j] = mytemp1;         mytemp1 = mytemp2;     }     break; }
+SDL_14:29:int_insert(int): mytemp2 = a[j]; a[j] = mytemp1; mytemp1 = mytemp2;  =>   a[j] = mytemp1; mytemp1 = mytemp2;
+SDL_15:29:int_insert(int): mytemp2 = a[j]; a[j] = mytemp1; mytemp1 = mytemp2;  =>   mytemp2 = a[j]; mytemp1 = mytemp2;
+SDL_16:29:int_insert(int): mytemp2 = a[j]; a[j] = mytemp1; mytemp1 = mytemp2;  =>   mytemp2 = a[j]; a[j] = mytemp1;
+SDL_17:31:int_insert(int): for (j = i + 1; j < 4; j++) {     mytemp2 = a[j];     a[j] = mytemp1;     mytemp1 = mytemp2; }  =>   for (;; j++) {     mytemp2 = a[j];     a[j] = mytemp1;     mytemp1 = mytemp2; }
+SDL_18:31:int_insert(int): for (j = i + 1; j < 4; j++) {     mytemp2 = a[j];     a[j] = mytemp1;     mytemp1 = mytemp2; }  =>   for (; j < 4;) {     mytemp2 = a[j];     a[j] = mytemp1;     mytemp1 = mytemp2; }
+SDL_19:36:int_insert(int): return a;  =>   return 0;
+VDL_1:19:int_insert(int):number >= end => end
+VDL_2:19:int_insert(int):number >= end => number
+VDL_3:22:int_insert(int):i < 3 => 3
+VDL_4:22:int_insert(int):i++ =>  
+VDL_5:23:int_insert(int):a[i] > number => number
+VDL_6:23:int_insert(int):a[i] > number => a[i]
+VDL_7:26:int_insert(int):i + 1 => 1
+VDL_8:26:int_insert(int):j < 4 => 4
+VDL_9:26:int_insert(int):j++ =>  
+ODL_1:12:int_insert(int):-14 => 14
+ODL_2:19:int_insert(int):number >= end => number
+ODL_3:19:int_insert(int):number >= end => end
+ODL_4:22:int_insert(int):i < 3 => i
+ODL_5:22:int_insert(int):i < 3 => 3
+ODL_6:22:int_insert(int):i++ => i
+ODL_7:23:int_insert(int):a[i] > number => a[i]
+ODL_8:23:int_insert(int):a[i] > number => number
+ODL_9:26:int_insert(int):i + 1 => i
+ODL_10:26:int_insert(int):i + 1 => 1
+ODL_11:26:int_insert(int):j < 4 => j
+ODL_12:26:int_insert(int):j < 4 => 4
+ODL_13:26:int_insert(int):j++ => j
+CDL_1:12:int_insert(int):-14 =>  
+CDL_2:22:int_insert(int):i < 3 => i
+CDL_3:26:int_insert(int):i + 1 => i
+CDL_4:26:int_insert(int):j < 4 => j

@@ -1,0 +1,22 @@
+// This is a mutant program.
+// Author : ysma
+
+import java.util.*;
+
+
+public class Insert
+{
+
+    public static  int[] insert( int number )
+    {
+        int[] a = new int[]{ -14, 6, 28, 0 };
+        int mytemp1;
+        int mytemp2;
+        int end;
+        int i;
+        int j;
+        end = a[2];
+        return a;
+    }
+
+}

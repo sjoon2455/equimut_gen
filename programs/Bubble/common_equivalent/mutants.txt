@@ -1,0 +1,81 @@
+#
+Mutant name: AOIS_528
+Status: Equivalent
+Operator: AOIS
+Type statement: Block
+Position score: 1
+Operator score: 0.7115384615384616
+Program graph node: 4
+
+#
+Mutant name: AOIS_251
+Status: Equivalent
+Operator: AOIS
+Type statement: Block
+Position score: 0.8333333333333334
+Operator score: 0.7115384615384616
+Program graph node: 5
+
+#
+Mutant name: AOIS_122
+Status: Equivalent
+Operator: AOIS
+Type statement: Block
+Position score: 1
+Operator score: 0.7115384615384616
+Program graph node: 4
+
+#
+Mutant name: ROR_527
+Status: Equivalent
+Operator: ROR
+Type statement: Declaration
+Position score: 0.75
+Operator score: 0.7777777777777778
+Program graph node: 6
+
+#
+Mutant name: AOIS_256
+Status: Equivalent
+Operator: AOIS
+Type statement: Block
+Position score: 0.8333333333333334
+Operator score: 0.7115384615384616
+Program graph node: 5
+
+#
+Mutant name: AORB_386
+Status: Equivalent
+Operator: AORB
+Type statement: Block
+Position score: 1
+Operator score: 0.5
+Program graph node: 1
+
+#
+Mutant name: AORB_216
+Status: Equivalent
+Operator: AORB
+Type statement: Block
+Position score: 1
+Operator score: 0.5
+Program graph node: 1
+
+#
+Mutant name: AOIS_348
+Status: Equivalent
+Operator: AOIS
+Type statement: Block
+Position score: 0.8333333333333334
+Operator score: 0.7115384615384616
+Program graph node: 5
+
+#
+Mutant name: AOIS_718
+Status: Equivalent
+Operator: AOIS
+Type statement: Block
+Position score: 0.8333333333333334
+Operator score: 0.7115384615384616
+Program graph node: 5
+

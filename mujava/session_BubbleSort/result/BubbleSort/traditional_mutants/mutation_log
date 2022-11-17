@@ -1,0 +1,152 @@
+AORB_1:9:int_sort(int):data.length - 1 => data.length * 1
+AORB_2:9:int_sort(int):data.length - 1 => data.length / 1
+AORB_3:9:int_sort(int):data.length - 1 => data.length % 1
+AORB_4:9:int_sort(int):data.length - 1 => data.length + 1
+AORB_5:10:int_sort(int):data.length - 1 => data.length * 1
+AORB_6:10:int_sort(int):data.length - 1 => data.length / 1
+AORB_7:10:int_sort(int):data.length - 1 => data.length % 1
+AORB_8:10:int_sort(int):data.length - 1 => data.length + 1
+AORB_9:11:int_sort(int):j - 1 => j * 1
+AORB_10:11:int_sort(int):j - 1 => j / 1
+AORB_11:11:int_sort(int):j - 1 => j % 1
+AORB_12:11:int_sort(int):j - 1 => j + 1
+AORB_13:13:int_sort(int):j - 1 => j * 1
+AORB_14:13:int_sort(int):j - 1 => j / 1
+AORB_15:13:int_sort(int):j - 1 => j % 1
+AORB_16:13:int_sort(int):j - 1 => j + 1
+AORB_17:14:int_sort(int):j - 1 => j * 1
+AORB_18:14:int_sort(int):j - 1 => j / 1
+AORB_19:14:int_sort(int):j - 1 => j % 1
+AORB_20:14:int_sort(int):j - 1 => j + 1
+AORS_1:9:int_sort(int):i++ => i--
+AORS_2:10:int_sort(int):--j => j++
+AOIU_1:9:int_sort(int):i => -i
+AOIU_2:9:int_sort(int):data.length => -data.length
+AOIU_3:10:int_sort(int):data.length => -data.length
+AOIU_4:10:int_sort(int):j => -j
+AOIU_5:10:int_sort(int):i => -i
+AOIU_6:11:int_sort(int):j => -j
+AOIU_7:11:int_sort(int):j => -j
+AOIU_8:12:int_sort(int):j => -j
+AOIU_9:13:int_sort(int):j => -j
+AOIU_10:14:int_sort(int):temp => -temp
+AOIS_1:9:int_sort(int):i => ++i
+AOIS_2:9:int_sort(int):i => --i
+AOIS_3:9:int_sort(int):i => i++
+AOIS_4:9:int_sort(int):i => i--
+AOIS_5:9:int_sort(int):data.length => ++data.length
+AOIS_6:9:int_sort(int):data.length => --data.length
+AOIS_7:9:int_sort(int):data.length => data.length++
+AOIS_8:9:int_sort(int):data.length => data.length--
+AOIS_9:10:int_sort(int):data.length => ++data.length
+AOIS_10:10:int_sort(int):data.length => --data.length
+AOIS_11:10:int_sort(int):data.length => data.length++
+AOIS_12:10:int_sort(int):data.length => data.length--
+AOIS_13:10:int_sort(int):j => ++j
+AOIS_14:10:int_sort(int):j => --j
+AOIS_15:10:int_sort(int):j => j++
+AOIS_16:10:int_sort(int):j => j--
+AOIS_17:10:int_sort(int):i => ++i
+AOIS_18:10:int_sort(int):i => --i
+AOIS_19:10:int_sort(int):i => i++
+AOIS_20:10:int_sort(int):i => i--
+AOIS_21:11:int_sort(int):j => ++j
+AOIS_22:11:int_sort(int):j => --j
+AOIS_23:11:int_sort(int):j => j++
+AOIS_24:11:int_sort(int):j => j--
+AOIS_25:11:int_sort(int):j => ++j
+AOIS_26:11:int_sort(int):j => --j
+AOIS_27:11:int_sort(int):j => j++
+AOIS_28:11:int_sort(int):j => j--
+AOIS_29:12:int_sort(int):j => j++
+AOIS_30:12:int_sort(int):j => j--
+AOIS_31:13:int_sort(int):j => ++j
+AOIS_32:13:int_sort(int):j => --j
+AOIS_33:13:int_sort(int):j => j++
+AOIS_34:13:int_sort(int):j => j--
+AOIS_35:14:int_sort(int):temp => ++temp
+AOIS_36:14:int_sort(int):temp => --temp
+AOIS_37:14:int_sort(int):temp => temp++
+AOIS_38:14:int_sort(int):temp => temp--
+ROR_1:9:int_sort(int): i < data.length - 1  =>   i > data.length - 1
+ROR_2:9:int_sort(int): i < data.length - 1  =>   i >= data.length - 1
+ROR_3:9:int_sort(int): i < data.length - 1  =>   i <= data.length - 1
+ROR_4:9:int_sort(int): i < data.length - 1  =>   i == data.length - 1
+ROR_5:9:int_sort(int): i < data.length - 1  =>   i != data.length - 1
+ROR_6:9:int_sort(int): i < data.length - 1  =>   true
+ROR_7:9:int_sort(int): i < data.length - 1  =>   false
+ROR_8:10:int_sort(int): j > i  =>   j >= i
+ROR_9:10:int_sort(int): j > i  =>   j < i
+ROR_10:10:int_sort(int): j > i  =>   j <= i
+ROR_11:10:int_sort(int): j > i  =>   j == i
+ROR_12:10:int_sort(int): j > i  =>   j != i
+ROR_13:10:int_sort(int): j > i  =>   true
+ROR_14:10:int_sort(int): j > i  =>   false
+ROR_15:11:int_sort(int): data[j] < data[j - 1]  =>   data[j] > data[j - 1]
+ROR_16:11:int_sort(int): data[j] < data[j - 1]  =>   data[j] >= data[j - 1]
+ROR_17:11:int_sort(int): data[j] < data[j - 1]  =>   data[j] <= data[j - 1]
+ROR_18:11:int_sort(int): data[j] < data[j - 1]  =>   data[j] == data[j - 1]
+ROR_19:11:int_sort(int): data[j] < data[j - 1]  =>   data[j] != data[j - 1]
+ROR_20:11:int_sort(int): data[j] < data[j - 1]  =>   true
+ROR_21:11:int_sort(int): data[j] < data[j - 1]  =>   false
+COI_1:9:int_sort(int): i < data.length - 1  =>  !(i < data.length - 1)
+COI_2:10:int_sort(int): j > i  =>  !(j > i)
+COI_3:11:int_sort(int): data[j] < data[j - 1]  =>  !(data[j] < data[j - 1])
+LOI_1:9:int_sort(int):i => ~i
+LOI_2:9:int_sort(int):data.length => ~data.length
+LOI_3:9:int_sort(int):i => ~i
+LOI_4:10:int_sort(int):data.length => ~data.length
+LOI_5:10:int_sort(int):j => ~j
+LOI_6:10:int_sort(int):i => ~i
+LOI_7:10:int_sort(int):j => ~j
+LOI_8:11:int_sort(int):j => ~j
+LOI_9:11:int_sort(int):j => ~j
+LOI_10:12:int_sort(int):j => ~j
+LOI_11:13:int_sort(int):j => ~j
+LOI_12:13:int_sort(int):j => ~j
+LOI_13:14:int_sort(int):j => ~j
+LOI_14:14:int_sort(int):temp => ~temp
+SDL_1:10:int_sort(int): for (int i = 0; i < data.length - 1; i++) {     for (int j = data.length - 1; j > i; --j) {         if (data[j] < data[j - 1]) {             int temp = data[j];             data[j] = data[j - 1];             data[j - 1] = temp;         }     } } return data;  =>   return data;
+SDL_2:10:int_sort(int): for (int j = data.length - 1; j > i; --j) {     if (data[j] < data[j - 1]) {         int temp = data[j];         data[j] = data[j - 1];         data[j - 1] = temp;     } }  =>  
+SDL_3:18:int_sort(int): for (int i = 0; i < data.length - 1; i++) {     for (int j = data.length - 1; j > i; --j) {         if (data[j] < data[j - 1]) {             int temp = data[j];             data[j] = data[j - 1];             data[j - 1] = temp;         }     } }  =>   for (int i = 0;; i++) {     for (int j = data.length - 1; j > i; --j) {         if (data[j] < data[j - 1]) {             int temp = data[j];             data[j] = data[j - 1];             data[j - 1] = temp;         }     } }
+SDL_4:18:int_sort(int): for (int i = 0; i < data.length - 1; i++) {     for (int j = data.length - 1; j > i; --j) {         if (data[j] < data[j - 1]) {             int temp = data[j];             data[j] = data[j - 1];             data[j - 1] = temp;         }     } }  =>   for (int i = 0; i < data.length - 1;) {     for (int j = data.length - 1; j > i; --j) {         if (data[j] < data[j - 1]) {             int temp = data[j];             data[j] = data[j - 1];             data[j - 1] = temp;         }     } }
+SDL_5:11:int_sort(int): if (data[j] < data[j - 1]) {     int temp = data[j];     data[j] = data[j - 1];     data[j - 1] = temp; }  =>  
+SDL_6:17:int_sort(int): for (int j = data.length - 1; j > i; --j) {     if (data[j] < data[j - 1]) {         int temp = data[j];         data[j] = data[j - 1];         data[j - 1] = temp;     } }  =>   for (int j = data.length - 1;; --j) {     if (data[j] < data[j - 1]) {         int temp = data[j];         data[j] = data[j - 1];         data[j - 1] = temp;     } }
+SDL_7:17:int_sort(int): for (int j = data.length - 1; j > i; --j) {     if (data[j] < data[j - 1]) {         int temp = data[j];         data[j] = data[j - 1];         data[j - 1] = temp;     } }  =>   for (int j = data.length - 1; j > i;) {     if (data[j] < data[j - 1]) {         int temp = data[j];         data[j] = data[j - 1];         data[j - 1] = temp;     } }
+SDL_8:14:int_sort(int): int temp = data[j]; data[j] = data[j - 1]; data[j - 1] = temp;  =>   int temp = data[j]; data[j - 1] = temp;
+SDL_9:14:int_sort(int): int temp = data[j]; data[j] = data[j - 1]; data[j - 1] = temp;  =>   int temp = data[j]; data[j] = data[j - 1];
+SDL_10:16:int_sort(int): if (data[j] < data[j - 1]) {     int temp = data[j];     data[j] = data[j - 1];     data[j - 1] = temp; }  =>   if (true) {     int temp = data[j];     data[j] = data[j - 1];     data[j - 1] = temp; }
+SDL_11:19:int_sort(int): return data;  =>   return 0;
+VDL_1:9:int_sort(int):i < data.length - 1 => data.length - 1
+VDL_2:9:int_sort(int):i++ =>  
+VDL_3:10:int_sort(int):j > i => i
+VDL_4:10:int_sort(int):j > i => j
+VDL_5:10:int_sort(int):--j =>  
+VDL_6:11:int_sort(int):j - 1 => 1
+VDL_7:11:int_sort(int):data[j] < data[j - 1] => data[j - 1]
+VDL_8:11:int_sort(int):data[j] < data[j - 1] => data[j]
+VDL_9:13:int_sort(int):j - 1 => 1
+VDL_10:14:int_sort(int):j - 1 => 1
+ODL_1:9:int_sort(int):data.length - 1 => data.length
+ODL_2:9:int_sort(int):data.length - 1 => 1
+ODL_3:9:int_sort(int):i < data.length - 1 => i
+ODL_4:9:int_sort(int):i < data.length - 1 => data.length - 1
+ODL_5:9:int_sort(int):i++ => i
+ODL_6:10:int_sort(int):data.length - 1 => data.length
+ODL_7:10:int_sort(int):data.length - 1 => 1
+ODL_8:10:int_sort(int):j > i => j
+ODL_9:10:int_sort(int):j > i => i
+ODL_10:10:int_sort(int):--j => j
+ODL_11:11:int_sort(int):j - 1 => j
+ODL_12:11:int_sort(int):j - 1 => 1
+ODL_13:11:int_sort(int):data[j] < data[j - 1] => data[j]
+ODL_14:11:int_sort(int):data[j] < data[j - 1] => data[j - 1]
+ODL_15:13:int_sort(int):j - 1 => j
+ODL_16:13:int_sort(int):j - 1 => 1
+ODL_17:14:int_sort(int):j - 1 => j
+ODL_18:14:int_sort(int):j - 1 => 1
+CDL_1:9:int_sort(int):data.length - 1 => data.length
+CDL_2:10:int_sort(int):data.length - 1 => data.length
+CDL_3:11:int_sort(int):j - 1 => j
+CDL_4:13:int_sort(int):j - 1 => j
+CDL_5:14:int_sort(int):j - 1 => j

@@ -1,0 +1,782 @@
+#
+Mutant name: AOIU_33
+Status: Nonequivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.26666666666666666
+Program graph node: 64
+
+#
+Mutant name: LOI_50
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: AOIS_170
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.09433962264150944
+Program graph node: 61
+
+#
+Mutant name: COI_4
+Status: Nonequivalent
+Operator: COI
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.06666666666666667
+Program graph node: 2
+
+#
+Mutant name: AOIS_16
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.09433962264150944
+Program graph node: 2
+
+#
+Mutant name: AOIU_29
+Status: Nonequivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.26666666666666666
+Program graph node: 64
+
+#
+Mutant name: LOI_6
+Status: Nonequivalent
+Operator: LOI
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.3181818181818182
+Program graph node: 2
+
+#
+Mutant name: LOI_66
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: SDL_22
+Status: Nonequivalent
+Operator: SDL
+Type statement: If
+Position score: 0.14285714285714285
+Operator score: 0.06796116504854369
+Program graph node: 4
+
+#
+Mutant name: LOI_67
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: ROR_15
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 0.045112781954887216
+Program graph node: 1
+
+#
+Mutant name: AOIS_9
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 0.09433962264150944
+Program graph node: 1
+
+#
+Mutant name: AORS_1
+Status: Nonequivalent
+Operator: AORS
+Type statement: Assignment
+Position score: 0.7222222222222222
+Operator score: 1.0
+Program graph node: 1
+
+#
+Mutant name: AOIU_28
+Status: Nonequivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.26666666666666666
+Program graph node: 64
+
+#
+Mutant name: ROR_19
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 0.045112781954887216
+Program graph node: 1
+
+#
+Mutant name: AOIS_171
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.09433962264150944
+Program graph node: 61
+
+#
+Mutant name: AOIS_167
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.09433962264150944
+Program graph node: 61
+
+#
+Mutant name: ROR_23
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.045112781954887216
+Program graph node: 2
+
+#
+Mutant name: LOI_51
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: AOIU_32
+Status: Nonequivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.26666666666666666
+Program graph node: 64
+
+#
+Mutant name: AORB_27
+Status: Nonequivalent
+Operator: AORB
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.2857142857142857
+Program graph node: 61
+
+#
+Mutant name: AOIS_10
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 0.09433962264150944
+Program graph node: 1
+
+#
+Mutant name: LOI_60
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: AOIU_35
+Status: Nonequivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.26666666666666666
+Program graph node: 64
+
+#
+Mutant name: LOI_56
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: AOIS_160
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.09433962264150944
+Program graph node: 59
+
+#
+Mutant name: AOIS_161
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.09433962264150944
+Program graph node: 59
+
+#
+Mutant name: ROR_25
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.045112781954887216
+Program graph node: 2
+
+#
+Mutant name: COI_45
+Status: Nonequivalent
+Operator: COI
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.06666666666666667
+Program graph node: 61
+
+#
+Mutant name: LOI_57
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: SDL_101
+Status: Nonequivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.42105263157894735
+Operator score: 0.06796116504854369
+Program graph node: 61
+
+#
+Mutant name: AOIU_34
+Status: Nonequivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.26666666666666666
+Program graph node: 64
+
+#
+Mutant name: LOI_61
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: SDL_8
+Status: Nonequivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.06796116504854369
+Program graph node: 64
+
+#
+Mutant name: AORB_26
+Status: Nonequivalent
+Operator: AORB
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.2857142857142857
+Program graph node: 61
+
+#
+Mutant name: AOIS_11
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 0.09433962264150944
+Program graph node: 1
+
+#
+Mutant name: AOIS_157
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.09433962264150944
+Program graph node: 59
+
+#
+Mutant name: COI_3
+Status: Nonequivalent
+Operator: COI
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 0.06666666666666667
+Program graph node: 1
+
+#
+Mutant name: LOI_62
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: LOI_58
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: ROR_263
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.045112781954887216
+Program graph node: 61
+
+#
+Mutant name: AOIS_12
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 0.09433962264150944
+Program graph node: 1
+
+#
+Mutant name: AOIS_162
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.09433962264150944
+Program graph node: 59
+
+#
+Mutant name: ROR_26
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.045112781954887216
+Program graph node: 2
+
+#
+Mutant name: SDL_7
+Status: Nonequivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.06796116504854369
+Program graph node: 64
+
+#
+Mutant name: LOI_54
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: AOIU_37
+Status: Nonequivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.26666666666666666
+Program graph node: 64
+
+#
+Mutant name: AOIS_158
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.09433962264150944
+Program graph node: 59
+
+#
+Mutant name: AOIU_36
+Status: Nonequivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.26666666666666666
+Program graph node: 64
+
+#
+Mutant name: AOIS_159
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.09433962264150944
+Program graph node: 59
+
+#
+Mutant name: SDL_103
+Status: Nonequivalent
+Operator: SDL
+Type statement: If
+Position score: 1.0
+Operator score: 0.06796116504854369
+Program graph node: 63
+
+#
+Mutant name: SDL_10
+Status: Nonequivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.5
+Operator score: 0.06796116504854369
+Program graph node: 60
+
+#
+Mutant name: LOI_55
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: ROR_27
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.045112781954887216
+Program graph node: 2
+
+#
+Mutant name: ROR_262
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.045112781954887216
+Program graph node: 61
+
+#
+Mutant name: AOIS_13
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.09433962264150944
+Program graph node: 2
+
+#
+Mutant name: LOI_59
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: VDL_4
+Status: Nonequivalent
+Operator: VDL
+Type statement: Assignment
+Position score: 0.7222222222222222
+Operator score: 0.18181818181818182
+Program graph node: 1
+
+#
+Mutant name: LOI_63
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: LOI_68
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: AOIS_172
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.09433962264150944
+Program graph node: 61
+
+#
+Mutant name: AORB_15
+Status: Nonequivalent
+Operator: AORB
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.2857142857142857
+Program graph node: 59
+
+#
+Mutant name: AOIU_27
+Status: Nonequivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.26666666666666666
+Program graph node: 64
+
+#
+Mutant name: LOI_52
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: SDL_104
+Status: Nonequivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 1.0
+Operator score: 0.06796116504854369
+Program graph node: 63
+
+#
+Mutant name: AOIU_31
+Status: Nonequivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.26666666666666666
+Program graph node: 64
+
+#
+Mutant name: LOI_64
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: ROR_16
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 0.045112781954887216
+Program graph node: 1
+
+#
+Mutant name: AOIS_168
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.09433962264150944
+Program graph node: 61
+
+#
+Mutant name: AORB_19
+Status: Nonequivalent
+Operator: AORB
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.2857142857142857
+Program graph node: 59
+
+#
+Mutant name: VDL_3
+Status: Nonequivalent
+Operator: VDL
+Type statement: Assignment
+Position score: 0.7222222222222222
+Operator score: 0.18181818181818182
+Program graph node: 1
+
+#
+Mutant name: AORS_2
+Status: Nonequivalent
+Operator: AORS
+Type statement: Assignment
+Position score: 0.7222222222222222
+Operator score: 1.0
+Program graph node: 1
+
+#
+Mutant name: ROR_265
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.045112781954887216
+Program graph node: 61
+
+#
+Mutant name: AOIS_14
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.09433962264150944
+Program graph node: 2
+
+#
+Mutant name: AORB_23
+Status: Nonequivalent
+Operator: AORB
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.2857142857142857
+Program graph node: 61
+
+#
+Mutant name: ROR_264
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.045112781954887216
+Program graph node: 61
+
+#
+Mutant name: AOIS_15
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.09433962264150944
+Program graph node: 2
+
+#
+Mutant name: AORB_22
+Status: Nonequivalent
+Operator: AORB
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.2857142857142857
+Program graph node: 61
+
+#
+Mutant name: LOI_49
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: AORB_18
+Status: Nonequivalent
+Operator: AORB
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.2857142857142857
+Program graph node: 59
+
+#
+Mutant name: AOIS_169
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.09433962264150944
+Program graph node: 61
+
+#
+Mutant name: LOI_65
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: AOIU_30
+Status: Nonequivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.26666666666666666
+Program graph node: 64
+
+#
+Mutant name: LOI_53
+Status: Nonequivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.3181818181818182
+Program graph node: 64
+
+#
+Mutant name: AOIU_26
+Status: Nonequivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.40963855421686746
+Operator score: 0.26666666666666666
+Program graph node: 64
+
+#
+Mutant name: ROR_21
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 0.045112781954887216
+Program graph node: 1
+
+#
+Mutant name: AORB_14
+Status: Nonequivalent
+Operator: AORB
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.2857142857142857
+Program graph node: 59

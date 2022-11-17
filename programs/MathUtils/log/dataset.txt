@@ -1,0 +1,103 @@
+AOIU
+@@ -424 +424 @@
+-        if (k == 31) {
++        if (k == -31) {
+
+CDL
+@@ -418 +418 @@
+-        while ((u & 1) == 0 && (v & 1) == 0 && k < 31) { // while u and v are
++        while ((v & 1) == 0 && k < 31) { // while u and v are
+
+AOIU
+@@ -439 +439 @@
+-            if (t > 0) {
++            if (t > -1) {
+
+CDL
+@@ -418 +418 @@
+-        while ((u & 1) == 0 && (v & 1) == 0 && k < 31) { // while u and v are
++        while ((u & 1) == 0 && (v & 1) == 0) { // while u and v are
+
+ROR
+@@ -435 +435 @@
+-            while ((t & 1) == 0) { // while t is even..
++            while ((t & 1) <= 0) { // while t is even..
+
+ROR
+@@ -429 +429 @@
+-        int t = ((u & 1) == 1) ? v : -(u / 2)/* B3 */;
++        int t = ((u & 1) >= 1) ? v : -(u / 2)/* B3 */;
+
+ROR
+@@ -439 +439 @@
+-            if (t > 0) {
++            if (t >= 0) {
+
+ROR
+@@ -418 +418 @@
+-        while ((u & 1) == 0 && (v & 1) == 0 && k < 31) { // while u and v are
++        while ((u & 1) == 0 && (v & 1) <= 0 && k < 31) { // while u and v are
+
+AOIU
+@@ -410 +410 @@
+-        if (u > 0) {
++        if (u > -1) {
+
+CDL
+@@ -418 +418 @@
+-        while ((u & 1) == 0 && (v & 1) == 0 && k < 31) { // while u and v are
++        while ((u & 1) == 0 && k < 31) { // while u and v are
+
+ROR
+@@ -418 +418 @@
+-        while ((u & 1) == 0 && (v & 1) == 0 && k < 31) { // while u and v are
++        while ((u & 1) == 0 && (v & 1) == 0 && k <= 31) { // while u and v are
+
+ROR
+@@ -418 +418 @@
+-        while ((u & 1) == 0 && (v & 1) == 0 && k < 31) { // while u and v are
++        while ((u & 1) <= 0 && (v & 1) == 0 && k < 31) { // while u and v are
+
+CR
+@@ -418 +418 @@
+-        while ((u & 1) == 0 && (v & 1) == 0 && k < 31) { // while u and v are
++        while ((u & 1) == 0 && (v & 1) == 0 && k < 0) { // while u and v are
+
+AOIU
+@@ -413 +413 @@
+-        if (v > 0) {
++        if (v > -1) {
+
+ROR
+@@ -410 +410 @@
+-        if (u > 0) {
++        if (u >= 0) {
+
+ROR
+@@ -413 +413 @@
+-        if (v > 0) {
++        if (v >= 0) {
+
+ROR
+@@ -418 +418 @@
+-        while ((u & 1) == 0 && (v & 1) == 0 && k < 31) { // while u and v are
++        while ((u & 1) == 0 && (v & 1) == 0 && k != 31) { // while u and v are
+
+ROR
+@@ -424 +424 @@
+-        if (k == 31) {
++        if (k >= 31) {
+
+CDL
+@@ -418 +418 @@
+-        while ((u & 1) == 0 && (v & 1) == 0 && k < 31) { // while u and v are
++        while (k < 31) { // while u and v are
+
+CDL
+@@ -424 +424 @@
+-        if (k == 31) {
++        if (false) {
+
+Total: 20
+AOIU: 4, CDL: 5, ROR: 10, CR: 1
+public static int gcd(int u, int v)

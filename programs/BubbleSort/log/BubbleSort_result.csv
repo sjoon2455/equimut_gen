@@ -1,0 +1,6 @@
+Program Name;Mutant Name;Result;Status;Operator;Program Graph Node;Primitive Arc?;Source Primitive Arc?;Target Primitive Arc?;Equivalent?;Distance Begin;Distance Begin (min);Distance Begin (max);Distance Begin (avg);Distance End;Distance End (min);Distance End (max);Distance End (avg);Source Node;Target Node;Sources Nodes are primitive?;Targets Nodes are primitive?;Complexity;Type Statement;PS;OS;pageRank;hub;authority
+BubbleSort;ABS_1;Equivalent;Equivalent;ABS;4;0;0;0;0;1;[3, 7, 6, 7];3;7;5.75;[3, 7, 6, 7];3;7;5.75;[3, 7];[8, 5];[0, 1];[0, 1];1;If;0.96875;1.0;0.224;0.0;0.0
+BubbleSort;ABS_2;Equivalent;Equivalent;ABS;5;0;1;1;0;1;[4, 8, 7, 8];4;8;6.75;[5, 6];5;6;5.5;[4];[7, 6];[0];[1, 1];1;Assignment;0.9655172413793104;1.0;0.115;0.618;0.0
+BubbleSort;ABS_3;Equivalent;Equivalent;ABS;6;0;1;0;1;1;[5, 9, 8, 9];5;9;7.75;[5];5;5;5.0;[5];[7];[1];[1];2;Assignment;1.0;1.0;0.069;0.382;0.382
+BubbleSort;ABS_4;Equivalent;Equivalent;ABS;6;0;1;0;1;1;[5, 9, 8, 9];5;9;7.75;[5];5;5;5.0;[5];[7];[1];[1];2;Assignment;1.0;1.0;0.069;0.382;0.382
+BubbleSort;ABS_5;Equivalent;Equivalent;ABS;8;0;0;0;0;1;[4, 8, 7, 8];4;8;6.75;[2, 6];2;6;4.0;[4];[2];[0];[0];1;Declaration;0.8888888888888888;1.0;0.115;0.0;0.0

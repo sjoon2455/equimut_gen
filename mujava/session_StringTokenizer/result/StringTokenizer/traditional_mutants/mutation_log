@@ -1,0 +1,953 @@
+AORS_1:48:int_setMaxDelimCodePoint():count++ => count--
+AORS_2:53:int_setMaxDelimCodePoint():i++ => i--
+AORS_3:95:int_skipDelimiters(int):position++ => position--
+AORS_4:116:int_scanToken(int):position++ => position--
+AORS_5:129:int_scanToken(int):position++ => position--
+AORS_6:143:boolean_isDelimiter(int):i++ => i--
+AORS_7:198:int_countTokens():count++ => count--
+AODU_1:64:StringTokenizer(java.lang.String,java.lang.String,boolean):-1 => 1
+AODU_2:161:java.lang.String_nextToken():-1 => 1
+AODS_1:48:int_setMaxDelimCodePoint():count++ => count
+AODS_2:95:int_skipDelimiters(int):position++ => position
+AODS_3:116:int_scanToken(int):position++ => position
+AODS_4:129:int_scanToken(int):position++ => position
+AODS_5:198:int_countTokens():count++ => count
+AOIU_1:34:int_setMaxDelimCodePoint():maxDelimCodePoint => -maxDelimCodePoint
+AOIU_2:39:int_setMaxDelimCodePoint():i => -i
+AOIU_3:39:int_setMaxDelimCodePoint():c => -c
+AOIU_4:40:int_setMaxDelimCodePoint():i => -i
+AOIU_5:42:int_setMaxDelimCodePoint():i => -i
+AOIU_6:45:int_setMaxDelimCodePoint():m => -m
+AOIU_7:45:int_setMaxDelimCodePoint():c => -c
+AOIU_8:46:int_setMaxDelimCodePoint():c => -c
+AOIU_9:50:int_setMaxDelimCodePoint():m => -m
+AOIU_10:52:int_setMaxDelimCodePoint():count => -count
+AOIU_11:53:int_setMaxDelimCodePoint():i => -i
+AOIU_12:53:int_setMaxDelimCodePoint():count => -count
+AOIU_13:53:int_setMaxDelimCodePoint():c => -c
+AOIU_14:54:int_setMaxDelimCodePoint():j => -j
+AOIU_15:55:int_setMaxDelimCodePoint():c => -c
+AOIU_16:58:int_setMaxDelimCodePoint():maxDelimCodePoint => -maxDelimCodePoint
+AOIU_17:88:int_skipDelimiters(int):startPos => -startPos
+AOIU_18:91:int_skipDelimiters(int):position => -position
+AOIU_19:97:int_skipDelimiters(int):position => -position
+AOIU_20:101:int_skipDelimiters(int):c => -c
+AOIU_21:104:int_skipDelimiters(int):position => -position
+AOIU_22:109:int_scanToken(int):startPos => -startPos
+AOIU_23:110:int_scanToken(int):position => -position
+AOIU_24:110:int_scanToken(int):maxPosition => -maxPosition
+AOIU_25:112:int_scanToken(int):position => -position
+AOIU_26:118:int_scanToken(int):position => -position
+AOIU_27:122:int_scanToken(int):c => -c
+AOIU_28:127:int_scanToken(int):position => -position
+AOIU_29:132:int_scanToken(int):position => -position
+AOIU_30:134:int_scanToken(int):c => -c
+AOIU_31:138:int_scanToken(int):position => -position
+AOIU_32:143:boolean_isDelimiter(int):i => -i
+AOIU_33:143:boolean_isDelimiter(int):delimiterCodePoints.length => -delimiterCodePoints.length
+AOIU_34:144:boolean_isDelimiter(int):i => -i
+AOIU_35:144:boolean_isDelimiter(int):codePoint => -codePoint
+AOIU_36:153:boolean_hasMoreTokens():currentPosition => -currentPosition
+AOIU_37:154:boolean_hasMoreTokens():newPosition => -newPosition
+AOIU_38:154:boolean_hasMoreTokens():maxPosition => -maxPosition
+AOIU_39:159:java.lang.String_nextToken():newPosition => -newPosition
+AOIU_40:159:java.lang.String_nextToken():currentPosition => -currentPosition
+AOIU_41:162:java.lang.String_nextToken():currentPosition => -currentPosition
+AOIU_42:162:java.lang.String_nextToken():maxPosition => -maxPosition
+AOIU_43:165:java.lang.String_nextToken():currentPosition => -currentPosition
+AOIU_44:166:java.lang.String_nextToken():currentPosition => -currentPosition
+AOIU_45:167:java.lang.String_nextToken():start => -start
+AOIU_46:167:java.lang.String_nextToken():currentPosition => -currentPosition
+AOIU_47:191:int_countTokens():currentPosition => -currentPosition
+AOIU_48:192:int_countTokens():currpos => -currpos
+AOIU_49:192:int_countTokens():maxPosition => -maxPosition
+AOIU_50:193:int_countTokens():currpos => -currpos
+AOIU_51:194:int_countTokens():currpos => -currpos
+AOIU_52:194:int_countTokens():maxPosition => -maxPosition
+AOIU_53:197:int_countTokens():currpos => -currpos
+AOIU_54:200:int_countTokens():count => -count
+AOIS_1:34:int_setMaxDelimCodePoint():maxDelimCodePoint => maxDelimCodePoint++
+AOIS_2:34:int_setMaxDelimCodePoint():maxDelimCodePoint => maxDelimCodePoint--
+AOIS_3:39:int_setMaxDelimCodePoint():i => ++i
+AOIS_4:39:int_setMaxDelimCodePoint():i => --i
+AOIS_5:39:int_setMaxDelimCodePoint():i => i++
+AOIS_6:39:int_setMaxDelimCodePoint():i => i--
+AOIS_7:39:int_setMaxDelimCodePoint():c => ++c
+AOIS_8:39:int_setMaxDelimCodePoint():c => --c
+AOIS_9:39:int_setMaxDelimCodePoint():c => c++
+AOIS_10:39:int_setMaxDelimCodePoint():c => c--
+AOIS_11:40:int_setMaxDelimCodePoint():i => ++i
+AOIS_12:40:int_setMaxDelimCodePoint():i => --i
+AOIS_13:40:int_setMaxDelimCodePoint():i => i++
+AOIS_14:40:int_setMaxDelimCodePoint():i => i--
+AOIS_15:41:int_setMaxDelimCodePoint():c => ++c
+AOIS_16:41:int_setMaxDelimCodePoint():c => --c
+AOIS_17:41:int_setMaxDelimCodePoint():c => c++
+AOIS_18:41:int_setMaxDelimCodePoint():c => c--
+AOIS_19:41:int_setMaxDelimCodePoint():Character.MIN_HIGH_SURROGATE => ++Character.MIN_HIGH_SURROGATE
+AOIS_20:41:int_setMaxDelimCodePoint():Character.MIN_HIGH_SURROGATE => --Character.MIN_HIGH_SURROGATE
+AOIS_21:41:int_setMaxDelimCodePoint():Character.MIN_HIGH_SURROGATE => Character.MIN_HIGH_SURROGATE++
+AOIS_22:41:int_setMaxDelimCodePoint():Character.MIN_HIGH_SURROGATE => Character.MIN_HIGH_SURROGATE--
+AOIS_23:41:int_setMaxDelimCodePoint():c => ++c
+AOIS_24:41:int_setMaxDelimCodePoint():c => --c
+AOIS_25:41:int_setMaxDelimCodePoint():c => c++
+AOIS_26:41:int_setMaxDelimCodePoint():c => c--
+AOIS_27:41:int_setMaxDelimCodePoint():Character.MAX_LOW_SURROGATE => ++Character.MAX_LOW_SURROGATE
+AOIS_28:41:int_setMaxDelimCodePoint():Character.MAX_LOW_SURROGATE => --Character.MAX_LOW_SURROGATE
+AOIS_29:41:int_setMaxDelimCodePoint():Character.MAX_LOW_SURROGATE => Character.MAX_LOW_SURROGATE++
+AOIS_30:41:int_setMaxDelimCodePoint():Character.MAX_LOW_SURROGATE => Character.MAX_LOW_SURROGATE--
+AOIS_31:42:int_setMaxDelimCodePoint():i => ++i
+AOIS_32:42:int_setMaxDelimCodePoint():i => --i
+AOIS_33:42:int_setMaxDelimCodePoint():i => i++
+AOIS_34:42:int_setMaxDelimCodePoint():i => i--
+AOIS_35:45:int_setMaxDelimCodePoint():m => ++m
+AOIS_36:45:int_setMaxDelimCodePoint():m => --m
+AOIS_37:45:int_setMaxDelimCodePoint():m => m++
+AOIS_38:45:int_setMaxDelimCodePoint():m => m--
+AOIS_39:45:int_setMaxDelimCodePoint():c => ++c
+AOIS_40:45:int_setMaxDelimCodePoint():c => --c
+AOIS_41:45:int_setMaxDelimCodePoint():c => c++
+AOIS_42:45:int_setMaxDelimCodePoint():c => c--
+AOIS_43:46:int_setMaxDelimCodePoint():c => ++c
+AOIS_44:46:int_setMaxDelimCodePoint():c => --c
+AOIS_45:46:int_setMaxDelimCodePoint():c => c++
+AOIS_46:46:int_setMaxDelimCodePoint():c => c--
+AOIS_47:50:int_setMaxDelimCodePoint():m => ++m
+AOIS_48:50:int_setMaxDelimCodePoint():m => --m
+AOIS_49:50:int_setMaxDelimCodePoint():m => m++
+AOIS_50:50:int_setMaxDelimCodePoint():m => m--
+AOIS_51:52:int_setMaxDelimCodePoint():count => ++count
+AOIS_52:52:int_setMaxDelimCodePoint():count => --count
+AOIS_53:52:int_setMaxDelimCodePoint():count => count++
+AOIS_54:52:int_setMaxDelimCodePoint():count => count--
+AOIS_55:53:int_setMaxDelimCodePoint():i => ++i
+AOIS_56:53:int_setMaxDelimCodePoint():i => --i
+AOIS_57:53:int_setMaxDelimCodePoint():i => i++
+AOIS_58:53:int_setMaxDelimCodePoint():i => i--
+AOIS_59:53:int_setMaxDelimCodePoint():count => ++count
+AOIS_60:53:int_setMaxDelimCodePoint():count => --count
+AOIS_61:53:int_setMaxDelimCodePoint():count => count++
+AOIS_62:53:int_setMaxDelimCodePoint():count => count--
+AOIS_63:53:int_setMaxDelimCodePoint():c => ++c
+AOIS_64:53:int_setMaxDelimCodePoint():c => --c
+AOIS_65:53:int_setMaxDelimCodePoint():c => c++
+AOIS_66:53:int_setMaxDelimCodePoint():c => c--
+AOIS_67:54:int_setMaxDelimCodePoint():j => ++j
+AOIS_68:54:int_setMaxDelimCodePoint():j => --j
+AOIS_69:54:int_setMaxDelimCodePoint():j => j++
+AOIS_70:54:int_setMaxDelimCodePoint():j => j--
+AOIS_71:55:int_setMaxDelimCodePoint():c => ++c
+AOIS_72:55:int_setMaxDelimCodePoint():c => --c
+AOIS_73:55:int_setMaxDelimCodePoint():c => c++
+AOIS_74:55:int_setMaxDelimCodePoint():c => c--
+AOIS_75:58:int_setMaxDelimCodePoint():maxDelimCodePoint => maxDelimCodePoint++
+AOIS_76:58:int_setMaxDelimCodePoint():maxDelimCodePoint => maxDelimCodePoint--
+AOIS_77:88:int_skipDelimiters(int):startPos => startPos++
+AOIS_78:88:int_skipDelimiters(int):startPos => startPos--
+AOIS_79:89:int_skipDelimiters(int):position => ++position
+AOIS_80:89:int_skipDelimiters(int):position => --position
+AOIS_81:89:int_skipDelimiters(int):position => position++
+AOIS_82:89:int_skipDelimiters(int):position => position--
+AOIS_83:89:int_skipDelimiters(int):maxPosition => ++maxPosition
+AOIS_84:89:int_skipDelimiters(int):maxPosition => --maxPosition
+AOIS_85:89:int_skipDelimiters(int):maxPosition => maxPosition++
+AOIS_86:89:int_skipDelimiters(int):maxPosition => maxPosition--
+AOIS_87:91:int_skipDelimiters(int):position => position++
+AOIS_88:91:int_skipDelimiters(int):position => position--
+AOIS_89:92:int_skipDelimiters(int):c => ++c
+AOIS_90:92:int_skipDelimiters(int):c => --c
+AOIS_91:92:int_skipDelimiters(int):c => c++
+AOIS_92:92:int_skipDelimiters(int):c => c--
+AOIS_93:92:int_skipDelimiters(int):maxDelimCodePoint => ++maxDelimCodePoint
+AOIS_94:92:int_skipDelimiters(int):maxDelimCodePoint => --maxDelimCodePoint
+AOIS_95:92:int_skipDelimiters(int):maxDelimCodePoint => maxDelimCodePoint++
+AOIS_96:92:int_skipDelimiters(int):maxDelimCodePoint => maxDelimCodePoint--
+AOIS_97:92:int_skipDelimiters(int):c => ++c
+AOIS_98:92:int_skipDelimiters(int):c => --c
+AOIS_99:92:int_skipDelimiters(int):c => c++
+AOIS_100:92:int_skipDelimiters(int):c => c--
+AOIS_101:97:int_skipDelimiters(int):position => position++
+AOIS_102:97:int_skipDelimiters(int):position => position--
+AOIS_103:98:int_skipDelimiters(int):c => ++c
+AOIS_104:98:int_skipDelimiters(int):c => --c
+AOIS_105:98:int_skipDelimiters(int):c => c++
+AOIS_106:98:int_skipDelimiters(int):c => c--
+AOIS_107:98:int_skipDelimiters(int):maxDelimCodePoint => ++maxDelimCodePoint
+AOIS_108:98:int_skipDelimiters(int):maxDelimCodePoint => --maxDelimCodePoint
+AOIS_109:98:int_skipDelimiters(int):maxDelimCodePoint => maxDelimCodePoint++
+AOIS_110:98:int_skipDelimiters(int):maxDelimCodePoint => maxDelimCodePoint--
+AOIS_111:101:int_skipDelimiters(int):c => ++c
+AOIS_112:101:int_skipDelimiters(int):c => --c
+AOIS_113:101:int_skipDelimiters(int):c => c++
+AOIS_114:101:int_skipDelimiters(int):c => c--
+AOIS_115:104:int_skipDelimiters(int):position => position++
+AOIS_116:104:int_skipDelimiters(int):position => position--
+AOIS_117:109:int_scanToken(int):startPos => startPos++
+AOIS_118:109:int_scanToken(int):startPos => startPos--
+AOIS_119:110:int_scanToken(int):position => ++position
+AOIS_120:110:int_scanToken(int):position => --position
+AOIS_121:110:int_scanToken(int):position => position++
+AOIS_122:110:int_scanToken(int):position => position--
+AOIS_123:110:int_scanToken(int):maxPosition => ++maxPosition
+AOIS_124:110:int_scanToken(int):maxPosition => --maxPosition
+AOIS_125:110:int_scanToken(int):maxPosition => maxPosition++
+AOIS_126:110:int_scanToken(int):maxPosition => maxPosition--
+AOIS_127:112:int_scanToken(int):position => position++
+AOIS_128:112:int_scanToken(int):position => position--
+AOIS_129:113:int_scanToken(int):c => ++c
+AOIS_130:113:int_scanToken(int):c => --c
+AOIS_131:113:int_scanToken(int):c => c++
+AOIS_132:113:int_scanToken(int):c => c--
+AOIS_133:113:int_scanToken(int):maxDelimCodePoint => ++maxDelimCodePoint
+AOIS_134:113:int_scanToken(int):maxDelimCodePoint => --maxDelimCodePoint
+AOIS_135:113:int_scanToken(int):maxDelimCodePoint => maxDelimCodePoint++
+AOIS_136:113:int_scanToken(int):maxDelimCodePoint => maxDelimCodePoint--
+AOIS_137:113:int_scanToken(int):c => ++c
+AOIS_138:113:int_scanToken(int):c => --c
+AOIS_139:113:int_scanToken(int):c => c++
+AOIS_140:113:int_scanToken(int):c => c--
+AOIS_141:118:int_scanToken(int):position => position++
+AOIS_142:118:int_scanToken(int):position => position--
+AOIS_143:119:int_scanToken(int):c => ++c
+AOIS_144:119:int_scanToken(int):c => --c
+AOIS_145:119:int_scanToken(int):c => c++
+AOIS_146:119:int_scanToken(int):c => c--
+AOIS_147:119:int_scanToken(int):maxDelimCodePoint => ++maxDelimCodePoint
+AOIS_148:119:int_scanToken(int):maxDelimCodePoint => --maxDelimCodePoint
+AOIS_149:119:int_scanToken(int):maxDelimCodePoint => maxDelimCodePoint++
+AOIS_150:119:int_scanToken(int):maxDelimCodePoint => maxDelimCodePoint--
+AOIS_151:119:int_scanToken(int):c => c++
+AOIS_152:119:int_scanToken(int):c => c--
+AOIS_153:122:int_scanToken(int):c => ++c
+AOIS_154:122:int_scanToken(int):c => --c
+AOIS_155:122:int_scanToken(int):c => c++
+AOIS_156:122:int_scanToken(int):c => c--
+AOIS_157:125:int_scanToken(int):startPos => ++startPos
+AOIS_158:125:int_scanToken(int):startPos => --startPos
+AOIS_159:125:int_scanToken(int):startPos => startPos++
+AOIS_160:125:int_scanToken(int):startPos => startPos--
+AOIS_161:125:int_scanToken(int):position => ++position
+AOIS_162:125:int_scanToken(int):position => --position
+AOIS_163:125:int_scanToken(int):position => position++
+AOIS_164:125:int_scanToken(int):position => position--
+AOIS_165:127:int_scanToken(int):position => position++
+AOIS_166:127:int_scanToken(int):position => position--
+AOIS_167:128:int_scanToken(int):c => ++c
+AOIS_168:128:int_scanToken(int):c => --c
+AOIS_169:128:int_scanToken(int):c => c++
+AOIS_170:128:int_scanToken(int):c => c--
+AOIS_171:128:int_scanToken(int):maxDelimCodePoint => ++maxDelimCodePoint
+AOIS_172:128:int_scanToken(int):maxDelimCodePoint => --maxDelimCodePoint
+AOIS_173:128:int_scanToken(int):maxDelimCodePoint => maxDelimCodePoint++
+AOIS_174:128:int_scanToken(int):maxDelimCodePoint => maxDelimCodePoint--
+AOIS_175:128:int_scanToken(int):c => ++c
+AOIS_176:128:int_scanToken(int):c => --c
+AOIS_177:128:int_scanToken(int):c => c++
+AOIS_178:128:int_scanToken(int):c => c--
+AOIS_179:132:int_scanToken(int):position => position++
+AOIS_180:132:int_scanToken(int):position => position--
+AOIS_181:133:int_scanToken(int):c => ++c
+AOIS_182:133:int_scanToken(int):c => --c
+AOIS_183:133:int_scanToken(int):c => c++
+AOIS_184:133:int_scanToken(int):c => c--
+AOIS_185:133:int_scanToken(int):maxDelimCodePoint => ++maxDelimCodePoint
+AOIS_186:133:int_scanToken(int):maxDelimCodePoint => --maxDelimCodePoint
+AOIS_187:133:int_scanToken(int):maxDelimCodePoint => maxDelimCodePoint++
+AOIS_188:133:int_scanToken(int):maxDelimCodePoint => maxDelimCodePoint--
+AOIS_189:133:int_scanToken(int):c => c++
+AOIS_190:133:int_scanToken(int):c => c--
+AOIS_191:134:int_scanToken(int):c => ++c
+AOIS_192:134:int_scanToken(int):c => --c
+AOIS_193:134:int_scanToken(int):c => c++
+AOIS_194:134:int_scanToken(int):c => c--
+AOIS_195:138:int_scanToken(int):position => position++
+AOIS_196:138:int_scanToken(int):position => position--
+AOIS_197:143:boolean_isDelimiter(int):i => ++i
+AOIS_198:143:boolean_isDelimiter(int):i => --i
+AOIS_199:143:boolean_isDelimiter(int):i => i++
+AOIS_200:143:boolean_isDelimiter(int):i => i--
+AOIS_201:143:boolean_isDelimiter(int):delimiterCodePoints.length => ++delimiterCodePoints.length
+AOIS_202:143:boolean_isDelimiter(int):delimiterCodePoints.length => --delimiterCodePoints.length
+AOIS_203:143:boolean_isDelimiter(int):delimiterCodePoints.length => delimiterCodePoints.length++
+AOIS_204:143:boolean_isDelimiter(int):delimiterCodePoints.length => delimiterCodePoints.length--
+AOIS_205:144:boolean_isDelimiter(int):i => ++i
+AOIS_206:144:boolean_isDelimiter(int):i => --i
+AOIS_207:144:boolean_isDelimiter(int):i => i++
+AOIS_208:144:boolean_isDelimiter(int):i => i--
+AOIS_209:144:boolean_isDelimiter(int):codePoint => ++codePoint
+AOIS_210:144:boolean_isDelimiter(int):codePoint => --codePoint
+AOIS_211:144:boolean_isDelimiter(int):codePoint => codePoint++
+AOIS_212:144:boolean_isDelimiter(int):codePoint => codePoint--
+AOIS_213:153:boolean_hasMoreTokens():currentPosition => ++currentPosition
+AOIS_214:153:boolean_hasMoreTokens():currentPosition => --currentPosition
+AOIS_215:153:boolean_hasMoreTokens():currentPosition => currentPosition++
+AOIS_216:153:boolean_hasMoreTokens():currentPosition => currentPosition--
+AOIS_217:154:boolean_hasMoreTokens():newPosition => ++newPosition
+AOIS_218:154:boolean_hasMoreTokens():newPosition => --newPosition
+AOIS_219:154:boolean_hasMoreTokens():newPosition => newPosition++
+AOIS_220:154:boolean_hasMoreTokens():newPosition => newPosition--
+AOIS_221:154:boolean_hasMoreTokens():maxPosition => ++maxPosition
+AOIS_222:154:boolean_hasMoreTokens():maxPosition => --maxPosition
+AOIS_223:154:boolean_hasMoreTokens():maxPosition => maxPosition++
+AOIS_224:154:boolean_hasMoreTokens():maxPosition => maxPosition--
+AOIS_225:159:java.lang.String_nextToken():newPosition => ++newPosition
+AOIS_226:159:java.lang.String_nextToken():newPosition => --newPosition
+AOIS_227:159:java.lang.String_nextToken():newPosition => newPosition++
+AOIS_228:159:java.lang.String_nextToken():newPosition => newPosition--
+AOIS_229:159:java.lang.String_nextToken():newPosition => newPosition++
+AOIS_230:159:java.lang.String_nextToken():newPosition => newPosition--
+AOIS_231:159:java.lang.String_nextToken():currentPosition => currentPosition++
+AOIS_232:159:java.lang.String_nextToken():currentPosition => currentPosition--
+AOIS_233:162:java.lang.String_nextToken():currentPosition => ++currentPosition
+AOIS_234:162:java.lang.String_nextToken():currentPosition => --currentPosition
+AOIS_235:162:java.lang.String_nextToken():currentPosition => currentPosition++
+AOIS_236:162:java.lang.String_nextToken():currentPosition => currentPosition--
+AOIS_237:162:java.lang.String_nextToken():maxPosition => ++maxPosition
+AOIS_238:162:java.lang.String_nextToken():maxPosition => --maxPosition
+AOIS_239:162:java.lang.String_nextToken():maxPosition => maxPosition++
+AOIS_240:162:java.lang.String_nextToken():maxPosition => maxPosition--
+AOIS_241:165:java.lang.String_nextToken():currentPosition => currentPosition++
+AOIS_242:165:java.lang.String_nextToken():currentPosition => currentPosition--
+AOIS_243:166:java.lang.String_nextToken():currentPosition => ++currentPosition
+AOIS_244:166:java.lang.String_nextToken():currentPosition => --currentPosition
+AOIS_245:166:java.lang.String_nextToken():currentPosition => currentPosition++
+AOIS_246:166:java.lang.String_nextToken():currentPosition => currentPosition--
+AOIS_247:167:java.lang.String_nextToken():start => start++
+AOIS_248:167:java.lang.String_nextToken():start => start--
+AOIS_249:167:java.lang.String_nextToken():currentPosition => currentPosition++
+AOIS_250:167:java.lang.String_nextToken():currentPosition => currentPosition--
+AOIS_251:191:int_countTokens():currentPosition => currentPosition++
+AOIS_252:191:int_countTokens():currentPosition => currentPosition--
+AOIS_253:192:int_countTokens():currpos => ++currpos
+AOIS_254:192:int_countTokens():currpos => --currpos
+AOIS_255:192:int_countTokens():currpos => currpos++
+AOIS_256:192:int_countTokens():currpos => currpos--
+AOIS_257:192:int_countTokens():maxPosition => ++maxPosition
+AOIS_258:192:int_countTokens():maxPosition => --maxPosition
+AOIS_259:192:int_countTokens():maxPosition => maxPosition++
+AOIS_260:192:int_countTokens():maxPosition => maxPosition--
+AOIS_261:193:int_countTokens():currpos => ++currpos
+AOIS_262:193:int_countTokens():currpos => --currpos
+AOIS_263:193:int_countTokens():currpos => currpos++
+AOIS_264:193:int_countTokens():currpos => currpos--
+AOIS_265:194:int_countTokens():currpos => ++currpos
+AOIS_266:194:int_countTokens():currpos => --currpos
+AOIS_267:194:int_countTokens():currpos => currpos++
+AOIS_268:194:int_countTokens():currpos => currpos--
+AOIS_269:194:int_countTokens():maxPosition => ++maxPosition
+AOIS_270:194:int_countTokens():maxPosition => --maxPosition
+AOIS_271:194:int_countTokens():maxPosition => maxPosition++
+AOIS_272:194:int_countTokens():maxPosition => maxPosition--
+AOIS_273:197:int_countTokens():currpos => ++currpos
+AOIS_274:197:int_countTokens():currpos => --currpos
+AOIS_275:197:int_countTokens():currpos => currpos++
+AOIS_276:197:int_countTokens():currpos => currpos--
+AOIS_277:200:int_countTokens():count => count++
+AOIS_278:200:int_countTokens():count => count--
+ROR_1:32:int_setMaxDelimCodePoint(): delimiters == null  =>   delimiters != null
+ROR_2:39:int_setMaxDelimCodePoint(): i < delimiters.length()  =>   i > delimiters.length()
+ROR_3:39:int_setMaxDelimCodePoint(): i < delimiters.length()  =>   i >= delimiters.length()
+ROR_4:39:int_setMaxDelimCodePoint(): i < delimiters.length()  =>   i <= delimiters.length()
+ROR_5:39:int_setMaxDelimCodePoint(): i < delimiters.length()  =>   i == delimiters.length()
+ROR_6:39:int_setMaxDelimCodePoint(): i < delimiters.length()  =>   i != delimiters.length()
+ROR_7:39:int_setMaxDelimCodePoint(): i < delimiters.length()  =>   true
+ROR_8:39:int_setMaxDelimCodePoint(): i < delimiters.length()  =>   false
+ROR_9:41:int_setMaxDelimCodePoint(): c >= Character.MIN_HIGH_SURROGATE  =>   c > Character.MIN_HIGH_SURROGATE
+ROR_10:41:int_setMaxDelimCodePoint(): c >= Character.MIN_HIGH_SURROGATE  =>   c < Character.MIN_HIGH_SURROGATE
+ROR_11:41:int_setMaxDelimCodePoint(): c >= Character.MIN_HIGH_SURROGATE  =>   c <= Character.MIN_HIGH_SURROGATE
+ROR_12:41:int_setMaxDelimCodePoint(): c >= Character.MIN_HIGH_SURROGATE  =>   c == Character.MIN_HIGH_SURROGATE
+ROR_13:41:int_setMaxDelimCodePoint(): c >= Character.MIN_HIGH_SURROGATE  =>   c != Character.MIN_HIGH_SURROGATE
+ROR_14:41:int_setMaxDelimCodePoint(): c >= Character.MIN_HIGH_SURROGATE  =>   true
+ROR_15:41:int_setMaxDelimCodePoint(): c >= Character.MIN_HIGH_SURROGATE  =>   false
+ROR_16:41:int_setMaxDelimCodePoint(): c <= Character.MAX_LOW_SURROGATE  =>   c > Character.MAX_LOW_SURROGATE
+ROR_17:41:int_setMaxDelimCodePoint(): c <= Character.MAX_LOW_SURROGATE  =>   c >= Character.MAX_LOW_SURROGATE
+ROR_18:41:int_setMaxDelimCodePoint(): c <= Character.MAX_LOW_SURROGATE  =>   c < Character.MAX_LOW_SURROGATE
+ROR_19:41:int_setMaxDelimCodePoint(): c <= Character.MAX_LOW_SURROGATE  =>   c == Character.MAX_LOW_SURROGATE
+ROR_20:41:int_setMaxDelimCodePoint(): c <= Character.MAX_LOW_SURROGATE  =>   c != Character.MAX_LOW_SURROGATE
+ROR_21:41:int_setMaxDelimCodePoint(): c <= Character.MAX_LOW_SURROGATE  =>   true
+ROR_22:41:int_setMaxDelimCodePoint(): c <= Character.MAX_LOW_SURROGATE  =>   false
+ROR_23:45:int_setMaxDelimCodePoint(): m < c  =>   m > c
+ROR_24:45:int_setMaxDelimCodePoint(): m < c  =>   m >= c
+ROR_25:45:int_setMaxDelimCodePoint(): m < c  =>   m <= c
+ROR_26:45:int_setMaxDelimCodePoint(): m < c  =>   m == c
+ROR_27:45:int_setMaxDelimCodePoint(): m < c  =>   m != c
+ROR_28:45:int_setMaxDelimCodePoint(): m < c  =>   true
+ROR_29:45:int_setMaxDelimCodePoint(): m < c  =>   false
+ROR_30:53:int_setMaxDelimCodePoint(): i < count  =>   i > count
+ROR_31:53:int_setMaxDelimCodePoint(): i < count  =>   i >= count
+ROR_32:53:int_setMaxDelimCodePoint(): i < count  =>   i <= count
+ROR_33:53:int_setMaxDelimCodePoint(): i < count  =>   i == count
+ROR_34:53:int_setMaxDelimCodePoint(): i < count  =>   i != count
+ROR_35:53:int_setMaxDelimCodePoint(): i < count  =>   true
+ROR_36:53:int_setMaxDelimCodePoint(): i < count  =>   false
+ROR_37:85:int_skipDelimiters(int): delimiters == null  =>   delimiters != null
+ROR_38:89:int_skipDelimiters(int): position < maxPosition  =>   position > maxPosition
+ROR_39:89:int_skipDelimiters(int): position < maxPosition  =>   position >= maxPosition
+ROR_40:89:int_skipDelimiters(int): position < maxPosition  =>   position <= maxPosition
+ROR_41:89:int_skipDelimiters(int): position < maxPosition  =>   position == maxPosition
+ROR_42:89:int_skipDelimiters(int): position < maxPosition  =>   position != maxPosition
+ROR_43:89:int_skipDelimiters(int): position < maxPosition  =>   true
+ROR_44:89:int_skipDelimiters(int): position < maxPosition  =>   false
+ROR_45:92:int_skipDelimiters(int): c > maxDelimCodePoint  =>   c >= maxDelimCodePoint
+ROR_46:92:int_skipDelimiters(int): c > maxDelimCodePoint  =>   c < maxDelimCodePoint
+ROR_47:92:int_skipDelimiters(int): c > maxDelimCodePoint  =>   c <= maxDelimCodePoint
+ROR_48:92:int_skipDelimiters(int): c > maxDelimCodePoint  =>   c == maxDelimCodePoint
+ROR_49:92:int_skipDelimiters(int): c > maxDelimCodePoint  =>   c != maxDelimCodePoint
+ROR_50:92:int_skipDelimiters(int): c > maxDelimCodePoint  =>   true
+ROR_51:92:int_skipDelimiters(int): c > maxDelimCodePoint  =>   false
+ROR_52:92:int_skipDelimiters(int): delimiters.indexOf( c ) < 0  =>   delimiters.indexOf( c ) > 0
+ROR_53:92:int_skipDelimiters(int): delimiters.indexOf( c ) < 0  =>   delimiters.indexOf( c ) >= 0
+ROR_54:92:int_skipDelimiters(int): delimiters.indexOf( c ) < 0  =>   delimiters.indexOf( c ) <= 0
+ROR_55:92:int_skipDelimiters(int): delimiters.indexOf( c ) < 0  =>   delimiters.indexOf( c ) == 0
+ROR_56:92:int_skipDelimiters(int): delimiters.indexOf( c ) < 0  =>   delimiters.indexOf( c ) != 0
+ROR_57:92:int_skipDelimiters(int): delimiters.indexOf( c ) < 0  =>   true
+ROR_58:92:int_skipDelimiters(int): delimiters.indexOf( c ) < 0  =>   false
+ROR_59:98:int_skipDelimiters(int): c > maxDelimCodePoint  =>   c >= maxDelimCodePoint
+ROR_60:98:int_skipDelimiters(int): c > maxDelimCodePoint  =>   c < maxDelimCodePoint
+ROR_61:98:int_skipDelimiters(int): c > maxDelimCodePoint  =>   c <= maxDelimCodePoint
+ROR_62:98:int_skipDelimiters(int): c > maxDelimCodePoint  =>   c == maxDelimCodePoint
+ROR_63:98:int_skipDelimiters(int): c > maxDelimCodePoint  =>   c != maxDelimCodePoint
+ROR_64:98:int_skipDelimiters(int): c > maxDelimCodePoint  =>   true
+ROR_65:98:int_skipDelimiters(int): c > maxDelimCodePoint  =>   false
+ROR_66:110:int_scanToken(int): position < maxPosition  =>   position > maxPosition
+ROR_67:110:int_scanToken(int): position < maxPosition  =>   position >= maxPosition
+ROR_68:110:int_scanToken(int): position < maxPosition  =>   position <= maxPosition
+ROR_69:110:int_scanToken(int): position < maxPosition  =>   position == maxPosition
+ROR_70:110:int_scanToken(int): position < maxPosition  =>   position != maxPosition
+ROR_71:110:int_scanToken(int): position < maxPosition  =>   true
+ROR_72:110:int_scanToken(int): position < maxPosition  =>   false
+ROR_73:113:int_scanToken(int): c <= maxDelimCodePoint  =>   c > maxDelimCodePoint
+ROR_74:113:int_scanToken(int): c <= maxDelimCodePoint  =>   c >= maxDelimCodePoint
+ROR_75:113:int_scanToken(int): c <= maxDelimCodePoint  =>   c < maxDelimCodePoint
+ROR_76:113:int_scanToken(int): c <= maxDelimCodePoint  =>   c == maxDelimCodePoint
+ROR_77:113:int_scanToken(int): c <= maxDelimCodePoint  =>   c != maxDelimCodePoint
+ROR_78:113:int_scanToken(int): c <= maxDelimCodePoint  =>   true
+ROR_79:113:int_scanToken(int): c <= maxDelimCodePoint  =>   false
+ROR_80:113:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>   delimiters.indexOf( c ) > 0
+ROR_81:113:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>   delimiters.indexOf( c ) < 0
+ROR_82:113:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>   delimiters.indexOf( c ) <= 0
+ROR_83:113:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>   delimiters.indexOf( c ) == 0
+ROR_84:113:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>   delimiters.indexOf( c ) != 0
+ROR_85:113:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>   true
+ROR_86:113:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>   false
+ROR_87:119:int_scanToken(int): c <= maxDelimCodePoint  =>   c > maxDelimCodePoint
+ROR_88:119:int_scanToken(int): c <= maxDelimCodePoint  =>   c >= maxDelimCodePoint
+ROR_89:119:int_scanToken(int): c <= maxDelimCodePoint  =>   c < maxDelimCodePoint
+ROR_90:119:int_scanToken(int): c <= maxDelimCodePoint  =>   c == maxDelimCodePoint
+ROR_91:119:int_scanToken(int): c <= maxDelimCodePoint  =>   c != maxDelimCodePoint
+ROR_92:119:int_scanToken(int): c <= maxDelimCodePoint  =>   true
+ROR_93:119:int_scanToken(int): c <= maxDelimCodePoint  =>   false
+ROR_94:125:int_scanToken(int): startPos == position  =>   startPos > position
+ROR_95:125:int_scanToken(int): startPos == position  =>   startPos >= position
+ROR_96:125:int_scanToken(int): startPos == position  =>   startPos < position
+ROR_97:125:int_scanToken(int): startPos == position  =>   startPos <= position
+ROR_98:125:int_scanToken(int): startPos == position  =>   startPos != position
+ROR_99:125:int_scanToken(int): startPos == position  =>   true
+ROR_100:125:int_scanToken(int): startPos == position  =>   false
+ROR_101:128:int_scanToken(int): c <= maxDelimCodePoint  =>   c > maxDelimCodePoint
+ROR_102:128:int_scanToken(int): c <= maxDelimCodePoint  =>   c >= maxDelimCodePoint
+ROR_103:128:int_scanToken(int): c <= maxDelimCodePoint  =>   c < maxDelimCodePoint
+ROR_104:128:int_scanToken(int): c <= maxDelimCodePoint  =>   c == maxDelimCodePoint
+ROR_105:128:int_scanToken(int): c <= maxDelimCodePoint  =>   c != maxDelimCodePoint
+ROR_106:128:int_scanToken(int): c <= maxDelimCodePoint  =>   true
+ROR_107:128:int_scanToken(int): c <= maxDelimCodePoint  =>   false
+ROR_108:128:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>   delimiters.indexOf( c ) > 0
+ROR_109:128:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>   delimiters.indexOf( c ) < 0
+ROR_110:128:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>   delimiters.indexOf( c ) <= 0
+ROR_111:128:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>   delimiters.indexOf( c ) == 0
+ROR_112:128:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>   delimiters.indexOf( c ) != 0
+ROR_113:128:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>   true
+ROR_114:128:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>   false
+ROR_115:133:int_scanToken(int): c <= maxDelimCodePoint  =>   c > maxDelimCodePoint
+ROR_116:133:int_scanToken(int): c <= maxDelimCodePoint  =>   c >= maxDelimCodePoint
+ROR_117:133:int_scanToken(int): c <= maxDelimCodePoint  =>   c < maxDelimCodePoint
+ROR_118:133:int_scanToken(int): c <= maxDelimCodePoint  =>   c == maxDelimCodePoint
+ROR_119:133:int_scanToken(int): c <= maxDelimCodePoint  =>   c != maxDelimCodePoint
+ROR_120:133:int_scanToken(int): c <= maxDelimCodePoint  =>   true
+ROR_121:133:int_scanToken(int): c <= maxDelimCodePoint  =>   false
+ROR_122:143:boolean_isDelimiter(int): i < delimiterCodePoints.length  =>   i > delimiterCodePoints.length
+ROR_123:143:boolean_isDelimiter(int): i < delimiterCodePoints.length  =>   i >= delimiterCodePoints.length
+ROR_124:143:boolean_isDelimiter(int): i < delimiterCodePoints.length  =>   i <= delimiterCodePoints.length
+ROR_125:143:boolean_isDelimiter(int): i < delimiterCodePoints.length  =>   i == delimiterCodePoints.length
+ROR_126:143:boolean_isDelimiter(int): i < delimiterCodePoints.length  =>   i != delimiterCodePoints.length
+ROR_127:143:boolean_isDelimiter(int): i < delimiterCodePoints.length  =>   true
+ROR_128:143:boolean_isDelimiter(int): i < delimiterCodePoints.length  =>   false
+ROR_129:144:boolean_isDelimiter(int): delimiterCodePoints[i] == codePoint  =>   delimiterCodePoints[i] > codePoint
+ROR_130:144:boolean_isDelimiter(int): delimiterCodePoints[i] == codePoint  =>   delimiterCodePoints[i] >= codePoint
+ROR_131:144:boolean_isDelimiter(int): delimiterCodePoints[i] == codePoint  =>   delimiterCodePoints[i] < codePoint
+ROR_132:144:boolean_isDelimiter(int): delimiterCodePoints[i] == codePoint  =>   delimiterCodePoints[i] <= codePoint
+ROR_133:144:boolean_isDelimiter(int): delimiterCodePoints[i] == codePoint  =>   delimiterCodePoints[i] != codePoint
+ROR_134:144:boolean_isDelimiter(int): delimiterCodePoints[i] == codePoint  =>   true
+ROR_135:144:boolean_isDelimiter(int): delimiterCodePoints[i] == codePoint  =>   false
+ROR_136:154:boolean_hasMoreTokens(): newPosition < maxPosition  =>   newPosition > maxPosition
+ROR_137:154:boolean_hasMoreTokens(): newPosition < maxPosition  =>   newPosition >= maxPosition
+ROR_138:154:boolean_hasMoreTokens(): newPosition < maxPosition  =>   newPosition <= maxPosition
+ROR_139:154:boolean_hasMoreTokens(): newPosition < maxPosition  =>   newPosition == maxPosition
+ROR_140:154:boolean_hasMoreTokens(): newPosition < maxPosition  =>   newPosition != maxPosition
+ROR_141:154:boolean_hasMoreTokens(): newPosition < maxPosition  =>   true
+ROR_142:154:boolean_hasMoreTokens(): newPosition < maxPosition  =>   false
+ROR_143:159:java.lang.String_nextToken(): newPosition >= 0  =>   newPosition > 0
+ROR_144:159:java.lang.String_nextToken(): newPosition >= 0  =>   newPosition < 0
+ROR_145:159:java.lang.String_nextToken(): newPosition >= 0  =>   newPosition <= 0
+ROR_146:159:java.lang.String_nextToken(): newPosition >= 0  =>   newPosition == 0
+ROR_147:159:java.lang.String_nextToken(): newPosition >= 0  =>   newPosition != 0
+ROR_148:159:java.lang.String_nextToken(): newPosition >= 0  =>   true
+ROR_149:159:java.lang.String_nextToken(): newPosition >= 0  =>   false
+ROR_150:162:java.lang.String_nextToken(): currentPosition >= maxPosition  =>   currentPosition > maxPosition
+ROR_151:162:java.lang.String_nextToken(): currentPosition >= maxPosition  =>   currentPosition < maxPosition
+ROR_152:162:java.lang.String_nextToken(): currentPosition >= maxPosition  =>   currentPosition <= maxPosition
+ROR_153:162:java.lang.String_nextToken(): currentPosition >= maxPosition  =>   currentPosition == maxPosition
+ROR_154:162:java.lang.String_nextToken(): currentPosition >= maxPosition  =>   currentPosition != maxPosition
+ROR_155:162:java.lang.String_nextToken(): currentPosition >= maxPosition  =>   true
+ROR_156:162:java.lang.String_nextToken(): currentPosition >= maxPosition  =>   false
+ROR_157:192:int_countTokens(): currpos < maxPosition  =>   currpos > maxPosition
+ROR_158:192:int_countTokens(): currpos < maxPosition  =>   currpos >= maxPosition
+ROR_159:192:int_countTokens(): currpos < maxPosition  =>   currpos <= maxPosition
+ROR_160:192:int_countTokens(): currpos < maxPosition  =>   currpos == maxPosition
+ROR_161:192:int_countTokens(): currpos < maxPosition  =>   currpos != maxPosition
+ROR_162:192:int_countTokens(): currpos < maxPosition  =>   true
+ROR_163:192:int_countTokens(): currpos < maxPosition  =>   false
+ROR_164:194:int_countTokens(): currpos >= maxPosition  =>   currpos > maxPosition
+ROR_165:194:int_countTokens(): currpos >= maxPosition  =>   currpos < maxPosition
+ROR_166:194:int_countTokens(): currpos >= maxPosition  =>   currpos <= maxPosition
+ROR_167:194:int_countTokens(): currpos >= maxPosition  =>   currpos == maxPosition
+ROR_168:194:int_countTokens(): currpos >= maxPosition  =>   currpos != maxPosition
+ROR_169:194:int_countTokens(): currpos >= maxPosition  =>   true
+ROR_170:194:int_countTokens(): currpos >= maxPosition  =>   false
+COR_1:41:int_setMaxDelimCodePoint(): c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE  =>   c >= Character.MIN_HIGH_SURROGATE || c <= Character.MAX_LOW_SURROGATE
+COR_2:41:int_setMaxDelimCodePoint(): c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE  =>   c >= Character.MIN_HIGH_SURROGATE ^ c <= Character.MAX_LOW_SURROGATE
+COR_3:89:int_skipDelimiters(int): !retDelims && position < maxPosition  =>   !retDelims || position < maxPosition
+COR_4:89:int_skipDelimiters(int): !retDelims && position < maxPosition  =>   !retDelims ^ position < maxPosition
+COR_5:92:int_skipDelimiters(int): c > maxDelimCodePoint || delimiters.indexOf( c ) < 0  =>   c > maxDelimCodePoint && delimiters.indexOf( c ) < 0
+COR_6:92:int_skipDelimiters(int): c > maxDelimCodePoint || delimiters.indexOf( c ) < 0  =>   c > maxDelimCodePoint ^ delimiters.indexOf( c ) < 0
+COR_7:98:int_skipDelimiters(int): c > maxDelimCodePoint || !isDelimiter( c )  =>   c > maxDelimCodePoint && !isDelimiter( c )
+COR_8:98:int_skipDelimiters(int): c > maxDelimCodePoint || !isDelimiter( c )  =>   c > maxDelimCodePoint ^ !isDelimiter( c )
+COR_9:113:int_scanToken(int): c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0  =>   c <= maxDelimCodePoint || delimiters.indexOf( c ) >= 0
+COR_10:113:int_scanToken(int): c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0  =>   c <= maxDelimCodePoint ^ delimiters.indexOf( c ) >= 0
+COR_11:119:int_scanToken(int): c <= maxDelimCodePoint && isDelimiter( c )  =>   c <= maxDelimCodePoint || isDelimiter( c )
+COR_12:119:int_scanToken(int): c <= maxDelimCodePoint && isDelimiter( c )  =>   c <= maxDelimCodePoint ^ isDelimiter( c )
+COR_13:125:int_scanToken(int): retDelims && startPos == position  =>   retDelims || startPos == position
+COR_14:125:int_scanToken(int): retDelims && startPos == position  =>   retDelims ^ startPos == position
+COR_15:128:int_scanToken(int): c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0  =>   c <= maxDelimCodePoint || delimiters.indexOf( c ) >= 0
+COR_16:128:int_scanToken(int): c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0  =>   c <= maxDelimCodePoint ^ delimiters.indexOf( c ) >= 0
+COR_17:133:int_scanToken(int): c <= maxDelimCodePoint && isDelimiter( c )  =>   c <= maxDelimCodePoint || isDelimiter( c )
+COR_18:133:int_scanToken(int): c <= maxDelimCodePoint && isDelimiter( c )  =>   c <= maxDelimCodePoint ^ isDelimiter( c )
+COR_19:159:java.lang.String_nextToken(): newPosition >= 0 && !delimsChanged  =>   newPosition >= 0 || !delimsChanged
+COR_20:159:java.lang.String_nextToken(): newPosition >= 0 && !delimsChanged  =>   newPosition >= 0 ^ !delimsChanged
+COD_1:89:int_skipDelimiters(int):!retDelims => retDelims
+COD_2:90:int_skipDelimiters(int):!hasSurrogates => hasSurrogates
+COD_3:98:int_skipDelimiters(int):!isDelimiter( c ) => isDelimiter( c )
+COD_4:111:int_scanToken(int):!hasSurrogates => hasSurrogates
+COD_5:126:int_scanToken(int):!hasSurrogates => hasSurrogates
+COD_6:159:java.lang.String_nextToken():!delimsChanged => delimsChanged
+COI_1:32:int_setMaxDelimCodePoint(): delimiters == null  =>  !(delimiters == null)
+COI_2:39:int_setMaxDelimCodePoint(): i < delimiters.length()  =>  !(i < delimiters.length())
+COI_3:41:int_setMaxDelimCodePoint(): c >= Character.MIN_HIGH_SURROGATE  =>  !(c >= Character.MIN_HIGH_SURROGATE)
+COI_4:41:int_setMaxDelimCodePoint(): c <= Character.MAX_LOW_SURROGATE  =>  !(c <= Character.MAX_LOW_SURROGATE)
+COI_5:41:int_setMaxDelimCodePoint(): c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE  =>  !(c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE)
+COI_6:43:int_setMaxDelimCodePoint(): hasSurrogates  =>  !hasSurrogates
+COI_7:45:int_setMaxDelimCodePoint(): m < c  =>  !(m < c)
+COI_8:51:int_setMaxDelimCodePoint(): hasSurrogates  =>  !hasSurrogates
+COI_9:53:int_setMaxDelimCodePoint(): i < count  =>  !(i < count)
+COI_10:65:StringTokenizer(java.lang.String,java.lang.String,boolean): delimsChanged  =>  !delimsChanged
+COI_11:69:StringTokenizer(java.lang.String,java.lang.String,boolean): retDelims  =>  !retDelims
+COI_12:69:StringTokenizer(java.lang.String,java.lang.String,boolean): returnDelims  =>  !returnDelims
+COI_13:85:int_skipDelimiters(int): delimiters == null  =>  !(delimiters == null)
+COI_14:89:int_skipDelimiters(int): position < maxPosition  =>  !(position < maxPosition)
+COI_15:89:int_skipDelimiters(int): !retDelims && position < maxPosition  =>  !(!retDelims && position < maxPosition)
+COI_16:92:int_skipDelimiters(int): c > maxDelimCodePoint  =>  !(c > maxDelimCodePoint)
+COI_17:92:int_skipDelimiters(int): delimiters.indexOf( c ) < 0  =>  !(delimiters.indexOf( c ) < 0)
+COI_18:92:int_skipDelimiters(int): c > maxDelimCodePoint || delimiters.indexOf( c ) < 0  =>  !(c > maxDelimCodePoint || delimiters.indexOf( c ) < 0)
+COI_19:98:int_skipDelimiters(int): c > maxDelimCodePoint  =>  !(c > maxDelimCodePoint)
+COI_20:98:int_skipDelimiters(int): c > maxDelimCodePoint || !isDelimiter( c )  =>  !(c > maxDelimCodePoint || !isDelimiter( c ))
+COI_21:110:int_scanToken(int): position < maxPosition  =>  !(position < maxPosition)
+COI_22:113:int_scanToken(int): c <= maxDelimCodePoint  =>  !(c <= maxDelimCodePoint)
+COI_23:113:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>  !(delimiters.indexOf( c ) >= 0)
+COI_24:113:int_scanToken(int): c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0  =>  !(c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0)
+COI_25:119:int_scanToken(int): c <= maxDelimCodePoint  =>  !(c <= maxDelimCodePoint)
+COI_26:119:int_scanToken(int): c <= maxDelimCodePoint && isDelimiter( c )  =>  !(c <= maxDelimCodePoint && isDelimiter( c ))
+COI_27:125:int_scanToken(int): retDelims  =>  !retDelims
+COI_28:125:int_scanToken(int): startPos == position  =>  !(startPos == position)
+COI_29:125:int_scanToken(int): retDelims && startPos == position  =>  !(retDelims && startPos == position)
+COI_30:128:int_scanToken(int): c <= maxDelimCodePoint  =>  !(c <= maxDelimCodePoint)
+COI_31:128:int_scanToken(int): delimiters.indexOf( c ) >= 0  =>  !(delimiters.indexOf( c ) >= 0)
+COI_32:128:int_scanToken(int): c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0  =>  !(c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0)
+COI_33:133:int_scanToken(int): c <= maxDelimCodePoint  =>  !(c <= maxDelimCodePoint)
+COI_34:133:int_scanToken(int): c <= maxDelimCodePoint && isDelimiter( c )  =>  !(c <= maxDelimCodePoint && isDelimiter( c ))
+COI_35:143:boolean_isDelimiter(int): i < delimiterCodePoints.length  =>  !(i < delimiterCodePoints.length)
+COI_36:144:boolean_isDelimiter(int): delimiterCodePoints[i] == codePoint  =>  !(delimiterCodePoints[i] == codePoint)
+COI_37:154:boolean_hasMoreTokens(): newPosition < maxPosition  =>  !(newPosition < maxPosition)
+COI_38:159:java.lang.String_nextToken(): newPosition >= 0  =>  !(newPosition >= 0)
+COI_39:159:java.lang.String_nextToken(): newPosition >= 0 && !delimsChanged  =>  !(newPosition >= 0 && !delimsChanged)
+COI_40:160:java.lang.String_nextToken(): delimsChanged  =>  !delimsChanged
+COI_41:162:java.lang.String_nextToken(): currentPosition >= maxPosition  =>  !(currentPosition >= maxPosition)
+COI_42:173:java.lang.String_nextToken(java.lang.String): delimsChanged  =>  !delimsChanged
+COI_43:192:int_countTokens(): currpos < maxPosition  =>  !(currpos < maxPosition)
+COI_44:194:int_countTokens(): currpos >= maxPosition  =>  !(currpos >= maxPosition)
+LOI_1:34:int_setMaxDelimCodePoint():maxDelimCodePoint => ~maxDelimCodePoint
+LOI_2:39:int_setMaxDelimCodePoint():i => ~i
+LOI_3:39:int_setMaxDelimCodePoint():c => ~c
+LOI_4:40:int_setMaxDelimCodePoint():i => ~i
+LOI_5:41:int_setMaxDelimCodePoint():c => ~c
+LOI_6:41:int_setMaxDelimCodePoint():Character.MIN_HIGH_SURROGATE => ~Character.MIN_HIGH_SURROGATE
+LOI_7:41:int_setMaxDelimCodePoint():c => ~c
+LOI_8:41:int_setMaxDelimCodePoint():Character.MAX_LOW_SURROGATE => ~Character.MAX_LOW_SURROGATE
+LOI_9:42:int_setMaxDelimCodePoint():i => ~i
+LOI_10:45:int_setMaxDelimCodePoint():m => ~m
+LOI_11:45:int_setMaxDelimCodePoint():c => ~c
+LOI_12:46:int_setMaxDelimCodePoint():c => ~c
+LOI_13:48:int_setMaxDelimCodePoint():count => ~count
+LOI_14:50:int_setMaxDelimCodePoint():m => ~m
+LOI_15:52:int_setMaxDelimCodePoint():count => ~count
+LOI_16:53:int_setMaxDelimCodePoint():i => ~i
+LOI_17:53:int_setMaxDelimCodePoint():count => ~count
+LOI_18:53:int_setMaxDelimCodePoint():i => ~i
+LOI_19:53:int_setMaxDelimCodePoint():c => ~c
+LOI_20:54:int_setMaxDelimCodePoint():j => ~j
+LOI_21:55:int_setMaxDelimCodePoint():i => ~i
+LOI_22:55:int_setMaxDelimCodePoint():c => ~c
+LOI_23:58:int_setMaxDelimCodePoint():maxDelimCodePoint => ~maxDelimCodePoint
+LOI_24:88:int_skipDelimiters(int):startPos => ~startPos
+LOI_25:89:int_skipDelimiters(int):position => ~position
+LOI_26:89:int_skipDelimiters(int):maxPosition => ~maxPosition
+LOI_27:91:int_skipDelimiters(int):position => ~position
+LOI_28:92:int_skipDelimiters(int):c => ~c
+LOI_29:92:int_skipDelimiters(int):maxDelimCodePoint => ~maxDelimCodePoint
+LOI_30:92:int_skipDelimiters(int):c => ~c
+LOI_31:95:int_skipDelimiters(int):position => ~position
+LOI_32:97:int_skipDelimiters(int):position => ~position
+LOI_33:98:int_skipDelimiters(int):c => ~c
+LOI_34:98:int_skipDelimiters(int):maxDelimCodePoint => ~maxDelimCodePoint
+LOI_35:98:int_skipDelimiters(int):c => ~c
+LOI_36:101:int_skipDelimiters(int):c => ~c
+LOI_37:104:int_skipDelimiters(int):position => ~position
+LOI_38:109:int_scanToken(int):startPos => ~startPos
+LOI_39:110:int_scanToken(int):position => ~position
+LOI_40:110:int_scanToken(int):maxPosition => ~maxPosition
+LOI_41:112:int_scanToken(int):position => ~position
+LOI_42:113:int_scanToken(int):c => ~c
+LOI_43:113:int_scanToken(int):maxDelimCodePoint => ~maxDelimCodePoint
+LOI_44:113:int_scanToken(int):c => ~c
+LOI_45:116:int_scanToken(int):position => ~position
+LOI_46:118:int_scanToken(int):position => ~position
+LOI_47:119:int_scanToken(int):c => ~c
+LOI_48:119:int_scanToken(int):maxDelimCodePoint => ~maxDelimCodePoint
+LOI_49:119:int_scanToken(int):c => ~c
+LOI_50:122:int_scanToken(int):c => ~c
+LOI_51:125:int_scanToken(int):startPos => ~startPos
+LOI_52:125:int_scanToken(int):position => ~position
+LOI_53:127:int_scanToken(int):position => ~position
+LOI_54:128:int_scanToken(int):c => ~c
+LOI_55:128:int_scanToken(int):maxDelimCodePoint => ~maxDelimCodePoint
+LOI_56:128:int_scanToken(int):c => ~c
+LOI_57:129:int_scanToken(int):position => ~position
+LOI_58:132:int_scanToken(int):position => ~position
+LOI_59:133:int_scanToken(int):c => ~c
+LOI_60:133:int_scanToken(int):maxDelimCodePoint => ~maxDelimCodePoint
+LOI_61:133:int_scanToken(int):c => ~c
+LOI_62:134:int_scanToken(int):c => ~c
+LOI_63:138:int_scanToken(int):position => ~position
+LOI_64:143:boolean_isDelimiter(int):i => ~i
+LOI_65:143:boolean_isDelimiter(int):delimiterCodePoints.length => ~delimiterCodePoints.length
+LOI_66:143:boolean_isDelimiter(int):i => ~i
+LOI_67:144:boolean_isDelimiter(int):i => ~i
+LOI_68:144:boolean_isDelimiter(int):codePoint => ~codePoint
+LOI_69:153:boolean_hasMoreTokens():currentPosition => ~currentPosition
+LOI_70:154:boolean_hasMoreTokens():newPosition => ~newPosition
+LOI_71:154:boolean_hasMoreTokens():maxPosition => ~maxPosition
+LOI_72:159:java.lang.String_nextToken():newPosition => ~newPosition
+LOI_73:159:java.lang.String_nextToken():newPosition => ~newPosition
+LOI_74:159:java.lang.String_nextToken():currentPosition => ~currentPosition
+LOI_75:162:java.lang.String_nextToken():currentPosition => ~currentPosition
+LOI_76:162:java.lang.String_nextToken():maxPosition => ~maxPosition
+LOI_77:165:java.lang.String_nextToken():currentPosition => ~currentPosition
+LOI_78:166:java.lang.String_nextToken():currentPosition => ~currentPosition
+LOI_79:167:java.lang.String_nextToken():start => ~start
+LOI_80:167:java.lang.String_nextToken():currentPosition => ~currentPosition
+LOI_81:191:int_countTokens():currentPosition => ~currentPosition
+LOI_82:192:int_countTokens():currpos => ~currpos
+LOI_83:192:int_countTokens():maxPosition => ~maxPosition
+LOI_84:193:int_countTokens():currpos => ~currpos
+LOI_85:194:int_countTokens():currpos => ~currpos
+LOI_86:194:int_countTokens():maxPosition => ~maxPosition
+LOI_87:197:int_countTokens():currpos => ~currpos
+LOI_88:198:int_countTokens():count => ~count
+LOI_89:200:int_countTokens():count => ~count
+ASRS_1:39:int_setMaxDelimCodePoint():i += Character.charCount( c ) => i /= Character.charCount( c )
+ASRS_2:39:int_setMaxDelimCodePoint():i += Character.charCount( c ) => i *= Character.charCount( c )
+ASRS_3:39:int_setMaxDelimCodePoint():i += Character.charCount( c ) => i -= Character.charCount( c )
+ASRS_4:39:int_setMaxDelimCodePoint():i += Character.charCount( c ) => i %= Character.charCount( c )
+ASRS_5:53:int_setMaxDelimCodePoint():j += Character.charCount( c ) => j /= Character.charCount( c )
+ASRS_6:53:int_setMaxDelimCodePoint():j += Character.charCount( c ) => j *= Character.charCount( c )
+ASRS_7:53:int_setMaxDelimCodePoint():j += Character.charCount( c ) => j -= Character.charCount( c )
+ASRS_8:53:int_setMaxDelimCodePoint():j += Character.charCount( c ) => j %= Character.charCount( c )
+ASRS_9:101:int_skipDelimiters(int):position += Character.charCount( c ) => position /= Character.charCount( c )
+ASRS_10:101:int_skipDelimiters(int):position += Character.charCount( c ) => position *= Character.charCount( c )
+ASRS_11:101:int_skipDelimiters(int):position += Character.charCount( c ) => position -= Character.charCount( c )
+ASRS_12:101:int_skipDelimiters(int):position += Character.charCount( c ) => position %= Character.charCount( c )
+ASRS_13:122:int_scanToken(int):position += Character.charCount( c ) => position /= Character.charCount( c )
+ASRS_14:122:int_scanToken(int):position += Character.charCount( c ) => position *= Character.charCount( c )
+ASRS_15:122:int_scanToken(int):position += Character.charCount( c ) => position -= Character.charCount( c )
+ASRS_16:122:int_scanToken(int):position += Character.charCount( c ) => position %= Character.charCount( c )
+ASRS_17:134:int_scanToken(int):position += Character.charCount( c ) => position /= Character.charCount( c )
+ASRS_18:134:int_scanToken(int):position += Character.charCount( c ) => position *= Character.charCount( c )
+ASRS_19:134:int_scanToken(int):position += Character.charCount( c ) => position -= Character.charCount( c )
+ASRS_20:134:int_scanToken(int):position += Character.charCount( c ) => position %= Character.charCount( c )
+SDL_1:55:int_setMaxDelimCodePoint(): if (delimiters == null) {     maxDelimCodePoint = 0;     return maxDelimCodePoint; } int m = 0; int c; int count = 0; for (int i = 0; i < delimiters.length(); i += Character.charCount( c )) {     c = delimiters.charAt( i );     if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {         c = delimiters.codePointAt( i );         hasSurrogates = true;     }     if (m < c) {         m = c;     }     count++; } maxDelimCodePoint = m; if (hasSurrogates) {     delimiterCodePoints = new int[count];     for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {         c = delimiters.codePointAt( j );         delimiterCodePoints[i] = c;     } } return maxDelimCodePoint;  =>   int m = 0; int c; int count = 0; for (int i = 0; i < delimiters.length(); i += Character.charCount( c )) {     c = delimiters.charAt( i );     if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {         c = delimiters.codePointAt( i );         hasSurrogates = true;     }     if (m < c) {         m = c;     }     count++; } maxDelimCodePoint = m; if (hasSurrogates) {     delimiterCodePoints = new int[count];     for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {         c = delimiters.codePointAt( j );         delimiterCodePoints[i] = c;     } } return maxDelimCodePoint;
+SDL_2:48:int_setMaxDelimCodePoint(): if (delimiters == null) {     maxDelimCodePoint = 0;     return maxDelimCodePoint; } int m = 0; int c; int count = 0; for (int i = 0; i < delimiters.length(); i += Character.charCount( c )) {     c = delimiters.charAt( i );     if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {         c = delimiters.codePointAt( i );         hasSurrogates = true;     }     if (m < c) {         m = c;     }     count++; } maxDelimCodePoint = m; if (hasSurrogates) {     delimiterCodePoints = new int[count];     for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {         c = delimiters.codePointAt( j );         delimiterCodePoints[i] = c;     } } return maxDelimCodePoint;  =>   if (delimiters == null) {     maxDelimCodePoint = 0;     return maxDelimCodePoint; } int m = 0; int c; int count = 0; maxDelimCodePoint = m; if (hasSurrogates) {     delimiterCodePoints = new int[count];     for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {         c = delimiters.codePointAt( j );         delimiterCodePoints[i] = c;     } } return maxDelimCodePoint;
+SDL_3:58:int_setMaxDelimCodePoint(): if (delimiters == null) {     maxDelimCodePoint = 0;     return maxDelimCodePoint; } int m = 0; int c; int count = 0; for (int i = 0; i < delimiters.length(); i += Character.charCount( c )) {     c = delimiters.charAt( i );     if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {         c = delimiters.codePointAt( i );         hasSurrogates = true;     }     if (m < c) {         m = c;     }     count++; } maxDelimCodePoint = m; if (hasSurrogates) {     delimiterCodePoints = new int[count];     for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {         c = delimiters.codePointAt( j );         delimiterCodePoints[i] = c;     } } return maxDelimCodePoint;  =>   if (delimiters == null) {     maxDelimCodePoint = 0;     return maxDelimCodePoint; } int m = 0; int c; int count = 0; for (int i = 0; i < delimiters.length(); i += Character.charCount( c )) {     c = delimiters.charAt( i );     if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {         c = delimiters.codePointAt( i );         hasSurrogates = true;     }     if (m < c) {         m = c;     }     count++; } if (hasSurrogates) {     delimiterCodePoints = new int[count];     for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {         c = delimiters.codePointAt( j );         delimiterCodePoints[i] = c;     } } return maxDelimCodePoint;
+SDL_4:52:int_setMaxDelimCodePoint(): if (delimiters == null) {     maxDelimCodePoint = 0;     return maxDelimCodePoint; } int m = 0; int c; int count = 0; for (int i = 0; i < delimiters.length(); i += Character.charCount( c )) {     c = delimiters.charAt( i );     if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {         c = delimiters.codePointAt( i );         hasSurrogates = true;     }     if (m < c) {         m = c;     }     count++; } maxDelimCodePoint = m; if (hasSurrogates) {     delimiterCodePoints = new int[count];     for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {         c = delimiters.codePointAt( j );         delimiterCodePoints[i] = c;     } } return maxDelimCodePoint;  =>   if (delimiters == null) {     maxDelimCodePoint = 0;     return maxDelimCodePoint; } int m = 0; int c; int count = 0; for (int i = 0; i < delimiters.length(); i += Character.charCount( c )) {     c = delimiters.charAt( i );     if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {         c = delimiters.codePointAt( i );         hasSurrogates = true;     }     if (m < c) {         m = c;     }     count++; } maxDelimCodePoint = m; return maxDelimCodePoint;
+SDL_5:34:int_setMaxDelimCodePoint(): maxDelimCodePoint = 0; return maxDelimCodePoint;  =>   return maxDelimCodePoint;
+SDL_6:36:int_setMaxDelimCodePoint(): if (delimiters == null) {     maxDelimCodePoint = 0;     return maxDelimCodePoint; }  =>   if (true) {     maxDelimCodePoint = 0;     return maxDelimCodePoint; }
+SDL_7:35:int_setMaxDelimCodePoint(): return maxDelimCodePoint;  =>   return 0;
+SDL_8:48:int_setMaxDelimCodePoint(): c = delimiters.charAt( i ); if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {     c = delimiters.codePointAt( i );     hasSurrogates = true; } if (m < c) {     m = c; } count++;  =>   if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {     c = delimiters.codePointAt( i );     hasSurrogates = true; } if (m < c) {     m = c; } count++;
+SDL_9:45:int_setMaxDelimCodePoint(): c = delimiters.charAt( i ); if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {     c = delimiters.codePointAt( i );     hasSurrogates = true; } if (m < c) {     m = c; } count++;  =>   c = delimiters.charAt( i ); if (m < c) {     m = c; } count++;
+SDL_10:46:int_setMaxDelimCodePoint(): c = delimiters.charAt( i ); if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {     c = delimiters.codePointAt( i );     hasSurrogates = true; } if (m < c) {     m = c; } count++;  =>   c = delimiters.charAt( i ); if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {     c = delimiters.codePointAt( i );     hasSurrogates = true; } count++;
+SDL_11:48:int_setMaxDelimCodePoint(): c = delimiters.charAt( i ); if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {     c = delimiters.codePointAt( i );     hasSurrogates = true; } if (m < c) {     m = c; } count++;  =>   c = delimiters.charAt( i ); if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {     c = delimiters.codePointAt( i );     hasSurrogates = true; } if (m < c) {     m = c; }
+SDL_12:50:int_setMaxDelimCodePoint(): for (int i = 0; i < delimiters.length(); i += Character.charCount( c )) {     c = delimiters.charAt( i );     if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {         c = delimiters.codePointAt( i );         hasSurrogates = true;     }     if (m < c) {         m = c;     }     count++; }  =>   for (int i = 0;; i += Character.charCount( c )) {     c = delimiters.charAt( i );     if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {         c = delimiters.codePointAt( i );         hasSurrogates = true;     }     if (m < c) {         m = c;     }     count++; }
+SDL_13:50:int_setMaxDelimCodePoint(): for (int i = 0; i < delimiters.length(); i += Character.charCount( c )) {     c = delimiters.charAt( i );     if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {         c = delimiters.codePointAt( i );         hasSurrogates = true;     }     if (m < c) {         m = c;     }     count++; }  =>   for (int i = 0; i < delimiters.length();) {     c = delimiters.charAt( i );     if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {         c = delimiters.codePointAt( i );         hasSurrogates = true;     }     if (m < c) {         m = c;     }     count++; }
+SDL_14:43:int_setMaxDelimCodePoint(): c = delimiters.codePointAt( i ); hasSurrogates = true;  =>   hasSurrogates = true;
+SDL_15:43:int_setMaxDelimCodePoint(): c = delimiters.codePointAt( i ); hasSurrogates = true;  =>   c = delimiters.codePointAt( i );
+SDL_16:45:int_setMaxDelimCodePoint(): if (c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE) {     c = delimiters.codePointAt( i );     hasSurrogates = true; }  =>   if (true) {     c = delimiters.codePointAt( i );     hasSurrogates = true; }
+SDL_17:46:int_setMaxDelimCodePoint(): m = c;  =>  
+SDL_18:48:int_setMaxDelimCodePoint(): if (m < c) {     m = c; }  =>   if (true) {     m = c; }
+SDL_19:56:int_setMaxDelimCodePoint(): delimiterCodePoints = new int[count]; for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {     c = delimiters.codePointAt( j );     delimiterCodePoints[i] = c; }  =>   for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {     c = delimiters.codePointAt( j );     delimiterCodePoints[i] = c; }
+SDL_20:53:int_setMaxDelimCodePoint(): delimiterCodePoints = new int[count]; for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {     c = delimiters.codePointAt( j );     delimiterCodePoints[i] = c; }  =>   delimiterCodePoints = new int[count];
+SDL_21:58:int_setMaxDelimCodePoint(): if (hasSurrogates) {     delimiterCodePoints = new int[count];     for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {         c = delimiters.codePointAt( j );         delimiterCodePoints[i] = c;     } }  =>   if (true) {     delimiterCodePoints = new int[count];     for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {         c = delimiters.codePointAt( j );         delimiterCodePoints[i] = c;     } }
+SDL_22:55:int_setMaxDelimCodePoint(): c = delimiters.codePointAt( j ); delimiterCodePoints[i] = c;  =>   delimiterCodePoints[i] = c;
+SDL_23:55:int_setMaxDelimCodePoint(): c = delimiters.codePointAt( j ); delimiterCodePoints[i] = c;  =>   c = delimiters.codePointAt( j );
+SDL_24:57:int_setMaxDelimCodePoint(): for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {     c = delimiters.codePointAt( j );     delimiterCodePoints[i] = c; }  =>   for (int i = 0, j = 0;; i++, j += Character.charCount( c )) {     c = delimiters.codePointAt( j );     delimiterCodePoints[i] = c; }
+SDL_25:57:int_setMaxDelimCodePoint(): for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {     c = delimiters.codePointAt( j );     delimiterCodePoints[i] = c; }  =>   for (int i = 0, j = 0; i < count;) {     c = delimiters.codePointAt( j );     delimiterCodePoints[i] = c; }
+SDL_26:59:int_setMaxDelimCodePoint(): return maxDelimCodePoint;  =>   return 0;
+SDL_27:70:StringTokenizer(java.lang.String,java.lang.String,boolean): currentPosition = 0; newPosition = -1; delimsChanged = false; this.str = str; maxPosition = str.length(); delimiters = delim; retDelims = returnDelims; setMaxDelimCodePoint();  =>   newPosition = -1; delimsChanged = false; this.str = str; maxPosition = str.length(); delimiters = delim; retDelims = returnDelims; setMaxDelimCodePoint();
+SDL_28:70:StringTokenizer(java.lang.String,java.lang.String,boolean): currentPosition = 0; newPosition = -1; delimsChanged = false; this.str = str; maxPosition = str.length(); delimiters = delim; retDelims = returnDelims; setMaxDelimCodePoint();  =>   currentPosition = 0; delimsChanged = false; this.str = str; maxPosition = str.length(); delimiters = delim; retDelims = returnDelims; setMaxDelimCodePoint();
+SDL_29:70:StringTokenizer(java.lang.String,java.lang.String,boolean): currentPosition = 0; newPosition = -1; delimsChanged = false; this.str = str; maxPosition = str.length(); delimiters = delim; retDelims = returnDelims; setMaxDelimCodePoint();  =>   currentPosition = 0; newPosition = -1; this.str = str; maxPosition = str.length(); delimiters = delim; retDelims = returnDelims; setMaxDelimCodePoint();
+SDL_30:70:StringTokenizer(java.lang.String,java.lang.String,boolean): currentPosition = 0; newPosition = -1; delimsChanged = false; this.str = str; maxPosition = str.length(); delimiters = delim; retDelims = returnDelims; setMaxDelimCodePoint();  =>   currentPosition = 0; newPosition = -1; delimsChanged = false; maxPosition = str.length(); delimiters = delim; retDelims = returnDelims; setMaxDelimCodePoint();
+SDL_31:70:StringTokenizer(java.lang.String,java.lang.String,boolean): currentPosition = 0; newPosition = -1; delimsChanged = false; this.str = str; maxPosition = str.length(); delimiters = delim; retDelims = returnDelims; setMaxDelimCodePoint();  =>   currentPosition = 0; newPosition = -1; delimsChanged = false; this.str = str; delimiters = delim; retDelims = returnDelims; setMaxDelimCodePoint();
+SDL_32:70:StringTokenizer(java.lang.String,java.lang.String,boolean): currentPosition = 0; newPosition = -1; delimsChanged = false; this.str = str; maxPosition = str.length(); delimiters = delim; retDelims = returnDelims; setMaxDelimCodePoint();  =>   currentPosition = 0; newPosition = -1; delimsChanged = false; this.str = str; maxPosition = str.length(); retDelims = returnDelims; setMaxDelimCodePoint();
+SDL_33:70:StringTokenizer(java.lang.String,java.lang.String,boolean): currentPosition = 0; newPosition = -1; delimsChanged = false; this.str = str; maxPosition = str.length(); delimiters = delim; retDelims = returnDelims; setMaxDelimCodePoint();  =>   currentPosition = 0; newPosition = -1; delimsChanged = false; this.str = str; maxPosition = str.length(); delimiters = delim; setMaxDelimCodePoint();
+SDL_34:70:StringTokenizer(java.lang.String,java.lang.String,boolean): currentPosition = 0; newPosition = -1; delimsChanged = false; this.str = str; maxPosition = str.length(); delimiters = delim; retDelims = returnDelims; setMaxDelimCodePoint();  =>   currentPosition = 0; newPosition = -1; delimsChanged = false; this.str = str; maxPosition = str.length(); delimiters = delim; retDelims = returnDelims;
+SDL_35:102:int_skipDelimiters(int): if (delimiters == null) {     throw new java.lang.NullPointerException(); } int position = startPos; while (!retDelims && position < maxPosition) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c > maxDelimCodePoint || delimiters.indexOf( c ) < 0) {             break;         }         position++;     } else {         int c = str.codePointAt( position );         if (c > maxDelimCodePoint || !isDelimiter( c )) {             break;         }         position += Character.charCount( c );     } } return position;  =>   int position = startPos; while (!retDelims && position < maxPosition) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c > maxDelimCodePoint || delimiters.indexOf( c ) < 0) {             break;         }         position++;     } else {         int c = str.codePointAt( position );         if (c > maxDelimCodePoint || !isDelimiter( c )) {             break;         }         position += Character.charCount( c );     } } return position;
+SDL_36:90:int_skipDelimiters(int): if (delimiters == null) {     throw new java.lang.NullPointerException(); } int position = startPos; while (!retDelims && position < maxPosition) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c > maxDelimCodePoint || delimiters.indexOf( c ) < 0) {             break;         }         position++;     } else {         int c = str.codePointAt( position );         if (c > maxDelimCodePoint || !isDelimiter( c )) {             break;         }         position += Character.charCount( c );     } } return position;  =>   if (delimiters == null) {     throw new java.lang.NullPointerException(); } int position = startPos; return position;
+SDL_37:86:int_skipDelimiters(int): throw new java.lang.NullPointerException();  =>  
+SDL_38:88:int_skipDelimiters(int): if (delimiters == null) {     throw new java.lang.NullPointerException(); }  =>   if (true) {     throw new java.lang.NullPointerException(); }
+SDL_39:90:int_skipDelimiters(int): if (!hasSurrogates) {     char c = str.charAt( position );     if (c > maxDelimCodePoint || delimiters.indexOf( c ) < 0) {         break;     }     position++; } else {     int c = str.codePointAt( position );     if (c > maxDelimCodePoint || !isDelimiter( c )) {         break;     }     position += Character.charCount( c ); }  =>  
+SDL_40:104:int_skipDelimiters(int): while (!retDelims && position < maxPosition) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c > maxDelimCodePoint || delimiters.indexOf( c ) < 0) {             break;         }         position++;     } else {         int c = str.codePointAt( position );         if (c > maxDelimCodePoint || !isDelimiter( c )) {             break;         }         position += Character.charCount( c );     } }  =>   while (true) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c > maxDelimCodePoint || delimiters.indexOf( c ) < 0) {             break;         }         position++;     } else {         int c = str.codePointAt( position );         if (c > maxDelimCodePoint || !isDelimiter( c )) {             break;         }         position += Character.charCount( c );     } }
+SDL_41:93:int_skipDelimiters(int): char c = str.charAt( position ); if (c > maxDelimCodePoint || delimiters.indexOf( c ) < 0) {     break; } position++;  =>   char c = str.charAt( position ); position++;
+SDL_42:95:int_skipDelimiters(int): char c = str.charAt( position ); if (c > maxDelimCodePoint || delimiters.indexOf( c ) < 0) {     break; } position++;  =>   char c = str.charAt( position ); if (c > maxDelimCodePoint || delimiters.indexOf( c ) < 0) {     break; }
+SDL_43:103:int_skipDelimiters(int): if (!hasSurrogates) {     char c = str.charAt( position );     if (c > maxDelimCodePoint || delimiters.indexOf( c ) < 0) {         break;     }     position++; } else {     int c = str.codePointAt( position );     if (c > maxDelimCodePoint || !isDelimiter( c )) {         break;     }     position += Character.charCount( c ); }  =>   if (true) {     char c = str.charAt( position );     if (c > maxDelimCodePoint || delimiters.indexOf( c ) < 0) {         break;     }     position++; } else {     int c = str.codePointAt( position );     if (c > maxDelimCodePoint || !isDelimiter( c )) {         break;     }     position += Character.charCount( c ); }
+SDL_44:99:int_skipDelimiters(int): int c = str.codePointAt( position ); if (c > maxDelimCodePoint || !isDelimiter( c )) {     break; } position += Character.charCount( c );  =>   int c = str.codePointAt( position ); position += Character.charCount( c );
+SDL_45:101:int_skipDelimiters(int): int c = str.codePointAt( position ); if (c > maxDelimCodePoint || !isDelimiter( c )) {     break; } position += Character.charCount( c );  =>   int c = str.codePointAt( position ); if (c > maxDelimCodePoint || !isDelimiter( c )) {     break; }
+SDL_46:93:int_skipDelimiters(int): break;  =>  
+SDL_47:95:int_skipDelimiters(int): if (c > maxDelimCodePoint || delimiters.indexOf( c ) < 0) {     break; }  =>   if (true) {     break; }
+SDL_48:99:int_skipDelimiters(int): break;  =>  
+SDL_49:101:int_skipDelimiters(int): if (c > maxDelimCodePoint || !isDelimiter( c )) {     break; }  =>   if (true) {     break; }
+SDL_50:105:int_skipDelimiters(int): return position;  =>   return 0;
+SDL_51:124:int_scanToken(int): int position = startPos; while (position < maxPosition) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {             break;         }         position++;     } else {         int c = str.codePointAt( position );         if (c <= maxDelimCodePoint && isDelimiter( c )) {             break;         }         position += Character.charCount( c );     } } if (retDelims && startPos == position) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {             position++;         }     } else {         int c = str.codePointAt( position );         if (c <= maxDelimCodePoint && isDelimiter( c )) {             position += Character.charCount( c );         }     } } return position;  =>   int position = startPos; if (retDelims && startPos == position) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {             position++;         }     } else {         int c = str.codePointAt( position );         if (c <= maxDelimCodePoint && isDelimiter( c )) {             position += Character.charCount( c );         }     } } return position;
+SDL_52:126:int_scanToken(int): int position = startPos; while (position < maxPosition) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {             break;         }         position++;     } else {         int c = str.codePointAt( position );         if (c <= maxDelimCodePoint && isDelimiter( c )) {             break;         }         position += Character.charCount( c );     } } if (retDelims && startPos == position) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {             position++;         }     } else {         int c = str.codePointAt( position );         if (c <= maxDelimCodePoint && isDelimiter( c )) {             position += Character.charCount( c );         }     } } return position;  =>   int position = startPos; while (position < maxPosition) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {             break;         }         position++;     } else {         int c = str.codePointAt( position );         if (c <= maxDelimCodePoint && isDelimiter( c )) {             break;         }         position += Character.charCount( c );     } } return position;
+SDL_53:111:int_scanToken(int): if (!hasSurrogates) {     char c = str.charAt( position );     if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {         break;     }     position++; } else {     int c = str.codePointAt( position );     if (c <= maxDelimCodePoint && isDelimiter( c )) {         break;     }     position += Character.charCount( c ); }  =>  
+SDL_54:125:int_scanToken(int): while (position < maxPosition) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {             break;         }         position++;     } else {         int c = str.codePointAt( position );         if (c <= maxDelimCodePoint && isDelimiter( c )) {             break;         }         position += Character.charCount( c );     } }  =>   while (true) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {             break;         }         position++;     } else {         int c = str.codePointAt( position );         if (c <= maxDelimCodePoint && isDelimiter( c )) {             break;         }         position += Character.charCount( c );     } }
+SDL_55:114:int_scanToken(int): char c = str.charAt( position ); if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {     break; } position++;  =>   char c = str.charAt( position ); position++;
+SDL_56:116:int_scanToken(int): char c = str.charAt( position ); if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {     break; } position++;  =>   char c = str.charAt( position ); if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {     break; }
+SDL_57:124:int_scanToken(int): if (!hasSurrogates) {     char c = str.charAt( position );     if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {         break;     }     position++; } else {     int c = str.codePointAt( position );     if (c <= maxDelimCodePoint && isDelimiter( c )) {         break;     }     position += Character.charCount( c ); }  =>   if (true) {     char c = str.charAt( position );     if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {         break;     }     position++; } else {     int c = str.codePointAt( position );     if (c <= maxDelimCodePoint && isDelimiter( c )) {         break;     }     position += Character.charCount( c ); }
+SDL_58:120:int_scanToken(int): int c = str.codePointAt( position ); if (c <= maxDelimCodePoint && isDelimiter( c )) {     break; } position += Character.charCount( c );  =>   int c = str.codePointAt( position ); position += Character.charCount( c );
+SDL_59:122:int_scanToken(int): int c = str.codePointAt( position ); if (c <= maxDelimCodePoint && isDelimiter( c )) {     break; } position += Character.charCount( c );  =>   int c = str.codePointAt( position ); if (c <= maxDelimCodePoint && isDelimiter( c )) {     break; }
+SDL_60:114:int_scanToken(int): break;  =>  
+SDL_61:116:int_scanToken(int): if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {     break; }  =>   if (true) {     break; }
+SDL_62:120:int_scanToken(int): break;  =>  
+SDL_63:122:int_scanToken(int): if (c <= maxDelimCodePoint && isDelimiter( c )) {     break; }  =>   if (true) {     break; }
+SDL_64:126:int_scanToken(int): if (!hasSurrogates) {     char c = str.charAt( position );     if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {         position++;     } } else {     int c = str.codePointAt( position );     if (c <= maxDelimCodePoint && isDelimiter( c )) {         position += Character.charCount( c );     } }  =>  
+SDL_65:138:int_scanToken(int): if (retDelims && startPos == position) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {             position++;         }     } else {         int c = str.codePointAt( position );         if (c <= maxDelimCodePoint && isDelimiter( c )) {             position += Character.charCount( c );         }     } }  =>   if (true) {     if (!hasSurrogates) {         char c = str.charAt( position );         if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {             position++;         }     } else {         int c = str.codePointAt( position );         if (c <= maxDelimCodePoint && isDelimiter( c )) {             position += Character.charCount( c );         }     } }
+SDL_66:128:int_scanToken(int): char c = str.charAt( position ); if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {     position++; }  =>   char c = str.charAt( position );
+SDL_67:137:int_scanToken(int): if (!hasSurrogates) {     char c = str.charAt( position );     if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {         position++;     } } else {     int c = str.codePointAt( position );     if (c <= maxDelimCodePoint && isDelimiter( c )) {         position += Character.charCount( c );     } }  =>   if (true) {     char c = str.charAt( position );     if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {         position++;     } } else {     int c = str.codePointAt( position );     if (c <= maxDelimCodePoint && isDelimiter( c )) {         position += Character.charCount( c );     } }
+SDL_68:133:int_scanToken(int): int c = str.codePointAt( position ); if (c <= maxDelimCodePoint && isDelimiter( c )) {     position += Character.charCount( c ); }  =>   int c = str.codePointAt( position );
+SDL_69:129:int_scanToken(int): position++;  =>  
+SDL_70:131:int_scanToken(int): if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {     position++; }  =>   if (true) {     position++; }
+SDL_71:134:int_scanToken(int): position += Character.charCount( c );  =>  
+SDL_72:136:int_scanToken(int): if (c <= maxDelimCodePoint && isDelimiter( c )) {     position += Character.charCount( c ); }  =>   if (true) {     position += Character.charCount( c ); }
+SDL_73:139:int_scanToken(int): return position;  =>   return 0;
+SDL_74:144:boolean_isDelimiter(int): for (int i = 0; i < delimiterCodePoints.length; i++) {     if (delimiterCodePoints[i] == codePoint) {         return true;     } } return false;  =>   return false;
+SDL_75:144:boolean_isDelimiter(int): if (delimiterCodePoints[i] == codePoint) {     return true; }  =>  
+SDL_76:148:boolean_isDelimiter(int): for (int i = 0; i < delimiterCodePoints.length; i++) {     if (delimiterCodePoints[i] == codePoint) {         return true;     } }  =>   for (int i = 0;; i++) {     if (delimiterCodePoints[i] == codePoint) {         return true;     } }
+SDL_77:148:boolean_isDelimiter(int): for (int i = 0; i < delimiterCodePoints.length; i++) {     if (delimiterCodePoints[i] == codePoint) {         return true;     } }  =>   for (int i = 0; i < delimiterCodePoints.length;) {     if (delimiterCodePoints[i] == codePoint) {         return true;     } }
+SDL_78:147:boolean_isDelimiter(int): if (delimiterCodePoints[i] == codePoint) {     return true; }  =>   if (true) {     return true; }
+SDL_79:146:boolean_isDelimiter(int): return true;  =>   return false;
+SDL_80:149:boolean_isDelimiter(int): return false;  =>   return true;
+SDL_81:154:boolean_hasMoreTokens(): newPosition = skipDelimiters( currentPosition ); return newPosition < maxPosition;  =>   return newPosition < maxPosition;
+SDL_82:155:boolean_hasMoreTokens(): return newPosition < maxPosition;  =>   return true;
+SDL_83:155:boolean_hasMoreTokens(): return newPosition < maxPosition;  =>   return false;
+SDL_84:167:java.lang.String_nextToken(): currentPosition = newPosition >= 0 && !delimsChanged ? newPosition : skipDelimiters( currentPosition ); delimsChanged = false; newPosition = -1; if (currentPosition >= maxPosition) {     throw new java.util.NoSuchElementException(); } int start = currentPosition; currentPosition = scanToken( currentPosition ); return str.substring( start, currentPosition );  =>   delimsChanged = false; newPosition = -1; if (currentPosition >= maxPosition) {     throw new java.util.NoSuchElementException(); } int start = currentPosition; currentPosition = scanToken( currentPosition ); return str.substring( start, currentPosition );
+SDL_85:167:java.lang.String_nextToken(): currentPosition = newPosition >= 0 && !delimsChanged ? newPosition : skipDelimiters( currentPosition ); delimsChanged = false; newPosition = -1; if (currentPosition >= maxPosition) {     throw new java.util.NoSuchElementException(); } int start = currentPosition; currentPosition = scanToken( currentPosition ); return str.substring( start, currentPosition );  =>   currentPosition = newPosition >= 0 && !delimsChanged ? newPosition : skipDelimiters( currentPosition ); newPosition = -1; if (currentPosition >= maxPosition) {     throw new java.util.NoSuchElementException(); } int start = currentPosition; currentPosition = scanToken( currentPosition ); return str.substring( start, currentPosition );
+SDL_86:167:java.lang.String_nextToken(): currentPosition = newPosition >= 0 && !delimsChanged ? newPosition : skipDelimiters( currentPosition ); delimsChanged = false; newPosition = -1; if (currentPosition >= maxPosition) {     throw new java.util.NoSuchElementException(); } int start = currentPosition; currentPosition = scanToken( currentPosition ); return str.substring( start, currentPosition );  =>   currentPosition = newPosition >= 0 && !delimsChanged ? newPosition : skipDelimiters( currentPosition ); delimsChanged = false; if (currentPosition >= maxPosition) {     throw new java.util.NoSuchElementException(); } int start = currentPosition; currentPosition = scanToken( currentPosition ); return str.substring( start, currentPosition );
+SDL_87:165:java.lang.String_nextToken(): currentPosition = newPosition >= 0 && !delimsChanged ? newPosition : skipDelimiters( currentPosition ); delimsChanged = false; newPosition = -1; if (currentPosition >= maxPosition) {     throw new java.util.NoSuchElementException(); } int start = currentPosition; currentPosition = scanToken( currentPosition ); return str.substring( start, currentPosition );  =>   currentPosition = newPosition >= 0 && !delimsChanged ? newPosition : skipDelimiters( currentPosition ); delimsChanged = false; newPosition = -1; int start = currentPosition; currentPosition = scanToken( currentPosition ); return str.substring( start, currentPosition );
+SDL_88:167:java.lang.String_nextToken(): currentPosition = newPosition >= 0 && !delimsChanged ? newPosition : skipDelimiters( currentPosition ); delimsChanged = false; newPosition = -1; if (currentPosition >= maxPosition) {     throw new java.util.NoSuchElementException(); } int start = currentPosition; currentPosition = scanToken( currentPosition ); return str.substring( start, currentPosition );  =>   currentPosition = newPosition >= 0 && !delimsChanged ? newPosition : skipDelimiters( currentPosition ); delimsChanged = false; newPosition = -1; if (currentPosition >= maxPosition) {     throw new java.util.NoSuchElementException(); } int start = currentPosition; return str.substring( start, currentPosition );
+SDL_89:163:java.lang.String_nextToken(): throw new java.util.NoSuchElementException();  =>  
+SDL_90:165:java.lang.String_nextToken(): if (currentPosition >= maxPosition) {     throw new java.util.NoSuchElementException(); }  =>   if (true) {     throw new java.util.NoSuchElementException(); }
+SDL_91:168:java.lang.String_nextToken(): return str.substring( start, currentPosition );  =>   return \"\";
+SDL_92:175:java.lang.String_nextToken(java.lang.String): delimiters = delim; delimsChanged = true; setMaxDelimCodePoint(); return nextToken();  =>   delimsChanged = true; setMaxDelimCodePoint(); return nextToken();
+SDL_93:175:java.lang.String_nextToken(java.lang.String): delimiters = delim; delimsChanged = true; setMaxDelimCodePoint(); return nextToken();  =>   delimiters = delim; setMaxDelimCodePoint(); return nextToken();
+SDL_94:175:java.lang.String_nextToken(java.lang.String): delimiters = delim; delimsChanged = true; setMaxDelimCodePoint(); return nextToken();  =>   delimiters = delim; delimsChanged = true; return nextToken();
+SDL_95:176:java.lang.String_nextToken(java.lang.String): return nextToken();  =>   return \"\";
+SDL_96:181:boolean_hasMoreElements(): return hasMoreTokens();  =>   return true;
+SDL_97:181:boolean_hasMoreElements(): return hasMoreTokens();  =>   return false;
+SDL_98:193:int_countTokens(): int count = 0; int currpos = currentPosition; while (currpos < maxPosition) {     currpos = skipDelimiters( currpos );     if (currpos >= maxPosition) {         break;     }     currpos = scanToken( currpos );     count++; } return count;  =>   int count = 0; int currpos = currentPosition; return count;
+SDL_99:198:int_countTokens(): currpos = skipDelimiters( currpos ); if (currpos >= maxPosition) {     break; } currpos = scanToken( currpos ); count++;  =>   if (currpos >= maxPosition) {     break; } currpos = scanToken( currpos ); count++;
+SDL_100:196:int_countTokens(): currpos = skipDelimiters( currpos ); if (currpos >= maxPosition) {     break; } currpos = scanToken( currpos ); count++;  =>   currpos = skipDelimiters( currpos ); currpos = scanToken( currpos ); count++;
+SDL_101:198:int_countTokens(): currpos = skipDelimiters( currpos ); if (currpos >= maxPosition) {     break; } currpos = scanToken( currpos ); count++;  =>   currpos = skipDelimiters( currpos ); if (currpos >= maxPosition) {     break; } count++;
+SDL_102:198:int_countTokens(): currpos = skipDelimiters( currpos ); if (currpos >= maxPosition) {     break; } currpos = scanToken( currpos ); count++;  =>   currpos = skipDelimiters( currpos ); if (currpos >= maxPosition) {     break; } currpos = scanToken( currpos );
+SDL_103:200:int_countTokens(): while (currpos < maxPosition) {     currpos = skipDelimiters( currpos );     if (currpos >= maxPosition) {         break;     }     currpos = scanToken( currpos );     count++; }  =>   while (true) {     currpos = skipDelimiters( currpos );     if (currpos >= maxPosition) {         break;     }     currpos = scanToken( currpos );     count++; }
+SDL_104:195:int_countTokens(): break;  =>  
+SDL_105:197:int_countTokens(): if (currpos >= maxPosition) {     break; }  =>   if (true) {     break; }
+SDL_106:201:int_countTokens(): return count;  =>   return 0;
+VDL_1:32:int_setMaxDelimCodePoint():delimiters == null => null
+VDL_2:39:int_setMaxDelimCodePoint():i < delimiters.length() => delimiters.length()
+VDL_3:41:int_setMaxDelimCodePoint():c >= Character.MIN_HIGH_SURROGATE => Character.MIN_HIGH_SURROGATE
+VDL_4:41:int_setMaxDelimCodePoint():c <= Character.MAX_LOW_SURROGATE => Character.MAX_LOW_SURROGATE
+VDL_5:45:int_setMaxDelimCodePoint():m < c => c
+VDL_6:45:int_setMaxDelimCodePoint():m < c => m
+VDL_7:48:int_setMaxDelimCodePoint():count++ =>  
+VDL_8:53:int_setMaxDelimCodePoint():i < count => count
+VDL_9:53:int_setMaxDelimCodePoint():i < count => i
+VDL_10:53:int_setMaxDelimCodePoint():i++ =>  
+VDL_11:85:int_skipDelimiters(int):delimiters == null => null
+VDL_12:89:int_skipDelimiters(int):!retDelims =>  
+VDL_13:89:int_skipDelimiters(int):position < maxPosition => maxPosition
+VDL_14:89:int_skipDelimiters(int):position < maxPosition => position
+VDL_15:90:int_skipDelimiters(int):!hasSurrogates =>  
+VDL_16:92:int_skipDelimiters(int):c > maxDelimCodePoint => maxDelimCodePoint
+VDL_17:92:int_skipDelimiters(int):c > maxDelimCodePoint => c
+VDL_18:95:int_skipDelimiters(int):position++ =>  
+VDL_19:98:int_skipDelimiters(int):c > maxDelimCodePoint => maxDelimCodePoint
+VDL_20:98:int_skipDelimiters(int):c > maxDelimCodePoint => c
+VDL_21:110:int_scanToken(int):position < maxPosition => maxPosition
+VDL_22:110:int_scanToken(int):position < maxPosition => position
+VDL_23:111:int_scanToken(int):!hasSurrogates =>  
+VDL_24:113:int_scanToken(int):c <= maxDelimCodePoint => maxDelimCodePoint
+VDL_25:113:int_scanToken(int):c <= maxDelimCodePoint => c
+VDL_26:116:int_scanToken(int):position++ =>  
+VDL_27:119:int_scanToken(int):c <= maxDelimCodePoint => maxDelimCodePoint
+VDL_28:119:int_scanToken(int):c <= maxDelimCodePoint => c
+VDL_29:125:int_scanToken(int):startPos == position => position
+VDL_30:125:int_scanToken(int):startPos == position => startPos
+VDL_31:125:int_scanToken(int):retDelims && startPos == position => startPos == position
+VDL_32:126:int_scanToken(int):!hasSurrogates =>  
+VDL_33:128:int_scanToken(int):c <= maxDelimCodePoint => maxDelimCodePoint
+VDL_34:128:int_scanToken(int):c <= maxDelimCodePoint => c
+VDL_35:129:int_scanToken(int):position++ =>  
+VDL_36:133:int_scanToken(int):c <= maxDelimCodePoint => maxDelimCodePoint
+VDL_37:133:int_scanToken(int):c <= maxDelimCodePoint => c
+VDL_38:143:boolean_isDelimiter(int):i < delimiterCodePoints.length => delimiterCodePoints.length
+VDL_39:143:boolean_isDelimiter(int):i++ =>  
+VDL_40:144:boolean_isDelimiter(int):delimiterCodePoints[i] == codePoint => codePoint
+VDL_41:144:boolean_isDelimiter(int):delimiterCodePoints[i] == codePoint => delimiterCodePoints[i]
+VDL_42:154:boolean_hasMoreTokens():newPosition < maxPosition => maxPosition
+VDL_43:154:boolean_hasMoreTokens():newPosition < maxPosition => newPosition
+VDL_44:159:java.lang.String_nextToken():newPosition >= 0 => 0
+VDL_45:159:java.lang.String_nextToken():!delimsChanged =>  
+VDL_46:162:java.lang.String_nextToken():currentPosition >= maxPosition => maxPosition
+VDL_47:162:java.lang.String_nextToken():currentPosition >= maxPosition => currentPosition
+VDL_48:192:int_countTokens():currpos < maxPosition => maxPosition
+VDL_49:192:int_countTokens():currpos < maxPosition => currpos
+VDL_50:194:int_countTokens():currpos >= maxPosition => maxPosition
+VDL_51:194:int_countTokens():currpos >= maxPosition => currpos
+VDL_52:198:int_countTokens():count++ =>  
+ODL_1:32:int_setMaxDelimCodePoint():delimiters == null => delimiters
+ODL_2:32:int_setMaxDelimCodePoint():delimiters == null => null
+ODL_3:39:int_setMaxDelimCodePoint():i < delimiters.length() => i
+ODL_4:39:int_setMaxDelimCodePoint():i < delimiters.length() => delimiters.length()
+ODL_5:39:int_setMaxDelimCodePoint():i += Character.charCount( c ) => i = Character.charCount( c )
+ODL_6:41:int_setMaxDelimCodePoint():c >= Character.MIN_HIGH_SURROGATE => c
+ODL_7:41:int_setMaxDelimCodePoint():c >= Character.MIN_HIGH_SURROGATE => Character.MIN_HIGH_SURROGATE
+ODL_8:41:int_setMaxDelimCodePoint():c <= Character.MAX_LOW_SURROGATE => c
+ODL_9:41:int_setMaxDelimCodePoint():c <= Character.MAX_LOW_SURROGATE => Character.MAX_LOW_SURROGATE
+ODL_10:41:int_setMaxDelimCodePoint():c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE => c >= Character.MIN_HIGH_SURROGATE
+ODL_11:41:int_setMaxDelimCodePoint():c >= Character.MIN_HIGH_SURROGATE && c <= Character.MAX_LOW_SURROGATE => c <= Character.MAX_LOW_SURROGATE
+ODL_12:45:int_setMaxDelimCodePoint():m < c => m
+ODL_13:45:int_setMaxDelimCodePoint():m < c => c
+ODL_14:48:int_setMaxDelimCodePoint():count++ => count
+ODL_15:53:int_setMaxDelimCodePoint():i < count => i
+ODL_16:53:int_setMaxDelimCodePoint():i < count => count
+ODL_17:53:int_setMaxDelimCodePoint():i++ => i
+ODL_18:53:int_setMaxDelimCodePoint():j += Character.charCount( c ) => j = Character.charCount( c )
+ODL_19:64:StringTokenizer(java.lang.String,java.lang.String,boolean):-1 => 1
+ODL_20:85:int_skipDelimiters(int):delimiters == null => delimiters
+ODL_21:85:int_skipDelimiters(int):delimiters == null => null
+ODL_22:89:int_skipDelimiters(int):!retDelims => retDelims
+ODL_23:89:int_skipDelimiters(int):position < maxPosition => position
+ODL_24:89:int_skipDelimiters(int):position < maxPosition => maxPosition
+ODL_25:89:int_skipDelimiters(int):!retDelims && position < maxPosition => !retDelims
+ODL_26:89:int_skipDelimiters(int):!retDelims && position < maxPosition => position < maxPosition
+ODL_27:90:int_skipDelimiters(int):!hasSurrogates => hasSurrogates
+ODL_28:92:int_skipDelimiters(int):c > maxDelimCodePoint => c
+ODL_29:92:int_skipDelimiters(int):c > maxDelimCodePoint => maxDelimCodePoint
+ODL_30:92:int_skipDelimiters(int):delimiters.indexOf( c ) < 0 => delimiters.indexOf( c )
+ODL_31:92:int_skipDelimiters(int):delimiters.indexOf( c ) < 0 => 0
+ODL_32:92:int_skipDelimiters(int):c > maxDelimCodePoint || delimiters.indexOf( c ) < 0 => c > maxDelimCodePoint
+ODL_33:92:int_skipDelimiters(int):c > maxDelimCodePoint || delimiters.indexOf( c ) < 0 => delimiters.indexOf( c ) < 0
+ODL_34:95:int_skipDelimiters(int):position++ => position
+ODL_35:98:int_skipDelimiters(int):c > maxDelimCodePoint => c
+ODL_36:98:int_skipDelimiters(int):c > maxDelimCodePoint => maxDelimCodePoint
+ODL_37:98:int_skipDelimiters(int):!isDelimiter( c ) => isDelimiter( c )
+ODL_38:98:int_skipDelimiters(int):c > maxDelimCodePoint || !isDelimiter( c ) => c > maxDelimCodePoint
+ODL_39:98:int_skipDelimiters(int):c > maxDelimCodePoint || !isDelimiter( c ) => !isDelimiter( c )
+ODL_40:101:int_skipDelimiters(int):position += Character.charCount( c ) => position = Character.charCount( c )
+ODL_41:110:int_scanToken(int):position < maxPosition => position
+ODL_42:110:int_scanToken(int):position < maxPosition => maxPosition
+ODL_43:111:int_scanToken(int):!hasSurrogates => hasSurrogates
+ODL_44:113:int_scanToken(int):c <= maxDelimCodePoint => c
+ODL_45:113:int_scanToken(int):c <= maxDelimCodePoint => maxDelimCodePoint
+ODL_46:113:int_scanToken(int):delimiters.indexOf( c ) >= 0 => delimiters.indexOf( c )
+ODL_47:113:int_scanToken(int):delimiters.indexOf( c ) >= 0 => 0
+ODL_48:113:int_scanToken(int):c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0 => c <= maxDelimCodePoint
+ODL_49:113:int_scanToken(int):c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0 => delimiters.indexOf( c ) >= 0
+ODL_50:116:int_scanToken(int):position++ => position
+ODL_51:119:int_scanToken(int):c <= maxDelimCodePoint => c
+ODL_52:119:int_scanToken(int):c <= maxDelimCodePoint => maxDelimCodePoint
+ODL_53:119:int_scanToken(int):c <= maxDelimCodePoint && isDelimiter( c ) => c <= maxDelimCodePoint
+ODL_54:119:int_scanToken(int):c <= maxDelimCodePoint && isDelimiter( c ) => isDelimiter( c )
+ODL_55:122:int_scanToken(int):position += Character.charCount( c ) => position = Character.charCount( c )
+ODL_56:125:int_scanToken(int):startPos == position => startPos
+ODL_57:125:int_scanToken(int):startPos == position => position
+ODL_58:125:int_scanToken(int):retDelims && startPos == position => retDelims
+ODL_59:125:int_scanToken(int):retDelims && startPos == position => startPos == position
+ODL_60:126:int_scanToken(int):!hasSurrogates => hasSurrogates
+ODL_61:128:int_scanToken(int):c <= maxDelimCodePoint => c
+ODL_62:128:int_scanToken(int):c <= maxDelimCodePoint => maxDelimCodePoint
+ODL_63:128:int_scanToken(int):delimiters.indexOf( c ) >= 0 => delimiters.indexOf( c )
+ODL_64:128:int_scanToken(int):delimiters.indexOf( c ) >= 0 => 0
+ODL_65:128:int_scanToken(int):c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0 => c <= maxDelimCodePoint
+ODL_66:128:int_scanToken(int):c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0 => delimiters.indexOf( c ) >= 0
+ODL_67:129:int_scanToken(int):position++ => position
+ODL_68:133:int_scanToken(int):c <= maxDelimCodePoint => c
+ODL_69:133:int_scanToken(int):c <= maxDelimCodePoint => maxDelimCodePoint
+ODL_70:133:int_scanToken(int):c <= maxDelimCodePoint && isDelimiter( c ) => c <= maxDelimCodePoint
+ODL_71:133:int_scanToken(int):c <= maxDelimCodePoint && isDelimiter( c ) => isDelimiter( c )
+ODL_72:134:int_scanToken(int):position += Character.charCount( c ) => position = Character.charCount( c )
+ODL_73:143:boolean_isDelimiter(int):i < delimiterCodePoints.length => i
+ODL_74:143:boolean_isDelimiter(int):i < delimiterCodePoints.length => delimiterCodePoints.length
+ODL_75:143:boolean_isDelimiter(int):i++ => i
+ODL_76:144:boolean_isDelimiter(int):delimiterCodePoints[i] == codePoint => delimiterCodePoints[i]
+ODL_77:144:boolean_isDelimiter(int):delimiterCodePoints[i] == codePoint => codePoint
+ODL_78:154:boolean_hasMoreTokens():newPosition < maxPosition => newPosition
+ODL_79:154:boolean_hasMoreTokens():newPosition < maxPosition => maxPosition
+ODL_80:159:java.lang.String_nextToken():newPosition >= 0 => newPosition
+ODL_81:159:java.lang.String_nextToken():newPosition >= 0 => 0
+ODL_82:159:java.lang.String_nextToken():!delimsChanged => delimsChanged
+ODL_83:159:java.lang.String_nextToken():newPosition >= 0 && !delimsChanged => newPosition >= 0
+ODL_84:159:java.lang.String_nextToken():newPosition >= 0 && !delimsChanged => !delimsChanged
+ODL_85:161:java.lang.String_nextToken():-1 => 1
+ODL_86:162:java.lang.String_nextToken():currentPosition >= maxPosition => currentPosition
+ODL_87:162:java.lang.String_nextToken():currentPosition >= maxPosition => maxPosition
+ODL_88:192:int_countTokens():currpos < maxPosition => currpos
+ODL_89:192:int_countTokens():currpos < maxPosition => maxPosition
+ODL_90:194:int_countTokens():currpos >= maxPosition => currpos
+ODL_91:194:int_countTokens():currpos >= maxPosition => maxPosition
+ODL_92:198:int_countTokens():count++ => count
+CDL_1:32:int_setMaxDelimCodePoint():delimiters == null => delimiters
+CDL_2:64:StringTokenizer(java.lang.String,java.lang.String,boolean):-1 =>  
+CDL_3:85:int_skipDelimiters(int):delimiters == null => delimiters
+CDL_4:92:int_skipDelimiters(int):delimiters.indexOf( c ) < 0 => delimiters.indexOf( c )
+CDL_5:113:int_scanToken(int):delimiters.indexOf( c ) >= 0 => delimiters.indexOf( c )
+CDL_6:128:int_scanToken(int):delimiters.indexOf( c ) >= 0 => delimiters.indexOf( c )
+CDL_7:159:java.lang.String_nextToken():newPosition >= 0 => newPosition
+CDL_8:161:java.lang.String_nextToken():-1 =>  

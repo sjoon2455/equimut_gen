@@ -1,0 +1,26 @@
+Compiled from "Min.java"
+public class Min {
+  public Min();
+    Code:
+       0: aload_0
+       1: invokespecial #9                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static int min(int, int);
+    Code:
+       0: iload_0
+       1: istore_2
+       2: iload_1
+       3: iconst_1
+       4: iadd
+       5: istore_3
+       6: iload_1
+       7: iload_0
+       8: if_icmpge     15
+      11: iload_3
+      12: iconst_m1
+      13: iadd
+      14: istore_2
+      15: iload_2
+      16: ireturn
+}

@@ -1,0 +1,108 @@
+AORB_1:41:int_padBits(int,int):16 + psdu => 16 * psdu
+AORB_2:41:int_padBits(int,int):16 + psdu => 16 / psdu
+AORB_3:41:int_padBits(int,int):16 + psdu => 16 % psdu
+AORB_4:41:int_padBits(int,int):16 + psdu => 16 - psdu
+AORB_5:41:int_padBits(int,int):16 + psdu + 6 => (16 + psdu) * 6
+AORB_6:41:int_padBits(int,int):16 + psdu + 6 => (16 + psdu) / 6
+AORB_7:41:int_padBits(int,int):16 + psdu + 6 => (16 + psdu) % 6
+AORB_8:41:int_padBits(int,int):16 + psdu + 6 => 16 + psdu - 6
+AORB_9:41:int_padBits(int,int):(double) (16 + psdu + 6) / (double) NDBPS => (double) (16 + psdu + 6) * (double) NDBPS
+AORB_10:41:int_padBits(int,int):(double) (16 + psdu + 6) / (double) NDBPS => (double) (16 + psdu + 6) % (double) NDBPS
+AORB_11:41:int_padBits(int,int):(double) (16 + psdu + 6) / (double) NDBPS => (double) (16 + psdu + 6) + (double) NDBPS
+AORB_12:41:int_padBits(int,int):(double) (16 + psdu + 6) / (double) NDBPS => (double) (16 + psdu + 6) - (double) NDBPS
+AORB_13:42:int_padBits(int,int):NSYM * NDBPS => NSYM / NDBPS
+AORB_14:42:int_padBits(int,int):NSYM * NDBPS => NSYM % NDBPS
+AORB_15:42:int_padBits(int,int):NSYM * NDBPS => NSYM + NDBPS
+AORB_16:42:int_padBits(int,int):NSYM * NDBPS => NSYM - NDBPS
+AORB_17:43:int_padBits(int,int):16 + psdu => 16 * psdu
+AORB_18:43:int_padBits(int,int):16 + psdu => 16 / psdu
+AORB_19:43:int_padBits(int,int):16 + psdu => 16 % psdu
+AORB_20:43:int_padBits(int,int):16 + psdu => 16 - psdu
+AORB_21:43:int_padBits(int,int):16 + psdu + 6 => (16 + psdu) * 6
+AORB_22:43:int_padBits(int,int):16 + psdu + 6 => (16 + psdu) / 6
+AORB_23:43:int_padBits(int,int):16 + psdu + 6 => (16 + psdu) % 6
+AORB_24:43:int_padBits(int,int):16 + psdu + 6 => 16 + psdu - 6
+AORB_25:43:int_padBits(int,int):NDATA - (16 + psdu + 6) => NDATA * (16 + psdu + 6)
+AORB_26:43:int_padBits(int,int):NDATA - (16 + psdu + 6) => NDATA / (16 + psdu + 6)
+AORB_27:43:int_padBits(int,int):NDATA - (16 + psdu + 6) => NDATA % (16 + psdu + 6)
+AORB_28:43:int_padBits(int,int):NDATA - (16 + psdu + 6) => NDATA + (16 + psdu + 6)
+AOIU_1:12:int_padBits(int,int):rate => -rate
+AOIU_2:41:int_padBits(int,int):NDBPS => -NDBPS
+AOIU_3:42:int_padBits(int,int):NSYM => -NSYM
+AOIU_4:43:int_padBits(int,int):NDATA => -NDATA
+AOIS_1:12:int_padBits(int,int):rate => rate++
+AOIS_2:12:int_padBits(int,int):rate => rate--
+AOIS_3:41:int_padBits(int,int):psdu => ++psdu
+AOIS_4:41:int_padBits(int,int):psdu => --psdu
+AOIS_5:41:int_padBits(int,int):psdu => psdu++
+AOIS_6:41:int_padBits(int,int):psdu => psdu--
+AOIS_7:41:int_padBits(int,int):NDBPS => NDBPS++
+AOIS_8:41:int_padBits(int,int):NDBPS => NDBPS--
+AOIS_9:42:int_padBits(int,int):NSYM => ++NSYM
+AOIS_10:42:int_padBits(int,int):NSYM => --NSYM
+AOIS_11:42:int_padBits(int,int):NSYM => NSYM++
+AOIS_12:42:int_padBits(int,int):NSYM => NSYM--
+AOIS_13:42:int_padBits(int,int):NDBPS => ++NDBPS
+AOIS_14:42:int_padBits(int,int):NDBPS => --NDBPS
+AOIS_15:42:int_padBits(int,int):NDBPS => NDBPS++
+AOIS_16:42:int_padBits(int,int):NDBPS => NDBPS--
+AOIS_17:43:int_padBits(int,int):NDATA => ++NDATA
+AOIS_18:43:int_padBits(int,int):NDATA => --NDATA
+AOIS_19:43:int_padBits(int,int):NDATA => NDATA++
+AOIS_20:43:int_padBits(int,int):NDATA => NDATA--
+AOIS_21:43:int_padBits(int,int):psdu => ++psdu
+AOIS_22:43:int_padBits(int,int):psdu => --psdu
+AOIS_23:43:int_padBits(int,int):psdu => psdu++
+AOIS_24:43:int_padBits(int,int):psdu => psdu--
+LOI_1:12:int_padBits(int,int):rate => ~rate
+LOI_2:41:int_padBits(int,int):psdu => ~psdu
+LOI_3:41:int_padBits(int,int):NDBPS => ~NDBPS
+LOI_4:42:int_padBits(int,int):NSYM => ~NSYM
+LOI_5:42:int_padBits(int,int):NDBPS => ~NDBPS
+LOI_6:43:int_padBits(int,int):NDATA => ~NDATA
+LOI_7:43:int_padBits(int,int):psdu => ~psdu
+SDL_1:15:int_padBits(int,int): int NDBPS = 0; int NSYM = 0; int NDATA = 0; switch (rate) { case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1; } NSYM = (int) Math.ceil( (double) (16 + psdu + 6) / (double) NDBPS ); NDATA = NSYM * NDBPS; return NDATA - (16 + psdu + 6);  =>   int NDBPS = 0; int NSYM = 0; int NDATA = 0; NSYM = (int) Math.ceil( (double) (16 + psdu + 6) / (double) NDBPS ); NDATA = NSYM * NDBPS; return NDATA - (16 + psdu + 6);
+SDL_2:43:int_padBits(int,int): int NDBPS = 0; int NSYM = 0; int NDATA = 0; switch (rate) { case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1; } NSYM = (int) Math.ceil( (double) (16 + psdu + 6) / (double) NDBPS ); NDATA = NSYM * NDBPS; return NDATA - (16 + psdu + 6);  =>   int NDBPS = 0; int NSYM = 0; int NDATA = 0; switch (rate) { case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1; } NDATA = NSYM * NDBPS; return NDATA - (16 + psdu + 6);
+SDL_3:43:int_padBits(int,int): int NDBPS = 0; int NSYM = 0; int NDATA = 0; switch (rate) { case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1; } NSYM = (int) Math.ceil( (double) (16 + psdu + 6) / (double) NDBPS ); NDATA = NSYM * NDBPS; return NDATA - (16 + psdu + 6);  =>   int NDBPS = 0; int NSYM = 0; int NDATA = 0; switch (rate) { case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1; } NSYM = (int) Math.ceil( (double) (16 + psdu + 6) / (double) NDBPS ); return NDATA - (16 + psdu + 6);
+SDL_4:14:int_padBits(int,int): NDBPS = 24;  =>  
+SDL_5:17:int_padBits(int,int): NDBPS = 36;  =>  
+SDL_6:20:int_padBits(int,int): NDBPS = 48;  =>  
+SDL_7:23:int_padBits(int,int): NDBPS = 72;  =>  
+SDL_8:26:int_padBits(int,int): NDBPS = 96;  =>  
+SDL_9:29:int_padBits(int,int): NDBPS = 144;  =>  
+SDL_10:32:int_padBits(int,int): NDBPS = 192;  =>  
+SDL_11:35:int_padBits(int,int): NDBPS = 216;  =>  
+SDL_12:38:int_padBits(int,int): NDBPS = 1;  =>  
+SDL_13:37:int_padBits(int,int): case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;  =>   case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;
+SDL_14:37:int_padBits(int,int): case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;  =>   case 6000000 :     NDBPS = 24; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;
+SDL_15:37:int_padBits(int,int): case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;  =>   case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;
+SDL_16:37:int_padBits(int,int): case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;  =>   case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;
+SDL_17:37:int_padBits(int,int): case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;  =>   case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;
+SDL_18:37:int_padBits(int,int): case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;  =>   case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;
+SDL_19:37:int_padBits(int,int): case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;  =>   case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;
+SDL_20:37:int_padBits(int,int): case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;  =>   case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; default  :     NDBPS = 1;
+SDL_21:37:int_padBits(int,int): case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216; default  :     NDBPS = 1;  =>   case 6000000 :     NDBPS = 24; case 9000000 :     NDBPS = 36; case 12000000 :     NDBPS = 48; case 18000000 :     NDBPS = 72; case 24000000 :     NDBPS = 96; case 36000000 :     NDBPS = 144; case 48000000 :     NDBPS = 192; case 54000000 :     NDBPS = 216;
+SDL_22:44:int_padBits(int,int): return NDATA - (16 + psdu + 6);  =>   return 0;
+VDL_1:41:int_padBits(int,int):16 + psdu => 16
+VDL_2:42:int_padBits(int,int):NSYM * NDBPS => NDBPS
+VDL_3:42:int_padBits(int,int):NSYM * NDBPS => NSYM
+VDL_4:43:int_padBits(int,int):16 + psdu => 16
+VDL_5:43:int_padBits(int,int):NDATA - (16 + psdu + 6) => 16 + psdu + 6
+ODL_1:41:int_padBits(int,int):16 + psdu => 16
+ODL_2:41:int_padBits(int,int):16 + psdu => psdu
+ODL_3:41:int_padBits(int,int):16 + psdu + 6 => 16 + psdu
+ODL_4:41:int_padBits(int,int):16 + psdu + 6 => 6
+ODL_5:41:int_padBits(int,int):(double) (16 + psdu + 6) / (double) NDBPS => (double) (16 + psdu + 6)
+ODL_6:41:int_padBits(int,int):(double) (16 + psdu + 6) / (double) NDBPS => (double) NDBPS
+ODL_7:42:int_padBits(int,int):NSYM * NDBPS => NSYM
+ODL_8:42:int_padBits(int,int):NSYM * NDBPS => NDBPS
+ODL_9:43:int_padBits(int,int):16 + psdu => 16
+ODL_10:43:int_padBits(int,int):16 + psdu => psdu
+ODL_11:43:int_padBits(int,int):16 + psdu + 6 => 16 + psdu
+ODL_12:43:int_padBits(int,int):16 + psdu + 6 => 6
+ODL_13:43:int_padBits(int,int):NDATA - (16 + psdu + 6) => NDATA
+ODL_14:43:int_padBits(int,int):NDATA - (16 + psdu + 6) => 16 + psdu + 6
+CDL_1:41:int_padBits(int,int):16 + psdu => psdu
+CDL_2:41:int_padBits(int,int):16 + psdu + 6 => 16 + psdu
+CDL_3:43:int_padBits(int,int):16 + psdu => psdu
+CDL_4:43:int_padBits(int,int):16 + psdu + 6 => 16 + psdu

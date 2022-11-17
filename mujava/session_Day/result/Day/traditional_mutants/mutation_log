@@ -1,0 +1,201 @@
+AORB_1:64:int_day(int,int,int):sum + day => sum * day
+AORB_2:64:int_day(int,int,int):sum + day => sum / day
+AORB_3:64:int_day(int,int,int):sum + day => sum % day
+AORB_4:64:int_day(int,int,int):sum + day => sum - day
+AORB_5:65:int_day(int,int,int):year % 400 => year * 400
+AORB_6:65:int_day(int,int,int):year % 400 => year / 400
+AORB_7:65:int_day(int,int,int):year % 400 => year + 400
+AORB_8:65:int_day(int,int,int):year % 400 => year - 400
+AORB_9:65:int_day(int,int,int):year % 4 => year * 4
+AORB_10:65:int_day(int,int,int):year % 4 => year / 4
+AORB_11:65:int_day(int,int,int):year % 4 => year + 4
+AORB_12:65:int_day(int,int,int):year % 4 => year - 4
+AORB_13:65:int_day(int,int,int):year % 100 => year * 100
+AORB_14:65:int_day(int,int,int):year % 100 => year / 100
+AORB_15:65:int_day(int,int,int):year % 100 => year + 100
+AORB_16:65:int_day(int,int,int):year % 100 => year - 100
+AORS_1:71:int_day(int,int,int):sum++ => sum--
+AODS_1:71:int_day(int,int,int):sum++ => sum
+AOIU_1:11:int_day(int,int,int):month => -month
+AOIU_2:64:int_day(int,int,int):sum => -sum
+AOIU_3:73:int_day(int,int,int):sum => -sum
+AOIS_1:11:int_day(int,int,int):month => month++
+AOIS_2:11:int_day(int,int,int):month => month--
+AOIS_3:64:int_day(int,int,int):sum => ++sum
+AOIS_4:64:int_day(int,int,int):sum => --sum
+AOIS_5:64:int_day(int,int,int):sum => sum++
+AOIS_6:64:int_day(int,int,int):sum => sum--
+AOIS_7:64:int_day(int,int,int):day => ++day
+AOIS_8:64:int_day(int,int,int):day => --day
+AOIS_9:64:int_day(int,int,int):day => day++
+AOIS_10:64:int_day(int,int,int):day => day--
+AOIS_11:65:int_day(int,int,int):year => ++year
+AOIS_12:65:int_day(int,int,int):year => --year
+AOIS_13:65:int_day(int,int,int):year => year++
+AOIS_14:65:int_day(int,int,int):year => year--
+AOIS_15:65:int_day(int,int,int):year => ++year
+AOIS_16:65:int_day(int,int,int):year => --year
+AOIS_17:65:int_day(int,int,int):year => year++
+AOIS_18:65:int_day(int,int,int):year => year--
+AOIS_19:65:int_day(int,int,int):year => ++year
+AOIS_20:65:int_day(int,int,int):year => --year
+AOIS_21:65:int_day(int,int,int):year => year++
+AOIS_22:65:int_day(int,int,int):year => year--
+AOIS_23:70:int_day(int,int,int):leap => ++leap
+AOIS_24:70:int_day(int,int,int):leap => --leap
+AOIS_25:70:int_day(int,int,int):leap => leap++
+AOIS_26:70:int_day(int,int,int):leap => leap--
+AOIS_27:70:int_day(int,int,int):month => ++month
+AOIS_28:70:int_day(int,int,int):month => --month
+AOIS_29:70:int_day(int,int,int):month => month++
+AOIS_30:70:int_day(int,int,int):month => month--
+AOIS_31:73:int_day(int,int,int):sum => sum++
+AOIS_32:73:int_day(int,int,int):sum => sum--
+ROR_1:65:int_day(int,int,int): year % 400 == 0  =>   year % 400 > 0
+ROR_2:65:int_day(int,int,int): year % 400 == 0  =>   year % 400 >= 0
+ROR_3:65:int_day(int,int,int): year % 400 == 0  =>   year % 400 < 0
+ROR_4:65:int_day(int,int,int): year % 400 == 0  =>   year % 400 <= 0
+ROR_5:65:int_day(int,int,int): year % 400 == 0  =>   year % 400 != 0
+ROR_6:65:int_day(int,int,int): year % 400 == 0  =>   true
+ROR_7:65:int_day(int,int,int): year % 400 == 0  =>   false
+ROR_8:65:int_day(int,int,int): year % 4 == 0  =>   year % 4 > 0
+ROR_9:65:int_day(int,int,int): year % 4 == 0  =>   year % 4 >= 0
+ROR_10:65:int_day(int,int,int): year % 4 == 0  =>   year % 4 < 0
+ROR_11:65:int_day(int,int,int): year % 4 == 0  =>   year % 4 <= 0
+ROR_12:65:int_day(int,int,int): year % 4 == 0  =>   year % 4 != 0
+ROR_13:65:int_day(int,int,int): year % 4 == 0  =>   true
+ROR_14:65:int_day(int,int,int): year % 4 == 0  =>   false
+ROR_15:65:int_day(int,int,int): year % 100 != 0  =>   year % 100 > 0
+ROR_16:65:int_day(int,int,int): year % 100 != 0  =>   year % 100 >= 0
+ROR_17:65:int_day(int,int,int): year % 100 != 0  =>   year % 100 < 0
+ROR_18:65:int_day(int,int,int): year % 100 != 0  =>   year % 100 <= 0
+ROR_19:65:int_day(int,int,int): year % 100 != 0  =>   year % 100 == 0
+ROR_20:65:int_day(int,int,int): year % 100 != 0  =>   true
+ROR_21:65:int_day(int,int,int): year % 100 != 0  =>   false
+ROR_22:70:int_day(int,int,int): leap == 1  =>   leap > 1
+ROR_23:70:int_day(int,int,int): leap == 1  =>   leap >= 1
+ROR_24:70:int_day(int,int,int): leap == 1  =>   leap < 1
+ROR_25:70:int_day(int,int,int): leap == 1  =>   leap <= 1
+ROR_26:70:int_day(int,int,int): leap == 1  =>   leap != 1
+ROR_27:70:int_day(int,int,int): leap == 1  =>   true
+ROR_28:70:int_day(int,int,int): leap == 1  =>   false
+ROR_29:70:int_day(int,int,int): month > 2  =>   month >= 2
+ROR_30:70:int_day(int,int,int): month > 2  =>   month < 2
+ROR_31:70:int_day(int,int,int): month > 2  =>   month <= 2
+ROR_32:70:int_day(int,int,int): month > 2  =>   month == 2
+ROR_33:70:int_day(int,int,int): month > 2  =>   month != 2
+ROR_34:70:int_day(int,int,int): month > 2  =>   true
+ROR_35:70:int_day(int,int,int): month > 2  =>   false
+COR_1:65:int_day(int,int,int): year % 4 == 0 && year % 100 != 0  =>   year % 4 == 0 || year % 100 != 0
+COR_2:65:int_day(int,int,int): year % 4 == 0 && year % 100 != 0  =>   year % 4 == 0 ^ year % 100 != 0
+COR_3:65:int_day(int,int,int): year % 400 == 0 || year % 4 == 0 && year % 100 != 0  =>   year % 400 == 0 && (year % 4 == 0 && year % 100 != 0)
+COR_4:65:int_day(int,int,int): year % 400 == 0 || year % 4 == 0 && year % 100 != 0  =>   year % 400 == 0 ^ (year % 4 == 0 && year % 100 != 0)
+COR_5:70:int_day(int,int,int): leap == 1 && month > 2  =>   leap == 1 || month > 2
+COR_6:70:int_day(int,int,int): leap == 1 && month > 2  =>   leap == 1 ^ month > 2
+COI_1:65:int_day(int,int,int): year % 400 == 0  =>  !(year % 400 == 0)
+COI_2:65:int_day(int,int,int): year % 4 == 0  =>  !(year % 4 == 0)
+COI_3:65:int_day(int,int,int): year % 100 != 0  =>  !(year % 100 != 0)
+COI_4:65:int_day(int,int,int): year % 4 == 0 && year % 100 != 0  =>  !(year % 4 == 0 && year % 100 != 0)
+COI_5:65:int_day(int,int,int): year % 400 == 0 || year % 4 == 0 && year % 100 != 0  =>  !(year % 400 == 0 || year % 4 == 0 && year % 100 != 0)
+COI_6:70:int_day(int,int,int): leap == 1  =>  !(leap == 1)
+COI_7:70:int_day(int,int,int): month > 2  =>  !(month > 2)
+COI_8:70:int_day(int,int,int): leap == 1 && month > 2  =>  !(leap == 1 && month > 2)
+LOI_1:11:int_day(int,int,int):month => ~month
+LOI_2:64:int_day(int,int,int):sum => ~sum
+LOI_3:64:int_day(int,int,int):day => ~day
+LOI_4:65:int_day(int,int,int):year => ~year
+LOI_5:65:int_day(int,int,int):year => ~year
+LOI_6:65:int_day(int,int,int):year => ~year
+LOI_7:70:int_day(int,int,int):leap => ~leap
+LOI_8:70:int_day(int,int,int):month => ~month
+LOI_9:71:int_day(int,int,int):sum => ~sum
+LOI_10:73:int_day(int,int,int):sum => ~sum
+SDL_1:21:int_day(int,int,int): int sum = 0; int leap; switch (month) { case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break; } sum = sum + day; if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {     leap = 1; } else {     leap = 0; } if (leap == 1 && month > 2) {     sum++; } return sum;  =>   int sum = 0; int leap; sum = sum + day; if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {     leap = 1; } else {     leap = 0; } if (leap == 1 && month > 2) {     sum++; } return sum;
+SDL_2:73:int_day(int,int,int): int sum = 0; int leap; switch (month) { case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break; } sum = sum + day; if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {     leap = 1; } else {     leap = 0; } if (leap == 1 && month > 2) {     sum++; } return sum;  =>   int sum = 0; int leap; switch (month) { case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break; } if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {     leap = 1; } else {     leap = 0; } if (leap == 1 && month > 2) {     sum++; } return sum;
+SDL_3:69:int_day(int,int,int): int sum = 0; int leap; switch (month) { case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break; } sum = sum + day; if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {     leap = 1; } else {     leap = 0; } if (leap == 1 && month > 2) {     sum++; } return sum;  =>   int sum = 0; int leap; switch (month) { case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break; } sum = sum + day; if (leap == 1 && month > 2) {     sum++; } return sum;
+SDL_4:71:int_day(int,int,int): int sum = 0; int leap; switch (month) { case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break; } sum = sum + day; if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {     leap = 1; } else {     leap = 0; } if (leap == 1 && month > 2) {     sum++; } return sum;  =>   int sum = 0; int leap; switch (month) { case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break; } sum = sum + day; if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {     leap = 1; } else {     leap = 0; } return sum;
+SDL_5:14:int_day(int,int,int): sum = 0; break;  =>   break;
+SDL_6:14:int_day(int,int,int): sum = 0; break;  =>   sum = 0;
+SDL_7:18:int_day(int,int,int): sum = 31; break;  =>   break;
+SDL_8:18:int_day(int,int,int): sum = 31; break;  =>   sum = 31;
+SDL_9:22:int_day(int,int,int): sum = 59; break;  =>   break;
+SDL_10:22:int_day(int,int,int): sum = 59; break;  =>   sum = 59;
+SDL_11:26:int_day(int,int,int): sum = 90; break;  =>   break;
+SDL_12:26:int_day(int,int,int): sum = 90; break;  =>   sum = 90;
+SDL_13:30:int_day(int,int,int): sum = 120; break;  =>   break;
+SDL_14:30:int_day(int,int,int): sum = 120; break;  =>   sum = 120;
+SDL_15:34:int_day(int,int,int): sum = 151; break;  =>   break;
+SDL_16:34:int_day(int,int,int): sum = 151; break;  =>   sum = 151;
+SDL_17:38:int_day(int,int,int): sum = 181; break;  =>   break;
+SDL_18:38:int_day(int,int,int): sum = 181; break;  =>   sum = 181;
+SDL_19:42:int_day(int,int,int): sum = 212; break;  =>   break;
+SDL_20:42:int_day(int,int,int): sum = 212; break;  =>   sum = 212;
+SDL_21:46:int_day(int,int,int): sum = 243; break;  =>   break;
+SDL_22:46:int_day(int,int,int): sum = 243; break;  =>   sum = 243;
+SDL_23:50:int_day(int,int,int): sum = 273; break;  =>   break;
+SDL_24:50:int_day(int,int,int): sum = 273; break;  =>   sum = 273;
+SDL_25:54:int_day(int,int,int): sum = 304; break;  =>   break;
+SDL_26:54:int_day(int,int,int): sum = 304; break;  =>   sum = 304;
+SDL_27:58:int_day(int,int,int): sum = 334; break;  =>   break;
+SDL_28:58:int_day(int,int,int): sum = 334; break;  =>   sum = 334;
+SDL_29:61:int_day(int,int,int): break;  =>  
+SDL_30:59:int_day(int,int,int): case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;  =>   case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;
+SDL_31:59:int_day(int,int,int): case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;  =>   case 1 :     sum = 0;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;
+SDL_32:59:int_day(int,int,int): case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;  =>   case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;
+SDL_33:59:int_day(int,int,int): case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;  =>   case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;
+SDL_34:59:int_day(int,int,int): case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;  =>   case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;
+SDL_35:59:int_day(int,int,int): case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;  =>   case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;
+SDL_36:59:int_day(int,int,int): case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;  =>   case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;
+SDL_37:59:int_day(int,int,int): case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;  =>   case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;
+SDL_38:59:int_day(int,int,int): case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;  =>   case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;
+SDL_39:59:int_day(int,int,int): case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;  =>   case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;
+SDL_40:59:int_day(int,int,int): case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;  =>   case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 12 :     sum = 334;     break; default  :     break;
+SDL_41:59:int_day(int,int,int): case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;  =>   case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; default  :     break;
+SDL_42:60:int_day(int,int,int): case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break; default  :     break;  =>   case 1 :     sum = 0;     break; case 2 :     sum = 31;     break; case 3 :     sum = 59;     break; case 4 :     sum = 90;     break; case 5 :     sum = 120;     break; case 6 :     sum = 151;     break; case 7 :     sum = 181;     break; case 8 :     sum = 212;     break; case 9 :     sum = 243;     break; case 10 :     sum = 273;     break; case 11 :     sum = 304;     break; case 12 :     sum = 334;     break;
+SDL_43:66:int_day(int,int,int): leap = 1;  =>  
+SDL_44:70:int_day(int,int,int): if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {     leap = 1; } else {     leap = 0; }  =>   if (true) {     leap = 1; } else {     leap = 0; }
+SDL_45:68:int_day(int,int,int): leap = 0;  =>  
+SDL_46:71:int_day(int,int,int): sum++;  =>  
+SDL_47:73:int_day(int,int,int): if (leap == 1 && month > 2) {     sum++; }  =>   if (true) {     sum++; }
+SDL_48:74:int_day(int,int,int): return sum;  =>   return 0;
+VDL_1:64:int_day(int,int,int):sum + day => day
+VDL_2:64:int_day(int,int,int):sum + day => sum
+VDL_3:65:int_day(int,int,int):year % 400 => 400
+VDL_4:65:int_day(int,int,int):year % 4 => 4
+VDL_5:65:int_day(int,int,int):year % 100 => 100
+VDL_6:70:int_day(int,int,int):leap == 1 => 1
+VDL_7:70:int_day(int,int,int):month > 2 => 2
+VDL_8:71:int_day(int,int,int):sum++ =>  
+ODL_1:64:int_day(int,int,int):sum + day => sum
+ODL_2:64:int_day(int,int,int):sum + day => day
+ODL_3:65:int_day(int,int,int):year % 400 => year
+ODL_4:65:int_day(int,int,int):year % 400 => 400
+ODL_5:65:int_day(int,int,int):year % 400 == 0 => year % 400
+ODL_6:65:int_day(int,int,int):year % 400 == 0 => 0
+ODL_7:65:int_day(int,int,int):year % 4 => year
+ODL_8:65:int_day(int,int,int):year % 4 => 4
+ODL_9:65:int_day(int,int,int):year % 4 == 0 => year % 4
+ODL_10:65:int_day(int,int,int):year % 4 == 0 => 0
+ODL_11:65:int_day(int,int,int):year % 100 => year
+ODL_12:65:int_day(int,int,int):year % 100 => 100
+ODL_13:65:int_day(int,int,int):year % 100 != 0 => year % 100
+ODL_14:65:int_day(int,int,int):year % 100 != 0 => 0
+ODL_15:65:int_day(int,int,int):year % 4 == 0 && year % 100 != 0 => year % 4 == 0
+ODL_16:65:int_day(int,int,int):year % 4 == 0 && year % 100 != 0 => year % 100 != 0
+ODL_17:65:int_day(int,int,int):year % 400 == 0 || year % 4 == 0 && year % 100 != 0 => year % 400 == 0
+ODL_18:65:int_day(int,int,int):year % 400 == 0 || year % 4 == 0 && year % 100 != 0 => year % 4 == 0 && year % 100 != 0
+ODL_19:70:int_day(int,int,int):leap == 1 => leap
+ODL_20:70:int_day(int,int,int):leap == 1 => 1
+ODL_21:70:int_day(int,int,int):month > 2 => month
+ODL_22:70:int_day(int,int,int):month > 2 => 2
+ODL_23:70:int_day(int,int,int):leap == 1 && month > 2 => leap == 1
+ODL_24:70:int_day(int,int,int):leap == 1 && month > 2 => month > 2
+ODL_25:71:int_day(int,int,int):sum++ => sum
+CDL_1:65:int_day(int,int,int):year % 400 => year
+CDL_2:65:int_day(int,int,int):year % 400 == 0 => year % 400
+CDL_3:65:int_day(int,int,int):year % 4 => year
+CDL_4:65:int_day(int,int,int):year % 4 == 0 => year % 4
+CDL_5:65:int_day(int,int,int):year % 100 => year
+CDL_6:65:int_day(int,int,int):year % 100 != 0 => year % 100
+CDL_7:70:int_day(int,int,int):leap == 1 => leap
+CDL_8:70:int_day(int,int,int):month > 2 => month

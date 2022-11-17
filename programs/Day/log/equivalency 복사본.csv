@@ -1,0 +1,39 @@
+mutant name, is equivalent?, distinguished by
+ABS_5, 1, -
+ABS_84, 0, [paramparamparam = 0; paramparam = 2; param = -1]
+AOIS_134, 0, [paramparamparam = 1;
+ paramparam = 3;
+ locallocallocallocal = 334;
+ param = 0]
+AOIS_190, 1, -
+AOIS_241, 1, -
+AOIS_272, 1, -
+AOIS_478, 0, [paramparamparam = 0;
+ paramparam = 13;
+ locallocallocallocal = 334;
+ param = 0]
+AOIS_500, 1, -
+AOIS_501, 1, -
+AOIS_603, 1, -
+ROR_166, 0, [paramparamparam = -1; paramparam = 4]
+ROR_499, 1, -
+ROR_590, 0, [paramparamparam = -1; paramparam = 4]
+ROR_706, 1, -
+AOIS_134, 0, [paramparamparam=1;
+paramparam=3;
+locallocallocallocal=334;
+param=0]
+AOIS_134, 0, [paramparamparam=1;
+paramparam=3;
+locallocallocallocal=334;
+param=0]
+AOIS_134, 0, [paramparamparam=1;
+paramparam=3;
+locallocallocallocal=334;
+param=0]
+AOIS_134, 0, [paramparamparam=1;paramparam=3;locallocallocallocal=334;param=0]
+AOIS_134, 0, [paramparamparam=1;paramparam=3;locallocallocallocal=334;param=0]
+AOIS_134, 0, [paramparamparam=1;paramparam=3;locallocallocallocal=334;param=0]
+AOIS_134, 0, [paramparamparam=1;paramparam=3;locallocallocallocal=334;param=0]
+AOIS_134, 0, [paramparamparam=1;paramparam=3;locallocallocallocal=334;param=0]
+AOIS_134, 1, -

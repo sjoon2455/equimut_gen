@@ -1,0 +1,71 @@
+Compiled from "Bubble.java"
+public class Bubble {
+  public Bubble();
+    Code:
+       0: aload_0
+       1: invokespecial #9                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static int[] sort(int, int, int, int, int);
+    Code:
+       0: iconst_5
+       1: newarray       int
+       3: astore        5
+       5: aload         5
+       7: iconst_0
+       8: iload_0
+       9: iastore
+      10: aload         5
+      12: iconst_1
+      13: iload_1
+      14: iastore
+      15: aload         5
+      17: iconst_2
+      18: iload_2
+      19: iastore
+      20: aload         5
+      22: iconst_3
+      23: iload_3
+      24: iastore
+      25: aload         5
+      27: iconst_4
+      28: iload         4
+      30: iastore
+      31: iconst_0
+      32: istore_0
+      33: iload_0
+      34: iconst_5
+      35: if_icmpge     86
+      38: iload_0
+      39: iconst_1
+      40: iadd
+      41: istore_1
+      42: iload_1
+      43: iconst_5
+      44: if_icmpge     80
+      47: aload         5
+      49: iload_0
+      50: iaload
+      51: aload         5
+      53: iload_1
+      54: iaload
+      55: if_icmpge     74
+      58: aload         5
+      60: iload_1
+      61: aload         5
+      63: iload_0
+      64: iaload
+      65: aload         5
+      67: iload_0
+      68: aload         5
+      70: iload_1
+      71: iaload
+      72: iastore
+      73: iastore
+      74: iinc          1, 1
+      77: goto          42
+      80: iinc          0, 1
+      83: goto          33
+      86: aload         5
+      88: areturn
+}

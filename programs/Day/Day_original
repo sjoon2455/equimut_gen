@@ -1,0 +1,101 @@
+Compiled from "Day.java"
+public class Day {
+  public Day();
+    Code:
+       0: aload_0
+       1: invokespecial #9                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static int day(int, int, int);
+    Code:
+       0: iconst_0
+       1: istore_3
+       2: goto          83
+       5: iconst_0
+       6: istore_3
+       7: goto          148
+      10: bipush        31
+      12: istore_3
+      13: goto          148
+      16: bipush        59
+      18: istore_3
+      19: goto          148
+      22: bipush        90
+      24: istore_3
+      25: goto          148
+      28: bipush        120
+      30: istore_3
+      31: goto          148
+      34: sipush        151
+      37: istore_3
+      38: goto          148
+      41: sipush        181
+      44: istore_3
+      45: goto          148
+      48: sipush        212
+      51: istore_3
+      52: goto          148
+      55: sipush        243
+      58: istore_3
+      59: goto          148
+      62: sipush        273
+      65: istore_3
+      66: goto          148
+      69: sipush        304
+      72: istore_3
+      73: goto          148
+      76: sipush        334
+      79: istore_3
+      80: goto          148
+      83: iload_1
+      84: tableswitch   { // 1 to 12
+                     1: 5
+                     2: 10
+                     3: 16
+                     4: 22
+                     5: 28
+                     6: 34
+                     7: 41
+                     8: 48
+                     9: 55
+                    10: 62
+                    11: 69
+                    12: 76
+               default: 148
+          }
+     148: iload_3
+     149: iload_0
+     150: iadd
+     151: istore_0
+     152: iload_0
+     153: istore_3
+     154: iload_2
+     155: sipush        400
+     158: irem
+     159: ifeq          175
+     162: iload_2
+     163: iconst_4
+     164: irem
+     165: ifne          180
+     168: iload_2
+     169: bipush        100
+     171: irem
+     172: ifeq          180
+     175: iconst_1
+     176: istore_2
+     177: goto          182
+     180: iconst_0
+     181: istore_2
+     182: iload_2
+     183: iconst_1
+     184: if_icmpne     196
+     187: iload_1
+     188: iconst_2
+     189: if_icmple     196
+     192: iload_0
+     193: iconst_1
+     194: iadd
+     195: istore_3
+     196: iload_3
+     197: ireturn
+}

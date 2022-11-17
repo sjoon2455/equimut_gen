@@ -1,0 +1,96 @@
+AOIS
+@@ -25 +25 @@
+-                        mytemp1 = mytemp2;
++                        mytemp1 = mytemp2--;
+
+AOIS
+@@ -23 +23 @@
+-                        mytemp2 = a[j];
++                        mytemp2 = a[j]--;
+
+AOIS
+@@ -32 +32 @@
+-            System.out.printf("%6d", a[i]);
++            System.out.printf("%6d", a[i]++);
+
+AOIS
+@@ -16 +16 @@
+-            a[3] = number;
++            a[3] = number--;
+
+AOIS
+@@ -20 +20 @@
+-                    mytemp1 = a[i];
++                    mytemp1 = a[i]--;
+
+AOIS
+@@ -15 +15 @@
+-        if (number >= end) {
++        if (number >= end++) {
+
+AOIS
+@@ -24 +24 @@
+-                        a[j] = mytemp1;
++                        a[j] = mytemp1--;
+
+ABS
+@@ -14 +14 @@
+-        end = a[2];
++        end = Math.abs(a[2]);
+
+AOIS
+@@ -20 +20 @@
+-                    mytemp1 = a[i];
++                    mytemp1 = a[i]++;
+
+AOIS
+@@ -15 +15 @@
+-        if (number >= end) {
++        if (number >= end--) {
+
+AOIS
+@@ -21 +21 @@
+-                    a[i] = number;
++                    a[i] = number--;
+
+AOIS
+@@ -16 +16 @@
+-            a[3] = number;
++            a[3] = number++;
+
+ROR
+@@ -19 +19 @@
+-                if (a[i] > number) {
++                if (a[i] >= number) {
+
+AOIS
+@@ -21 +21 @@
+-                    a[i] = number;
++                    a[i] = number++;
+
+AOIS
+@@ -25 +25 @@
+-                        mytemp1 = mytemp2;
++                        mytemp1 = mytemp2++;
+
+ABS
+@@ -16 +16 @@
+-            a[3] = number;
++            a[3] = Math.abs(number);
+
+AOIS
+@@ -32 +32 @@
+-            System.out.printf("%6d", a[i]);
++            System.out.printf("%6d", a[i]--);
+
+AOIS
+@@ -23 +23 @@
+-                        mytemp2 = a[j];
++                        mytemp2 = a[j]++;
+
+AOIS
+@@ -24 +24 @@
+-                        a[j] = mytemp1;
++                        a[j] = mytemp1++;
+
+AOIS: 16, ABS: 2, ROR: 1

@@ -1,0 +1,716 @@
+AORB
+@@ -216 +216 @@
+-		if (( We1_BA_DEF_ev_ctr2 ) - ( We1_BA_DEF_ev_ctr3 ) - ( We1_BA_DEF_ev_ctr5 ) == 1024)
++		if (( We1_BA_DEF_ev_ctr2 ) - ( We1_BA_DEF_ev_ctr3 ) * ( We1_BA_DEF_ev_ctr5 ) == 1024)
+
+ROR
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e <= 0 ) && ( ControlElement_DEF == 0 ))
+
+AOIS
+@@ -127 +127 @@
+-							if ( ControlElement_DEF == 0)
++							if ( ControlElement_DEF-- == 0)
+
+AOIS
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( --We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
+
+ROR
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 == ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
+
+AOIS
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && ++error_e > 0 && confirmation_e > 0)
+
+AOIS
+@@ -58 +58 @@
+-		if (0 != Clip_15 )
++		if (0 != Clip_15-- )
+
+AORB
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++    	We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 % ( We1_BA_DEF_ev_ctr3 - 1000);
+
+ROR
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e >= 0 ) && ( ControlElement_DEF == 0 ))
+
+ROR
+@@ -210 +210 @@
+-	if ( We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024)
++	if ( We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 >= 1024)
+
+ROR
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e != 0 ) && ( ControlElement_DEF == 0 ))
+
+AOIS
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e++ > 0 && confirmation_e > 0)
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( We1_BA_DEF == --We1_BA_DEF_ev ))
+
+AOIS
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e-- > 0 && confirmation_e > 0)
+
+AOIS
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && ++confirmation_e > 0)
+
+AOIS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3++ - 1000);
+
+ROR
+@@ -216 +216 @@
+-		if (( We1_BA_DEF_ev_ctr2 ) - ( We1_BA_DEF_ev_ctr3 ) - ( We1_BA_DEF_ev_ctr5 ) == 1024)
++		if (( We1_BA_DEF_ev_ctr2 ) - ( We1_BA_DEF_ev_ctr3 ) - ( We1_BA_DEF_ev_ctr5 ) >= 1024)
+
+AOIS
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && --error_e > 0 && confirmation_e > 0)
+
+AOIS
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ++ControlElement_DEF == 0 ))
+
+AOIS
+@@ -137 +137 @@
+-								if ( ControlElement_DEF > 0)
++								if ( ControlElement_DEF-- > 0)
+
+AOIS
+@@ -180 +180 @@
+-						if ( request > 0 && ( error_e == 0))
++						if ( request-- > 0 && ( error_e == 0))
+
+ROR
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e >= 0)
+
+ROR
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e != 0)
+
+AOIS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = ++We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+AOIS
+@@ -58 +58 @@
+-		if (0 != Clip_15 )
++		if (0 != Clip_15++ )
+
+AOIS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2-- * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+AOIS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( --We1_BA_DEF_ev_ctr3 - 1000);
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( We1_BA_DEF-- == We1_BA_DEF_ev ))
+
+AORB
+@@ -216 +216 @@
+-		if (( We1_BA_DEF_ev_ctr2 ) - ( We1_BA_DEF_ev_ctr3 ) - ( We1_BA_DEF_ev_ctr5 ) == 1024)
++		if (( We1_BA_DEF_ev_ctr2 ) * ( We1_BA_DEF_ev_ctr3 ) - ( We1_BA_DEF_ev_ctr5 ) == 1024)
+
+ROR
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e >= 0)
+
+AOIS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( ++We1_BA_DEF_ev_ctr3 - 1000);
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev-- ))
+
+ROR
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e < 0 && confirmation_e > 0)
+
+AOIS
+@@ -190 +190 @@
+-						if (( request == 0) && ( error_e == 0))
++						if (( request++ == 0) && ( error_e == 0))
+
+AOIS
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && ++confirmation_e > 0)
+
+ROR
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( We1_BA_DEF < We1_BA_DEF_ev ))
+
+ROR
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e >= 0 && confirmation_e > 0)
+
+AORB
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+AOIS
+@@ -151 +151 @@
+-						if ( ControlElement_DEF == 0)
++						if ( ControlElement_DEF-- == 0)
+
+ROR
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e == 0)
+
+AOIS
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && ++error_e > 0 && confirmation_e > 0)
+
+ROR
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e != 0)
+
+ROR
+@@ -190 +190 @@
+-						if (( request == 0) && ( error_e == 0))
++						if (( request <= 0) && ( error_e == 0))
+
+AOIS
+@@ -161 +161 @@
+-							if ( ControlElement_DEF > 0)
++							if ( ControlElement_DEF-- > 0)
+
+AORB
+@@ -216 +216 @@
+-		if (( We1_BA_DEF_ev_ctr2 ) - ( We1_BA_DEF_ev_ctr3 ) - ( We1_BA_DEF_ev_ctr5 ) == 1024)
++		if (( We1_BA_DEF_ev_ctr2 ) + ( We1_BA_DEF_ev_ctr3 ) - ( We1_BA_DEF_ev_ctr5 ) == 1024)
+
+ROR
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e != 0 && confirmation_e > 0)
+
+AOIS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2++ * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+ROR
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e > 0 ) && ( ControlElement_DEF == 0 ))
+
+AOIS
+@@ -190 +190 @@
+-						if (( request == 0) && ( error_e == 0))
++						if (( request-- == 0) && ( error_e == 0))
+
+AOIS
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF-- == 0 ))
+
+ABS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * (-abs(We1_BA_DEF_ev_ctr2)) - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+AORB
+@@ -210 +210 @@
+-	if ( We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024)
++	if ( We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024)
+
+AOIS
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e-- > 0)
+
+ROR
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 > ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( ++We1_BA_DEF == We1_BA_DEF_ev ))
+
+ROR
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 > ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
+
+AOIS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2-- - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+ROR
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e <= 0)
+
+ROR
+@@ -127 +127 @@
+-							if ( ControlElement_DEF == 0)
++							if ( ControlElement_DEF <= 0)
+
+ROR
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF < 0 ))
+
+AOIS
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( --ControlElement_DEF == 0 ))
+
+ROR
+@@ -180 +180 @@
+-						if ( request > 0 && ( error_e == 0))
++						if ( request > 0 && ( error_e <= 0))
+
+AOIS
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e-- > 0)
+
+ROR
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e == 0)
+
+AOIS
+@@ -180 +180 @@
+-						if ( request > 0 && ( error_e == 0))
++						if ( request > 0 && ( error_e-- == 0))
+
+AOIS
+@@ -127 +127 @@
+-							if ( ControlElement_DEF == 0)
++							if ( ControlElement_DEF++ == 0)
+
+ROR
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e < 0 ) && ( ControlElement_DEF == 0 ))
+
+ROR
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e != 0 && confirmation_e > 0)
+
+AOIS
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( ++We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
+
+ROR
+@@ -190 +190 @@
+-						if (( request == 0) && ( error_e == 0))
++						if (( request == 0) && ( error_e <= 0))
+
+ROR
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF != 0 ))
+
+AOIS
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( ++We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
+
+AOIS
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && --error_e > 0 && confirmation_e > 0)
+
+ABS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( abs(We1_BA_DEF_ev_ctr3) - 1000);
+
+AOIS
+@@ -151 +151 @@
+-						if ( ControlElement_DEF == 0)
++						if ( ControlElement_DEF++ == 0)
+
+ROR
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e < 0)
+
+ROR
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 == ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
+
+ROR
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( We1_BA_DEF <= We1_BA_DEF_ev ))
+
+AORB
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 / ( We1_BA_DEF_ev_ctr3 - 1000);
+
+ABS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( -abs(We1_BA_DEF_ev_ctr3) - 1000);
+
+AOIS
+@@ -190 +190 @@
+-						if (( request == 0) && ( error_e == 0))
++						if (( request == 0) && ( error_e-- == 0))
+
+ROR
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e <= 0)
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( We1_BA_DEF == ++We1_BA_DEF_ev ))
+
+AOIS
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e++ > 0 && confirmation_e > 0)
+
+AOIS
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( --We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
+
+AOIS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * --We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+ROR
+@@ -151 +151 @@
+-						if ( ControlElement_DEF == 0)
++						if ( ControlElement_DEF <= 0)
+
+AOIS
+@@ -137 +137 @@
+-								if ( ControlElement_DEF > 0)
++								if ( ControlElement_DEF++ > 0)
+
+ROR
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e <= 0 && confirmation_e > 0)
+
+AOIS
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0-- >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
+
+AOIS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * ++We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+AOIS
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0++ >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
+
+AOIS
+@@ -190 +190 @@
+-						if (( request == 0) && ( error_e == 0))
++						if (( request == 0) && ( error_e++ == 0))
+
+AOIS
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e++ > 0)
+
+AORB
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 + ( We1_BA_DEF_ev_ctr3 - 1000);
+
+AOIS
+@@ -77 +77 @@
+-			if ( Clip_15 == 0)
++			if (Clip_15-- == 0)
+
+AOIS
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e-- == 0 ) && ( ControlElement_DEF == 0 ))
+
+ABS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = -abs(We1_BA_DEF_ev_ctr2) * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+AOIS
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && --confirmation_e > 0)
+
+AOIS
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0-- >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
+
+AOIS
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e++ == 0 ) && ( ControlElement_DEF == 0 ))
+
+ROR
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF > 0 ))
+
+ROR
+@@ -77 +77 @@
+-			if ( Clip_15 == 0)
++			if ( Clip_15 <= 0)
+
+AOIS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = --We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+AOIS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2++ - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+ROR
+@@ -137 +137 @@
+-								if ( ControlElement_DEF > 0)
++								if ( ControlElement_DEF != 0)
+
+ROR
+@@ -216 +216 @@
+-		if (( We1_BA_DEF_ev_ctr2 ) - ( We1_BA_DEF_ev_ctr3 ) - ( We1_BA_DEF_ev_ctr5 ) == 1024)
++		if (( We1_BA_DEF_ev_ctr2 ) - ( We1_BA_DEF_ev_ctr3 ) - ( We1_BA_DEF_ev_ctr5 ) > 1024)
+
+ROR
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 == ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
+
+AORB
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 * ( We1_BA_DEF_ev_ctr3 - 1000);
+
+AOIS
+@@ -180 +180 @@
+-						if ( request > 0 && ( error_e == 0))
++						if ( request > 0 && ( error_e++ == 0))
+
+AOIS
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e++ > 0)
+
+AOIS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3-- - 1000);
+
+AORB
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+ROR
+@@ -180 +180 @@
+-						if ( request > 0 && ( error_e == 0))
++						if ( request != 0 && ( error_e == 0))
+
+ROR
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e == 0 && confirmation_e > 0)
+
+ROR
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF <= 0 ))
+
+ROR
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e == 0 && confirmation_e > 0)
+
+ROR
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e < 0)
+
+AOIS
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( --confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
+
+ROR
+@@ -210 +210 @@
+-	if ( We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024)
++	if ( We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 > 1024)
+
+ROR
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e < 0 && confirmation_e > 0)
+
+ABS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = abs(We1_BA_DEF_ev_ctr2) * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+ROR
+@@ -161 +161 @@
+-							if ( ControlElement_DEF > 0)
++							if ( ControlElement_DEF != 0)
+
+AORB
+@@ -210 +210 @@
+-	if ( We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024)
++	if ( We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024)
+
+AOIS
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0++ >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
+
+ABS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * abs(We1_BA_DEF_ev_ctr2) - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+AOIS
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF++ == 0 ))
+
+AORB
+@@ -210 +210 @@
+-	if ( We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024)
++	if ( We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024)
+
+ROR
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e >= 0 && confirmation_e > 0)
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( --We1_BA_DEF == We1_BA_DEF_ev ))
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev++ ))
+
+ROR
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e <= 0 && confirmation_e > 0)
+
+AOIS
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e-- > 0 && confirmation_e > 0)
+
+AORB
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 % ( We1_BA_DEF_ev_ctr3 - 1000);
+
+ROR
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF >= 0 ))
+
+AORB
+@@ -216 +216 @@
+-		if (( We1_BA_DEF_ev_ctr2 ) - ( We1_BA_DEF_ev_ctr3 ) - ( We1_BA_DEF_ev_ctr5 ) == 1024)
++		if (( We1_BA_DEF_ev_ctr2 ) - ( We1_BA_DEF_ev_ctr3 ) + ( We1_BA_DEF_ev_ctr5 ) == 1024)
+
+AOIS
+@@ -117 +117 @@
+-					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
++					if (( We1_BA_DEF_ev_ctr1 >= ((  int ) 1000 )) && ( ++confirmation_e == 0 ) && ( ControlElement_DEF == 0 ))
+
+AOIS
+@@ -161 +161 @@
+-							if ( ControlElement_DEF > 0)
++							if ( ControlElement_DEF++ > 0)
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( We1_BA_DEF++ == We1_BA_DEF_ev ))
+
+AOIS
+@@ -196 +196 @@
+-							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++							if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && --confirmation_e > 0)
+
+AOIS
+@@ -77 +77 @@
+-			if ( Clip_15 == 0)
++			if (Clip_15++ == 0)
+
+ROR
+@@ -174 +174 @@
+-					if (( We1_BA_DEF_ev_ctr0 >= ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
++					if (( We1_BA_DEF_ev_ctr0 > ((  int ) 3250 )) && error_e > 0 && confirmation_e > 0)
+
+AOIS
+@@ -180 +180 @@
+-						if ( request > 0 && ( error_e == 0))
++						if ( request++ > 0 && ( error_e == 0))
+
+AORB: 14, ROR: 51, AOIS: 72, ABS: 6

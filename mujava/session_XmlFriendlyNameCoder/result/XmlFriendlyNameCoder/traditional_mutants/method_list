@@ -1,0 +1,3 @@
+XmlFriendlyNameCoder(java.lang.String,java.lang.String)
+java.lang.String_encodeName(java.lang.String)
+java.lang.String_decodeName(java.lang.String)

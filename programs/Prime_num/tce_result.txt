@@ -1,0 +1,14 @@
+==============Program===============
+Prime_num
+==============Mut_Type==============
+HOEM
+====================================
+1_Prime_num
+NEQ
+Prime_num_1
+NEQ
+Prime_num_2
+NEQ
+Total #: 3
+TCEQ #: 0
+NEQ #: 3

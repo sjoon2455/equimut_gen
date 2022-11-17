@@ -1,0 +1,225 @@
+#
+Mutant name: AOIS_473
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 18
+
+#
+Mutant name: AOIS_36
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.6328125
+Program graph node: 8
+
+#
+Mutant name: AOIS_557
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 18
+
+#
+Mutant name: AOIS_392
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.6328125
+Program graph node: 6
+
+#
+Mutant name: AOIS_405
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 1
+Operator score: 0.6328125
+Program graph node: 1
+
+#
+Mutant name: AOIS_628
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.6328125
+Program graph node: 6
+
+#
+Mutant name: AOIS_171
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 18
+
+#
+Mutant name: AOIS_5
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.86
+Operator score: 0.6328125
+Program graph node: 4
+
+#
+Mutant name: AOIS_414
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 18
+
+#
+Mutant name: AOIS_455
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 18
+
+#
+Mutant name: AOIS_71
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.8469387755102041
+Operator score: 0.6328125
+Program graph node: 15
+
+#
+Mutant name: AOIS_161
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 5
+
+#
+Mutant name: ROR_714
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9243697478991597
+Program graph node: 18
+
+#
+Mutant name: ROR_153
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9243697478991597
+Program graph node: 16
+
+#
+Mutant name: AOIS_376
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 18
+
+#
+Mutant name: AOIU_107
+Status: Equivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 1
+Operator score: 0.7272727272727273
+Program graph node: 1
+
+#
+Mutant name: AORB_400
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 1
+Operator score: 0.9444444444444444
+Program graph node: 1
+
+#
+Mutant name: AOIS_728
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 5
+
+#
+Mutant name: AOIS_401
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.6328125
+Program graph node: 6
+
+#
+Mutant name: AOIS_241
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.6328125
+Program graph node: 6
+
+#
+Mutant name: ROR_82
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.74
+Operator score: 0.9243697478991597
+Program graph node: 21
+
+#
+Mutant name: AOIS_283
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.6328125
+Program graph node: 6
+
+#
+Mutant name: AOIS_39
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 9
+
+#
+Mutant name: AOIS_466
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 1
+Operator score: 0.6328125
+Program graph node: 1
+
+#
+Mutant name: AOIS_431
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 18
+

@@ -1,0 +1,4751 @@
+#
+Mutant name: LOI_11
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 5
+
+#
+Mutant name: SDL_54
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 24
+
+#
+Mutant name: COI_8
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 11
+
+#
+Mutant name: ROR_115
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 25
+
+#
+Mutant name: ROR_34
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 5
+
+#
+Mutant name: LOI_46
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.3181818181818182
+Program graph node: 61
+
+#
+Mutant name: ROR_142
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 33
+
+#
+Mutant name: ROR_63
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 11
+
+#
+Mutant name: SDL_15
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 7
+
+#
+Mutant name: ROR_154
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 34
+
+#
+Mutant name: COI_42
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 55
+
+#
+Mutant name: ROR_75
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 15
+
+#
+Mutant name: SDL_42
+Status: Equivalent
+Operator: SDL
+Type statement: Function Call
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 14
+
+#
+Mutant name: AOIU_25
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.26666666666666666
+Program graph node: 61
+
+#
+Mutant name: COI_15
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 23
+
+#
+Mutant name: ROR_22
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.045112781954887216
+Program graph node: 2
+
+#
+Mutant name: SDL_39
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 11
+
+#
+Mutant name: AOIS_131
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 49
+
+#
+Mutant name: ROR_251
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 55
+
+#
+Mutant name: AORB_17
+Status: Equivalent
+Operator: AORB
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.2857142857142857
+Program graph node: 59
+
+#
+Mutant name: ROR_59
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 11
+
+#
+Mutant name: ROR_197
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 46
+
+#
+Mutant name: ROR_178
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 43
+
+#
+Mutant name: ROR_206
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 46
+
+#
+Mutant name: AOIS_77
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 26
+
+#
+Mutant name: AOIS_166
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.09433962264150944
+Program graph node: 61
+
+#
+Mutant name: SDL_81
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 39
+
+#
+Mutant name: AOIS_98
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 37
+
+#
+Mutant name: COI_39
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 55
+
+#
+Mutant name: SDL_78
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 39
+
+#
+Mutant name: AOIS_61
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 23
+
+#
+Mutant name: ROR_210
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 46
+
+#
+Mutant name: SDL_97
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 57
+
+#
+Mutant name: ROR_18
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 0.045112781954887216
+Program graph node: 1
+
+#
+Mutant name: ROR_139
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 30
+
+#
+Mutant name: ROR_181
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 43
+
+#
+Mutant name: ROR_119
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 25
+
+#
+Mutant name: ROR_38
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 7
+
+#
+Mutant name: COR_1
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 23
+
+#
+Mutant name: SDL_58
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 26
+
+#
+Mutant name: AOIS_41
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 11
+
+#
+Mutant name: ROR_230
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 51
+
+#
+Mutant name: ROR_80
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 17
+
+#
+Mutant name: AOIS_107
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 40
+
+#
+Mutant name: ROR_158
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 37
+
+#
+Mutant name: ROR_96
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 23
+
+#
+Mutant name: ROR_79
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 17
+
+#
+Mutant name: ODL_92
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 55
+
+#
+Mutant name: ODL_100
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.0
+Program graph node: 59
+
+#
+Mutant name: SDL_19
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.14285714285714285
+Operator score: 0.06796116504854369
+Program graph node: 4
+
+#
+Mutant name: COR_11
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 51
+
+#
+Mutant name: COI_19
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 26
+
+#
+Mutant name: ROR_226
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 51
+
+#
+Mutant name: AOIS_57
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 20
+
+#
+Mutant name: ROR_55
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 9
+
+#
+Mutant name: ROR_174
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 40
+
+#
+Mutant name: SDL_35
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 32
+
+#
+Mutant name: COI_35
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 49
+
+#
+Mutant name: SDL_62
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 28
+
+#
+Mutant name: LOI_27
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 33
+
+#
+Mutant name: AOIS_94
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 34
+
+#
+Mutant name: ROR_135
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 30
+
+#
+Mutant name: COI_23
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 34
+
+#
+Mutant name: AOIU_13
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 20
+
+#
+Mutant name: SDL_74
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 36
+
+#
+Mutant name: AOIS_82
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 29
+
+#
+Mutant name: LOI_31
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 40
+
+#
+Mutant name: ROR_43
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 8
+
+#
+Mutant name: ROR_162
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 38
+
+#
+Mutant name: SDL_23
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 6
+
+#
+Mutant name: ROR_42
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 7
+
+#
+Mutant name: ROR_163
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 38
+
+#
+Mutant name: AOIU_12
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 17
+
+#
+Mutant name: SDL_75
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 36
+
+#
+Mutant name: AOIS_83
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 29
+
+#
+Mutant name: LOI_30
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 38
+
+#
+Mutant name: ROR_134
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 30
+
+#
+Mutant name: ODL_11
+Status: Equivalent
+Operator: ODL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 5
+
+#
+Mutant name: COI_22
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 33
+
+#
+Mutant name: SDL_63
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 28
+
+#
+Mutant name: LOI_26
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 30
+
+#
+Mutant name: LOI_7
+Status: Equivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 5
+
+#
+Mutant name: COI_34
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 46
+
+#
+Mutant name: ROR_122
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 26
+
+#
+Mutant name: SDL_34
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 57
+
+#
+Mutant name: ROR_54
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 9
+
+#
+Mutant name: ROR_175
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 40
+
+#
+Mutant name: ROR_227
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 51
+
+#
+Mutant name: AOIS_56
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 17
+
+#
+Mutant name: COI_18
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 25
+
+#
+Mutant name: ODL_101
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.0
+Program graph node: 59
+
+#
+Mutant name: AORB_2
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.2857142857142857
+Program graph node: 5
+
+#
+Mutant name: SDL_18
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.14285714285714285
+Operator score: 0.06796116504854369
+Program graph node: 4
+
+#
+Mutant name: COR_10
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 46
+
+#
+Mutant name: ROR_159
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 37
+
+#
+Mutant name: ROR_97
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 23
+
+#
+Mutant name: ROR_78
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 17
+
+#
+Mutant name: ODL_93
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 55
+
+#
+Mutant name: ROR_266
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.045112781954887216
+Program graph node: 61
+
+#
+Mutant name: AOIS_106
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 40
+
+#
+Mutant name: ROR_81
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 17
+
+#
+Mutant name: COD_1
+Status: Equivalent
+Operator: COD
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 5
+
+#
+Mutant name: SDL_59
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 32
+
+#
+Mutant name: AODU_1
+Status: Equivalent
+Operator: AODU
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 62
+
+#
+Mutant name: AOIS_40
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 9
+
+#
+Mutant name: ROR_231
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 51
+
+#
+Mutant name: ROR_118
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 25
+
+#
+Mutant name: COI_5
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 7
+
+#
+Mutant name: ROR_39
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 7
+
+#
+Mutant name: ROR_180
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 43
+
+#
+Mutant name: AOIS_37
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 9
+
+#
+Mutant name: AOIS_126
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 46
+
+#
+Mutant name: SDL_79
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 39
+
+#
+Mutant name: AOIS_60
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 20
+
+#
+Mutant name: ROR_211
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 49
+
+#
+Mutant name: SDL_96
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 55
+
+#
+Mutant name: COI_38
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 51
+
+#
+Mutant name: AOIS_76
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 25
+
+#
+Mutant name: SDL_80
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 39
+
+#
+Mutant name: AOIS_99
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 37
+
+#
+Mutant name: ROR_58
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 11
+
+#
+Mutant name: ROR_196
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 43
+
+#
+Mutant name: SDL_38
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 13
+
+#
+Mutant name: AOIS_130
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 49
+
+#
+Mutant name: COI_14
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 23
+
+#
+Mutant name: SDL_43
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 19
+
+#
+Mutant name: AOIU_24
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.26666666666666666
+Program graph node: 59
+
+#
+Mutant name: ROR_155
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 37
+
+#
+Mutant name: COI_43
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 55
+
+#
+Mutant name: ROR_74
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 15
+
+#
+Mutant name: SDL_14
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 57
+
+#
+Mutant name: ROR_143
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 33
+
+#
+Mutant name: ROR_62
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 11
+
+#
+Mutant name: LOI_47
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.3181818181818182
+Program graph node: 61
+
+#
+Mutant name: COI_9
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 13
+
+#
+Mutant name: ROR_114
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 25
+
+#
+Mutant name: AOIU_3
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 0.26666666666666666
+Program graph node: 1
+
+#
+Mutant name: ROR_35
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 5
+
+#
+Mutant name: LOI_10
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 5
+
+#
+Mutant name: SDL_55
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 24
+
+#
+Mutant name: COR_7
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 43
+
+#
+Mutant name: AOIU_8
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 9
+
+#
+Mutant name: VDL_47
+Status: Equivalent
+Operator: VDL
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.18181818181818182
+Program graph node: 61
+
+#
+Mutant name: AOIS_47
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 13
+
+#
+Mutant name: ROR_236
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 55
+
+#
+Mutant name: AOIS_156
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.09433962264150944
+Program graph node: 59
+
+#
+Mutant name: ROR_86
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 20
+
+#
+Mutant name: ROR_148
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 34
+
+#
+Mutant name: ROR_69
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 13
+
+#
+Mutant name: ODL_110
+Status: Equivalent
+Operator: ODL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 62
+
+#
+Mutant name: AOIS_101
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 38
+
+#
+Mutant name: ROR_90
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 20
+
+#
+Mutant name: SDL_9
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 5
+
+#
+Mutant name: ODL_106
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.0
+Program graph node: 61
+
+#
+Mutant name: AORB_5
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.2857142857142857
+Program graph node: 5
+
+#
+Mutant name: ROR_28
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.045112781954887216
+Program graph node: 2
+
+#
+Mutant name: SDL_48
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 18
+
+#
+Mutant name: ROR_220
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 51
+
+#
+Mutant name: AOIS_51
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 15
+
+#
+Mutant name: ROR_53
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 9
+
+#
+Mutant name: ROR_172
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 40
+
+#
+Mutant name: VDL_7
+Status: Equivalent
+Operator: VDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.18181818181818182
+Program graph node: 5
+
+#
+Mutant name: SDL_33
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 19
+
+#
+Mutant name: ROR_125
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 26
+
+#
+Mutant name: COI_33
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 46
+
+#
+Mutant name: SDL_64
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 30
+
+#
+Mutant name: LOI_21
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 23
+
+#
+Mutant name: AOIS_92
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 33
+
+#
+Mutant name: COI_25
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 38
+
+#
+Mutant name: ODL_16
+Status: Equivalent
+Operator: ODL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 5
+
+#
+Mutant name: ROR_133
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 29
+
+#
+Mutant name: AOIU_15
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 26
+
+#
+Mutant name: SDL_72
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 37
+
+#
+Mutant name: AOIS_84
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 29
+
+#
+Mutant name: LOI_37
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 49
+
+#
+Mutant name: ROR_45
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 8
+
+#
+Mutant name: ODL_41
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 23
+
+#
+Mutant name: SDL_25
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 8
+
+#
+Mutant name: LOI_17
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 15
+
+#
+Mutant name: SDL_52
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 33
+
+#
+Mutant name: ROR_113
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 25
+
+#
+Mutant name: AOIU_4
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.26666666666666666
+Program graph node: 2
+
+#
+Mutant name: LOI_40
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 55
+
+#
+Mutant name: ROR_144
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 33
+
+#
+Mutant name: ROR_65
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 13
+
+#
+Mutant name: COI_44
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.06666666666666667
+Program graph node: 59
+
+#
+Mutant name: ROR_73
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 15
+
+#
+Mutant name: ODL_98
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.0
+Program graph node: 59
+
+#
+Mutant name: SDL_44
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 15
+
+#
+Mutant name: AOIU_23
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 49
+
+#
+Mutant name: ROR_105
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 23
+
+#
+Mutant name: COI_13
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 23
+
+#
+Mutant name: ROR_24
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.045112781954887216
+Program graph node: 2
+
+#
+Mutant name: ROR_257
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.045112781954887216
+Program graph node: 59
+
+#
+Mutant name: AOIS_137
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 51
+
+#
+Mutant name: SDL_68
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 32
+
+#
+Mutant name: ROR_200
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 46
+
+#
+Mutant name: SDL_87
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 44
+
+#
+Mutant name: ROR_129
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 29
+
+#
+Mutant name: ROR_216
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 49
+
+#
+Mutant name: AOIU_19
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 34
+
+#
+Mutant name: SDL_91
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 48
+
+#
+Mutant name: COI_29
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 43
+
+#
+Mutant name: SDL_29
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 16
+
+#
+Mutant name: AOIS_121
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 46
+
+#
+Mutant name: AOIS_30
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 7
+
+#
+Mutant name: ROR_49
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 8
+
+#
+Mutant name: ROR_168
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 38
+
+#
+Mutant name: ROR_48
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 8
+
+#
+Mutant name: ROR_169
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 40
+
+#
+Mutant name: SDL_28
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 18
+
+#
+Mutant name: AOIS_31
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 7
+
+#
+Mutant name: COI_28
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 43
+
+#
+Mutant name: ROR_217
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 49
+
+#
+Mutant name: AOIU_18
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 33
+
+#
+Mutant name: SDL_90
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 48
+
+#
+Mutant name: AOIS_89
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 33
+
+#
+Mutant name: ROR_128
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 29
+
+#
+Mutant name: SDL_69
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 32
+
+#
+Mutant name: SDL_86
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 49
+
+#
+Mutant name: ROR_256
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.045112781954887216
+Program graph node: 59
+
+#
+Mutant name: ROR_104
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 23
+
+#
+Mutant name: COI_12
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 20
+
+#
+Mutant name: SDL_45
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 16
+
+#
+Mutant name: AOIU_22
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 40
+
+#
+Mutant name: ROR_153
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 34
+
+#
+Mutant name: ROR_72
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 15
+
+#
+Mutant name: ODL_99
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.0
+Program graph node: 59
+
+#
+Mutant name: AORB_8
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.2857142857142857
+Program graph node: 5
+
+#
+Mutant name: SDL_12
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.06796116504854369
+Program graph node: 59
+
+#
+Mutant name: ROR_145
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 33
+
+#
+Mutant name: ROR_64
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 13
+
+#
+Mutant name: LOI_41
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 55
+
+#
+Mutant name: ROR_112
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 23
+
+#
+Mutant name: AOIU_5
+Status: Equivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 5
+
+#
+Mutant name: ROR_33
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 5
+
+#
+Mutant name: LOI_16
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 13
+
+#
+Mutant name: SDL_53
+Status: Equivalent
+Operator: SDL
+Type statement: Function Call
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 24
+
+#
+Mutant name: SDL_24
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 7
+
+#
+Mutant name: ROR_44
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 8
+
+#
+Mutant name: ROR_165
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 38
+
+#
+Mutant name: ODL_40
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 23
+
+#
+Mutant name: AOIU_14
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 25
+
+#
+Mutant name: SDL_73
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 36
+
+#
+Mutant name: AOIS_85
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 30
+
+#
+Mutant name: LOI_36
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 46
+
+#
+Mutant name: COI_24
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 37
+
+#
+Mutant name: ROR_132
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 29
+
+#
+Mutant name: SDL_65
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 32
+
+#
+Mutant name: LOI_20
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 23
+
+#
+Mutant name: AOIS_93
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 34
+
+#
+Mutant name: COI_32
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 46
+
+#
+Mutant name: SDL_32
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 19
+
+#
+Mutant name: ROR_52
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 9
+
+#
+Mutant name: ROR_173
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 40
+
+#
+Mutant name: SDL_49
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 18
+
+#
+Mutant name: AOIS_50
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 15
+
+#
+Mutant name: ROR_29
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 5
+
+#
+Mutant name: ODL_107
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.0
+Program graph node: 61
+
+#
+Mutant name: COR_16
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 55
+
+#
+Mutant name: ROR_91
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 20
+
+#
+Mutant name: AOIS_100
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 37
+
+#
+Mutant name: ROR_87
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 20
+
+#
+Mutant name: ROR_149
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 34
+
+#
+Mutant name: ROR_68
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 13
+
+#
+Mutant name: VDL_46
+Status: Equivalent
+Operator: VDL
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.18181818181818182
+Program graph node: 61
+
+#
+Mutant name: AOIS_46
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 13
+
+#
+Mutant name: ROR_237
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 55
+
+#
+Mutant name: COR_6
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 43
+
+#
+Mutant name: AOIU_9
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 11
+
+#
+Mutant name: SDL_27
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 58
+
+#
+Mutant name: ROR_47
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 8
+
+#
+Mutant name: ROR_189
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 43
+
+#
+Mutant name: AOIS_86
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 30
+
+#
+Mutant name: LOI_35
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 46
+
+#
+Mutant name: ROR_218
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 51
+
+#
+Mutant name: AOIU_17
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 30
+
+#
+Mutant name: SDL_70
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 34
+
+#
+Mutant name: ROR_131
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 29
+
+#
+Mutant name: COI_27
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 43
+
+#
+Mutant name: ODL_14
+Status: Equivalent
+Operator: ODL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 5
+
+#
+Mutant name: LOI_23
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 25
+
+#
+Mutant name: AOIS_90
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 33
+
+#
+Mutant name: SDL_89
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 46
+
+#
+Mutant name: SDL_66
+Status: Equivalent
+Operator: SDL
+Type statement: Function Call
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 32
+
+#
+Mutant name: COI_31
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 43
+
+#
+Mutant name: ROR_127
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 29
+
+#
+Mutant name: ROR_259
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.045112781954887216
+Program graph node: 59
+
+#
+Mutant name: SDL_31
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 19
+
+#
+Mutant name: AOIS_139
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 51
+
+#
+Mutant name: ROR_170
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 40
+
+#
+Mutant name: ROR_51
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 9
+
+#
+Mutant name: AOIS_53
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 17
+
+#
+Mutant name: COR_15
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 55
+
+#
+Mutant name: ODL_104
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.0
+Program graph node: 61
+
+#
+Mutant name: AORB_7
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.2857142857142857
+Program graph node: 5
+
+#
+Mutant name: ODL_96
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 55
+
+#
+Mutant name: ODL_79
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 46
+
+#
+Mutant name: ROR_84
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 17
+
+#
+Mutant name: AOIS_154
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.09433962264150944
+Program graph node: 59
+
+#
+Mutant name: AOIS_45
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 13
+
+#
+Mutant name: ROR_234
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 55
+
+#
+Mutant name: LOI_19
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 20
+
+#
+Mutant name: VDL_45
+Status: Equivalent
+Operator: VDL
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.18181818181818182
+Program graph node: 59
+
+#
+Mutant name: COR_5
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 43
+
+#
+Mutant name: AOIS_32
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 7
+
+#
+Mutant name: LOI_39
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 51
+
+#
+Mutant name: SDL_93
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 57
+
+#
+Mutant name: ROR_214
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 49
+
+#
+Mutant name: SDL_85
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 57
+
+#
+Mutant name: ROR_202
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 46
+
+#
+Mutant name: AOIS_73
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 25
+
+#
+Mutant name: VDL_9
+Status: Equivalent
+Operator: VDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.18181818181818182
+Program graph node: 5
+
+#
+Mutant name: ROR_255
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.045112781954887216
+Program graph node: 59
+
+#
+Mutant name: COI_11
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 17
+
+#
+Mutant name: SDL_46
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 18
+
+#
+Mutant name: AOIU_21
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 38
+
+#
+Mutant name: ROR_71
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 15
+
+#
+Mutant name: ROR_150
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 34
+
+#
+Mutant name: SDL_11
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.6666666666666666
+Operator score: 0.06796116504854369
+Program graph node: 2
+
+#
+Mutant name: ROR_67
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 13
+
+#
+Mutant name: ROR_146
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 33
+
+#
+Mutant name: ROR_88
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 20
+
+#
+Mutant name: LOI_42
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 55
+
+#
+Mutant name: ROR_30
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 5
+
+#
+Mutant name: AOIU_6
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 7
+
+#
+Mutant name: COR_9
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 46
+
+#
+Mutant name: SDL_102
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 62
+
+#
+Mutant name: ROR_111
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 23
+
+#
+Mutant name: ROR_238
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 55
+
+#
+Mutant name: AOIS_49
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 15
+
+#
+Mutant name: SDL_50
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 23
+
+#
+Mutant name: LOI_15
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 11
+
+#
+Mutant name: AOIS_48
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 13
+
+#
+Mutant name: SDL_51
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 40
+
+#
+Mutant name: VDL_48
+Status: Equivalent
+Operator: VDL
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.18181818181818182
+Program graph node: 61
+
+#
+Mutant name: LOI_14
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 9
+
+#
+Mutant name: AOIU_7
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 8
+
+#
+Mutant name: COR_8
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 43
+
+#
+Mutant name: LOI_43
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.3181818181818182
+Program graph node: 59
+
+#
+Mutant name: ROR_66
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 13
+
+#
+Mutant name: ROR_147
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 33
+
+#
+Mutant name: ROR_89
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 20
+
+#
+Mutant name: ROR_70
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 13
+
+#
+Mutant name: SDL_47
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 17
+
+#
+Mutant name: AOIU_20
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 37
+
+#
+Mutant name: COI_10
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 15
+
+#
+Mutant name: CDL_5
+Status: Equivalent
+Operator: CDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 5
+
+#
+Mutant name: AOIS_134
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 51
+
+#
+Mutant name: VDL_8
+Status: Equivalent
+Operator: VDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.18181818181818182
+Program graph node: 5
+
+#
+Mutant name: SDL_84
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 43
+
+#
+Mutant name: ROR_203
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 46
+
+#
+Mutant name: AOIS_163
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.09433962264150944
+Program graph node: 61
+
+#
+Mutant name: LOI_38
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 51
+
+#
+Mutant name: SDL_92
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 51
+
+#
+Mutant name: AOIS_64
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 23
+
+#
+Mutant name: ROR_215
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 49
+
+#
+Mutant name: ODL_19
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 5
+
+#
+Mutant name: AOIS_33
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 8
+
+#
+Mutant name: AOIS_122
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 46
+
+#
+Mutant name: COR_4
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 23
+
+#
+Mutant name: AOIS_155
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.09433962264150944
+Program graph node: 59
+
+#
+Mutant name: AOIS_44
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 11
+
+#
+Mutant name: LOI_18
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 17
+
+#
+Mutant name: VDL_44
+Status: Equivalent
+Operator: VDL
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.18181818181818182
+Program graph node: 59
+
+#
+Mutant name: ROR_85
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 20
+
+#
+Mutant name: AOIS_102
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 38
+
+#
+Mutant name: ODL_97
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 55
+
+#
+Mutant name: ODL_78
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 46
+
+#
+Mutant name: ROR_93
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 23
+
+#
+Mutant name: COR_14
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 55
+
+#
+Mutant name: ODL_105
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.0
+Program graph node: 61
+
+#
+Mutant name: AORB_6
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.2857142857142857
+Program graph node: 5
+
+#
+Mutant name: ROR_223
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 51
+
+#
+Mutant name: AOIS_52
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 15
+
+#
+Mutant name: ROR_171
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 40
+
+#
+Mutant name: ROR_50
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 9
+
+#
+Mutant name: ROR_258
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.045112781954887216
+Program graph node: 59
+
+#
+Mutant name: AOIS_29
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 7
+
+#
+Mutant name: SDL_30
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 19
+
+#
+Mutant name: AOIS_138
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 51
+
+#
+Mutant name: COI_30
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 43
+
+#
+Mutant name: ROR_126
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 26
+
+#
+Mutant name: LOI_22
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 23
+
+#
+Mutant name: AOIS_91
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 33
+
+#
+Mutant name: SDL_88
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 48
+
+#
+Mutant name: SDL_67
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 32
+
+#
+Mutant name: ROR_130
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 29
+
+#
+Mutant name: COI_26
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 40
+
+#
+Mutant name: ODL_15
+Status: Equivalent
+Operator: ODL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 5
+
+#
+Mutant name: LOI_34
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 43
+
+#
+Mutant name: ROR_219
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 51
+
+#
+Mutant name: AOIU_16
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 29
+
+#
+Mutant name: SDL_71
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 39
+
+#
+Mutant name: ROR_167
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 38
+
+#
+Mutant name: ROR_188
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 43
+
+#
+Mutant name: SDL_26
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 58
+
+#
+Mutant name: AOIS_125
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 46
+
+#
+Mutant name: ROR_245
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 55
+
+#
+Mutant name: AOIS_34
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 8
+
+#
+Mutant name: SDL_95
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 57
+
+#
+Mutant name: AOIS_63
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 23
+
+#
+Mutant name: ROR_212
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 49
+
+#
+Mutant name: LOI_29
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 37
+
+#
+Mutant name: LOI_8
+Status: Equivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 5
+
+#
+Mutant name: SDL_83
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 39
+
+#
+Mutant name: AOIS_164
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.09433962264150944
+Program graph node: 61
+
+#
+Mutant name: ROR_204
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 46
+
+#
+Mutant name: AOIS_75
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 25
+
+#
+Mutant name: ROR_195
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 43
+
+#
+Mutant name: AOIS_133
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 51
+
+#
+Mutant name: ROR_20
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 0.045112781954887216
+Program graph node: 1
+
+#
+Mutant name: COI_17
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 23
+
+#
+Mutant name: AOIS_59
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 20
+
+#
+Mutant name: SDL_40
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 12
+
+#
+Mutant name: ROR_77
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 15
+
+#
+Mutant name: ODL_73
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 43
+
+#
+Mutant name: COI_40
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 55
+
+#
+Mutant name: ROR_98
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 23
+
+#
+Mutant name: ROR_156
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 37
+
+#
+Mutant name: SDL_17
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.14285714285714285
+Operator score: 0.06796116504854369
+Program graph node: 4
+
+#
+Mutant name: ROR_61
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 11
+
+#
+Mutant name: ROR_140
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 30
+
+#
+Mutant name: LOI_44
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.3181818181818182
+Program graph node: 59
+
+#
+Mutant name: ROR_36
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 7
+
+#
+Mutant name: ROR_117
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 25
+
+#
+Mutant name: SDL_56
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 32
+
+#
+Mutant name: LOI_13
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 8
+
+#
+Mutant name: AOIS_38
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 9
+
+#
+Mutant name: SDL_21
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.14285714285714285
+Operator score: 0.06796116504854369
+Program graph node: 4
+
+#
+Mutant name: AOIS_129
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 49
+
+#
+Mutant name: ROR_160
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 37
+
+#
+Mutant name: ODL_45
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 23
+
+#
+Mutant name: ROR_41
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 7
+
+#
+Mutant name: LOI_33
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 43
+
+#
+Mutant name: SDL_99
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.5
+Operator score: 0.06796116504854369
+Program graph node: 60
+
+#
+Mutant name: AOIU_11
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 15
+
+#
+Mutant name: SDL_76
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 38
+
+#
+Mutant name: ODL_12
+Status: Equivalent
+Operator: ODL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 5
+
+#
+Mutant name: COI_21
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 30
+
+#
+Mutant name: ROR_137
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 30
+
+#
+Mutant name: LOI_25
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 29
+
+#
+Mutant name: ROR_208
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 46
+
+#
+Mutant name: SDL_60
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 29
+
+#
+Mutant name: ROR_121
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 26
+
+#
+Mutant name: COI_37
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 51
+
+#
+Mutant name: SDL_37
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 10
+
+#
+Mutant name: ROR_57
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 11
+
+#
+Mutant name: ROR_224
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 51
+
+#
+Mutant name: AOIS_55
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 17
+
+#
+Mutant name: COR_13
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 55
+
+#
+Mutant name: AORB_1
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.2857142857142857
+Program graph node: 5
+
+#
+Mutant name: ROR_94
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 23
+
+#
+Mutant name: AOIS_105
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 40
+
+#
+Mutant name: LOI_48
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.3181818181818182
+Program graph node: 61
+
+#
+Mutant name: ODL_86
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 51
+
+#
+Mutant name: ODL_69
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 43
+
+#
+Mutant name: ROR_82
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 17
+
+#
+Mutant name: AOIS_43
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 11
+
+#
+Mutant name: VDL_43
+Status: Equivalent
+Operator: VDL
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.18181818181818182
+Program graph node: 59
+
+#
+Mutant name: COR_3
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 23
+
+#
+Mutant name: COI_6
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 8
+
+#
+Mutant name: COR_2
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 23
+
+#
+Mutant name: COI_7
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 9
+
+#
+Mutant name: AOIS_42
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 11
+
+#
+Mutant name: ROR_233
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 55
+
+#
+Mutant name: AOIS_153
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.09433962264150944
+Program graph node: 59
+
+#
+Mutant name: ODL_87
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 51
+
+#
+Mutant name: ODL_68
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 43
+
+#
+Mutant name: ROR_83
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 17
+
+#
+Mutant name: COR_12
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 51
+
+#
+Mutant name: ROR_225
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 51
+
+#
+Mutant name: AOIS_54
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 17
+
+#
+Mutant name: ROR_177
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 43
+
+#
+Mutant name: ROR_198
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 46
+
+#
+Mutant name: ROR_56
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 9
+
+#
+Mutant name: SDL_36
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 40
+
+#
+Mutant name: ROR_120
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 26
+
+#
+Mutant name: COI_36
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 51
+
+#
+Mutant name: LOI_5
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 0.3181818181818182
+Program graph node: 1
+
+#
+Mutant name: LOI_24
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 26
+
+#
+Mutant name: AOIS_97
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 37
+
+#
+Mutant name: AOIS_78
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 26
+
+#
+Mutant name: ROR_209
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 46
+
+#
+Mutant name: SDL_61
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 28
+
+#
+Mutant name: ODL_13
+Status: Equivalent
+Operator: ODL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 5
+
+#
+Mutant name: COI_20
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 29
+
+#
+Mutant name: ROR_17
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 0.045112781954887216
+Program graph node: 1
+
+#
+Mutant name: AOIS_81
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 29
+
+#
+Mutant name: LOI_32
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 43
+
+#
+Mutant name: SDL_98
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 57
+
+#
+Mutant name: AOIU_10
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.0
+Operator score: 0.26666666666666666
+Program graph node: 13
+
+#
+Mutant name: SDL_77
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 39
+
+#
+Mutant name: ROR_161
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 37
+
+#
+Mutant name: ODL_44
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 23
+
+#
+Mutant name: ROR_40
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 7
+
+#
+Mutant name: AOIS_39
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 9
+
+#
+Mutant name: SDL_20
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.14285714285714285
+Operator score: 0.06796116504854369
+Program graph node: 4
+
+#
+Mutant name: SDL_57
+Status: Equivalent
+Operator: SDL
+Type statement: Block
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 25
+
+#
+Mutant name: LOI_12
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 7
+
+#
+Mutant name: ROR_37
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 7
+
+#
+Mutant name: ROR_116
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 25
+
+#
+Mutant name: AOIS_108
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 40
+
+#
+Mutant name: LOI_45
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.2631578947368421
+Operator score: 0.3181818181818182
+Program graph node: 59
+
+#
+Mutant name: ROR_60
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 11
+
+#
+Mutant name: ROR_141
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 33
+
+#
+Mutant name: SDL_16
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.14285714285714285
+Operator score: 0.06796116504854369
+Program graph node: 4
+
+#
+Mutant name: ROR_76
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 15
+
+#
+Mutant name: ODL_72
+Status: Equivalent
+Operator: ODL
+Type statement: If
+Position score: 0.0
+Operator score: 0.0
+Program graph node: 43
+
+#
+Mutant name: COI_41
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 55
+
+#
+Mutant name: ROR_157
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 37
+
+#
+Mutant name: AOIS_58
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 20
+
+#
+Mutant name: ROR_229
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 51
+
+#
+Mutant name: SDL_41
+Status: Equivalent
+Operator: SDL
+Type statement: If
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 12
+
+#
+Mutant name: COI_16
+Status: Equivalent
+Operator: COI
+Type statement: If
+Position score: 0.0
+Operator score: 0.06666666666666667
+Program graph node: 23
+
+#
+Mutant name: ROR_252
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 55
+
+#
+Mutant name: AOIS_132
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 49
+
+#
+Mutant name: LOI_28
+Status: Equivalent
+Operator: LOI
+Type statement: If
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 34
+
+#
+Mutant name: LOI_9
+Status: Equivalent
+Operator: LOI
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.3181818181818182
+Program graph node: 5
+
+#
+Mutant name: SDL_82
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 39
+
+#
+Mutant name: AOIS_165
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.42105263157894735
+Operator score: 0.09433962264150944
+Program graph node: 61
+
+#
+Mutant name: ROR_205
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 46
+
+#
+Mutant name: AOIS_74
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 25
+
+#
+Mutant name: SDL_94
+Status: Equivalent
+Operator: SDL
+Type statement: Assignment
+Position score: 0.0
+Operator score: 0.06796116504854369
+Program graph node: 52
+
+#
+Mutant name: AOIS_62
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 23
+
+#
+Mutant name: ROR_213
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 49
+
+#
+Mutant name: ROR_244
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 55
+
+#
+Mutant name: ROR_182
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.0
+Operator score: 0.045112781954887216
+Program graph node: 43

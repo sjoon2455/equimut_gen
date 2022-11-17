@@ -1,0 +1,28 @@
+AODU
+@@ -272 +272 @@
+-    } else if ((y >= -threshold) && (y <= threshold)) {
++    } else if ((y <= threshold)) {
+
+AODU
+@@ -269 +269 @@
+-    if ((x >= -threshold) && (x <= threshold)) {
++    if ((x <= threshold)) {
+
+ROD
+@@ -272 +272 @@
+-    } else if ((y >= -threshold) && (y <= threshold)) {
++    } else if ((y >= -threshold)) {
+
+ROR
+@@ -265 +265 @@
+-    if (threshold == 0) {
++    if (threshold <= 0) {
+
+ROD
+@@ -269 +269 @@
+-    if ((x >= -threshold) && (x <= threshold)) {
++    if ((x >= -threshold)) {
+
+Total: 5
+AODU: 2, ROD: 2, ROR: 1
+public Vector3D orthogonal()

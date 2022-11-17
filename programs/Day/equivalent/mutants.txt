@@ -1,0 +1,9 @@
+#
+Mutant name: ABS_84
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 1.0
+Operator score: 1
+Program graph node: 13
+

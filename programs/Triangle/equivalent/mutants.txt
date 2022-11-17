@@ -1,0 +1,90 @@
+#
+Mutant name: ROR_573
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9243697478991597
+Program graph node: 18
+
+#
+Mutant name: ROR_138
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9243697478991597
+Program graph node: 16
+
+#
+Mutant name: ROR_58
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.8469387755102041
+Operator score: 0.9243697478991597
+Program graph node: 15
+
+#
+Mutant name: COD_27
+Status: Equivalent
+Operator: COD
+Type statement: If
+Position score: 1.0
+Operator score: 1
+Program graph node: 16
+
+#
+Mutant name: ROR_538
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.6666666666666666
+Operator score: 0.9243697478991597
+Program graph node: 6
+
+#
+Mutant name: ROR_87
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.74
+Operator score: 0.9243697478991597
+Program graph node: 21
+
+#
+Mutant name: VDL_181
+Status: Equivalent
+Operator: VDL
+Type statement: Assignment
+Position score: 1
+Operator score: 0.4666666666666667
+Program graph node: 1
+
+#
+Mutant name: CDL_64
+Status: Equivalent
+Operator: CDL
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 16
+
+#
+Mutant name: ROR_623
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9243697478991597
+Program graph node: 18
+
+#
+Mutant name: VDL_149
+Status: Equivalent
+Operator: VDL
+Type statement: If
+Position score: 1.0
+Operator score: 0.4666666666666667
+Program graph node: 16
+

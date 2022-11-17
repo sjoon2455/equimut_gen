@@ -1,0 +1,99 @@
+#
+Mutant name: AOIS_20
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7333333333333333
+Operator score: 0.7115384615384616
+Program graph node: 1
+
+#
+Mutant name: AOIS_4
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7333333333333333
+Operator score: 0.7115384615384616
+Program graph node: 1
+
+#
+Mutant name: AOIS_16
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7333333333333333
+Operator score: 0.7115384615384616
+Program graph node: 1
+
+#
+Mutant name: AOIS_8
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7333333333333333
+Operator score: 0.7115384615384616
+Program graph node: 1
+
+#
+Mutant name: ROR_3
+Status: Equivalent
+Operator: ROR
+Type statement: For
+Position score: 0.7142857142857143
+Operator score: 0.7777777777777778
+Program graph node: 2
+
+#
+Mutant name: AOIS_3
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7333333333333333
+Operator score: 0.7115384615384616
+Program graph node: 1
+
+#
+Mutant name: AOIS_11
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7333333333333333
+Operator score: 0.7115384615384616
+Program graph node: 1
+
+#
+Mutant name: AOIS_12
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7333333333333333
+Operator score: 0.7115384615384616
+Program graph node: 1
+
+#
+Mutant name: AOIS_15
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7333333333333333
+Operator score: 0.7115384615384616
+Program graph node: 1
+
+#
+Mutant name: AOIS_19
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7333333333333333
+Operator score: 0.7115384615384616
+Program graph node: 1
+
+#
+Mutant name: AOIS_7
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7333333333333333
+Operator score: 0.7115384615384616
+Program graph node: 1
+

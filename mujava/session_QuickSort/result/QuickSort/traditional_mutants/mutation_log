@@ -1,0 +1,433 @@
+AORB_1:9:void_quicksort(int,int,int):first + 1 => first * 1
+AORB_2:9:void_quicksort(int,int,int):first + 1 => first / 1
+AORB_3:9:void_quicksort(int,int,int):first + 1 => first % 1
+AORB_4:9:void_quicksort(int,int,int):first + 1 => first - 1
+AORB_5:11:void_quicksort(int,int,int):first + last => first * last
+AORB_6:11:void_quicksort(int,int,int):first + last => first / last
+AORB_7:11:void_quicksort(int,int,int):first + last => first % last
+AORB_8:11:void_quicksort(int,int,int):first + last => first - last
+AORB_9:11:void_quicksort(int,int,int):(first + last) / 2 => (first + last) * 2
+AORB_10:11:void_quicksort(int,int,int):(first + last) / 2 => (first + last) % 2
+AORB_11:11:void_quicksort(int,int,int):(first + last) / 2 => first + last + 2
+AORB_12:11:void_quicksort(int,int,int):(first + last) / 2 => first + last - 2
+AORB_13:27:void_quicksort(int,int,int):upper - 1 => upper * 1
+AORB_14:27:void_quicksort(int,int,int):upper - 1 => upper / 1
+AORB_15:27:void_quicksort(int,int,int):upper - 1 => upper % 1
+AORB_16:27:void_quicksort(int,int,int):upper - 1 => upper + 1
+AORB_17:28:void_quicksort(int,int,int):upper - 1 => upper * 1
+AORB_18:28:void_quicksort(int,int,int):upper - 1 => upper / 1
+AORB_19:28:void_quicksort(int,int,int):upper - 1 => upper % 1
+AORB_20:28:void_quicksort(int,int,int):upper - 1 => upper + 1
+AORB_21:30:void_quicksort(int,int,int):upper + 1 => upper * 1
+AORB_22:30:void_quicksort(int,int,int):upper + 1 => upper / 1
+AORB_23:30:void_quicksort(int,int,int):upper + 1 => upper % 1
+AORB_24:30:void_quicksort(int,int,int):upper + 1 => upper - 1
+AORB_25:31:void_quicksort(int,int,int):upper + 1 => upper * 1
+AORB_26:31:void_quicksort(int,int,int):upper + 1 => upper / 1
+AORB_27:31:void_quicksort(int,int,int):upper + 1 => upper % 1
+AORB_28:31:void_quicksort(int,int,int):upper + 1 => upper - 1
+AORB_29:46:int_sort(int):data.length - 1 => data.length * 1
+AORB_30:46:int_sort(int):data.length - 1 => data.length / 1
+AORB_31:46:int_sort(int):data.length - 1 => data.length % 1
+AORB_32:46:int_sort(int):data.length - 1 => data.length + 1
+AORB_33:47:int_sort(int):data.length - 2 => data.length * 2
+AORB_34:47:int_sort(int):data.length - 2 => data.length / 2
+AORB_35:47:int_sort(int):data.length - 2 => data.length % 2
+AORB_36:47:int_sort(int):data.length - 2 => data.length + 2
+AORS_1:15:void_quicksort(int,int,int):lower++ => lower--
+AORS_2:18:void_quicksort(int,int,int):upper-- => upper++
+AORS_3:21:void_quicksort(int,int,int):lower++ => lower--
+AORS_4:21:void_quicksort(int,int,int):upper-- => upper++
+AORS_5:23:void_quicksort(int,int,int):lower++ => lower--
+AORS_6:41:int_sort(int):i++ => i--
+AODS_1:15:void_quicksort(int,int,int):lower++ => lower
+AODS_2:18:void_quicksort(int,int,int):upper-- => upper
+AODS_3:21:void_quicksort(int,int,int):lower++ => lower
+AODS_4:21:void_quicksort(int,int,int):upper-- => upper
+AODS_5:23:void_quicksort(int,int,int):lower++ => lower
+AOIU_1:9:void_quicksort(int,int,int):first => -first
+AOIU_2:10:void_quicksort(int,int,int):last => -last
+AOIU_3:11:void_quicksort(int,int,int):first => -first
+AOIU_4:11:void_quicksort(int,int,int):first => -first
+AOIU_5:12:void_quicksort(int,int,int):first => -first
+AOIU_6:13:void_quicksort(int,int,int):lower => -lower
+AOIU_7:13:void_quicksort(int,int,int):upper => -upper
+AOIU_8:14:void_quicksort(int,int,int):bound => -bound
+AOIU_9:14:void_quicksort(int,int,int):lower => -lower
+AOIU_10:17:void_quicksort(int,int,int):bound => -bound
+AOIU_11:17:void_quicksort(int,int,int):upper => -upper
+AOIU_12:20:void_quicksort(int,int,int):lower => -lower
+AOIU_13:20:void_quicksort(int,int,int):upper => -upper
+AOIU_14:26:void_quicksort(int,int,int):upper => -upper
+AOIU_15:26:void_quicksort(int,int,int):first => -first
+AOIU_16:27:void_quicksort(int,int,int):first => -first
+AOIU_17:27:void_quicksort(int,int,int):upper => -upper
+AOIU_18:28:void_quicksort(int,int,int):first => -first
+AOIU_19:28:void_quicksort(int,int,int):upper => -upper
+AOIU_20:30:void_quicksort(int,int,int):upper => -upper
+AOIU_21:30:void_quicksort(int,int,int):last => -last
+AOIU_22:31:void_quicksort(int,int,int):upper => -upper
+AOIU_23:31:void_quicksort(int,int,int):last => -last
+AOIU_24:37:int_sort(int):data.length => -data.length
+AOIU_25:41:int_sort(int):i => -i
+AOIU_26:41:int_sort(int):data.length => -data.length
+AOIU_27:42:int_sort(int):max => -max
+AOIU_28:42:int_sort(int):i => -i
+AOIU_29:43:int_sort(int):i => -i
+AOIU_30:46:int_sort(int):data.length => -data.length
+AOIU_31:46:int_sort(int):max => -max
+AOIU_32:47:int_sort(int):data.length => -data.length
+AOIU_33:53:void_swap(int,int,int):i => -i
+AOIU_34:54:void_swap(int,int,int):j => -j
+AOIU_35:55:void_swap(int,int,int):tmp => -tmp
+AOIS_1:9:void_quicksort(int,int,int):first => ++first
+AOIS_2:9:void_quicksort(int,int,int):first => --first
+AOIS_3:9:void_quicksort(int,int,int):first => first++
+AOIS_4:9:void_quicksort(int,int,int):first => first--
+AOIS_5:10:void_quicksort(int,int,int):last => last++
+AOIS_6:10:void_quicksort(int,int,int):last => last--
+AOIS_7:11:void_quicksort(int,int,int):first => first++
+AOIS_8:11:void_quicksort(int,int,int):first => first--
+AOIS_9:11:void_quicksort(int,int,int):first => ++first
+AOIS_10:11:void_quicksort(int,int,int):first => --first
+AOIS_11:11:void_quicksort(int,int,int):first => first++
+AOIS_12:11:void_quicksort(int,int,int):first => first--
+AOIS_13:11:void_quicksort(int,int,int):last => ++last
+AOIS_14:11:void_quicksort(int,int,int):last => --last
+AOIS_15:11:void_quicksort(int,int,int):last => last++
+AOIS_16:11:void_quicksort(int,int,int):last => last--
+AOIS_17:12:void_quicksort(int,int,int):first => first++
+AOIS_18:12:void_quicksort(int,int,int):first => first--
+AOIS_19:13:void_quicksort(int,int,int):lower => ++lower
+AOIS_20:13:void_quicksort(int,int,int):lower => --lower
+AOIS_21:13:void_quicksort(int,int,int):lower => lower++
+AOIS_22:13:void_quicksort(int,int,int):lower => lower--
+AOIS_23:13:void_quicksort(int,int,int):upper => ++upper
+AOIS_24:13:void_quicksort(int,int,int):upper => --upper
+AOIS_25:13:void_quicksort(int,int,int):upper => upper++
+AOIS_26:13:void_quicksort(int,int,int):upper => upper--
+AOIS_27:14:void_quicksort(int,int,int):bound => ++bound
+AOIS_28:14:void_quicksort(int,int,int):bound => --bound
+AOIS_29:14:void_quicksort(int,int,int):bound => bound++
+AOIS_30:14:void_quicksort(int,int,int):bound => bound--
+AOIS_31:14:void_quicksort(int,int,int):lower => ++lower
+AOIS_32:14:void_quicksort(int,int,int):lower => --lower
+AOIS_33:14:void_quicksort(int,int,int):lower => lower++
+AOIS_34:14:void_quicksort(int,int,int):lower => lower--
+AOIS_35:17:void_quicksort(int,int,int):bound => ++bound
+AOIS_36:17:void_quicksort(int,int,int):bound => --bound
+AOIS_37:17:void_quicksort(int,int,int):bound => bound++
+AOIS_38:17:void_quicksort(int,int,int):bound => bound--
+AOIS_39:17:void_quicksort(int,int,int):upper => ++upper
+AOIS_40:17:void_quicksort(int,int,int):upper => --upper
+AOIS_41:17:void_quicksort(int,int,int):upper => upper++
+AOIS_42:17:void_quicksort(int,int,int):upper => upper--
+AOIS_43:20:void_quicksort(int,int,int):lower => ++lower
+AOIS_44:20:void_quicksort(int,int,int):lower => --lower
+AOIS_45:20:void_quicksort(int,int,int):lower => lower++
+AOIS_46:20:void_quicksort(int,int,int):lower => lower--
+AOIS_47:20:void_quicksort(int,int,int):upper => ++upper
+AOIS_48:20:void_quicksort(int,int,int):upper => --upper
+AOIS_49:20:void_quicksort(int,int,int):upper => upper++
+AOIS_50:20:void_quicksort(int,int,int):upper => upper--
+AOIS_51:26:void_quicksort(int,int,int):upper => upper++
+AOIS_52:26:void_quicksort(int,int,int):upper => upper--
+AOIS_53:26:void_quicksort(int,int,int):first => first++
+AOIS_54:26:void_quicksort(int,int,int):first => first--
+AOIS_55:27:void_quicksort(int,int,int):first => ++first
+AOIS_56:27:void_quicksort(int,int,int):first => --first
+AOIS_57:27:void_quicksort(int,int,int):first => first++
+AOIS_58:27:void_quicksort(int,int,int):first => first--
+AOIS_59:27:void_quicksort(int,int,int):upper => ++upper
+AOIS_60:27:void_quicksort(int,int,int):upper => --upper
+AOIS_61:27:void_quicksort(int,int,int):upper => upper++
+AOIS_62:27:void_quicksort(int,int,int):upper => upper--
+AOIS_63:28:void_quicksort(int,int,int):first => first++
+AOIS_64:28:void_quicksort(int,int,int):first => first--
+AOIS_65:28:void_quicksort(int,int,int):upper => ++upper
+AOIS_66:28:void_quicksort(int,int,int):upper => --upper
+AOIS_67:28:void_quicksort(int,int,int):upper => upper++
+AOIS_68:28:void_quicksort(int,int,int):upper => upper--
+AOIS_69:30:void_quicksort(int,int,int):upper => ++upper
+AOIS_70:30:void_quicksort(int,int,int):upper => --upper
+AOIS_71:30:void_quicksort(int,int,int):upper => upper++
+AOIS_72:30:void_quicksort(int,int,int):upper => upper--
+AOIS_73:30:void_quicksort(int,int,int):last => last++
+AOIS_74:30:void_quicksort(int,int,int):last => last--
+AOIS_75:31:void_quicksort(int,int,int):upper => ++upper
+AOIS_76:31:void_quicksort(int,int,int):upper => --upper
+AOIS_77:31:void_quicksort(int,int,int):upper => upper++
+AOIS_78:31:void_quicksort(int,int,int):upper => upper--
+AOIS_79:31:void_quicksort(int,int,int):last => last++
+AOIS_80:31:void_quicksort(int,int,int):last => last--
+AOIS_81:37:int_sort(int):data.length => ++data.length
+AOIS_82:37:int_sort(int):data.length => --data.length
+AOIS_83:37:int_sort(int):data.length => data.length++
+AOIS_84:37:int_sort(int):data.length => data.length--
+AOIS_85:41:int_sort(int):i => ++i
+AOIS_86:41:int_sort(int):i => --i
+AOIS_87:41:int_sort(int):i => i++
+AOIS_88:41:int_sort(int):i => i--
+AOIS_89:41:int_sort(int):data.length => ++data.length
+AOIS_90:41:int_sort(int):data.length => --data.length
+AOIS_91:41:int_sort(int):data.length => data.length++
+AOIS_92:41:int_sort(int):data.length => data.length--
+AOIS_93:42:int_sort(int):max => ++max
+AOIS_94:42:int_sort(int):max => --max
+AOIS_95:42:int_sort(int):max => max++
+AOIS_96:42:int_sort(int):max => max--
+AOIS_97:42:int_sort(int):i => ++i
+AOIS_98:42:int_sort(int):i => --i
+AOIS_99:42:int_sort(int):i => i++
+AOIS_100:42:int_sort(int):i => i--
+AOIS_101:43:int_sort(int):i => ++i
+AOIS_102:43:int_sort(int):i => --i
+AOIS_103:43:int_sort(int):i => i++
+AOIS_104:43:int_sort(int):i => i--
+AOIS_105:46:int_sort(int):data.length => ++data.length
+AOIS_106:46:int_sort(int):data.length => --data.length
+AOIS_107:46:int_sort(int):data.length => data.length++
+AOIS_108:46:int_sort(int):data.length => data.length--
+AOIS_109:46:int_sort(int):max => max++
+AOIS_110:46:int_sort(int):max => max--
+AOIS_111:47:int_sort(int):data.length => ++data.length
+AOIS_112:47:int_sort(int):data.length => --data.length
+AOIS_113:47:int_sort(int):data.length => data.length++
+AOIS_114:47:int_sort(int):data.length => data.length--
+AOIS_115:53:void_swap(int,int,int):i => i++
+AOIS_116:53:void_swap(int,int,int):i => i--
+AOIS_117:54:void_swap(int,int,int):j => ++j
+AOIS_118:54:void_swap(int,int,int):j => --j
+AOIS_119:54:void_swap(int,int,int):j => j++
+AOIS_120:54:void_swap(int,int,int):j => j--
+AOIS_121:55:void_swap(int,int,int):tmp => ++tmp
+AOIS_122:55:void_swap(int,int,int):tmp => --tmp
+AOIS_123:55:void_swap(int,int,int):tmp => tmp++
+AOIS_124:55:void_swap(int,int,int):tmp => tmp--
+ROR_1:13:void_quicksort(int,int,int): lower <= upper  =>   lower > upper
+ROR_2:13:void_quicksort(int,int,int): lower <= upper  =>   lower >= upper
+ROR_3:13:void_quicksort(int,int,int): lower <= upper  =>   lower < upper
+ROR_4:13:void_quicksort(int,int,int): lower <= upper  =>   lower == upper
+ROR_5:13:void_quicksort(int,int,int): lower <= upper  =>   lower != upper
+ROR_6:13:void_quicksort(int,int,int): lower <= upper  =>   true
+ROR_7:13:void_quicksort(int,int,int): lower <= upper  =>   false
+ROR_8:14:void_quicksort(int,int,int): bound > data[lower]  =>   bound >= data[lower]
+ROR_9:14:void_quicksort(int,int,int): bound > data[lower]  =>   bound < data[lower]
+ROR_10:14:void_quicksort(int,int,int): bound > data[lower]  =>   bound <= data[lower]
+ROR_11:14:void_quicksort(int,int,int): bound > data[lower]  =>   bound == data[lower]
+ROR_12:14:void_quicksort(int,int,int): bound > data[lower]  =>   bound != data[lower]
+ROR_13:14:void_quicksort(int,int,int): bound > data[lower]  =>   true
+ROR_14:14:void_quicksort(int,int,int): bound > data[lower]  =>   false
+ROR_15:17:void_quicksort(int,int,int): bound < data[upper]  =>   bound > data[upper]
+ROR_16:17:void_quicksort(int,int,int): bound < data[upper]  =>   bound >= data[upper]
+ROR_17:17:void_quicksort(int,int,int): bound < data[upper]  =>   bound <= data[upper]
+ROR_18:17:void_quicksort(int,int,int): bound < data[upper]  =>   bound == data[upper]
+ROR_19:17:void_quicksort(int,int,int): bound < data[upper]  =>   bound != data[upper]
+ROR_20:17:void_quicksort(int,int,int): bound < data[upper]  =>   true
+ROR_21:17:void_quicksort(int,int,int): bound < data[upper]  =>   false
+ROR_22:20:void_quicksort(int,int,int): lower < upper  =>   lower > upper
+ROR_23:20:void_quicksort(int,int,int): lower < upper  =>   lower >= upper
+ROR_24:20:void_quicksort(int,int,int): lower < upper  =>   lower <= upper
+ROR_25:20:void_quicksort(int,int,int): lower < upper  =>   lower == upper
+ROR_26:20:void_quicksort(int,int,int): lower < upper  =>   lower != upper
+ROR_27:20:void_quicksort(int,int,int): lower < upper  =>   true
+ROR_28:20:void_quicksort(int,int,int): lower < upper  =>   false
+ROR_29:27:void_quicksort(int,int,int): first < upper - 1  =>   first > upper - 1
+ROR_30:27:void_quicksort(int,int,int): first < upper - 1  =>   first >= upper - 1
+ROR_31:27:void_quicksort(int,int,int): first < upper - 1  =>   first <= upper - 1
+ROR_32:27:void_quicksort(int,int,int): first < upper - 1  =>   first == upper - 1
+ROR_33:27:void_quicksort(int,int,int): first < upper - 1  =>   first != upper - 1
+ROR_34:27:void_quicksort(int,int,int): first < upper - 1  =>   true
+ROR_35:27:void_quicksort(int,int,int): first < upper - 1  =>   false
+ROR_36:30:void_quicksort(int,int,int): upper + 1 < last  =>   upper + 1 > last
+ROR_37:30:void_quicksort(int,int,int): upper + 1 < last  =>   upper + 1 >= last
+ROR_38:30:void_quicksort(int,int,int): upper + 1 < last  =>   upper + 1 <= last
+ROR_39:30:void_quicksort(int,int,int): upper + 1 < last  =>   upper + 1 == last
+ROR_40:30:void_quicksort(int,int,int): upper + 1 < last  =>   upper + 1 != last
+ROR_41:30:void_quicksort(int,int,int): upper + 1 < last  =>   true
+ROR_42:30:void_quicksort(int,int,int): upper + 1 < last  =>   false
+ROR_43:37:int_sort(int): data.length < 2  =>   data.length > 2
+ROR_44:37:int_sort(int): data.length < 2  =>   data.length >= 2
+ROR_45:37:int_sort(int): data.length < 2  =>   data.length <= 2
+ROR_46:37:int_sort(int): data.length < 2  =>   data.length == 2
+ROR_47:37:int_sort(int): data.length < 2  =>   data.length != 2
+ROR_48:37:int_sort(int): data.length < 2  =>   true
+ROR_49:37:int_sort(int): data.length < 2  =>   false
+ROR_50:41:int_sort(int): i < data.length  =>   i > data.length
+ROR_51:41:int_sort(int): i < data.length  =>   i >= data.length
+ROR_52:41:int_sort(int): i < data.length  =>   i <= data.length
+ROR_53:41:int_sort(int): i < data.length  =>   i == data.length
+ROR_54:41:int_sort(int): i < data.length  =>   i != data.length
+ROR_55:41:int_sort(int): i < data.length  =>   true
+ROR_56:41:int_sort(int): i < data.length  =>   false
+ROR_57:42:int_sort(int): data[max] < data[i]  =>   data[max] > data[i]
+ROR_58:42:int_sort(int): data[max] < data[i]  =>   data[max] >= data[i]
+ROR_59:42:int_sort(int): data[max] < data[i]  =>   data[max] <= data[i]
+ROR_60:42:int_sort(int): data[max] < data[i]  =>   data[max] == data[i]
+ROR_61:42:int_sort(int): data[max] < data[i]  =>   data[max] != data[i]
+ROR_62:42:int_sort(int): data[max] < data[i]  =>   true
+ROR_63:42:int_sort(int): data[max] < data[i]  =>   false
+COI_1:13:void_quicksort(int,int,int): lower <= upper  =>  !(lower <= upper)
+COI_2:14:void_quicksort(int,int,int): bound > data[lower]  =>  !(bound > data[lower])
+COI_3:17:void_quicksort(int,int,int): bound < data[upper]  =>  !(bound < data[upper])
+COI_4:20:void_quicksort(int,int,int): lower < upper  =>  !(lower < upper)
+COI_5:27:void_quicksort(int,int,int): first < upper - 1  =>  !(first < upper - 1)
+COI_6:30:void_quicksort(int,int,int): upper + 1 < last  =>  !(upper + 1 < last)
+COI_7:37:int_sort(int): data.length < 2  =>  !(data.length < 2)
+COI_8:41:int_sort(int): i < data.length  =>  !(i < data.length)
+COI_9:42:int_sort(int): data[max] < data[i]  =>  !(data[max] < data[i])
+LOI_1:9:void_quicksort(int,int,int):first => ~first
+LOI_2:10:void_quicksort(int,int,int):last => ~last
+LOI_3:11:void_quicksort(int,int,int):first => ~first
+LOI_4:11:void_quicksort(int,int,int):first => ~first
+LOI_5:11:void_quicksort(int,int,int):last => ~last
+LOI_6:12:void_quicksort(int,int,int):first => ~first
+LOI_7:13:void_quicksort(int,int,int):lower => ~lower
+LOI_8:13:void_quicksort(int,int,int):upper => ~upper
+LOI_9:14:void_quicksort(int,int,int):bound => ~bound
+LOI_10:14:void_quicksort(int,int,int):lower => ~lower
+LOI_11:15:void_quicksort(int,int,int):lower => ~lower
+LOI_12:17:void_quicksort(int,int,int):bound => ~bound
+LOI_13:17:void_quicksort(int,int,int):upper => ~upper
+LOI_14:18:void_quicksort(int,int,int):upper => ~upper
+LOI_15:20:void_quicksort(int,int,int):lower => ~lower
+LOI_16:20:void_quicksort(int,int,int):upper => ~upper
+LOI_17:21:void_quicksort(int,int,int):lower => ~lower
+LOI_18:21:void_quicksort(int,int,int):upper => ~upper
+LOI_19:23:void_quicksort(int,int,int):lower => ~lower
+LOI_20:26:void_quicksort(int,int,int):upper => ~upper
+LOI_21:26:void_quicksort(int,int,int):first => ~first
+LOI_22:27:void_quicksort(int,int,int):first => ~first
+LOI_23:27:void_quicksort(int,int,int):upper => ~upper
+LOI_24:28:void_quicksort(int,int,int):first => ~first
+LOI_25:28:void_quicksort(int,int,int):upper => ~upper
+LOI_26:30:void_quicksort(int,int,int):upper => ~upper
+LOI_27:30:void_quicksort(int,int,int):last => ~last
+LOI_28:31:void_quicksort(int,int,int):upper => ~upper
+LOI_29:31:void_quicksort(int,int,int):last => ~last
+LOI_30:37:int_sort(int):data.length => ~data.length
+LOI_31:41:int_sort(int):i => ~i
+LOI_32:41:int_sort(int):data.length => ~data.length
+LOI_33:41:int_sort(int):i => ~i
+LOI_34:42:int_sort(int):max => ~max
+LOI_35:42:int_sort(int):i => ~i
+LOI_36:43:int_sort(int):i => ~i
+LOI_37:46:int_sort(int):data.length => ~data.length
+LOI_38:46:int_sort(int):max => ~max
+LOI_39:47:int_sort(int):data.length => ~data.length
+LOI_40:53:void_swap(int,int,int):i => ~i
+LOI_41:54:void_swap(int,int,int):i => ~i
+LOI_42:54:void_swap(int,int,int):j => ~j
+LOI_43:55:void_swap(int,int,int):j => ~j
+LOI_44:55:void_swap(int,int,int):tmp => ~tmp
+SDL_1:32:void_quicksort(int,int,int): int lower = first + 1; int upper = last; swap( data, first, (first + last) / 2 ); int bound = data[first]; while (lower <= upper) {     while (bound > data[lower]) {         lower++;     }     while (bound < data[upper]) {         upper--;     }     if (lower < upper) {         swap( data, lower++, upper-- );     } else {         lower++;     } } swap( data, upper, first ); if (first < upper - 1) {     quicksort( data, first, upper - 1 ); } if (upper + 1 < last) {     quicksort( data, upper + 1, last ); }  =>   int lower = first + 1; int upper = last; int bound = data[first]; while (lower <= upper) {     while (bound > data[lower]) {         lower++;     }     while (bound < data[upper]) {         upper--;     }     if (lower < upper) {         swap( data, lower++, upper-- );     } else {         lower++;     } } swap( data, upper, first ); if (first < upper - 1) {     quicksort( data, first, upper - 1 ); } if (upper + 1 < last) {     quicksort( data, upper + 1, last ); }
+SDL_2:20:void_quicksort(int,int,int): int lower = first + 1; int upper = last; swap( data, first, (first + last) / 2 ); int bound = data[first]; while (lower <= upper) {     while (bound > data[lower]) {         lower++;     }     while (bound < data[upper]) {         upper--;     }     if (lower < upper) {         swap( data, lower++, upper-- );     } else {         lower++;     } } swap( data, upper, first ); if (first < upper - 1) {     quicksort( data, first, upper - 1 ); } if (upper + 1 < last) {     quicksort( data, upper + 1, last ); }  =>   int lower = first + 1; int upper = last; swap( data, first, (first + last) / 2 ); int bound = data[first]; swap( data, upper, first ); if (first < upper - 1) {     quicksort( data, first, upper - 1 ); } if (upper + 1 < last) {     quicksort( data, upper + 1, last ); }
+SDL_3:32:void_quicksort(int,int,int): int lower = first + 1; int upper = last; swap( data, first, (first + last) / 2 ); int bound = data[first]; while (lower <= upper) {     while (bound > data[lower]) {         lower++;     }     while (bound < data[upper]) {         upper--;     }     if (lower < upper) {         swap( data, lower++, upper-- );     } else {         lower++;     } } swap( data, upper, first ); if (first < upper - 1) {     quicksort( data, first, upper - 1 ); } if (upper + 1 < last) {     quicksort( data, upper + 1, last ); }  =>   int lower = first + 1; int upper = last; swap( data, first, (first + last) / 2 ); int bound = data[first]; while (lower <= upper) {     while (bound > data[lower]) {         lower++;     }     while (bound < data[upper]) {         upper--;     }     if (lower < upper) {         swap( data, lower++, upper-- );     } else {         lower++;     } } if (first < upper - 1) {     quicksort( data, first, upper - 1 ); } if (upper + 1 < last) {     quicksort( data, upper + 1, last ); }
+SDL_4:30:void_quicksort(int,int,int): int lower = first + 1; int upper = last; swap( data, first, (first + last) / 2 ); int bound = data[first]; while (lower <= upper) {     while (bound > data[lower]) {         lower++;     }     while (bound < data[upper]) {         upper--;     }     if (lower < upper) {         swap( data, lower++, upper-- );     } else {         lower++;     } } swap( data, upper, first ); if (first < upper - 1) {     quicksort( data, first, upper - 1 ); } if (upper + 1 < last) {     quicksort( data, upper + 1, last ); }  =>   int lower = first + 1; int upper = last; swap( data, first, (first + last) / 2 ); int bound = data[first]; while (lower <= upper) {     while (bound > data[lower]) {         lower++;     }     while (bound < data[upper]) {         upper--;     }     if (lower < upper) {         swap( data, lower++, upper-- );     } else {         lower++;     } } swap( data, upper, first ); if (upper + 1 < last) {     quicksort( data, upper + 1, last ); }
+SDL_5:30:void_quicksort(int,int,int): int lower = first + 1; int upper = last; swap( data, first, (first + last) / 2 ); int bound = data[first]; while (lower <= upper) {     while (bound > data[lower]) {         lower++;     }     while (bound < data[upper]) {         upper--;     }     if (lower < upper) {         swap( data, lower++, upper-- );     } else {         lower++;     } } swap( data, upper, first ); if (first < upper - 1) {     quicksort( data, first, upper - 1 ); } if (upper + 1 < last) {     quicksort( data, upper + 1, last ); }  =>   int lower = first + 1; int upper = last; swap( data, first, (first + last) / 2 ); int bound = data[first]; while (lower <= upper) {     while (bound > data[lower]) {         lower++;     }     while (bound < data[upper]) {         upper--;     }     if (lower < upper) {         swap( data, lower++, upper-- );     } else {         lower++;     } } swap( data, upper, first ); if (first < upper - 1) {     quicksort( data, first, upper - 1 ); }
+SDL_6:22:void_quicksort(int,int,int): while (bound > data[lower]) {     lower++; } while (bound < data[upper]) {     upper--; } if (lower < upper) {     swap( data, lower++, upper-- ); } else {     lower++; }  =>   while (bound < data[upper]) {     upper--; } if (lower < upper) {     swap( data, lower++, upper-- ); } else {     lower++; }
+SDL_7:22:void_quicksort(int,int,int): while (bound > data[lower]) {     lower++; } while (bound < data[upper]) {     upper--; } if (lower < upper) {     swap( data, lower++, upper-- ); } else {     lower++; }  =>   while (bound > data[lower]) {     lower++; } if (lower < upper) {     swap( data, lower++, upper-- ); } else {     lower++; }
+SDL_8:20:void_quicksort(int,int,int): while (bound > data[lower]) {     lower++; } while (bound < data[upper]) {     upper--; } if (lower < upper) {     swap( data, lower++, upper-- ); } else {     lower++; }  =>   while (bound > data[lower]) {     lower++; } while (bound < data[upper]) {     upper--; }
+SDL_9:26:void_quicksort(int,int,int): while (lower <= upper) {     while (bound > data[lower]) {         lower++;     }     while (bound < data[upper]) {         upper--;     }     if (lower < upper) {         swap( data, lower++, upper-- );     } else {         lower++;     } }  =>   while (true) {     while (bound > data[lower]) {         lower++;     }     while (bound < data[upper]) {         upper--;     }     if (lower < upper) {         swap( data, lower++, upper-- );     } else {         lower++;     } }
+SDL_10:15:void_quicksort(int,int,int): lower++;  =>  
+SDL_11:17:void_quicksort(int,int,int): while (bound > data[lower]) {     lower++; }  =>   while (true) {     lower++; }
+SDL_12:18:void_quicksort(int,int,int): upper--;  =>  
+SDL_13:20:void_quicksort(int,int,int): while (bound < data[upper]) {     upper--; }  =>   while (true) {     upper--; }
+SDL_14:21:void_quicksort(int,int,int): swap( data, lower++, upper-- );  =>  
+SDL_15:25:void_quicksort(int,int,int): if (lower < upper) {     swap( data, lower++, upper-- ); } else {     lower++; }  =>   if (true) {     swap( data, lower++, upper-- ); } else {     lower++; }
+SDL_16:23:void_quicksort(int,int,int): lower++;  =>  
+SDL_17:28:void_quicksort(int,int,int): quicksort( data, first, upper - 1 );  =>  
+SDL_18:30:void_quicksort(int,int,int): if (first < upper - 1) {     quicksort( data, first, upper - 1 ); }  =>   if (true) {     quicksort( data, first, upper - 1 ); }
+SDL_19:31:void_quicksort(int,int,int): quicksort( data, upper + 1, last );  =>  
+SDL_20:33:void_quicksort(int,int,int): if (upper + 1 < last) {     quicksort( data, upper + 1, last ); }  =>   if (true) {     quicksort( data, upper + 1, last ); }
+SDL_21:46:int_sort(int): if (data.length < 2) {     return data; } int max = 0; for (int i = 1; i < data.length; i++) {     if (data[max] < data[i]) {         max = i;     } } swap( data, data.length - 1, max ); quicksort( data, 0, data.length - 2 ); return data;  =>   int max = 0; for (int i = 1; i < data.length; i++) {     if (data[max] < data[i]) {         max = i;     } } swap( data, data.length - 1, max ); quicksort( data, 0, data.length - 2 ); return data;
+SDL_22:44:int_sort(int): if (data.length < 2) {     return data; } int max = 0; for (int i = 1; i < data.length; i++) {     if (data[max] < data[i]) {         max = i;     } } swap( data, data.length - 1, max ); quicksort( data, 0, data.length - 2 ); return data;  =>   if (data.length < 2) {     return data; } int max = 0; swap( data, data.length - 1, max ); quicksort( data, 0, data.length - 2 ); return data;
+SDL_23:48:int_sort(int): if (data.length < 2) {     return data; } int max = 0; for (int i = 1; i < data.length; i++) {     if (data[max] < data[i]) {         max = i;     } } swap( data, data.length - 1, max ); quicksort( data, 0, data.length - 2 ); return data;  =>   if (data.length < 2) {     return data; } int max = 0; for (int i = 1; i < data.length; i++) {     if (data[max] < data[i]) {         max = i;     } } quicksort( data, 0, data.length - 2 ); return data;
+SDL_24:48:int_sort(int): if (data.length < 2) {     return data; } int max = 0; for (int i = 1; i < data.length; i++) {     if (data[max] < data[i]) {         max = i;     } } swap( data, data.length - 1, max ); quicksort( data, 0, data.length - 2 ); return data;  =>   if (data.length < 2) {     return data; } int max = 0; for (int i = 1; i < data.length; i++) {     if (data[max] < data[i]) {         max = i;     } } swap( data, data.length - 1, max ); return data;
+SDL_25:40:int_sort(int): if (data.length < 2) {     return data; }  =>   if (true) {     return data; }
+SDL_26:39:int_sort(int): return data;  =>   return 0;
+SDL_27:42:int_sort(int): if (data[max] < data[i]) {     max = i; }  =>  
+SDL_28:46:int_sort(int): for (int i = 1; i < data.length; i++) {     if (data[max] < data[i]) {         max = i;     } }  =>   for (int i = 1;; i++) {     if (data[max] < data[i]) {         max = i;     } }
+SDL_29:46:int_sort(int): for (int i = 1; i < data.length; i++) {     if (data[max] < data[i]) {         max = i;     } }  =>   for (int i = 1; i < data.length;) {     if (data[max] < data[i]) {         max = i;     } }
+SDL_30:43:int_sort(int): max = i;  =>  
+SDL_31:45:int_sort(int): if (data[max] < data[i]) {     max = i; }  =>   if (true) {     max = i; }
+SDL_32:49:int_sort(int): return data;  =>   return 0;
+SDL_33:55:void_swap(int,int,int): int tmp = data[i]; data[i] = data[j]; data[j] = tmp;  =>   int tmp = data[i]; data[j] = tmp;
+SDL_34:55:void_swap(int,int,int): int tmp = data[i]; data[i] = data[j]; data[j] = tmp;  =>   int tmp = data[i]; data[i] = data[j];
+VDL_1:9:void_quicksort(int,int,int):first + 1 => 1
+VDL_2:11:void_quicksort(int,int,int):first + last => last
+VDL_3:11:void_quicksort(int,int,int):first + last => first
+VDL_4:13:void_quicksort(int,int,int):lower <= upper => upper
+VDL_5:13:void_quicksort(int,int,int):lower <= upper => lower
+VDL_6:14:void_quicksort(int,int,int):bound > data[lower] => data[lower]
+VDL_7:14:void_quicksort(int,int,int):bound > data[lower] => bound
+VDL_8:15:void_quicksort(int,int,int):lower++ =>  
+VDL_9:17:void_quicksort(int,int,int):bound < data[upper] => data[upper]
+VDL_10:17:void_quicksort(int,int,int):bound < data[upper] => bound
+VDL_11:18:void_quicksort(int,int,int):upper-- =>  
+VDL_12:20:void_quicksort(int,int,int):lower < upper => upper
+VDL_13:20:void_quicksort(int,int,int):lower < upper => lower
+VDL_14:21:void_quicksort(int,int,int):lower++ =>  
+VDL_15:21:void_quicksort(int,int,int):upper-- =>  
+VDL_16:23:void_quicksort(int,int,int):lower++ =>  
+VDL_17:27:void_quicksort(int,int,int):upper - 1 => 1
+VDL_18:27:void_quicksort(int,int,int):first < upper - 1 => upper - 1
+VDL_19:28:void_quicksort(int,int,int):upper - 1 => 1
+VDL_20:30:void_quicksort(int,int,int):upper + 1 => 1
+VDL_21:30:void_quicksort(int,int,int):upper + 1 < last => upper + 1
+VDL_22:31:void_quicksort(int,int,int):upper + 1 => 1
+VDL_23:41:int_sort(int):i < data.length => data.length
+VDL_24:41:int_sort(int):i++ =>  
+VDL_25:42:int_sort(int):data[max] < data[i] => data[i]
+VDL_26:42:int_sort(int):data[max] < data[i] => data[max]
+ODL_1:9:void_quicksort(int,int,int):first + 1 => first
+ODL_2:9:void_quicksort(int,int,int):first + 1 => 1
+ODL_3:11:void_quicksort(int,int,int):first + last => first
+ODL_4:11:void_quicksort(int,int,int):first + last => last
+ODL_5:11:void_quicksort(int,int,int):(first + last) / 2 => first + last
+ODL_6:11:void_quicksort(int,int,int):(first + last) / 2 => 2
+ODL_7:13:void_quicksort(int,int,int):lower <= upper => lower
+ODL_8:13:void_quicksort(int,int,int):lower <= upper => upper
+ODL_9:14:void_quicksort(int,int,int):bound > data[lower] => bound
+ODL_10:14:void_quicksort(int,int,int):bound > data[lower] => data[lower]
+ODL_11:15:void_quicksort(int,int,int):lower++ => lower
+ODL_12:17:void_quicksort(int,int,int):bound < data[upper] => bound
+ODL_13:17:void_quicksort(int,int,int):bound < data[upper] => data[upper]
+ODL_14:18:void_quicksort(int,int,int):upper-- => upper
+ODL_15:20:void_quicksort(int,int,int):lower < upper => lower
+ODL_16:20:void_quicksort(int,int,int):lower < upper => upper
+ODL_17:21:void_quicksort(int,int,int):lower++ => lower
+ODL_18:21:void_quicksort(int,int,int):upper-- => upper
+ODL_19:23:void_quicksort(int,int,int):lower++ => lower
+ODL_20:27:void_quicksort(int,int,int):upper - 1 => upper
+ODL_21:27:void_quicksort(int,int,int):upper - 1 => 1
+ODL_22:27:void_quicksort(int,int,int):first < upper - 1 => first
+ODL_23:27:void_quicksort(int,int,int):first < upper - 1 => upper - 1
+ODL_24:28:void_quicksort(int,int,int):upper - 1 => upper
+ODL_25:28:void_quicksort(int,int,int):upper - 1 => 1
+ODL_26:30:void_quicksort(int,int,int):upper + 1 => upper
+ODL_27:30:void_quicksort(int,int,int):upper + 1 => 1
+ODL_28:30:void_quicksort(int,int,int):upper + 1 < last => upper + 1
+ODL_29:30:void_quicksort(int,int,int):upper + 1 < last => last
+ODL_30:31:void_quicksort(int,int,int):upper + 1 => upper
+ODL_31:31:void_quicksort(int,int,int):upper + 1 => 1
+ODL_32:37:int_sort(int):data.length < 2 => data.length
+ODL_33:37:int_sort(int):data.length < 2 => 2
+ODL_34:41:int_sort(int):i < data.length => i
+ODL_35:41:int_sort(int):i < data.length => data.length
+ODL_36:41:int_sort(int):i++ => i
+ODL_37:42:int_sort(int):data[max] < data[i] => data[max]
+ODL_38:42:int_sort(int):data[max] < data[i] => data[i]
+ODL_39:46:int_sort(int):data.length - 1 => data.length
+ODL_40:46:int_sort(int):data.length - 1 => 1
+ODL_41:47:int_sort(int):data.length - 2 => data.length
+ODL_42:47:int_sort(int):data.length - 2 => 2
+CDL_1:9:void_quicksort(int,int,int):first + 1 => first
+CDL_2:11:void_quicksort(int,int,int):(first + last) / 2 => first + last
+CDL_3:27:void_quicksort(int,int,int):upper - 1 => upper
+CDL_4:28:void_quicksort(int,int,int):upper - 1 => upper
+CDL_5:30:void_quicksort(int,int,int):upper + 1 => upper
+CDL_6:31:void_quicksort(int,int,int):upper + 1 => upper
+CDL_7:37:int_sort(int):data.length < 2 => data.length
+CDL_8:46:int_sort(int):data.length - 1 => data.length
+CDL_9:47:int_sort(int):data.length - 2 => data.length

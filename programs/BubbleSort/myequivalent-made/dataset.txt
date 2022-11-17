@@ -1,0 +1,24 @@
+ABS
+@@ -10 +10 @@
+-   for (int j = data.length - 1; j > i; --j) {
++   for (int j = data.length - 1; j > Math.abs(i); --j) {
+
+ABS
+@@ -11 +11 @@
+-   if (data[j] < data[j - 1]) {
++   if (data[Math.abs(j)] < data[j - 1]) {
+
+ABS
+@@ -12 +12 @@
+-   int temp = data[j];
++   int temp = data[Math.abs(j)];
+
+ABS
+@@ -13 +13 @@
+-   data[j] = data[j - 1];
++   data[Math.abs(j)] = data[j - 1];
+
+ABS
+@@ -14 +14 @@
+-   data[j - 1] = temp;
++   data[Math.abs(j) - 1] = temp;

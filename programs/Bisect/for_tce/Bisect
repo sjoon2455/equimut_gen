@@ -1,0 +1,72 @@
+Compiled from "Bisect.java"
+public class Bisect {
+  public Bisect();
+    Code:
+       0: aload_0
+       1: invokespecial #9                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static double sqrt(double);
+    Code:
+       0: dload_0
+       1: dstore        4
+       3: dload_0
+       4: dstore        6
+       6: dconst_1
+       7: dstore        8
+       9: dload_0
+      10: dload_0
+      11: dmul
+      12: dload_0
+      13: dsub
+      14: dstore        10
+      16: dload         10
+      18: dconst_1
+      19: dadd
+      20: dstore_2
+      21: dload         10
+      23: invokestatic  #16                 // Method java/lang/Math.abs:(D)D
+      26: ldc2_w        #17                 // double 0.01d
+      29: dcmpl
+      30: ifle          96
+      33: dload_2
+      34: dconst_1
+      35: dsub
+      36: dstore_2
+      37: dload_2
+      38: dconst_0
+      39: dcmpg
+      40: ifge          61
+      43: dload         4
+      45: dstore        8
+      47: dload         6
+      49: dload         4
+      51: dadd
+      52: ldc2_w        #19                 // double 2.0d
+      55: ddiv
+      56: dstore        4
+      58: goto          84
+      61: dload_2
+      62: dconst_1
+      63: dsub
+      64: dconst_0
+      65: dcmpl
+      66: ifle          84
+      69: dload         4
+      71: dstore        6
+      73: dload         8
+      75: dload         4
+      77: dadd
+      78: ldc2_w        #19                 // double 2.0d
+      81: ddiv
+      82: dstore        4
+      84: dload         4
+      86: dload         4
+      88: dmul
+      89: dload_0
+      90: dsub
+      91: dstore        10
+      93: goto          16
+      96: dload         4
+      98: dreturn
+}

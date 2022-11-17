@@ -1,0 +1,157 @@
+VDL
+@@ -44 +45 @@
+-            if (trian == 2 && a + c > b) {
++            if (a + c > b) {
+
+ROR
+@@ -48 +48 @@
+-                if (trian == 3 && b + c > a) {
++                if (trian >= 3 && b + c > a) {
+
+ROR
+@@ -31 +32 @@
+-        if (trian == 0) {
++        if (trian <= 0) {
+
+VDL
+@@ -41 +42 @@
+-        if (trian == 1 && a + b > c) {
++        if (trian == 1) {
+
+COD
+@@ -44 +45 @@
+-            if (trian == 2 && a + c > b) {
++            if (trian == 2) {
+
+AOIS
+@@ -47 +47 @@
+-                if (trian == 3 && b + c > a) {
++                if (trian++ == 3 && b + c > a) {
+
+AOIU
+@@ -23 +23 @@
+-            trian = trian + 1;
++            trian = -trian + 1;
+
+AOIS
+@@ -29 +29 @@
+-            trian = trian + 3;
++            trian = trian-- + 3;
+
+ROR
+@@ -41 +42 @@
+-        if (trian == 1 && a + b > c) {
++        if (a + b > c) {
+
+AOIS
+@@ -32 +32 @@
+-            if (a + b < c || a + c < b || b + c < a) {
++            if (a + b < c || a + c < b || b-- + c < a) {
+
+ROR
+@@ -47 +48 @@
+-                if (trian == 3 && b + c > a) {
++                if (b + c > a) {
+
+AOIS
+@@ -32 +32 @@
+-            if (a + b < c || a + c < b || b + c < a) {
++            if (a + b < c || a + c < b || b + c-- < a) {
+
+AOIS
+@@ -47 +47 @@
+-                if (trian == 3 && b + c > a) {
++                if (trian == 3 && b + c-- > a) {
+
+AOIS
+@@ -47 +47 @@
+-                if (trian == 3 && b + c > a) {
++                if (trian == 3 && b++ + c > a) {
+
+AOIS
+@@ -32 +32 @@
+-            if (a + b < c || a + c < b || b + c < a) {
++            if (a + b < c || a + c < b || b++ + c < a) {
+
+AOIS
+@@ -47 +47 @@
+-                if (trian == 3 && b + c > a) {
++                if (trian == 3 && b-- + c > a) {
+
+AOIS
+@@ -32 +32 @@
+-            if (a + b < c || a + c < b || b + c < a) {
++            if (a + b < c || a + c < b || b + c++ < a) {
+
+AOIS
+@@ -23 +23 @@
+-            trian = trian + 1;
++            trian = trian++ + 1;
+
+AORB
+@@ -23 +23 @@
+-            trian = trian + 1;
++            trian = 1;
+
+AOIS
+@@ -47 +47 @@
+-                if (trian == 3 && b + c > a) {
++                if (trian == 3 && b + c > a++) {
+
+AOIS
+@@ -32 +32 @@
+-            if (a + b < c || a + c < b || b + c < a) {
++            if (a + b < c || a + c < b || b + c < a++) {
+
+AOIS
+@@ -23 +23 @@
+-            trian = trian + 1;
++            trian = trian-- + 1;
+
+ROR
+@@ -42 +42 @@
+-        if (trian == 1 && a + b > c) {
++        if (trian <= 1 && a + b > c) {
+
+AOIS
+@@ -26 +26 @@
+-            trian = trian + 2;
++            trian = trian++ + 2;
+
+VDL
+@@ -47 +48 @@
+-                if (trian == 3 && b + c > a) {
++                if (trian == 3) {
+
+AOIS
+@@ -47 +47 @@
+-                if (trian == 3 && b + c > a) {
++                if (trian == 3 && b + c++ > a) {
+
+AOIS
+@@ -47 +47 @@
+-                if (trian == 3 && b + c > a) {
++                if (trian == 3 && b + c > a--) {
+
+AOIS
+@@ -32 +32 @@
+-            if (a + b < c || a + c < b || b + c < a) {
++            if (a + b < c || a + c < b || b + c < a--) {
+
+AOIS
+@@ -26 +26 @@
+-            trian = trian + 2;
++            trian = trian-- + 2;
+
+AOIS
+@@ -47 +47 @@
+-                if (trian == 3 && b + c > a) {
++                if (trian-- == 3 && b + c > a) {
+
+AOIS
+@@ -29 +29 @@
+-            trian = trian + 3;
++            trian = trian++ + 3;
+
+
+VDL: 3, ROR: 3, COD: 1, AOIS: 20, AOIU: 1, AORB: 1

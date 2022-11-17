@@ -1,0 +1,85 @@
+Compiled from "Insert.java"
+public class Insert {
+  public Insert();
+    Code:
+       0: aload_0
+       1: invokespecial #9                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static int[] insert(int);
+    Code:
+       0: iconst_4
+       1: newarray       int
+       3: astore_1
+       4: aload_1
+       5: iconst_0
+       6: bipush        -14
+       8: iastore
+       9: aload_1
+      10: iconst_1
+      11: bipush        6
+      13: iastore
+      14: aload_1
+      15: iconst_2
+      16: bipush        28
+      18: iastore
+      19: aload_1
+      20: iconst_3
+      21: iconst_0
+      22: iastore
+      23: iload_0
+      24: aload_1
+      25: iconst_2
+      26: iaload
+      27: if_icmplt     37
+      30: aload_1
+      31: iconst_3
+      32: iload_0
+      33: iastore
+      34: goto          90
+      37: iconst_0
+      38: istore_3
+      39: iload_3
+      40: iconst_3
+      41: if_icmpge     90
+      44: aload_1
+      45: iload_3
+      46: iaload
+      47: iload_0
+      48: if_icmple     83
+      51: aload_1
+      52: iload_3
+      53: iaload
+      54: istore_2
+      55: aload_1
+      56: iload_3
+      57: iload_0
+      58: iastore
+      59: iload_3
+      60: iconst_1
+      61: iadd
+      62: istore_0
+      63: iload_0
+      64: iconst_4
+      65: if_icmpge     90
+      68: aload_1
+      69: iload_0
+      70: iaload
+      71: aload_1
+      72: iload_0
+      73: iload_2
+      74: iastore
+      75: istore_2
+      76: iload_0
+      77: iconst_1
+      78: iadd
+      79: istore_0
+      80: goto          63
+      83: iload_3
+      84: iconst_1
+      85: iadd
+      86: istore_3
+      87: goto          39
+      90: aload_1
+      91: areturn
+}

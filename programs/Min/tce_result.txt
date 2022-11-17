@@ -1,0 +1,18 @@
+==============Program===============
+Min
+==============Mut_Type==============
+HOEM
+====================================
+1_Min
+NEQ
+Min_2
+NEQ
+Min_3
+NEQ
+Min_4
+NEQ
+Min_5
+NEQ
+Total #: 5
+TCEQ #: 0
+NEQ #: 5

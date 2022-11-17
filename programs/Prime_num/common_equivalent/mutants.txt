@@ -1,0 +1,36 @@
+#
+Mutant name: ROR_19
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 1
+Operator score: 0.84
+Program graph node: 3
+
+#
+Mutant name: AORB_82
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 1
+Operator score: 0.75
+Program graph node: 1
+
+#
+Mutant name: ABS_168
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 1
+Operator score: 1
+Program graph node: 1
+
+#
+Mutant name: AORB_48
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 1
+Operator score: 0.75
+Program graph node: 1
+

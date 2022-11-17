@@ -1,0 +1,3609 @@
+#
+Mutant name: AORB_5
+Status: Equivalent
+Operator: AORB
+Type statement: If
+Position score: 0.9736842105263158
+Operator score: 0.9714285714285714
+Program graph node: 24
+
+#
+Mutant name: AOIS_21
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.9666666666666667
+Operator score: 0.9878048780487805
+Program graph node: 27
+
+#
+Mutant name: AOIS_26
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.9354838709677419
+Operator score: 0.9759036144578314
+Program graph node: 27
+
+#
+Mutant name: ROR_24
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.90625
+Operator score: 0.990990990990991
+Program graph node: 27
+
+#
+Mutant name: VDL_15
+Status: Equivalent
+Operator: VDL
+Type statement: If
+Position score: 0.8787878787878788
+Operator score: 0.875
+Program graph node: 27
+
+#
+Mutant name: AOIS_65
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.8529411764705882
+Operator score: 0.9642857142857143
+Program graph node: 27
+
+#
+Mutant name: AOIS_100
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.9880952380952381
+Operator score: 0.9529411764705882
+Program graph node: 15
+
+#
+Mutant name: AOIS_104
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.8285714285714286
+Operator score: 0.9418604651162791
+Program graph node: 27
+
+#
+Mutant name: ROR_126
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.8055555555555556
+Operator score: 0.9821428571428571
+Program graph node: 27
+
+#
+Mutant name: AOIS_150
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.9090909090909091
+Operator score: 0.9310344827586207
+Program graph node: 8
+
+#
+Mutant name: VDL_58
+Status: Equivalent
+Operator: VDL
+Type statement: If
+Position score: 0.9736842105263158
+Operator score: 0.7777777777777778
+Program graph node: 21
+
+#
+Mutant name: AORB_112
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 0.9090909090909091
+Operator score: 0.9444444444444444
+Program graph node: 6
+
+#
+Mutant name: AOIS_202
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.7837837837837838
+Operator score: 0.9204545454545454
+Program graph node: 27
+
+#
+Mutant name: ROR_294
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.9285714285714286
+Operator score: 0.9734513274336283
+Program graph node: 11
+
+#
+Mutant name: AORB_195
+Status: Equivalent
+Operator: AORB
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.918918918918919
+Program graph node: 21
+
+#
+Mutant name: COD_66
+Status: Equivalent
+Operator: COD
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.0
+Program graph node: 24
+
+#
+Mutant name: AOIS_298
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.9764705882352941
+Operator score: 0.9101123595505618
+Program graph node: 15
+
+#
+Mutant name: ROR_354
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.925
+Operator score: 0.9649122807017544
+Program graph node: 21
+
+#
+Mutant name: AOIS_300
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.9651162790697675
+Operator score: 0.9
+Program graph node: 15
+
+#
+Mutant name: AOIS_321
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.7631578947368421
+Operator score: 0.8901098901098901
+Program graph node: 27
+
+#
+Mutant name: ROR_416
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.7435897435897436
+Operator score: 0.9565217391304348
+Program graph node: 27
+
+#
+Mutant name: ROR_480
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.9482758620689655
+Program graph node: 21
+
+#
+Mutant name: AOIS_396
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.8333333333333334
+Operator score: 0.8804347826086957
+Program graph node: 6
+
+#
+Mutant name: AOIS_419
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.9285714285714286
+Operator score: 0.8709677419354839
+Program graph node: 10
+
+#
+Mutant name: AOIS_434
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.8666666666666667
+Operator score: 0.8617021276595744
+Program graph node: 10
+
+#
+Mutant name: AOIS_439
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.725
+Operator score: 0.8526315789473684
+Program graph node: 27
+
+#
+Mutant name: AOIS_440
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.9540229885057471
+Operator score: 0.84375
+Program graph node: 15
+
+#
+Mutant name: AOIS_459
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.8333333333333334
+Operator score: 0.8350515463917526
+Program graph node: 8
+
+#
+Mutant name: AOIS_465
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.9431818181818182
+Operator score: 0.826530612244898
+Program graph node: 15
+
+#
+Mutant name: AOIU_111
+Status: Equivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.7692307692307693
+Operator score: 0.8888888888888888
+Program graph node: 6
+
+#
+Mutant name: ROR_614
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 0.8666666666666667
+Operator score: 0.9401709401709402
+Program graph node: 11
+
+#
+Mutant name: AOIS_545
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.8181818181818182
+Program graph node: 15
+
+#
+Mutant name: AOIS_547
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.81
+Program graph node: 6
+
+#
+Mutant name: AOIS_626
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.801980198019802
+Program graph node: 27
+
+#
+Mutant name: AORB_1
+Status: Killed
+Operator: AORB
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.918918918918919
+Program graph node: 6
+
+#
+Mutant name: AORB_2
+Status: Killed
+Operator: AORB
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.918918918918919
+Program graph node: 6
+
+#
+Mutant name: AORB_3
+Status: Killed
+Operator: AORB
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.918918918918919
+Program graph node: 6
+
+#
+Mutant name: AORB_4
+Status: Killed
+Operator: AORB
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.918918918918919
+Program graph node: 6
+
+#
+Mutant name: AORB_5
+Status: Killed
+Operator: AORB
+Type statement: Assignment
+Position score: 0.8333333333333334
+Operator score: 0.918918918918919
+Program graph node: 8
+
+#
+Mutant name: AORB_6
+Status: Killed
+Operator: AORB
+Type statement: Assignment
+Position score: 0.8333333333333334
+Operator score: 0.918918918918919
+Program graph node: 8
+
+#
+Mutant name: AORB_7
+Status: Killed
+Operator: AORB
+Type statement: Assignment
+Position score: 0.8333333333333334
+Operator score: 0.918918918918919
+Program graph node: 8
+
+#
+Mutant name: AORB_8
+Status: Killed
+Operator: AORB
+Type statement: Assignment
+Position score: 0.8333333333333334
+Operator score: 0.918918918918919
+Program graph node: 8
+
+#
+Mutant name: AORB_9
+Status: Killed
+Operator: AORB
+Type statement: Assignment
+Position score: 0.8666666666666667
+Operator score: 0.918918918918919
+Program graph node: 10
+
+#
+Mutant name: AORB_10
+Status: Killed
+Operator: AORB
+Type statement: Assignment
+Position score: 0.8666666666666667
+Operator score: 0.918918918918919
+Program graph node: 10
+
+#
+Mutant name: AORB_11
+Status: Killed
+Operator: AORB
+Type statement: Assignment
+Position score: 0.8666666666666667
+Operator score: 0.918918918918919
+Program graph node: 10
+
+#
+Mutant name: AORB_12
+Status: Killed
+Operator: AORB
+Type statement: Assignment
+Position score: 0.8666666666666667
+Operator score: 0.918918918918919
+Program graph node: 10
+
+#
+Mutant name: AORB_13
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.918918918918919
+Program graph node: 15
+
+#
+Mutant name: AORB_14
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.918918918918919
+Program graph node: 15
+
+#
+Mutant name: AORB_15
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.918918918918919
+Program graph node: 15
+
+#
+Mutant name: AORB_16
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.918918918918919
+Program graph node: 15
+
+#
+Mutant name: AORB_17
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.918918918918919
+Program graph node: 15
+
+#
+Mutant name: AORB_18
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.918918918918919
+Program graph node: 15
+
+#
+Mutant name: AORB_19
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.918918918918919
+Program graph node: 15
+
+#
+Mutant name: AORB_20
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.918918918918919
+Program graph node: 15
+
+#
+Mutant name: AORB_21
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.918918918918919
+Program graph node: 15
+
+#
+Mutant name: AORB_22
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.918918918918919
+Program graph node: 15
+
+#
+Mutant name: AORB_23
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.918918918918919
+Program graph node: 15
+
+#
+Mutant name: AORB_24
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.918918918918919
+Program graph node: 15
+
+#
+Mutant name: AORB_25
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.918918918918919
+Program graph node: 21
+
+#
+Mutant name: AORB_26
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.918918918918919
+Program graph node: 21
+
+#
+Mutant name: AORB_27
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.918918918918919
+Program graph node: 21
+
+#
+Mutant name: AORB_28
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.918918918918919
+Program graph node: 21
+
+#
+Mutant name: AORB_30
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.918918918918919
+Program graph node: 24
+
+#
+Mutant name: AORB_31
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.918918918918919
+Program graph node: 24
+
+#
+Mutant name: AORB_32
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.918918918918919
+Program graph node: 24
+
+#
+Mutant name: AORB_34
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.918918918918919
+Program graph node: 27
+
+#
+Mutant name: AORB_35
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.918918918918919
+Program graph node: 27
+
+#
+Mutant name: AORB_36
+Status: Killed
+Operator: AORB
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.918918918918919
+Program graph node: 27
+
+#
+Mutant name: AOIU_1
+Status: Killed
+Operator: AOIU
+Type statement: If
+Position score: 1.0
+Operator score: 0.8888888888888888
+Program graph node: 5
+
+#
+Mutant name: AOIU_2
+Status: Killed
+Operator: AOIU
+Type statement: If
+Position score: 1.0
+Operator score: 0.8888888888888888
+Program graph node: 5
+
+#
+Mutant name: AOIU_4
+Status: Killed
+Operator: AOIU
+Type statement: If
+Position score: 1.0
+Operator score: 0.8888888888888888
+Program graph node: 7
+
+#
+Mutant name: AOIU_5
+Status: Killed
+Operator: AOIU
+Type statement: If
+Position score: 1.0
+Operator score: 0.8888888888888888
+Program graph node: 7
+
+#
+Mutant name: AOIU_7
+Status: Killed
+Operator: AOIU
+Type statement: If
+Position score: 1.0
+Operator score: 0.8888888888888888
+Program graph node: 9
+
+#
+Mutant name: AOIU_8
+Status: Killed
+Operator: AOIU
+Type statement: If
+Position score: 1.0
+Operator score: 0.8888888888888888
+Program graph node: 9
+
+#
+Mutant name: AOIU_9
+Status: Killed
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.8666666666666667
+Operator score: 0.8888888888888888
+Program graph node: 10
+
+#
+Mutant name: AOIU_11
+Status: Killed
+Operator: AOIU
+Type statement: If
+Position score: 1.0
+Operator score: 0.8888888888888888
+Program graph node: 18
+
+#
+Mutant name: AOIS_1
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 4
+
+#
+Mutant name: AOIS_2
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 4
+
+#
+Mutant name: AOIS_3
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 4
+
+#
+Mutant name: AOIS_4
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 4
+
+#
+Mutant name: AOIS_5
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 4
+
+#
+Mutant name: AOIS_6
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 4
+
+#
+Mutant name: AOIS_7
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 4
+
+#
+Mutant name: AOIS_8
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 4
+
+#
+Mutant name: AOIS_9
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 4
+
+#
+Mutant name: AOIS_10
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 4
+
+#
+Mutant name: AOIS_11
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 4
+
+#
+Mutant name: AOIS_12
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 4
+
+#
+Mutant name: AOIS_13
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 5
+
+#
+Mutant name: AOIS_14
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 5
+
+#
+Mutant name: AOIS_15
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 5
+
+#
+Mutant name: AOIS_16
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 5
+
+#
+Mutant name: AOIS_17
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 5
+
+#
+Mutant name: AOIS_18
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 5
+
+#
+Mutant name: AOIS_19
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 5
+
+#
+Mutant name: AOIS_20
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 5
+
+#
+Mutant name: AOIS_21
+Status: Killed
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.801980198019802
+Program graph node: 6
+
+#
+Mutant name: AOIS_22
+Status: Killed
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.801980198019802
+Program graph node: 6
+
+#
+Mutant name: AOIS_25
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 7
+
+#
+Mutant name: AOIS_26
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 7
+
+#
+Mutant name: AOIS_27
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 7
+
+#
+Mutant name: AOIS_28
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 7
+
+#
+Mutant name: AOIS_29
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 7
+
+#
+Mutant name: AOIS_30
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 7
+
+#
+Mutant name: AOIS_31
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 7
+
+#
+Mutant name: AOIS_32
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 7
+
+#
+Mutant name: AOIS_33
+Status: Killed
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.8333333333333334
+Operator score: 0.801980198019802
+Program graph node: 8
+
+#
+Mutant name: AOIS_34
+Status: Killed
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.8333333333333334
+Operator score: 0.801980198019802
+Program graph node: 8
+
+#
+Mutant name: AOIS_37
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 9
+
+#
+Mutant name: AOIS_38
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 9
+
+#
+Mutant name: AOIS_39
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 9
+
+#
+Mutant name: AOIS_40
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 9
+
+#
+Mutant name: AOIS_41
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 9
+
+#
+Mutant name: AOIS_42
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 9
+
+#
+Mutant name: AOIS_43
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 9
+
+#
+Mutant name: AOIS_44
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 9
+
+#
+Mutant name: AOIS_45
+Status: Killed
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.8666666666666667
+Operator score: 0.801980198019802
+Program graph node: 10
+
+#
+Mutant name: AOIS_46
+Status: Killed
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.8666666666666667
+Operator score: 0.801980198019802
+Program graph node: 10
+
+#
+Mutant name: AOIS_49
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.8666666666666667
+Operator score: 0.801980198019802
+Program graph node: 11
+
+#
+Mutant name: AOIS_50
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.8666666666666667
+Operator score: 0.801980198019802
+Program graph node: 11
+
+#
+Mutant name: AOIS_51
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.8666666666666667
+Operator score: 0.801980198019802
+Program graph node: 11
+
+#
+Mutant name: AOIS_52
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.8666666666666667
+Operator score: 0.801980198019802
+Program graph node: 11
+
+#
+Mutant name: AOIS_53
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_54
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_55
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_56
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_57
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_58
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_59
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_60
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_62
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_63
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_64
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_65
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_68
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_70
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_72
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_74
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_78
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.801980198019802
+Program graph node: 15
+
+#
+Mutant name: AOIS_83
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 18
+
+#
+Mutant name: AOIS_84
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 18
+
+#
+Mutant name: AOIS_85
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 18
+
+#
+Mutant name: AOIS_86
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.801980198019802
+Program graph node: 18
+
+#
+Mutant name: AOIS_87
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.801980198019802
+Program graph node: 21
+
+#
+Mutant name: AOIS_88
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.801980198019802
+Program graph node: 21
+
+#
+Mutant name: AOIS_89
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.801980198019802
+Program graph node: 21
+
+#
+Mutant name: AOIS_90
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.801980198019802
+Program graph node: 21
+
+#
+Mutant name: AOIS_91
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.801980198019802
+Program graph node: 21
+
+#
+Mutant name: AOIS_95
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.801980198019802
+Program graph node: 21
+
+#
+Mutant name: AOIS_101
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.801980198019802
+Program graph node: 24
+
+#
+Mutant name: AOIS_102
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.801980198019802
+Program graph node: 24
+
+#
+Mutant name: AOIS_103
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.801980198019802
+Program graph node: 24
+
+#
+Mutant name: AOIS_104
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.801980198019802
+Program graph node: 24
+
+#
+Mutant name: AOIS_105
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.801980198019802
+Program graph node: 24
+
+#
+Mutant name: AOIS_109
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.801980198019802
+Program graph node: 24
+
+#
+Mutant name: AOIS_115
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.801980198019802
+Program graph node: 27
+
+#
+Mutant name: AOIS_116
+Status: Killed
+Operator: AOIS
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.801980198019802
+Program graph node: 27
+
+#
+Mutant name: ROR_1
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_2
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_3
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_5
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_6
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_7
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_8
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_9
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_12
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_13
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_15
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_16
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_17
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_19
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_20
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_21
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 4
+
+#
+Mutant name: ROR_22
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 5
+
+#
+Mutant name: ROR_23
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 5
+
+#
+Mutant name: ROR_24
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 5
+
+#
+Mutant name: ROR_25
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 5
+
+#
+Mutant name: ROR_26
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 5
+
+#
+Mutant name: ROR_27
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 5
+
+#
+Mutant name: ROR_28
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 5
+
+#
+Mutant name: ROR_29
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 7
+
+#
+Mutant name: ROR_30
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 7
+
+#
+Mutant name: ROR_31
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 7
+
+#
+Mutant name: ROR_32
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 7
+
+#
+Mutant name: ROR_33
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 7
+
+#
+Mutant name: ROR_34
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 7
+
+#
+Mutant name: ROR_35
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 7
+
+#
+Mutant name: ROR_36
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 9
+
+#
+Mutant name: ROR_37
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 9
+
+#
+Mutant name: ROR_38
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 9
+
+#
+Mutant name: ROR_39
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 9
+
+#
+Mutant name: ROR_40
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 9
+
+#
+Mutant name: ROR_41
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 9
+
+#
+Mutant name: ROR_42
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 9
+
+#
+Mutant name: ROR_43
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.8666666666666667
+Operator score: 0.9401709401709402
+Program graph node: 11
+
+#
+Mutant name: ROR_44
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.8666666666666667
+Operator score: 0.9401709401709402
+Program graph node: 11
+
+#
+Mutant name: ROR_45
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.8666666666666667
+Operator score: 0.9401709401709402
+Program graph node: 11
+
+#
+Mutant name: ROR_47
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.8666666666666667
+Operator score: 0.9401709401709402
+Program graph node: 11
+
+#
+Mutant name: ROR_48
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.8666666666666667
+Operator score: 0.9401709401709402
+Program graph node: 11
+
+#
+Mutant name: ROR_49
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.8666666666666667
+Operator score: 0.9401709401709402
+Program graph node: 11
+
+#
+Mutant name: ROR_50
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_51
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_52
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_53
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_54
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_55
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_56
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_57
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_58
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_59
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_60
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_61
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_62
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_63
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_64
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_65
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_66
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_67
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_68
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_69
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_70
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.9401709401709402
+Program graph node: 15
+
+#
+Mutant name: ROR_71
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 18
+
+#
+Mutant name: ROR_72
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 18
+
+#
+Mutant name: ROR_73
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 18
+
+#
+Mutant name: ROR_74
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 18
+
+#
+Mutant name: ROR_75
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 18
+
+#
+Mutant name: ROR_76
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 18
+
+#
+Mutant name: ROR_77
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 1.0
+Operator score: 0.9401709401709402
+Program graph node: 18
+
+#
+Mutant name: ROR_78
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.9401709401709402
+Program graph node: 21
+
+#
+Mutant name: ROR_79
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.9401709401709402
+Program graph node: 21
+
+#
+Mutant name: ROR_80
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.9401709401709402
+Program graph node: 21
+
+#
+Mutant name: ROR_82
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.9401709401709402
+Program graph node: 21
+
+#
+Mutant name: ROR_83
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.9401709401709402
+Program graph node: 21
+
+#
+Mutant name: ROR_84
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.9401709401709402
+Program graph node: 21
+
+#
+Mutant name: ROR_85
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.9401709401709402
+Program graph node: 21
+
+#
+Mutant name: ROR_86
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.9401709401709402
+Program graph node: 21
+
+#
+Mutant name: ROR_87
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.9401709401709402
+Program graph node: 21
+
+#
+Mutant name: ROR_88
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.9401709401709402
+Program graph node: 21
+
+#
+Mutant name: ROR_89
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.9401709401709402
+Program graph node: 21
+
+#
+Mutant name: ROR_90
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.9401709401709402
+Program graph node: 21
+
+#
+Mutant name: ROR_91
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 0.9401709401709402
+Program graph node: 21
+
+#
+Mutant name: ROR_92
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.9401709401709402
+Program graph node: 24
+
+#
+Mutant name: ROR_93
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.9401709401709402
+Program graph node: 24
+
+#
+Mutant name: ROR_94
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.9401709401709402
+Program graph node: 24
+
+#
+Mutant name: ROR_95
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.9401709401709402
+Program graph node: 24
+
+#
+Mutant name: ROR_96
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.9401709401709402
+Program graph node: 24
+
+#
+Mutant name: ROR_97
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.9401709401709402
+Program graph node: 24
+
+#
+Mutant name: ROR_98
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.9401709401709402
+Program graph node: 24
+
+#
+Mutant name: ROR_99
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.9401709401709402
+Program graph node: 24
+
+#
+Mutant name: ROR_100
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.9401709401709402
+Program graph node: 24
+
+#
+Mutant name: ROR_101
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.9401709401709402
+Program graph node: 24
+
+#
+Mutant name: ROR_102
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.9401709401709402
+Program graph node: 24
+
+#
+Mutant name: ROR_103
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.9401709401709402
+Program graph node: 24
+
+#
+Mutant name: ROR_104
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.9401709401709402
+Program graph node: 24
+
+#
+Mutant name: ROR_105
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 0.9401709401709402
+Program graph node: 24
+
+#
+Mutant name: ROR_106
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.9401709401709402
+Program graph node: 27
+
+#
+Mutant name: ROR_108
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.9401709401709402
+Program graph node: 27
+
+#
+Mutant name: ROR_109
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.9401709401709402
+Program graph node: 27
+
+#
+Mutant name: ROR_110
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.9401709401709402
+Program graph node: 27
+
+#
+Mutant name: ROR_111
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.9401709401709402
+Program graph node: 27
+
+#
+Mutant name: ROR_112
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.9401709401709402
+Program graph node: 27
+
+#
+Mutant name: ROR_114
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.9401709401709402
+Program graph node: 27
+
+#
+Mutant name: ROR_115
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.9401709401709402
+Program graph node: 27
+
+#
+Mutant name: ROR_116
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.9401709401709402
+Program graph node: 27
+
+#
+Mutant name: ROR_117
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.9401709401709402
+Program graph node: 27
+
+#
+Mutant name: ROR_118
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.9401709401709402
+Program graph node: 27
+
+#
+Mutant name: ROR_119
+Status: Killed
+Operator: ROR
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 0.9401709401709402
+Program graph node: 27
+
+#
+Mutant name: COR_1
+Status: Killed
+Operator: COR
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: COR_3
+Status: Killed
+Operator: COR
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: COR_4
+Status: Killed
+Operator: COR
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: COR_5
+Status: Killed
+Operator: COR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: COR_7
+Status: Killed
+Operator: COR
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: COR_9
+Status: Killed
+Operator: COR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 1.0
+Program graph node: 21
+
+#
+Mutant name: COR_10
+Status: Killed
+Operator: COR
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 1.0
+Program graph node: 21
+
+#
+Mutant name: COR_11
+Status: Killed
+Operator: COR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 1.0
+Program graph node: 24
+
+#
+Mutant name: COR_12
+Status: Killed
+Operator: COR
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 1.0
+Program graph node: 24
+
+#
+Mutant name: COR_13
+Status: Killed
+Operator: COR
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 1.0
+Program graph node: 27
+
+#
+Mutant name: COR_14
+Status: Killed
+Operator: COR
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 1.0
+Program graph node: 27
+
+#
+Mutant name: COI_1
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: COI_2
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: COI_3
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: COI_4
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: COI_5
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: COI_6
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 5
+
+#
+Mutant name: COI_7
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 7
+
+#
+Mutant name: COI_8
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 9
+
+#
+Mutant name: COI_9
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.8666666666666667
+Operator score: 1.0
+Program graph node: 11
+
+#
+Mutant name: COI_10
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: COI_11
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: COI_12
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: COI_13
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: COI_14
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: COI_15
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 18
+
+#
+Mutant name: COI_16
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 1.0
+Program graph node: 21
+
+#
+Mutant name: COI_17
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 1.0
+Program graph node: 21
+
+#
+Mutant name: COI_18
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 1.0
+Program graph node: 21
+
+#
+Mutant name: COI_19
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 1.0
+Program graph node: 24
+
+#
+Mutant name: COI_20
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 1.0
+Program graph node: 24
+
+#
+Mutant name: COI_21
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 1.0
+Program graph node: 24
+
+#
+Mutant name: COI_22
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 1.0
+Program graph node: 27
+
+#
+Mutant name: COI_23
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 1.0
+Program graph node: 27
+
+#
+Mutant name: COI_24
+Status: Killed
+Operator: COI
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 1.0
+Program graph node: 27
+
+#
+Mutant name: LOI_1
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: LOI_2
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: LOI_3
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: LOI_4
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 5
+
+#
+Mutant name: LOI_5
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 5
+
+#
+Mutant name: LOI_6
+Status: Killed
+Operator: LOI
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 1.0
+Program graph node: 6
+
+#
+Mutant name: LOI_7
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 7
+
+#
+Mutant name: LOI_8
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 7
+
+#
+Mutant name: LOI_9
+Status: Killed
+Operator: LOI
+Type statement: Assignment
+Position score: 0.8333333333333334
+Operator score: 1.0
+Program graph node: 8
+
+#
+Mutant name: LOI_10
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 9
+
+#
+Mutant name: LOI_11
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 9
+
+#
+Mutant name: LOI_12
+Status: Killed
+Operator: LOI
+Type statement: Assignment
+Position score: 0.8666666666666667
+Operator score: 1.0
+Program graph node: 10
+
+#
+Mutant name: LOI_13
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.8666666666666667
+Operator score: 1.0
+Program graph node: 11
+
+#
+Mutant name: LOI_14
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: LOI_15
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: LOI_16
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: LOI_17
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: LOI_18
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: LOI_19
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: LOI_20
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: LOI_21
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: LOI_22
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: LOI_23
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 18
+
+#
+Mutant name: LOI_24
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 1.0
+Program graph node: 21
+
+#
+Mutant name: LOI_25
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 1.0
+Program graph node: 21
+
+#
+Mutant name: LOI_26
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 1.0
+Program graph node: 21
+
+#
+Mutant name: LOI_27
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 1.0
+Program graph node: 21
+
+#
+Mutant name: LOI_28
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 1.0
+Program graph node: 24
+
+#
+Mutant name: LOI_29
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 1.0
+Program graph node: 24
+
+#
+Mutant name: LOI_30
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 1.0
+Program graph node: 24
+
+#
+Mutant name: LOI_31
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 1.0
+Program graph node: 24
+
+#
+Mutant name: LOI_32
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 1.0
+Program graph node: 27
+
+#
+Mutant name: LOI_33
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 1.0
+Program graph node: 27
+
+#
+Mutant name: LOI_34
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 1.0
+Program graph node: 27
+
+#
+Mutant name: LOI_35
+Status: Killed
+Operator: LOI
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 1.0
+Program graph node: 27
+
+#
+Mutant name: SDL_1
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 28
+
+#
+Mutant name: SDL_3
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 28
+
+#
+Mutant name: SDL_4
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 28
+
+#
+Mutant name: SDL_5
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 28
+
+#
+Mutant name: SDL_6
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 0.9487179487179487
+Operator score: 1.0
+Program graph node: 24
+
+#
+Mutant name: SDL_7
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 28
+
+#
+Mutant name: SDL_8
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 0.9024390243902439
+Operator score: 1.0
+Program graph node: 21
+
+#
+Mutant name: SDL_9
+Status: Killed
+Operator: SDL
+Type statement: Assignment
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 5
+
+#
+Mutant name: SDL_10
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: SDL_11
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 0.7142857142857143
+Operator score: 1.0
+Program graph node: 6
+
+#
+Mutant name: SDL_12
+Status: Killed
+Operator: SDL
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 7
+
+#
+Mutant name: SDL_13
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 0.8333333333333334
+Operator score: 1.0
+Program graph node: 8
+
+#
+Mutant name: SDL_14
+Status: Killed
+Operator: SDL
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 9
+
+#
+Mutant name: SDL_15
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 0.8666666666666667
+Operator score: 1.0
+Program graph node: 10
+
+#
+Mutant name: SDL_16
+Status: Killed
+Operator: SDL
+Type statement: If
+Position score: 0.8666666666666667
+Operator score: 1.0
+Program graph node: 11
+
+#
+Mutant name: SDL_17
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: SDL_18
+Status: Killed
+Operator: SDL
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 18
+
+#
+Mutant name: SDL_19
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 16
+
+#
+Mutant name: SDL_20
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 16
+
+#
+Mutant name: SDL_21
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 16
+
+#
+Mutant name: SDL_22
+Status: Killed
+Operator: SDL
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 1.0
+Program graph node: 21
+
+#
+Mutant name: SDL_23
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 18
+
+#
+Mutant name: SDL_24
+Status: Killed
+Operator: SDL
+Type statement: Return
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 28
+
+#
+Mutant name: SDL_25
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 0.9487179487179487
+Operator score: 1.0
+Program graph node: 24
+
+#
+Mutant name: SDL_26
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 0.9024390243902439
+Operator score: 1.0
+Program graph node: 21
+
+#
+Mutant name: SDL_27
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 28
+
+#
+Mutant name: SDL_28
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 0.7073170731707317
+Operator score: 1.0
+Program graph node: 27
+
+#
+Mutant name: SDL_29
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 0.9487179487179487
+Operator score: 1.0
+Program graph node: 24
+
+#
+Mutant name: SDL_30
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 28
+
+#
+Mutant name: SDL_31
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 28
+
+#
+Mutant name: SDL_32
+Status: Killed
+Operator: SDL
+Type statement: Declaration
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 28
+
+#
+Mutant name: VDL_12
+Status: Killed
+Operator: VDL
+Type statement: Assignment
+Position score: 0.8666666666666667
+Operator score: 0.7777777777777778
+Program graph node: 10
+
+#
+Mutant name: VDL_14
+Status: Killed
+Operator: VDL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.7777777777777778
+Program graph node: 15
+
+#
+Mutant name: VDL_15
+Status: Killed
+Operator: VDL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.7777777777777778
+Program graph node: 15
+
+#
+Mutant name: VDL_17
+Status: Killed
+Operator: VDL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.7777777777777778
+Program graph node: 15
+
+#
+Mutant name: VDL_18
+Status: Killed
+Operator: VDL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.7777777777777778
+Program graph node: 15
+
+#
+Mutant name: VDL_20
+Status: Killed
+Operator: VDL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.7777777777777778
+Program graph node: 15
+
+#
+Mutant name: VDL_21
+Status: Killed
+Operator: VDL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 0.7777777777777778
+Program graph node: 15
+
+#
+Mutant name: ODL_6
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: ODL_9
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: ODL_10
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 1.0
+Operator score: 1.0
+Program graph node: 4
+
+#
+Mutant name: ODL_13
+Status: Killed
+Operator: ODL
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 1.0
+Program graph node: 6
+
+#
+Mutant name: ODL_17
+Status: Killed
+Operator: ODL
+Type statement: Assignment
+Position score: 0.8333333333333334
+Operator score: 1.0
+Program graph node: 8
+
+#
+Mutant name: ODL_21
+Status: Killed
+Operator: ODL
+Type statement: Assignment
+Position score: 0.8666666666666667
+Operator score: 1.0
+Program graph node: 10
+
+#
+Mutant name: ODL_22
+Status: Killed
+Operator: ODL
+Type statement: Assignment
+Position score: 0.8666666666666667
+Operator score: 1.0
+Program graph node: 10
+
+#
+Mutant name: ODL_25
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: ODL_26
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: ODL_29
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: ODL_30
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: ODL_33
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: ODL_34
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: ODL_35
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: ODL_36
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: ODL_39
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: ODL_40
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.9325842696629213
+Operator score: 1.0
+Program graph node: 15
+
+#
+Mutant name: ODL_49
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 1.0
+Program graph node: 21
+
+#
+Mutant name: ODL_50
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.9024390243902439
+Operator score: 1.0
+Program graph node: 21
+
+#
+Mutant name: ODL_57
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 1.0
+Program graph node: 24
+
+#
+Mutant name: ODL_58
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.9487179487179487
+Operator score: 1.0
+Program graph node: 24
+
+#
+Mutant name: ODL_65
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 1.0
+Program graph node: 27
+
+#
+Mutant name: ODL_66
+Status: Killed
+Operator: ODL
+Type statement: If
+Position score: 0.7073170731707317
+Operator score: 1.0
+Program graph node: 27
+
+#
+Mutant name: CDL_4
+Status: Killed
+Operator: CDL
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 1.0
+Program graph node: 6
+
+#
+Mutant name: CDL_5
+Status: Killed
+Operator: CDL
+Type statement: Assignment
+Position score: 0.8333333333333334
+Operator score: 1.0
+Program graph node: 8
+
+#
+Mutant name: CDL_6
+Status: Killed
+Operator: CDL
+Type statement: Assignment
+Position score: 0.8666666666666667
+Operator score: 1.0
+Program graph node: 10
+

@@ -1,0 +1,103 @@
+AORB
+@@ -14 +14 @@
+-                    data[j - 1] = temp;
++                    data[j + 1] = temp;
+
+AORB
+@@ -13 +13 @@
+-                    data[j] = data[j - 1];
++                    data[j] = data[j / 1];
+
+AORB
+@@ -9 +9 @@
+-        for (int i = 0; i < data.length - 1; i++) {
++        for (int i = 0; i < data.length; i++) {
+
+AORB
+@@ -13 +13 @@
+-                    data[j] = data[j - 1];
++                    data[j] = data[j + 1];
+
+AORB
+@@ -14 +14 @@
+-                    data[j - 1] = temp;
++                    data[j / 1] = temp;
+
+ROR
+@@ -9 +9 @@
+-        for (int i = 0; i < data.length - 1; i++) {
++        for (int i = 0; i != data.length - 1; i++) {
+
+AOIS
+@@ -14 +14 @@
+-                    data[j - 1] = temp;
++                    data[j - 1] = temp--;
+
+AOIS
+@@ -14 +14 @@
+-                    data[j - 1] = temp;
++                    data[j - 1] = temp++;
+
+AORB
+@@ -9 +9 @@
+-        for (int i = 0; i < data.length - 1; i++) {
++        for (int i = 0; i < data.length / 1; i++) {
+
+AORB
+@@ -14 +14 @@
+-                    data[j - 1] = temp;
++                    data[j] = temp;
+
+ROR
+@@ -10 +10 @@
+-            for (int j = data.length - 1; j > i; --j) {
++            for (int j = data.length - 1; j != i; --j) {
+
+ROR
+@@ -10 +10 @@
+-            for (int j = data.length - 1; j > i; --j) {
++            for (int j = data.length - 1; j >= i; --j) {
+
+AORB
+@@ -11 +11 @@
+-                if (data[j] < data[j - 1]) {
++                if (data[j] < data[1]) {
+
+AORB
+@@ -14 +14 @@
+-                    data[j - 1] = temp;
++                    data[j % 1] = temp;
+
+AORB
+@@ -13 +13 @@
+-                    data[j] = data[j - 1];
++                    data[j] = data[j % 1];
+
+AORB
+@@ -9 +9 @@
+-        for (int i = 0; i < data.length - 1; i++) {
++        for (int i = 0; i < data.length * 1; i++) {
+
+AORB
+@@ -14 +14 @@
+-                    data[j - 1] = temp;
++                    data[j * 1] = temp;
+
+ROR
+@@ -9 +9 @@
+-        for (int i = 0; i < data.length - 1; i++) {
++        for (int i = 0; i <= data.length - 1; i++) {
+
+AORB
+@@ -13 +13 @@
+-                    data[j] = data[j - 1];
++                    data[j] = data[j];
+
+ROR
+@@ -11 +11 @@
+-                if (data[j] < data[j - 1]) {
++                if (data[j] <= data[j - 1]) {
+
+Total: 20
+AORB: 13, ROR: 5, AOIS: 2
+public  void sort( int[] data )

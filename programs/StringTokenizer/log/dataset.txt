@@ -1,0 +1,263 @@
+AOIS
+@@ -127 +127 @@
+-        if (retDelims && startPos == position) {
++        if (retDelims && startPos-- == position) {
+
+ROR
+@@ -42 +42 @@
+-        for (int i = 0; i < delimiters.length(); i += Character.charCount( c )) {
++        for (int i = 0; i != delimiters.length(); i += Character.charCount( c )) {
+
+AOIS
+@@ -53 +53 @@
+-        maxDelimCodePoint = m;
++        maxDelimCodePoint = m++;
+
+AOIS
+@@ -124 +124 @@
+-                position += Character.charCount( c );
++                position += Character.charCount( c++ );
+
+AOIS
+@@ -56 +56 @@
+-            for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {
++            for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c++ )) {
+
+AOIS
+@@ -195 +195 @@
+-            currpos = skipDelimiters( currpos );
++            currpos = skipDelimiters( currpos++ );
+
+AOIS
+@@ -103 +103 @@
+-                position += Character.charCount( c );
++                position += Character.charCount( c-- );
+
+AOIS
+@@ -199 +199 @@
+-            currpos = scanToken( currpos );
++            currpos = scanToken( currpos-- );
+
+AOIS
+@@ -124 +124 @@
+-                position += Character.charCount( c );
++                position += Character.charCount( c-- );
+
+AOIS
+@@ -169 +169 @@
+-        return str.substring( start, currentPosition );
++        return str.substring( start++, currentPosition );
+
+AOIS
+@@ -115 +115 @@
+-                if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {
++                if (c <= maxDelimCodePoint && delimiters.indexOf( c++ ) >= 0) {
+
+ROR
+@@ -56 +56 @@
+-            for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {
++            for (int i = 0, j = 0; i != count; i++, j += Character.charCount( c )) {
+
+ROR
+@@ -100 +100 @@
+-                if (c > maxDelimCodePoint || !isDelimiter( c )) {
++                if (c < maxDelimCodePoint || !isDelimiter( c )) {
+
+AOIS
+@@ -195 +195 @@
+-            currpos = skipDelimiters( currpos );
++            currpos = skipDelimiters( currpos-- );
+
+AOIS
+@@ -168 +168 @@
+-        currentPosition = scanToken( currentPosition );
++        currentPosition = scanToken( currentPosition++ );
+
+ROR
+@@ -112 +112 @@
+-        while (position < maxPosition) {
++        while (position >= maxPosition) {
+
+ROR
+@@ -145 +145 @@
+-        for (int i = 0; i < delimiterCodePoints.length; i++) {
++        for (int i = 0; i != delimiterCodePoints.length; i++) {
+
+AOIS
+@@ -127 +127 @@
+-        if (retDelims && startPos == position) {
++        if (retDelims && startPos++ == position) {
+
+AOIS
+@@ -130 +130 @@
+-                if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {
++                if (c <= maxDelimCodePoint && delimiters.indexOf( c-- ) >= 0) {
+
+ROD
+@@ -100 +100 @@
+-                if (c > maxDelimCodePoint || !isDelimiter( c )) {
++                if (true || !isDelimiter( c )) {
+
+ROR
+@@ -100 +100 @@
+-                if (c > maxDelimCodePoint || !isDelimiter( c )) {
++                if (c == maxDelimCodePoint || !isDelimiter( c )) {
+
+AOIS
+@@ -130 +130 @@
+-                if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {
++                if (c <= maxDelimCodePoint && delimiters.indexOf( c++ ) >= 0) {
+
+ROR
+@@ -100 +100 @@
+-                if (c > maxDelimCodePoint || !isDelimiter( c )) {
++                if (c != maxDelimCodePoint || !isDelimiter( c )) {
+
+AOIS
+@@ -161 +161 @@
+-        currentPosition = newPosition >= 0 && !delimsChanged ? newPosition : skipDelimiters( currentPosition );
++        currentPosition = newPosition >= 0 && !delimsChanged ? newPosition : skipDelimiters( currentPosition++ );
+
+AOIS
+@@ -94 +94 @@
+-                if (c > maxDelimCodePoint || delimiters.indexOf( c ) < 0) {
++                if (c > maxDelimCodePoint || delimiters.indexOf( c++ ) < 0) {
+
+AOIS
+@@ -115 +115 @@
+-                if (c <= maxDelimCodePoint && delimiters.indexOf( c ) >= 0) {
++                if (c <= maxDelimCodePoint && delimiters.indexOf( c-- ) >= 0) {
+
+AOIS
+@@ -106 +106 @@
+-        return position;
++        return position++;
+
+ROR
+@@ -100 +100 @@
+-                if (c > maxDelimCodePoint || !isDelimiter( c )) {
++                if (c <= maxDelimCodePoint || !isDelimiter( c )) {
+
+ROD
+@@ -100 +100 @@
+-                if (c > maxDelimCodePoint || !isDelimiter( c )) {
++                if (false || !isDelimiter( c )) {
+
+AOIS
+@@ -140 +140 @@
+-        return position;
++        return position++;
+
+AOIS
+@@ -140 +140 @@
+-        return position;
++        return position--;
+
+AOIS
+@@ -103 +103 @@
+-                position += Character.charCount( c );
++                position += Character.charCount( c++ );
+
+ROR
+@@ -112 +112 @@
+-        while (position < maxPosition) {
++        while (position == maxPosition) {
+
+AOIS
+@@ -90 +90 @@
+-        int position = startPos;
++        int position = startPos++;
+
+AOIS
+@@ -202 +202 @@
+-        return count;
++        return count--;
+
+AOIS
+@@ -106 +106 @@
+-        return position;
++        return position--;
+
+AOIS
+@@ -199 +199 @@
+-            currpos = scanToken( currpos );
++            currpos = scanToken( currpos++ );
+
+ROR
+@@ -127 +127 @@
+-        if (retDelims && startPos == position) {
++        if (retDelims && startPos >= position) {
+
+ROR
+@@ -48 +48 @@
+-            if (m < c) {
++            if (m <= c) {
+
+ROR
+@@ -112 +112 @@
+-        while (position < maxPosition) {
++        while (position <= maxPosition) {
+
+AOIS
+@@ -136 +136 @@
+-                    position += Character.charCount( c );
++                    position += Character.charCount( c-- );
+
+AOIS
+@@ -169 +169 @@
+-        return str.substring( start, currentPosition );
++        return str.substring( start--, currentPosition );
+
+AOIS
+@@ -161 +161 @@
+-        currentPosition = newPosition >= 0 && !delimsChanged ? newPosition : skipDelimiters( currentPosition );
++        currentPosition = newPosition >= 0 && !delimsChanged ? newPosition : skipDelimiters( currentPosition-- );
+
+AOIS
+@@ -53 +53 @@
+-        maxDelimCodePoint = m;
++        maxDelimCodePoint = m--;
+
+AOIS
+@@ -136 +136 @@
+-                    position += Character.charCount( c );
++                    position += Character.charCount( c++ );
+
+AOIS
+@@ -56 +56 @@
+-            for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c )) {
++            for (int i = 0, j = 0; i < count; i++, j += Character.charCount( c-- )) {
+
+AOIS
+@@ -202 +202 @@
+-        return count;
++        return count++;
+
+AOIS
+@@ -90 +90 @@
+-        int position = startPos;
++        int position = startPos--;
+
+AOIS
+@@ -94 +94 @@
+-                if (c > maxDelimCodePoint || delimiters.indexOf( c ) < 0) {
++                if (c > maxDelimCodePoint || delimiters.indexOf( c-- ) < 0) {
+
+AOIS
+@@ -168 +168 @@
+-        currentPosition = scanToken( currentPosition );
++        currentPosition = scanToken( currentPosition-- );
+
+ROR
+@@ -112 +112 @@
+-        while (position < maxPosition) {
++        while (position > maxPosition) {
+
+Total: 51
+AOIS: 36, ROR: 13, ROD: 2
+private  int scanToken( int startPos )
+private  boolean isDelimiter( int codePoint )
+private  int setMaxDelimCodePoint()
+private  int skipDelimiters( int startPos )
+public  java.lang.String nextToken()
+public  int countTokens()

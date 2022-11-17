@@ -1,0 +1,60 @@
+AOIU
+@@ -1282 +1282 @@
+-        if (startIndex < 0) {
++        if (startIndex < -1) {
+
+CDL
+@@ -1282 +1282 @@
+-        if (startIndex < 0) {
++        if (false) {
+
+AOIU
+@@ -453 +453 @@
+-        if (newSize <= 0) {
++        if (newSize <= -1) {
+
+ROR
+@@ -453 +453 @@
+-        if (newSize <= 0) {
++        if (newSize < 0) {
+
+ROR
+@@ -241 +241 @@
+-        for (int i = 0; i < array.length; i++) {
++        for (int i = 0; i != array.length; i++) {
+
+ROR
+@@ -448 +448 @@
+-        if (endIndexExclusive > array.length) {
++        if (endIndexExclusive >= array.length) {
+
+AORB
+@@ -240 +240 @@
+-        final Map map = new HashMap((int) (array.length * 1.5));
++        final Map map = new HashMap((int) (array.length + 1.5));
+
+AORB
+@@ -240 +240 @@
+-        final Map map = new HashMap((int) (array.length * 1.5));
++        final Map map = new HashMap((int) (array.length % 1.5));
+
+ROR
+@@ -445 +445 @@
+-        if (startIndexInclusive < 0) {
++        if (startIndexInclusive <= 0) {
+
+CR
+@@ -445 +445 @@
+-        if (startIndexInclusive < 0) {
++        if (startIndexInclusive < 1) {
+
+AORB
+@@ -240 +240 @@
+-        final Map map = new HashMap((int) (array.length * 1.5));
++        final Map map = new HashMap((int) (array.length / 1.5));
+
+Total: 11
+AOIU: 2, CDL: 1, ROR: 4, AORB: 3, CR: 1
+public static int lastIndexOf(Object[] array, Object objectToFind, int startIndex)
+public static Object[] subarray(Object[] array, int startIndexInclusive, int endIndexExclusive)
+public static Map toMap(Object[] array)

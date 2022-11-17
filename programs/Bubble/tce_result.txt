@@ -1,0 +1,38 @@
+==============Program===============
+Bubble
+==============Mut_Type==============
+HOEM
+====================================
+1_Bubble
+NEQ
+Bisect_10
+NEQ
+Bisect_11
+NEQ
+Bisect_12
+NEQ
+Bisect_13
+NEQ
+Bisect_14
+NEQ
+Bisect_2
+NEQ
+Bisect_3
+NEQ
+Bisect_4
+NEQ
+Bisect_5
+NEQ
+Bisect_6
+NEQ
+Bisect_7
+NEQ
+Bisect_8
+NEQ
+Bisect_9
+NEQ
+Bubble_1
+NEQ
+Total #: 15
+TCEQ #: 0
+NEQ #: 15

@@ -1,0 +1,5 @@
+--- ROR_2.java
++++ ROR_2.java
+@@ -1471 +1471 @@
+-		for (int i = 0; i < nodesList.size(); i++) {
++		for (int i = 0; i != nodesList.size(); i++) {

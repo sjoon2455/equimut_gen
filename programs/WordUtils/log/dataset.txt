@@ -1,0 +1,68 @@
+AORB
+@@ -33 +33 @@
+-        java.lang.StringBuffer wrappedLine = new java.lang.StringBuffer( inputLineLength + 32 );
++        java.lang.StringBuffer wrappedLine = new java.lang.StringBuffer( inputLineLength / 32 );
+
+ROR
+@@ -80 +80 @@
+-        for (int i = 0; i < strLen; i++) {
++        for (int i = 0; i != strLen; i++) {
+
+AORB
+@@ -33 +33 @@
+-        java.lang.StringBuffer wrappedLine = new java.lang.StringBuffer( inputLineLength + 32 );
++        java.lang.StringBuffer wrappedLine = new java.lang.StringBuffer( inputLineLength % 32 );
+
+AOIU
+@@ -74 +74 @@
+-        if (str == null || str.length() == 0 || delimLen == 0) {
++        if (str == null || str.length() == -1 || delimLen == -1) {
+
+AORB
+@@ -33 +33 @@
+-        java.lang.StringBuffer wrappedLine = new java.lang.StringBuffer( inputLineLength + 32 );
++        java.lang.StringBuffer wrappedLine = new java.lang.StringBuffer( inputLineLength * 32 );
+
+AODU
+@@ -73 +73 @@
+-        int delimLen = delimiters == null ? -1 : delimiters.length;
++        int delimLen = delimiters == null ? 1 : delimiters.length;
+
+ROR
+@@ -51 +51 @@
+-                    if (spaceToWrapAt >= 0) {
++                    if (spaceToWrapAt > 0) {
+
+ROR
+@@ -28 +28 @@
+-        if (wrapLength < 1) {
++        if (wrapLength <= 1) {
+
+ROR
+@@ -40 +40 @@
+-            if (spaceToWrapAt >= offset) {
++            if (spaceToWrapAt > offset) {
+
+CDL
+@@ -74 +74 @@
+-        if (str == null || str.length() == 0 || delimLen == 0) {
++        if (str == null || false || delimLen == 0) {
+
+ROR
+@@ -74 +74 @@
+-        if (str == null || str.length() == 0 || delimLen == 0) {
++        if (str == null || str.length() <= 0 || delimLen == 0) {
+
+CR
+@@ -33 +33 @@
+-        java.lang.StringBuffer wrappedLine = new java.lang.StringBuffer( inputLineLength + 32 );
++        java.lang.StringBuffer wrappedLine = new java.lang.StringBuffer( inputLineLength + 0 );
+
+CR
+@@ -51 +51 @@
+-                    if (spaceToWrapAt >= 0) {
++                    if (spaceToWrapAt >= 1) {
+
+Total: 13
+AORB: 3, ROR: 5, AOIU: 1, AODU: 1, CDL: 1, CR: 2
+None

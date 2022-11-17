@@ -1,0 +1,108 @@
+#
+Mutant name: AORB_3
+Status: Nonequivalent
+Operator: AORB
+Type statement: For
+Position score: 0.8064516129032258
+Operator score: 0.5
+Program graph node: 4
+
+#
+Mutant name: ROR_15
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.8571428571428571
+Operator score: 0.7777777777777778
+Program graph node: 5
+
+#
+Mutant name: AORB_2
+Status: Nonequivalent
+Operator: AORB
+Type statement: For
+Position score: 0.8064516129032258
+Operator score: 0.5
+Program graph node: 4
+
+#
+Mutant name: AOIS_21
+Status: Nonequivalent
+Operator: AOIS
+Type statement: For
+Position score: 0.7142857142857143
+Operator score: 0.7115384615384616
+Program graph node: 2
+
+#
+Mutant name: ROR_4
+Status: Nonequivalent
+Operator: ROR
+Type statement: For
+Position score: 0.7142857142857143
+Operator score: 0.7777777777777778
+Program graph node: 2
+
+#
+Mutant name: AOIS_27
+Status: Nonequivalent
+Operator: AOIS
+Type statement: For
+Position score: 0.8064516129032258
+Operator score: 0.7115384615384616
+Program graph node: 4
+
+#
+Mutant name: AOIS_25
+Status: Nonequivalent
+Operator: AOIS
+Type statement: For
+Position score: 0.8064516129032258
+Operator score: 0.7115384615384616
+Program graph node: 4
+
+#
+Mutant name: CDL_2
+Status: Nonequivalent
+Operator: CDL
+Type statement: For
+Position score: 0.8064516129032258
+Operator score: 0.0
+Program graph node: 4
+
+#
+Mutant name: AORB_1
+Status: Nonequivalent
+Operator: AORB
+Type statement: For
+Position score: 0.8064516129032258
+Operator score: 0.5
+Program graph node: 4
+
+#
+Mutant name: ODL_4
+Status: Nonequivalent
+Operator: ODL
+Type statement: For
+Position score: 0.8064516129032258
+Operator score: 0.5
+Program graph node: 4
+
+#
+Mutant name: AOIS_39
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.8571428571428571
+Operator score: 0.7115384615384616
+Program graph node: 5
+
+#
+Mutant name: AOIS_23
+Status: Nonequivalent
+Operator: AOIS
+Type statement: For
+Position score: 0.7142857142857143
+Operator score: 0.7115384615384616
+Program graph node: 2
+

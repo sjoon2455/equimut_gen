@@ -1,0 +1,96 @@
+Compiled from "Triangle.java"
+public class Triangle {
+  public Triangle();
+    Code:
+       0: aload_0
+       1: invokespecial #9                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static java.lang.String triangle(int, int, int);
+    Code:
+       0: iload_0
+       1: ifle          12
+       4: iload_1
+       5: ifle          12
+       8: iload_2
+       9: ifgt          15
+      12: ldc           #13                 // String INVALID
+      14: areturn
+      15: iconst_0
+      16: istore_3
+      17: iload_0
+      18: iload_1
+      19: if_icmpne     24
+      22: iconst_1
+      23: istore_3
+      24: iload_0
+      25: iload_2
+      26: if_icmpne     31
+      29: iconst_2
+      30: istore_3
+      31: iload_1
+      32: iload_2
+      33: if_icmpne     40
+      36: iload_3
+      37: iconst_3
+      38: iadd
+      39: istore_3
+      40: iload_3
+      41: ifne          71
+      44: iload_0
+      45: iload_1
+      46: iadd
+      47: iload_2
+      48: if_icmplt     65
+      51: iload_0
+      52: iload_2
+      53: iadd
+      54: iload_1
+      55: if_icmplt     65
+      58: iload_1
+      59: iload_2
+      60: iadd
+      61: iload_0
+      62: if_icmpge     68
+      65: ldc           #13                 // String INVALID
+      67: areturn
+      68: ldc           #15                 // String SCALENE
+      70: areturn
+      71: iload_3
+      72: iconst_3
+      73: if_icmple     79
+      76: ldc           #17                 // String EQUILATERAL
+      78: areturn
+      79: iload_3
+      80: iconst_1
+      81: if_icmpne     94
+      84: iload_0
+      85: iload_1
+      86: iadd
+      87: iload_2
+      88: if_icmple     94
+      91: ldc           #19                 // String ISOSCELES
+      93: areturn
+      94: iload_3
+      95: iconst_2
+      96: if_icmpne     109
+      99: iload_0
+     100: iload_2
+     101: iadd
+     102: iload_1
+     103: if_icmple     109
+     106: ldc           #19                 // String ISOSCELES
+     108: areturn
+     109: iload_3
+     110: iconst_3
+     111: if_icmpne     124
+     114: iload_1
+     115: iload_2
+     116: iadd
+     117: iload_0
+     118: if_icmple     124
+     121: ldc           #19                 // String ISOSCELES
+     123: areturn
+     124: ldc           #13                 // String INVALID
+     126: areturn
+}

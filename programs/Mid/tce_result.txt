@@ -1,0 +1,40 @@
+==============Program===============
+Mid
+==============Mut_Type==============
+HOEM
+====================================
+11_Mid
+NEQ
+12_Mid
+NEQ
+13_Mid
+NEQ
+14_Mid
+NEQ
+15_Mid
+NEQ
+16_Mid
+NEQ
+Mid_1
+NEQ
+Mid_10
+NEQ
+Mid_2
+NEQ
+Mid_3
+NEQ
+Mid_4
+NEQ
+Mid_5
+NEQ
+Mid_6
+NEQ
+Mid_7
+NEQ
+Mid_8
+NEQ
+Mid_9
+NEQ
+Total #: 16
+TCEQ #: 0
+NEQ #: 16

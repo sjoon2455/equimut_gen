@@ -1,0 +1,324 @@
+#
+Mutant name: ABS_1
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.0
+Operator score: 1
+Program graph node: 43
+
+#
+Mutant name: ABS_2
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.0
+Operator score: 1
+Program graph node: 55
+
+#
+Mutant name: ABS_3
+Status: Equivalent
+Operator: ABS
+Type statement: Function Call
+Position score: 0.0
+Operator score: 1
+Program graph node: 23
+
+#
+Mutant name: SVR_4
+Status: Equivalent
+Operator: SVR
+Type statement: If
+Position score: 0.0
+Operator score: 1
+Program graph node: 5
+
+#
+Mutant name: ABS_5
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.2631578947368421
+Operator score: 1
+Program graph node: 59
+
+#
+Mutant name: ABS_6
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.42105263157894735
+Operator score: 1
+Program graph node: 61
+
+#
+Mutant name: SVR_7
+Status: Equivalent
+Operator: SVR
+Type statement: If
+Position score: 0.0
+Operator score: 1
+Program graph node: 5
+
+#
+Mutant name: ABS_8
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.2631578947368421
+Operator score: 1
+Program graph node: 59
+
+#
+Mutant name: ABS_9
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.42105263157894735
+Operator score: 1
+Program graph node: 61
+
+#
+Mutant name: ABS_10
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.2631578947368421
+Operator score: 1
+Program graph node: 59
+
+#
+Mutant name: ABS_11
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.42105263157894735
+Operator score: 1
+Program graph node: 61
+
+#
+Mutant name: ABS_12
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.0
+Operator score: 1
+Program graph node: 46
+
+#
+Mutant name: ABS_13
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.0
+Operator score: 1
+Program graph node: 51
+
+#
+Mutant name: ABS_14
+Status: Equivalent
+Operator: ABS
+Type statement: Function Call
+Position score: 0.0
+Operator score: 1
+Program graph node: 23
+
+#
+Mutant name: ABS_15
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.0
+Operator score: 1
+Program graph node: 26
+
+#
+Mutant name: ABS_16
+Status: Equivalent
+Operator: ABS
+Type statement: Function Call
+Position score: 0.0
+Operator score: 1
+Program graph node: 30
+
+#
+Mutant name: ABS_17
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.0
+Operator score: 1
+Program graph node: 34
+
+#
+Mutant name: ABS_18
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.6666666666666666
+Operator score: 1
+Program graph node: 2
+
+#
+Mutant name: ABS_19
+Status: Equivalent
+Operator: ABS
+Type statement: If
+Position score: 0.0
+Operator score: 1
+Program graph node: 8
+
+#
+Mutant name: ABS_20
+Status: Equivalent
+Operator: ABS
+Type statement: Function Call
+Position score: 0.0
+Operator score: 1
+Program graph node: 23
+
+#
+Mutant name: ABS_21
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.0
+Operator score: 1
+Program graph node: 46
+
+#
+Mutant name: ABS_22
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.0
+Operator score: 1
+Program graph node: 51
+
+#
+Mutant name: ABS_23
+Status: Equivalent
+Operator: ABS
+Type statement: If
+Position score: 0.0
+Operator score: 1
+Program graph node: 7
+
+#
+Mutant name: ABS_24
+Status: Equivalent
+Operator: ABS
+Type statement: If
+Position score: 0.7222222222222222
+Operator score: 1
+Program graph node: 1
+
+#
+Mutant name: ABS_25
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.0
+Operator score: 1
+Program graph node: 9
+
+#
+Mutant name: ABS_26
+Status: Equivalent
+Operator: ABS
+Type statement: If
+Position score: 0.0
+Operator score: 1
+Program graph node: 40
+
+#
+Mutant name: ABS_27
+Status: Equivalent
+Operator: ABS
+Type statement: Function Call
+Position score: 0.0
+Operator score: 1
+Program graph node: 13
+
+#
+Mutant name: ABS_28
+Status: Equivalent
+Operator: ABS
+Type statement: If
+Position score: 0.0
+Operator score: 1
+Program graph node: 20
+
+#
+Mutant name: ABS_29
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.0
+Operator score: 1
+Program graph node: 15
+
+#
+Mutant name: ABS_30
+Status: Equivalent
+Operator: ABS
+Type statement: If
+Position score: 0.0
+Operator score: 1
+Program graph node: 33
+
+#
+Mutant name: ABS_31
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.0
+Operator score: 1
+Program graph node: 17
+
+#
+Mutant name: ABS_32
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.0
+Operator score: 1
+Program graph node: 38
+
+#
+Mutant name: ABS_33
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.0
+Operator score: 1
+Program graph node: 11
+
+#
+Mutant name: ABS_34
+Status: Equivalent
+Operator: ABS
+Type statement: If
+Position score: 0.0
+Operator score: 1
+Program graph node: 49
+
+#
+Mutant name: ABS_35
+Status: Equivalent
+Operator: ABS
+Type statement: If
+Position score: 0.0
+Operator score: 1
+Program graph node: 25
+
+#
+Mutant name: ABS_36
+Status: Equivalent
+Operator: ABS
+Type statement: If
+Position score: 0.0
+Operator score: 1
+Program graph node: 29
+

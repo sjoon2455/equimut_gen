@@ -1,0 +1,27 @@
+#
+Mutant name: AOIS_20
+Status: Nonequivalent
+Operator: AOIS
+Type statement: Block
+Position score: 0.8571428571428571
+Operator score: 0.6875
+Program graph node: 5
+
+#
+Mutant name: ROR_8
+Status: Nonequivalent
+Operator: ROR
+Type statement: Block
+Position score: 0.8571428571428571
+Operator score: 0.84
+Program graph node: 4
+
+#
+Mutant name: AOIS_12
+Status: Nonequivalent
+Operator: AOIS
+Type statement: Block
+Position score: 0.8571428571428571
+Operator score: 0.6875
+Program graph node: 4
+

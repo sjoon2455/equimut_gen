@@ -1,0 +1,45 @@
+AOIU_1:10:int_min(int,int):I => -I
+AOIU_2:11:int_min(int,int):J => -J
+AOIU_3:11:int_min(int,int):I => -I
+AOIU_4:12:int_min(int,int):J => -J
+AOIU_5:14:int_min(int,int):Min => -Min
+AOIS_1:10:int_min(int,int):I => ++I
+AOIS_2:10:int_min(int,int):I => --I
+AOIS_3:10:int_min(int,int):I => I++
+AOIS_4:10:int_min(int,int):I => I--
+AOIS_5:11:int_min(int,int):J => ++J
+AOIS_6:11:int_min(int,int):J => --J
+AOIS_7:11:int_min(int,int):J => J++
+AOIS_8:11:int_min(int,int):J => J--
+AOIS_9:11:int_min(int,int):I => ++I
+AOIS_10:11:int_min(int,int):I => --I
+AOIS_11:11:int_min(int,int):I => I++
+AOIS_12:11:int_min(int,int):I => I--
+AOIS_13:12:int_min(int,int):J => ++J
+AOIS_14:12:int_min(int,int):J => --J
+AOIS_15:12:int_min(int,int):J => J++
+AOIS_16:12:int_min(int,int):J => J--
+AOIS_17:14:int_min(int,int):Min => Min++
+AOIS_18:14:int_min(int,int):Min => Min--
+ROR_1:11:int_min(int,int): J < I  =>   J > I
+ROR_2:11:int_min(int,int): J < I  =>   J >= I
+ROR_3:11:int_min(int,int): J < I  =>   J <= I
+ROR_4:11:int_min(int,int): J < I  =>   J == I
+ROR_5:11:int_min(int,int): J < I  =>   J != I
+ROR_6:11:int_min(int,int): J < I  =>   true
+ROR_7:11:int_min(int,int): J < I  =>   false
+COI_1:11:int_min(int,int): J < I  =>  !(J < I)
+LOI_1:10:int_min(int,int):I => ~I
+LOI_2:11:int_min(int,int):J => ~J
+LOI_3:11:int_min(int,int):I => ~I
+LOI_4:12:int_min(int,int):J => ~J
+LOI_5:14:int_min(int,int):Min => ~Min
+SDL_1:14:int_min(int,int): int Min; Min = I; if (J < I) {     Min = J; } return Min;  =>   int Min; if (J < I) {     Min = J; } return Min;
+SDL_2:12:int_min(int,int): int Min; Min = I; if (J < I) {     Min = J; } return Min;  =>   int Min; Min = I; return Min;
+SDL_3:12:int_min(int,int): Min = J;  =>  
+SDL_4:14:int_min(int,int): if (J < I) {     Min = J; }  =>   if (true) {     Min = J; }
+SDL_5:15:int_min(int,int): return Min;  =>   return 0;
+VDL_1:11:int_min(int,int):J < I => I
+VDL_2:11:int_min(int,int):J < I => J
+ODL_1:11:int_min(int,int):J < I => J
+ODL_2:11:int_min(int,int):J < I => I

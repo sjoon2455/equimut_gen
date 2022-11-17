@@ -1,0 +1,511 @@
+AORB_1:15:java.lang.String_triangle(int,int,int):trian + 1 => trian * 1
+AORB_2:15:java.lang.String_triangle(int,int,int):trian + 1 => trian / 1
+AORB_3:15:java.lang.String_triangle(int,int,int):trian + 1 => trian % 1
+AORB_4:15:java.lang.String_triangle(int,int,int):trian + 1 => trian - 1
+AORB_5:18:java.lang.String_triangle(int,int,int):trian + 2 => trian * 2
+AORB_6:18:java.lang.String_triangle(int,int,int):trian + 2 => trian / 2
+AORB_7:18:java.lang.String_triangle(int,int,int):trian + 2 => trian % 2
+AORB_8:18:java.lang.String_triangle(int,int,int):trian + 2 => trian - 2
+AORB_9:21:java.lang.String_triangle(int,int,int):trian + 3 => trian * 3
+AORB_10:21:java.lang.String_triangle(int,int,int):trian + 3 => trian / 3
+AORB_11:21:java.lang.String_triangle(int,int,int):trian + 3 => trian % 3
+AORB_12:21:java.lang.String_triangle(int,int,int):trian + 3 => trian - 3
+AORB_13:24:java.lang.String_triangle(int,int,int):a + b => a * b
+AORB_14:24:java.lang.String_triangle(int,int,int):a + b => a / b
+AORB_15:24:java.lang.String_triangle(int,int,int):a + b => a % b
+AORB_16:24:java.lang.String_triangle(int,int,int):a + b => a - b
+AORB_17:24:java.lang.String_triangle(int,int,int):a + c => a * c
+AORB_18:24:java.lang.String_triangle(int,int,int):a + c => a / c
+AORB_19:24:java.lang.String_triangle(int,int,int):a + c => a % c
+AORB_20:24:java.lang.String_triangle(int,int,int):a + c => a - c
+AORB_21:24:java.lang.String_triangle(int,int,int):b + c => b * c
+AORB_22:24:java.lang.String_triangle(int,int,int):b + c => b / c
+AORB_23:24:java.lang.String_triangle(int,int,int):b + c => b % c
+AORB_24:24:java.lang.String_triangle(int,int,int):b + c => b - c
+AORB_25:33:java.lang.String_triangle(int,int,int):a + b => a * b
+AORB_26:33:java.lang.String_triangle(int,int,int):a + b => a / b
+AORB_27:33:java.lang.String_triangle(int,int,int):a + b => a % b
+AORB_28:33:java.lang.String_triangle(int,int,int):a + b => a - b
+AORB_29:36:java.lang.String_triangle(int,int,int):a + c => a * c
+AORB_30:36:java.lang.String_triangle(int,int,int):a + c => a / c
+AORB_31:36:java.lang.String_triangle(int,int,int):a + c => a % c
+AORB_32:36:java.lang.String_triangle(int,int,int):a + c => a - c
+AORB_33:39:java.lang.String_triangle(int,int,int):b + c => b * c
+AORB_34:39:java.lang.String_triangle(int,int,int):b + c => b / c
+AORB_35:39:java.lang.String_triangle(int,int,int):b + c => b % c
+AORB_36:39:java.lang.String_triangle(int,int,int):b + c => b - c
+AOIU_1:14:java.lang.String_triangle(int,int,int):a => -a
+AOIU_2:14:java.lang.String_triangle(int,int,int):b => -b
+AOIU_3:15:java.lang.String_triangle(int,int,int):trian => -trian
+AOIU_4:17:java.lang.String_triangle(int,int,int):a => -a
+AOIU_5:17:java.lang.String_triangle(int,int,int):c => -c
+AOIU_6:18:java.lang.String_triangle(int,int,int):trian => -trian
+AOIU_7:20:java.lang.String_triangle(int,int,int):b => -b
+AOIU_8:20:java.lang.String_triangle(int,int,int):c => -c
+AOIU_9:21:java.lang.String_triangle(int,int,int):trian => -trian
+AOIU_10:23:java.lang.String_triangle(int,int,int):trian => -trian
+AOIU_11:30:java.lang.String_triangle(int,int,int):trian => -trian
+AOIS_1:10:java.lang.String_triangle(int,int,int):a => ++a
+AOIS_2:10:java.lang.String_triangle(int,int,int):a => --a
+AOIS_3:10:java.lang.String_triangle(int,int,int):a => a++
+AOIS_4:10:java.lang.String_triangle(int,int,int):a => a--
+AOIS_5:10:java.lang.String_triangle(int,int,int):b => ++b
+AOIS_6:10:java.lang.String_triangle(int,int,int):b => --b
+AOIS_7:10:java.lang.String_triangle(int,int,int):b => b++
+AOIS_8:10:java.lang.String_triangle(int,int,int):b => b--
+AOIS_9:10:java.lang.String_triangle(int,int,int):c => ++c
+AOIS_10:10:java.lang.String_triangle(int,int,int):c => --c
+AOIS_11:10:java.lang.String_triangle(int,int,int):c => c++
+AOIS_12:10:java.lang.String_triangle(int,int,int):c => c--
+AOIS_13:14:java.lang.String_triangle(int,int,int):a => ++a
+AOIS_14:14:java.lang.String_triangle(int,int,int):a => --a
+AOIS_15:14:java.lang.String_triangle(int,int,int):a => a++
+AOIS_16:14:java.lang.String_triangle(int,int,int):a => a--
+AOIS_17:14:java.lang.String_triangle(int,int,int):b => ++b
+AOIS_18:14:java.lang.String_triangle(int,int,int):b => --b
+AOIS_19:14:java.lang.String_triangle(int,int,int):b => b++
+AOIS_20:14:java.lang.String_triangle(int,int,int):b => b--
+AOIS_21:15:java.lang.String_triangle(int,int,int):trian => ++trian
+AOIS_22:15:java.lang.String_triangle(int,int,int):trian => --trian
+AOIS_23:15:java.lang.String_triangle(int,int,int):trian => trian++
+AOIS_24:15:java.lang.String_triangle(int,int,int):trian => trian--
+AOIS_25:17:java.lang.String_triangle(int,int,int):a => ++a
+AOIS_26:17:java.lang.String_triangle(int,int,int):a => --a
+AOIS_27:17:java.lang.String_triangle(int,int,int):a => a++
+AOIS_28:17:java.lang.String_triangle(int,int,int):a => a--
+AOIS_29:17:java.lang.String_triangle(int,int,int):c => ++c
+AOIS_30:17:java.lang.String_triangle(int,int,int):c => --c
+AOIS_31:17:java.lang.String_triangle(int,int,int):c => c++
+AOIS_32:17:java.lang.String_triangle(int,int,int):c => c--
+AOIS_33:18:java.lang.String_triangle(int,int,int):trian => ++trian
+AOIS_34:18:java.lang.String_triangle(int,int,int):trian => --trian
+AOIS_35:18:java.lang.String_triangle(int,int,int):trian => trian++
+AOIS_36:18:java.lang.String_triangle(int,int,int):trian => trian--
+AOIS_37:20:java.lang.String_triangle(int,int,int):b => ++b
+AOIS_38:20:java.lang.String_triangle(int,int,int):b => --b
+AOIS_39:20:java.lang.String_triangle(int,int,int):b => b++
+AOIS_40:20:java.lang.String_triangle(int,int,int):b => b--
+AOIS_41:20:java.lang.String_triangle(int,int,int):c => ++c
+AOIS_42:20:java.lang.String_triangle(int,int,int):c => --c
+AOIS_43:20:java.lang.String_triangle(int,int,int):c => c++
+AOIS_44:20:java.lang.String_triangle(int,int,int):c => c--
+AOIS_45:21:java.lang.String_triangle(int,int,int):trian => ++trian
+AOIS_46:21:java.lang.String_triangle(int,int,int):trian => --trian
+AOIS_47:21:java.lang.String_triangle(int,int,int):trian => trian++
+AOIS_48:21:java.lang.String_triangle(int,int,int):trian => trian--
+AOIS_49:23:java.lang.String_triangle(int,int,int):trian => ++trian
+AOIS_50:23:java.lang.String_triangle(int,int,int):trian => --trian
+AOIS_51:23:java.lang.String_triangle(int,int,int):trian => trian++
+AOIS_52:23:java.lang.String_triangle(int,int,int):trian => trian--
+AOIS_53:24:java.lang.String_triangle(int,int,int):a => ++a
+AOIS_54:24:java.lang.String_triangle(int,int,int):a => --a
+AOIS_55:24:java.lang.String_triangle(int,int,int):a => a++
+AOIS_56:24:java.lang.String_triangle(int,int,int):a => a--
+AOIS_57:24:java.lang.String_triangle(int,int,int):b => ++b
+AOIS_58:24:java.lang.String_triangle(int,int,int):b => --b
+AOIS_59:24:java.lang.String_triangle(int,int,int):b => b++
+AOIS_60:24:java.lang.String_triangle(int,int,int):b => b--
+AOIS_61:24:java.lang.String_triangle(int,int,int):c => c++
+AOIS_62:24:java.lang.String_triangle(int,int,int):c => c--
+AOIS_63:24:java.lang.String_triangle(int,int,int):a => ++a
+AOIS_64:24:java.lang.String_triangle(int,int,int):a => --a
+AOIS_65:24:java.lang.String_triangle(int,int,int):a => a++
+AOIS_66:24:java.lang.String_triangle(int,int,int):a => a--
+AOIS_67:24:java.lang.String_triangle(int,int,int):c => ++c
+AOIS_68:24:java.lang.String_triangle(int,int,int):c => --c
+AOIS_69:24:java.lang.String_triangle(int,int,int):c => c++
+AOIS_70:24:java.lang.String_triangle(int,int,int):c => c--
+AOIS_71:24:java.lang.String_triangle(int,int,int):b => b++
+AOIS_72:24:java.lang.String_triangle(int,int,int):b => b--
+AOIS_73:24:java.lang.String_triangle(int,int,int):b => ++b
+AOIS_74:24:java.lang.String_triangle(int,int,int):b => --b
+AOIS_75:24:java.lang.String_triangle(int,int,int):b => b++
+AOIS_76:24:java.lang.String_triangle(int,int,int):b => b--
+AOIS_77:24:java.lang.String_triangle(int,int,int):c => ++c
+AOIS_78:24:java.lang.String_triangle(int,int,int):c => --c
+AOIS_79:24:java.lang.String_triangle(int,int,int):c => c++
+AOIS_80:24:java.lang.String_triangle(int,int,int):c => c--
+AOIS_81:24:java.lang.String_triangle(int,int,int):a => a++
+AOIS_82:24:java.lang.String_triangle(int,int,int):a => a--
+AOIS_83:30:java.lang.String_triangle(int,int,int):trian => ++trian
+AOIS_84:30:java.lang.String_triangle(int,int,int):trian => --trian
+AOIS_85:30:java.lang.String_triangle(int,int,int):trian => trian++
+AOIS_86:30:java.lang.String_triangle(int,int,int):trian => trian--
+AOIS_87:33:java.lang.String_triangle(int,int,int):trian => ++trian
+AOIS_88:33:java.lang.String_triangle(int,int,int):trian => --trian
+AOIS_89:33:java.lang.String_triangle(int,int,int):trian => trian++
+AOIS_90:33:java.lang.String_triangle(int,int,int):trian => trian--
+AOIS_91:33:java.lang.String_triangle(int,int,int):a => ++a
+AOIS_92:33:java.lang.String_triangle(int,int,int):a => --a
+AOIS_93:33:java.lang.String_triangle(int,int,int):a => a++
+AOIS_94:33:java.lang.String_triangle(int,int,int):a => a--
+AOIS_95:33:java.lang.String_triangle(int,int,int):b => ++b
+AOIS_96:33:java.lang.String_triangle(int,int,int):b => --b
+AOIS_97:33:java.lang.String_triangle(int,int,int):b => b++
+AOIS_98:33:java.lang.String_triangle(int,int,int):b => b--
+AOIS_99:33:java.lang.String_triangle(int,int,int):c => c++
+AOIS_100:33:java.lang.String_triangle(int,int,int):c => c--
+AOIS_101:36:java.lang.String_triangle(int,int,int):trian => ++trian
+AOIS_102:36:java.lang.String_triangle(int,int,int):trian => --trian
+AOIS_103:36:java.lang.String_triangle(int,int,int):trian => trian++
+AOIS_104:36:java.lang.String_triangle(int,int,int):trian => trian--
+AOIS_105:36:java.lang.String_triangle(int,int,int):a => ++a
+AOIS_106:36:java.lang.String_triangle(int,int,int):a => --a
+AOIS_107:36:java.lang.String_triangle(int,int,int):a => a++
+AOIS_108:36:java.lang.String_triangle(int,int,int):a => a--
+AOIS_109:36:java.lang.String_triangle(int,int,int):c => ++c
+AOIS_110:36:java.lang.String_triangle(int,int,int):c => --c
+AOIS_111:36:java.lang.String_triangle(int,int,int):c => c++
+AOIS_112:36:java.lang.String_triangle(int,int,int):c => c--
+AOIS_113:36:java.lang.String_triangle(int,int,int):b => b++
+AOIS_114:36:java.lang.String_triangle(int,int,int):b => b--
+AOIS_115:39:java.lang.String_triangle(int,int,int):trian => ++trian
+AOIS_116:39:java.lang.String_triangle(int,int,int):trian => --trian
+AOIS_117:39:java.lang.String_triangle(int,int,int):trian => trian++
+AOIS_118:39:java.lang.String_triangle(int,int,int):trian => trian--
+AOIS_119:39:java.lang.String_triangle(int,int,int):b => ++b
+AOIS_120:39:java.lang.String_triangle(int,int,int):b => --b
+AOIS_121:39:java.lang.String_triangle(int,int,int):b => b++
+AOIS_122:39:java.lang.String_triangle(int,int,int):b => b--
+AOIS_123:39:java.lang.String_triangle(int,int,int):c => ++c
+AOIS_124:39:java.lang.String_triangle(int,int,int):c => --c
+AOIS_125:39:java.lang.String_triangle(int,int,int):c => c++
+AOIS_126:39:java.lang.String_triangle(int,int,int):c => c--
+AOIS_127:39:java.lang.String_triangle(int,int,int):a => a++
+AOIS_128:39:java.lang.String_triangle(int,int,int):a => a--
+ROR_1:10:java.lang.String_triangle(int,int,int): a <= 0  =>   a > 0
+ROR_2:10:java.lang.String_triangle(int,int,int): a <= 0  =>   a >= 0
+ROR_3:10:java.lang.String_triangle(int,int,int): a <= 0  =>   a < 0
+ROR_4:10:java.lang.String_triangle(int,int,int): a <= 0  =>   a == 0
+ROR_5:10:java.lang.String_triangle(int,int,int): a <= 0  =>   a != 0
+ROR_6:10:java.lang.String_triangle(int,int,int): a <= 0  =>   true
+ROR_7:10:java.lang.String_triangle(int,int,int): a <= 0  =>   false
+ROR_8:10:java.lang.String_triangle(int,int,int): b <= 0  =>   b > 0
+ROR_9:10:java.lang.String_triangle(int,int,int): b <= 0  =>   b >= 0
+ROR_10:10:java.lang.String_triangle(int,int,int): b <= 0  =>   b < 0
+ROR_11:10:java.lang.String_triangle(int,int,int): b <= 0  =>   b == 0
+ROR_12:10:java.lang.String_triangle(int,int,int): b <= 0  =>   b != 0
+ROR_13:10:java.lang.String_triangle(int,int,int): b <= 0  =>   true
+ROR_14:10:java.lang.String_triangle(int,int,int): b <= 0  =>   false
+ROR_15:10:java.lang.String_triangle(int,int,int): c <= 0  =>   c > 0
+ROR_16:10:java.lang.String_triangle(int,int,int): c <= 0  =>   c >= 0
+ROR_17:10:java.lang.String_triangle(int,int,int): c <= 0  =>   c < 0
+ROR_18:10:java.lang.String_triangle(int,int,int): c <= 0  =>   c == 0
+ROR_19:10:java.lang.String_triangle(int,int,int): c <= 0  =>   c != 0
+ROR_20:10:java.lang.String_triangle(int,int,int): c <= 0  =>   true
+ROR_21:10:java.lang.String_triangle(int,int,int): c <= 0  =>   false
+ROR_22:14:java.lang.String_triangle(int,int,int): a == b  =>   a > b
+ROR_23:14:java.lang.String_triangle(int,int,int): a == b  =>   a >= b
+ROR_24:14:java.lang.String_triangle(int,int,int): a == b  =>   a < b
+ROR_25:14:java.lang.String_triangle(int,int,int): a == b  =>   a <= b
+ROR_26:14:java.lang.String_triangle(int,int,int): a == b  =>   a != b
+ROR_27:14:java.lang.String_triangle(int,int,int): a == b  =>   true
+ROR_28:14:java.lang.String_triangle(int,int,int): a == b  =>   false
+ROR_29:17:java.lang.String_triangle(int,int,int): a == c  =>   a > c
+ROR_30:17:java.lang.String_triangle(int,int,int): a == c  =>   a >= c
+ROR_31:17:java.lang.String_triangle(int,int,int): a == c  =>   a < c
+ROR_32:17:java.lang.String_triangle(int,int,int): a == c  =>   a <= c
+ROR_33:17:java.lang.String_triangle(int,int,int): a == c  =>   a != c
+ROR_34:17:java.lang.String_triangle(int,int,int): a == c  =>   true
+ROR_35:17:java.lang.String_triangle(int,int,int): a == c  =>   false
+ROR_36:20:java.lang.String_triangle(int,int,int): b == c  =>   b > c
+ROR_37:20:java.lang.String_triangle(int,int,int): b == c  =>   b >= c
+ROR_38:20:java.lang.String_triangle(int,int,int): b == c  =>   b < c
+ROR_39:20:java.lang.String_triangle(int,int,int): b == c  =>   b <= c
+ROR_40:20:java.lang.String_triangle(int,int,int): b == c  =>   b != c
+ROR_41:20:java.lang.String_triangle(int,int,int): b == c  =>   true
+ROR_42:20:java.lang.String_triangle(int,int,int): b == c  =>   false
+ROR_43:23:java.lang.String_triangle(int,int,int): trian == 0  =>   trian > 0
+ROR_44:23:java.lang.String_triangle(int,int,int): trian == 0  =>   trian >= 0
+ROR_45:23:java.lang.String_triangle(int,int,int): trian == 0  =>   trian < 0
+ROR_46:23:java.lang.String_triangle(int,int,int): trian == 0  =>   trian <= 0
+ROR_47:23:java.lang.String_triangle(int,int,int): trian == 0  =>   trian != 0
+ROR_48:23:java.lang.String_triangle(int,int,int): trian == 0  =>   true
+ROR_49:23:java.lang.String_triangle(int,int,int): trian == 0  =>   false
+ROR_50:24:java.lang.String_triangle(int,int,int): a + b < c  =>   a + b > c
+ROR_51:24:java.lang.String_triangle(int,int,int): a + b < c  =>   a + b >= c
+ROR_52:24:java.lang.String_triangle(int,int,int): a + b < c  =>   a + b <= c
+ROR_53:24:java.lang.String_triangle(int,int,int): a + b < c  =>   a + b == c
+ROR_54:24:java.lang.String_triangle(int,int,int): a + b < c  =>   a + b != c
+ROR_55:24:java.lang.String_triangle(int,int,int): a + b < c  =>   true
+ROR_56:24:java.lang.String_triangle(int,int,int): a + b < c  =>   false
+ROR_57:24:java.lang.String_triangle(int,int,int): a + c < b  =>   a + c > b
+ROR_58:24:java.lang.String_triangle(int,int,int): a + c < b  =>   a + c >= b
+ROR_59:24:java.lang.String_triangle(int,int,int): a + c < b  =>   a + c <= b
+ROR_60:24:java.lang.String_triangle(int,int,int): a + c < b  =>   a + c == b
+ROR_61:24:java.lang.String_triangle(int,int,int): a + c < b  =>   a + c != b
+ROR_62:24:java.lang.String_triangle(int,int,int): a + c < b  =>   true
+ROR_63:24:java.lang.String_triangle(int,int,int): a + c < b  =>   false
+ROR_64:24:java.lang.String_triangle(int,int,int): b + c < a  =>   b + c > a
+ROR_65:24:java.lang.String_triangle(int,int,int): b + c < a  =>   b + c >= a
+ROR_66:24:java.lang.String_triangle(int,int,int): b + c < a  =>   b + c <= a
+ROR_67:24:java.lang.String_triangle(int,int,int): b + c < a  =>   b + c == a
+ROR_68:24:java.lang.String_triangle(int,int,int): b + c < a  =>   b + c != a
+ROR_69:24:java.lang.String_triangle(int,int,int): b + c < a  =>   true
+ROR_70:24:java.lang.String_triangle(int,int,int): b + c < a  =>   false
+ROR_71:30:java.lang.String_triangle(int,int,int): trian > 3  =>   trian >= 3
+ROR_72:30:java.lang.String_triangle(int,int,int): trian > 3  =>   trian < 3
+ROR_73:30:java.lang.String_triangle(int,int,int): trian > 3  =>   trian <= 3
+ROR_74:30:java.lang.String_triangle(int,int,int): trian > 3  =>   trian == 3
+ROR_75:30:java.lang.String_triangle(int,int,int): trian > 3  =>   trian != 3
+ROR_76:30:java.lang.String_triangle(int,int,int): trian > 3  =>   true
+ROR_77:30:java.lang.String_triangle(int,int,int): trian > 3  =>   false
+ROR_78:33:java.lang.String_triangle(int,int,int): trian == 1  =>   trian > 1
+ROR_79:33:java.lang.String_triangle(int,int,int): trian == 1  =>   trian >= 1
+ROR_80:33:java.lang.String_triangle(int,int,int): trian == 1  =>   trian < 1
+ROR_81:33:java.lang.String_triangle(int,int,int): trian == 1  =>   trian <= 1
+ROR_82:33:java.lang.String_triangle(int,int,int): trian == 1  =>   trian != 1
+ROR_83:33:java.lang.String_triangle(int,int,int): trian == 1  =>   true
+ROR_84:33:java.lang.String_triangle(int,int,int): trian == 1  =>   false
+ROR_85:33:java.lang.String_triangle(int,int,int): a + b > c  =>   a + b >= c
+ROR_86:33:java.lang.String_triangle(int,int,int): a + b > c  =>   a + b < c
+ROR_87:33:java.lang.String_triangle(int,int,int): a + b > c  =>   a + b <= c
+ROR_88:33:java.lang.String_triangle(int,int,int): a + b > c  =>   a + b == c
+ROR_89:33:java.lang.String_triangle(int,int,int): a + b > c  =>   a + b != c
+ROR_90:33:java.lang.String_triangle(int,int,int): a + b > c  =>   true
+ROR_91:33:java.lang.String_triangle(int,int,int): a + b > c  =>   false
+ROR_92:36:java.lang.String_triangle(int,int,int): trian == 2  =>   trian > 2
+ROR_93:36:java.lang.String_triangle(int,int,int): trian == 2  =>   trian >= 2
+ROR_94:36:java.lang.String_triangle(int,int,int): trian == 2  =>   trian < 2
+ROR_95:36:java.lang.String_triangle(int,int,int): trian == 2  =>   trian <= 2
+ROR_96:36:java.lang.String_triangle(int,int,int): trian == 2  =>   trian != 2
+ROR_97:36:java.lang.String_triangle(int,int,int): trian == 2  =>   true
+ROR_98:36:java.lang.String_triangle(int,int,int): trian == 2  =>   false
+ROR_99:36:java.lang.String_triangle(int,int,int): a + c > b  =>   a + c >= b
+ROR_100:36:java.lang.String_triangle(int,int,int): a + c > b  =>   a + c < b
+ROR_101:36:java.lang.String_triangle(int,int,int): a + c > b  =>   a + c <= b
+ROR_102:36:java.lang.String_triangle(int,int,int): a + c > b  =>   a + c == b
+ROR_103:36:java.lang.String_triangle(int,int,int): a + c > b  =>   a + c != b
+ROR_104:36:java.lang.String_triangle(int,int,int): a + c > b  =>   true
+ROR_105:36:java.lang.String_triangle(int,int,int): a + c > b  =>   false
+ROR_106:39:java.lang.String_triangle(int,int,int): trian == 3  =>   trian > 3
+ROR_107:39:java.lang.String_triangle(int,int,int): trian == 3  =>   trian >= 3
+ROR_108:39:java.lang.String_triangle(int,int,int): trian == 3  =>   trian < 3
+ROR_109:39:java.lang.String_triangle(int,int,int): trian == 3  =>   trian <= 3
+ROR_110:39:java.lang.String_triangle(int,int,int): trian == 3  =>   trian != 3
+ROR_111:39:java.lang.String_triangle(int,int,int): trian == 3  =>   true
+ROR_112:39:java.lang.String_triangle(int,int,int): trian == 3  =>   false
+ROR_113:39:java.lang.String_triangle(int,int,int): b + c > a  =>   b + c >= a
+ROR_114:39:java.lang.String_triangle(int,int,int): b + c > a  =>   b + c < a
+ROR_115:39:java.lang.String_triangle(int,int,int): b + c > a  =>   b + c <= a
+ROR_116:39:java.lang.String_triangle(int,int,int): b + c > a  =>   b + c == a
+ROR_117:39:java.lang.String_triangle(int,int,int): b + c > a  =>   b + c != a
+ROR_118:39:java.lang.String_triangle(int,int,int): b + c > a  =>   true
+ROR_119:39:java.lang.String_triangle(int,int,int): b + c > a  =>   false
+COR_1:10:java.lang.String_triangle(int,int,int): a <= 0 || b <= 0  =>   a <= 0 && b <= 0
+COR_2:10:java.lang.String_triangle(int,int,int): a <= 0 || b <= 0  =>   a <= 0 ^ b <= 0
+COR_3:10:java.lang.String_triangle(int,int,int): a <= 0 || b <= 0 || c <= 0  =>   (a <= 0 || b <= 0) && c <= 0
+COR_4:10:java.lang.String_triangle(int,int,int): a <= 0 || b <= 0 || c <= 0  =>   (a <= 0 || b <= 0) ^ c <= 0
+COR_5:24:java.lang.String_triangle(int,int,int): a + b < c || a + c < b  =>   a + b < c && a + c < b
+COR_6:24:java.lang.String_triangle(int,int,int): a + b < c || a + c < b  =>   a + b < c ^ a + c < b
+COR_7:24:java.lang.String_triangle(int,int,int): a + b < c || a + c < b || b + c < a  =>   (a + b < c || a + c < b) && b + c < a
+COR_8:24:java.lang.String_triangle(int,int,int): a + b < c || a + c < b || b + c < a  =>   (a + b < c || a + c < b) ^ b + c < a
+COR_9:33:java.lang.String_triangle(int,int,int): trian == 1 && a + b > c  =>   trian == 1 || a + b > c
+COR_10:33:java.lang.String_triangle(int,int,int): trian == 1 && a + b > c  =>   trian == 1 ^ a + b > c
+COR_11:36:java.lang.String_triangle(int,int,int): trian == 2 && a + c > b  =>   trian == 2 || a + c > b
+COR_12:36:java.lang.String_triangle(int,int,int): trian == 2 && a + c > b  =>   trian == 2 ^ a + c > b
+COR_13:39:java.lang.String_triangle(int,int,int): trian == 3 && b + c > a  =>   trian == 3 || b + c > a
+COR_14:39:java.lang.String_triangle(int,int,int): trian == 3 && b + c > a  =>   trian == 3 ^ b + c > a
+COI_1:10:java.lang.String_triangle(int,int,int): a <= 0  =>  !(a <= 0)
+COI_2:10:java.lang.String_triangle(int,int,int): b <= 0  =>  !(b <= 0)
+COI_3:10:java.lang.String_triangle(int,int,int): a <= 0 || b <= 0  =>  !(a <= 0 || b <= 0)
+COI_4:10:java.lang.String_triangle(int,int,int): c <= 0  =>  !(c <= 0)
+COI_5:10:java.lang.String_triangle(int,int,int): a <= 0 || b <= 0 || c <= 0  =>  !(a <= 0 || b <= 0 || c <= 0)
+COI_6:14:java.lang.String_triangle(int,int,int): a == b  =>  !(a == b)
+COI_7:17:java.lang.String_triangle(int,int,int): a == c  =>  !(a == c)
+COI_8:20:java.lang.String_triangle(int,int,int): b == c  =>  !(b == c)
+COI_9:23:java.lang.String_triangle(int,int,int): trian == 0  =>  !(trian == 0)
+COI_10:24:java.lang.String_triangle(int,int,int): a + b < c  =>  !(a + b < c)
+COI_11:24:java.lang.String_triangle(int,int,int): a + c < b  =>  !(a + c < b)
+COI_12:24:java.lang.String_triangle(int,int,int): a + b < c || a + c < b  =>  !(a + b < c || a + c < b)
+COI_13:24:java.lang.String_triangle(int,int,int): b + c < a  =>  !(b + c < a)
+COI_14:24:java.lang.String_triangle(int,int,int): a + b < c || a + c < b || b + c < a  =>  !(a + b < c || a + c < b || b + c < a)
+COI_15:30:java.lang.String_triangle(int,int,int): trian > 3  =>  !(trian > 3)
+COI_16:33:java.lang.String_triangle(int,int,int): trian == 1  =>  !(trian == 1)
+COI_17:33:java.lang.String_triangle(int,int,int): a + b > c  =>  !(a + b > c)
+COI_18:33:java.lang.String_triangle(int,int,int): trian == 1 && a + b > c  =>  !(trian == 1 && a + b > c)
+COI_19:36:java.lang.String_triangle(int,int,int): trian == 2  =>  !(trian == 2)
+COI_20:36:java.lang.String_triangle(int,int,int): a + c > b  =>  !(a + c > b)
+COI_21:36:java.lang.String_triangle(int,int,int): trian == 2 && a + c > b  =>  !(trian == 2 && a + c > b)
+COI_22:39:java.lang.String_triangle(int,int,int): trian == 3  =>  !(trian == 3)
+COI_23:39:java.lang.String_triangle(int,int,int): b + c > a  =>  !(b + c > a)
+COI_24:39:java.lang.String_triangle(int,int,int): trian == 3 && b + c > a  =>  !(trian == 3 && b + c > a)
+LOI_1:10:java.lang.String_triangle(int,int,int):a => ~a
+LOI_2:10:java.lang.String_triangle(int,int,int):b => ~b
+LOI_3:10:java.lang.String_triangle(int,int,int):c => ~c
+LOI_4:14:java.lang.String_triangle(int,int,int):a => ~a
+LOI_5:14:java.lang.String_triangle(int,int,int):b => ~b
+LOI_6:15:java.lang.String_triangle(int,int,int):trian => ~trian
+LOI_7:17:java.lang.String_triangle(int,int,int):a => ~a
+LOI_8:17:java.lang.String_triangle(int,int,int):c => ~c
+LOI_9:18:java.lang.String_triangle(int,int,int):trian => ~trian
+LOI_10:20:java.lang.String_triangle(int,int,int):b => ~b
+LOI_11:20:java.lang.String_triangle(int,int,int):c => ~c
+LOI_12:21:java.lang.String_triangle(int,int,int):trian => ~trian
+LOI_13:23:java.lang.String_triangle(int,int,int):trian => ~trian
+LOI_14:24:java.lang.String_triangle(int,int,int):a => ~a
+LOI_15:24:java.lang.String_triangle(int,int,int):b => ~b
+LOI_16:24:java.lang.String_triangle(int,int,int):c => ~c
+LOI_17:24:java.lang.String_triangle(int,int,int):a => ~a
+LOI_18:24:java.lang.String_triangle(int,int,int):c => ~c
+LOI_19:24:java.lang.String_triangle(int,int,int):b => ~b
+LOI_20:24:java.lang.String_triangle(int,int,int):b => ~b
+LOI_21:24:java.lang.String_triangle(int,int,int):c => ~c
+LOI_22:24:java.lang.String_triangle(int,int,int):a => ~a
+LOI_23:30:java.lang.String_triangle(int,int,int):trian => ~trian
+LOI_24:33:java.lang.String_triangle(int,int,int):trian => ~trian
+LOI_25:33:java.lang.String_triangle(int,int,int):a => ~a
+LOI_26:33:java.lang.String_triangle(int,int,int):b => ~b
+LOI_27:33:java.lang.String_triangle(int,int,int):c => ~c
+LOI_28:36:java.lang.String_triangle(int,int,int):trian => ~trian
+LOI_29:36:java.lang.String_triangle(int,int,int):a => ~a
+LOI_30:36:java.lang.String_triangle(int,int,int):c => ~c
+LOI_31:36:java.lang.String_triangle(int,int,int):b => ~b
+LOI_32:39:java.lang.String_triangle(int,int,int):trian => ~trian
+LOI_33:39:java.lang.String_triangle(int,int,int):b => ~b
+LOI_34:39:java.lang.String_triangle(int,int,int):c => ~c
+LOI_35:39:java.lang.String_triangle(int,int,int):a => ~a
+SDL_1:42:java.lang.String_triangle(int,int,int): int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } trian = 0; if (a == b) {     trian = trian + 1; } if (a == c) {     trian = trian + 2; } if (b == c) {     trian = trian + 3; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian > 3) {     return \"EQUILATERAL\"; } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";  =>   int trian; trian = 0; if (a == b) {     trian = trian + 1; } if (a == c) {     trian = trian + 2; } if (b == c) {     trian = trian + 3; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian > 3) {     return \"EQUILATERAL\"; } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";
+SDL_2:44:java.lang.String_triangle(int,int,int): int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } trian = 0; if (a == b) {     trian = trian + 1; } if (a == c) {     trian = trian + 2; } if (b == c) {     trian = trian + 3; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian > 3) {     return \"EQUILATERAL\"; } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";  =>   int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } if (a == b) {     trian = trian + 1; } if (a == c) {     trian = trian + 2; } if (b == c) {     trian = trian + 3; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian > 3) {     return \"EQUILATERAL\"; } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";
+SDL_3:42:java.lang.String_triangle(int,int,int): int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } trian = 0; if (a == b) {     trian = trian + 1; } if (a == c) {     trian = trian + 2; } if (b == c) {     trian = trian + 3; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian > 3) {     return \"EQUILATERAL\"; } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";  =>   int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } trian = 0; if (a == c) {     trian = trian + 2; } if (b == c) {     trian = trian + 3; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian > 3) {     return \"EQUILATERAL\"; } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";
+SDL_4:42:java.lang.String_triangle(int,int,int): int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } trian = 0; if (a == b) {     trian = trian + 1; } if (a == c) {     trian = trian + 2; } if (b == c) {     trian = trian + 3; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian > 3) {     return \"EQUILATERAL\"; } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";  =>   int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } trian = 0; if (a == b) {     trian = trian + 1; } if (b == c) {     trian = trian + 3; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian > 3) {     return \"EQUILATERAL\"; } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";
+SDL_5:42:java.lang.String_triangle(int,int,int): int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } trian = 0; if (a == b) {     trian = trian + 1; } if (a == c) {     trian = trian + 2; } if (b == c) {     trian = trian + 3; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian > 3) {     return \"EQUILATERAL\"; } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";  =>   int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } trian = 0; if (a == b) {     trian = trian + 1; } if (a == c) {     trian = trian + 2; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian > 3) {     return \"EQUILATERAL\"; } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";
+SDL_6:38:java.lang.String_triangle(int,int,int): int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } trian = 0; if (a == b) {     trian = trian + 1; } if (a == c) {     trian = trian + 2; } if (b == c) {     trian = trian + 3; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian > 3) {     return \"EQUILATERAL\"; } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";  =>   int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } trian = 0; if (a == b) {     trian = trian + 1; } if (a == c) {     trian = trian + 2; } if (b == c) {     trian = trian + 3; } if (trian > 3) {     return \"EQUILATERAL\"; } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";
+SDL_7:42:java.lang.String_triangle(int,int,int): int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } trian = 0; if (a == b) {     trian = trian + 1; } if (a == c) {     trian = trian + 2; } if (b == c) {     trian = trian + 3; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian > 3) {     return \"EQUILATERAL\"; } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";  =>   int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } trian = 0; if (a == b) {     trian = trian + 1; } if (a == c) {     trian = trian + 2; } if (b == c) {     trian = trian + 3; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";
+SDL_8:34:java.lang.String_triangle(int,int,int): int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } trian = 0; if (a == b) {     trian = trian + 1; } if (a == c) {     trian = trian + 2; } if (b == c) {     trian = trian + 3; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian > 3) {     return \"EQUILATERAL\"; } if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } } return \"INVALID\";  =>   int trian; if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; } trian = 0; if (a == b) {     trian = trian + 1; } if (a == c) {     trian = trian + 2; } if (b == c) {     trian = trian + 3; } if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } } if (trian > 3) {     return \"EQUILATERAL\"; } return \"INVALID\";
+SDL_9:13:java.lang.String_triangle(int,int,int): if (a <= 0 || b <= 0 || c <= 0) {     return \"INVALID\"; }  =>   if (true) {     return \"INVALID\"; }
+SDL_10:12:java.lang.String_triangle(int,int,int): return \"INVALID\";  =>   return \"\";
+SDL_11:15:java.lang.String_triangle(int,int,int): trian = trian + 1;  =>  
+SDL_12:17:java.lang.String_triangle(int,int,int): if (a == b) {     trian = trian + 1; }  =>   if (true) {     trian = trian + 1; }
+SDL_13:18:java.lang.String_triangle(int,int,int): trian = trian + 2;  =>  
+SDL_14:20:java.lang.String_triangle(int,int,int): if (a == c) {     trian = trian + 2; }  =>   if (true) {     trian = trian + 2; }
+SDL_15:21:java.lang.String_triangle(int,int,int): trian = trian + 3;  =>  
+SDL_16:23:java.lang.String_triangle(int,int,int): if (b == c) {     trian = trian + 3; }  =>   if (true) {     trian = trian + 3; }
+SDL_17:24:java.lang.String_triangle(int,int,int): if (a + b < c || a + c < b || b + c < a) {     return \"INVALID\"; } else {     return \"SCALENE\"; }  =>  
+SDL_18:30:java.lang.String_triangle(int,int,int): if (trian == 0) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } }  =>   if (true) {     if (a + b < c || a + c < b || b + c < a) {         return \"INVALID\";     } else {         return \"SCALENE\";     } }
+SDL_19:29:java.lang.String_triangle(int,int,int): if (a + b < c || a + c < b || b + c < a) {     return \"INVALID\"; } else {     return \"SCALENE\"; }  =>   if (true) {     return \"INVALID\"; } else {     return \"SCALENE\"; }
+SDL_20:26:java.lang.String_triangle(int,int,int): return \"INVALID\";  =>   return \"\";
+SDL_21:28:java.lang.String_triangle(int,int,int): return \"SCALENE\";  =>   return \"\";
+SDL_22:33:java.lang.String_triangle(int,int,int): if (trian > 3) {     return \"EQUILATERAL\"; }  =>   if (true) {     return \"EQUILATERAL\"; }
+SDL_23:32:java.lang.String_triangle(int,int,int): return \"EQUILATERAL\";  =>   return \"\";
+SDL_24:44:java.lang.String_triangle(int,int,int): if (trian == 1 && a + b > c) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } }  =>   if (true) {     return \"ISOSCELES\"; } else {     if (trian == 2 && a + c > b) {         return \"ISOSCELES\";     } else {         if (trian == 3 && b + c > a) {             return \"ISOSCELES\";         }     } }
+SDL_25:36:java.lang.String_triangle(int,int,int): if (trian == 2 && a + c > b) {     return \"ISOSCELES\"; } else {     if (trian == 3 && b + c > a) {         return \"ISOSCELES\";     } }  =>  
+SDL_26:35:java.lang.String_triangle(int,int,int): return \"ISOSCELES\";  =>   return \"\";
+SDL_27:43:java.lang.String_triangle(int,int,int): if (trian == 2 && a + c > b) {     return \"ISOSCELES\"; } else {     if (trian == 3 && b + c > a) {         return \"ISOSCELES\";     } }  =>   if (true) {     return \"ISOSCELES\"; } else {     if (trian == 3 && b + c > a) {         return \"ISOSCELES\";     } }
+SDL_28:39:java.lang.String_triangle(int,int,int): if (trian == 3 && b + c > a) {     return \"ISOSCELES\"; }  =>  
+SDL_29:38:java.lang.String_triangle(int,int,int): return \"ISOSCELES\";  =>   return \"\";
+SDL_30:42:java.lang.String_triangle(int,int,int): if (trian == 3 && b + c > a) {     return \"ISOSCELES\"; }  =>   if (true) {     return \"ISOSCELES\"; }
+SDL_31:41:java.lang.String_triangle(int,int,int): return \"ISOSCELES\";  =>   return \"\";
+SDL_32:45:java.lang.String_triangle(int,int,int): return \"INVALID\";  =>   return \"\";
+VDL_1:10:java.lang.String_triangle(int,int,int):a <= 0 => 0
+VDL_2:10:java.lang.String_triangle(int,int,int):b <= 0 => 0
+VDL_3:10:java.lang.String_triangle(int,int,int):c <= 0 => 0
+VDL_4:14:java.lang.String_triangle(int,int,int):a == b => b
+VDL_5:14:java.lang.String_triangle(int,int,int):a == b => a
+VDL_6:15:java.lang.String_triangle(int,int,int):trian + 1 => 1
+VDL_7:17:java.lang.String_triangle(int,int,int):a == c => c
+VDL_8:17:java.lang.String_triangle(int,int,int):a == c => a
+VDL_9:18:java.lang.String_triangle(int,int,int):trian + 2 => 2
+VDL_10:20:java.lang.String_triangle(int,int,int):b == c => c
+VDL_11:20:java.lang.String_triangle(int,int,int):b == c => b
+VDL_12:21:java.lang.String_triangle(int,int,int):trian + 3 => 3
+VDL_13:23:java.lang.String_triangle(int,int,int):trian == 0 => 0
+VDL_14:24:java.lang.String_triangle(int,int,int):a + b => b
+VDL_15:24:java.lang.String_triangle(int,int,int):a + b => a
+VDL_16:24:java.lang.String_triangle(int,int,int):a + b < c => a + b
+VDL_17:24:java.lang.String_triangle(int,int,int):a + c => c
+VDL_18:24:java.lang.String_triangle(int,int,int):a + c => a
+VDL_19:24:java.lang.String_triangle(int,int,int):a + c < b => a + c
+VDL_20:24:java.lang.String_triangle(int,int,int):b + c => c
+VDL_21:24:java.lang.String_triangle(int,int,int):b + c => b
+VDL_22:24:java.lang.String_triangle(int,int,int):b + c < a => b + c
+VDL_23:30:java.lang.String_triangle(int,int,int):trian > 3 => 3
+VDL_24:33:java.lang.String_triangle(int,int,int):trian == 1 => 1
+VDL_25:33:java.lang.String_triangle(int,int,int):a + b => b
+VDL_26:33:java.lang.String_triangle(int,int,int):a + b => a
+VDL_27:33:java.lang.String_triangle(int,int,int):a + b > c => a + b
+VDL_28:36:java.lang.String_triangle(int,int,int):trian == 2 => 2
+VDL_29:36:java.lang.String_triangle(int,int,int):a + c => c
+VDL_30:36:java.lang.String_triangle(int,int,int):a + c => a
+VDL_31:36:java.lang.String_triangle(int,int,int):a + c > b => a + c
+VDL_32:39:java.lang.String_triangle(int,int,int):trian == 3 => 3
+VDL_33:39:java.lang.String_triangle(int,int,int):b + c => c
+VDL_34:39:java.lang.String_triangle(int,int,int):b + c => b
+VDL_35:39:java.lang.String_triangle(int,int,int):b + c > a => b + c
+ODL_1:10:java.lang.String_triangle(int,int,int):a <= 0 => a
+ODL_2:10:java.lang.String_triangle(int,int,int):a <= 0 => 0
+ODL_3:10:java.lang.String_triangle(int,int,int):b <= 0 => b
+ODL_4:10:java.lang.String_triangle(int,int,int):b <= 0 => 0
+ODL_5:10:java.lang.String_triangle(int,int,int):a <= 0 || b <= 0 => a <= 0
+ODL_6:10:java.lang.String_triangle(int,int,int):a <= 0 || b <= 0 => b <= 0
+ODL_7:10:java.lang.String_triangle(int,int,int):c <= 0 => c
+ODL_8:10:java.lang.String_triangle(int,int,int):c <= 0 => 0
+ODL_9:10:java.lang.String_triangle(int,int,int):a <= 0 || b <= 0 || c <= 0 => a <= 0 || b <= 0
+ODL_10:10:java.lang.String_triangle(int,int,int):a <= 0 || b <= 0 || c <= 0 => c <= 0
+ODL_11:14:java.lang.String_triangle(int,int,int):a == b => a
+ODL_12:14:java.lang.String_triangle(int,int,int):a == b => b
+ODL_13:15:java.lang.String_triangle(int,int,int):trian + 1 => trian
+ODL_14:15:java.lang.String_triangle(int,int,int):trian + 1 => 1
+ODL_15:17:java.lang.String_triangle(int,int,int):a == c => a
+ODL_16:17:java.lang.String_triangle(int,int,int):a == c => c
+ODL_17:18:java.lang.String_triangle(int,int,int):trian + 2 => trian
+ODL_18:18:java.lang.String_triangle(int,int,int):trian + 2 => 2
+ODL_19:20:java.lang.String_triangle(int,int,int):b == c => b
+ODL_20:20:java.lang.String_triangle(int,int,int):b == c => c
+ODL_21:21:java.lang.String_triangle(int,int,int):trian + 3 => trian
+ODL_22:21:java.lang.String_triangle(int,int,int):trian + 3 => 3
+ODL_23:23:java.lang.String_triangle(int,int,int):trian == 0 => trian
+ODL_24:23:java.lang.String_triangle(int,int,int):trian == 0 => 0
+ODL_25:24:java.lang.String_triangle(int,int,int):a + b => a
+ODL_26:24:java.lang.String_triangle(int,int,int):a + b => b
+ODL_27:24:java.lang.String_triangle(int,int,int):a + b < c => a + b
+ODL_28:24:java.lang.String_triangle(int,int,int):a + b < c => c
+ODL_29:24:java.lang.String_triangle(int,int,int):a + c => a
+ODL_30:24:java.lang.String_triangle(int,int,int):a + c => c
+ODL_31:24:java.lang.String_triangle(int,int,int):a + c < b => a + c
+ODL_32:24:java.lang.String_triangle(int,int,int):a + c < b => b
+ODL_33:24:java.lang.String_triangle(int,int,int):a + b < c || a + c < b => a + b < c
+ODL_34:24:java.lang.String_triangle(int,int,int):a + b < c || a + c < b => a + c < b
+ODL_35:24:java.lang.String_triangle(int,int,int):b + c => b
+ODL_36:24:java.lang.String_triangle(int,int,int):b + c => c
+ODL_37:24:java.lang.String_triangle(int,int,int):b + c < a => b + c
+ODL_38:24:java.lang.String_triangle(int,int,int):b + c < a => a
+ODL_39:24:java.lang.String_triangle(int,int,int):a + b < c || a + c < b || b + c < a => a + b < c || a + c < b
+ODL_40:24:java.lang.String_triangle(int,int,int):a + b < c || a + c < b || b + c < a => b + c < a
+ODL_41:30:java.lang.String_triangle(int,int,int):trian > 3 => trian
+ODL_42:30:java.lang.String_triangle(int,int,int):trian > 3 => 3
+ODL_43:33:java.lang.String_triangle(int,int,int):trian == 1 => trian
+ODL_44:33:java.lang.String_triangle(int,int,int):trian == 1 => 1
+ODL_45:33:java.lang.String_triangle(int,int,int):a + b => a
+ODL_46:33:java.lang.String_triangle(int,int,int):a + b => b
+ODL_47:33:java.lang.String_triangle(int,int,int):a + b > c => a + b
+ODL_48:33:java.lang.String_triangle(int,int,int):a + b > c => c
+ODL_49:33:java.lang.String_triangle(int,int,int):trian == 1 && a + b > c => trian == 1
+ODL_50:33:java.lang.String_triangle(int,int,int):trian == 1 && a + b > c => a + b > c
+ODL_51:36:java.lang.String_triangle(int,int,int):trian == 2 => trian
+ODL_52:36:java.lang.String_triangle(int,int,int):trian == 2 => 2
+ODL_53:36:java.lang.String_triangle(int,int,int):a + c => a
+ODL_54:36:java.lang.String_triangle(int,int,int):a + c => c
+ODL_55:36:java.lang.String_triangle(int,int,int):a + c > b => a + c
+ODL_56:36:java.lang.String_triangle(int,int,int):a + c > b => b
+ODL_57:36:java.lang.String_triangle(int,int,int):trian == 2 && a + c > b => trian == 2
+ODL_58:36:java.lang.String_triangle(int,int,int):trian == 2 && a + c > b => a + c > b
+ODL_59:39:java.lang.String_triangle(int,int,int):trian == 3 => trian
+ODL_60:39:java.lang.String_triangle(int,int,int):trian == 3 => 3
+ODL_61:39:java.lang.String_triangle(int,int,int):b + c => b
+ODL_62:39:java.lang.String_triangle(int,int,int):b + c => c
+ODL_63:39:java.lang.String_triangle(int,int,int):b + c > a => b + c
+ODL_64:39:java.lang.String_triangle(int,int,int):b + c > a => a
+ODL_65:39:java.lang.String_triangle(int,int,int):trian == 3 && b + c > a => trian == 3
+ODL_66:39:java.lang.String_triangle(int,int,int):trian == 3 && b + c > a => b + c > a
+CDL_1:10:java.lang.String_triangle(int,int,int):a <= 0 => a
+CDL_2:10:java.lang.String_triangle(int,int,int):b <= 0 => b
+CDL_3:10:java.lang.String_triangle(int,int,int):c <= 0 => c
+CDL_4:15:java.lang.String_triangle(int,int,int):trian + 1 => trian
+CDL_5:18:java.lang.String_triangle(int,int,int):trian + 2 => trian
+CDL_6:21:java.lang.String_triangle(int,int,int):trian + 3 => trian
+CDL_7:23:java.lang.String_triangle(int,int,int):trian == 0 => trian
+CDL_8:30:java.lang.String_triangle(int,int,int):trian > 3 => trian
+CDL_9:33:java.lang.String_triangle(int,int,int):trian == 1 => trian
+CDL_10:36:java.lang.String_triangle(int,int,int):trian == 2 => trian
+CDL_11:39:java.lang.String_triangle(int,int,int):trian == 3 => trian

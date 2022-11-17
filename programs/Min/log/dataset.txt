@@ -1,0 +1,50 @@
+ROR
+@@ -6 +6 @@
+-    if(J<I) {
++    if(J<=I) {
+
+AOIS
+@@ -6 +6 @@
+-    if(J<I) {
++    if(J<++I) {
+
+AOIS
+@@ -8 +8 @@
+-    return Min;
++    return Min--;
+
+AOIS
+@@ -6,2 +6,2 @@
+-    if(J<I) {
+- 	   Min=J;}
++    if(J<I++)
++ 	   Min=J;
+
+AOIS
+@@ -7 +7 @@
+- 	   Min=J;}
++ 	   Min=J--;}
+
+AOIS
+@@ -6,2 +6,2 @@
+-    if(J<I) {
+- 	   Min=J;}
++    if(J<I--)
++ 	   Min=J;
+
+AOIS
+@@ -8 +8 @@
+-    return Min;
++    return Min++;
+
+AOIS
+@@ -5 +5 @@
+-    Min = I;
++    Min = I++;
+
+AOIS
+@@ -7 +7 @@
+- 	   Min=J;}
++ 	   Min=J++;}
+
+ROR: 1, AOIS: 8

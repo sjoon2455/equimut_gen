@@ -1,0 +1,231 @@
+AOIS
+@@ -20 +20 @@
+-                  bonus=bonus6+(i-600000)*0.015;
++                  bonus=bonus6--+(i-600000)*0.015;
+
+ABS
+@@ -22 +22 @@
+-                      bonus=bonus10+(i-1000000)*0.01;
++                      bonus=abs(bonus10)+(i-1000000)*0.01;
+
+AORB
+@@ -14 +14 @@
+-      bonus=bonus1+(i-100000)*0.075;
++      bonus=bonus1+(i%100000)*0.075;
+
+ABS
+@@ -20 +20 @@
+-                  bonus=bonus6+(i-600000)*0.015;
++                  bonus=abs(bonus6)+(i-600000)*0.015;
+
+ABS
+@@ -16 +16 @@
+-          bonus=bonus2+(i-200000)*0.05;
++          bonus=abs(bonus2)+(i-200000)*0.05;
+
+AOIS
+@@ -16 +16 @@
+-          bonus=bonus2+(i-200000)*0.05;
++          bonus=bonus2+++(i-200000)*0.05;
+
+AOIS
+@@ -14 +14 @@
+-      bonus=bonus1+(i-100000)*0.075;
++      bonus=bonus1+++(i-100000)*0.075;
+
+AOIS
+@@ -16 +16 @@
+-          bonus=bonus2+(i-200000)*0.05;
++          bonus=bonus2+(i---200000)*0.05;
+
+ABS
+@@ -22 +22 @@
+-                      bonus=bonus10+(i-1000000)*0.01;
++                      bonus=bonus10+(abs(i)-1000000)*0.01;
+
+AOIS
+@@ -23 +23 @@
+-return(bonus);
++   return(bonus++);
+
+AOIS
+@@ -22 +22 @@
+-                      bonus=bonus10+(i-1000000)*0.01;
++                      bonus=bonus10+(i---1000000)*0.01;
+
+AOIS
+@@ -18 +18 @@
+-              bonus=bonus4+(i-400000)*0.03;
++              bonus=bonus4--+(i-400000)*0.03;
+
+AOIS
+@@ -12 +12 @@
+-    bonus=i*0.1;
++    bonus=i++*0.1;
+
+AOIS
+@@ -20 +20 @@
+-                  bonus=bonus6+(i-600000)*0.015;
++                  bonus=bonus6+(i++-600000)*0.015;
+
+AOIS
+@@ -18 +18 @@
+-              bonus=bonus4+(i-400000)*0.03;
++              bonus=bonus4+(i++-400000)*0.03;
+
+ROR
+@@ -17 +17 @@
+-            else if(i<=600000)
++            else if(i<600000)
+
+AOIS
+@@ -16 +16 @@
+-          bonus=bonus2+(i-200000)*0.05;
++          bonus=bonus2--+(i-200000)*0.05;
+
+AOIS
+@@ -20 +20 @@
+-                  bonus=bonus6+(i-600000)*0.015;
++                  bonus=bonus6+++(i-600000)*0.015;
+
+ABS
+@@ -14 +14 @@
+-      bonus=bonus1+(i-100000)*0.075;
++      bonus=abs(bonus1)+(i-100000)*0.075;
+
+AOIS
+@@ -22 +22 @@
+-                      bonus=bonus10+(i-1000000)*0.01;
++                      bonus=bonus10--+(i-1000000)*0.01;
+
+ROR
+@@ -15 +15 @@
+-        else if(i<=400000)
++        else if(i<400000)
+
+ABS
+@@ -18 +18 @@
+-              bonus=bonus4+(i-400000)*0.03;
++              bonus=abs(bonus4)+(i-400000)*0.03;
+
+AOIS
+@@ -14 +14 @@
+-      bonus=bonus1+(i-100000)*0.075;
++      bonus=bonus1--+(i-100000)*0.075;
+
+AOIS
+@@ -14 +14 @@
+-      bonus=bonus1+(i-100000)*0.075;
++      bonus=bonus1+(i++-100000)*0.075;
+
+ABS
+@@ -16 +16 @@
+-          bonus=bonus2+(i-200000)*0.05;
++          bonus=bonus2+(abs(i)-200000)*0.05;
+
+ABS
+@@ -18 +18 @@
+-              bonus=bonus4+(i-400000)*0.03;
++              bonus=bonus4+(abs(i)-400000)*0.03;
+
+AOIS
+@@ -22 +22 @@
+-                      bonus=bonus10+(i-1000000)*0.01;
++                      bonus=bonus10+(i++-1000000)*0.01;
+
+ROR
+@@ -13 +13 @@
+-    else if(i<=200000)
++    else if(i<200000)
+
+ABS
+@@ -12 +12 @@
+-    bonus=i*0.1;
++    bonus=abs(i)*0.1;
+
+AOIS
+@@ -12 +12 @@
+-    bonus=i*0.1;
++    bonus=i--*0.1;
+
+AOIS
+@@ -16 +16 @@
+-          bonus=bonus2+(i-200000)*0.05;
++          bonus=bonus2+(i++-200000)*0.05;
+
+ROR
+@@ -11 +11 @@
+-  if(i<=100000)
++  if(i<100000)
+
+AOIS
+@@ -14 +14 @@
+-      bonus=bonus1+(i-100000)*0.075;
++      bonus=bonus1+(i---100000)*0.075;
+
+ABS
+@@ -23 +23 @@
+-return(bonus);
++   return(abs(bonus));
+
+AOIS
+@@ -20 +20 @@
+-                  bonus=bonus6+(i-600000)*0.015;
++                  bonus=bonus6+(i---600000)*0.015;
+
+AOIS
+@@ -18 +18 @@
+-              bonus=bonus4+(i-400000)*0.03;
++              bonus=bonus4+(i---400000)*0.03;
+
+AORB
+@@ -18 +18 @@
+-              bonus=bonus4+(i-400000)*0.03;
++              bonus=bonus4+(i%400000)*0.03;
+
+AOIS
+@@ -22 +22 @@
+-                      bonus=bonus10+(i-1000000)*0.01;
++                      bonus=bonus10+++(i-1000000)*0.01;
+
+AORB
+@@ -22 +22 @@
+-                      bonus=bonus10+(i-1000000)*0.01;
++                      bonus=bonus10+(i%1000000)*0.01;
+
+AOIS
+@@ -23 +23 @@
+-return(bonus);
++   return(bonus--);
+
+ABS
+@@ -14 +14 @@
+-      bonus=bonus1+(i-100000)*0.075;
++      bonus=bonus1+(abs(i)-100000)*0.075;
+
+ABS
+@@ -20 +20 @@
+-                  bonus=bonus6+(i-600000)*0.015;
++                  bonus=bonus6+(abs(i)-600000)*0.015;
+
+AOIS
+@@ -18 +18 @@
+-              bonus=bonus4+(i-400000)*0.03;
++              bonus=bonus4+++(i-400000)*0.03;
+
+AORB
+@@ -16 +16 @@
+-          bonus=bonus2+(i-200000)*0.05;
++          bonus=bonus2+(i%200000)*0.05;
+
+ROR
+@@ -19 +19 @@
+-                else if(i<=1000000)
++                else if(i<1000000)
+
+AORB
+@@ -20 +20 @@
+-                  bonus=bonus6+(i-600000)*0.015;
++                  bonus=bonus6+(i%600000)*0.015;
+
+AOIS: 24, ABS: 12, AORB: 5, ROR: 5

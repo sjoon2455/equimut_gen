@@ -1,0 +1,985 @@
+AORB_1:74:int_defroster():We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2 / We1_BA_DEF_ev_ctr2
+AORB_2:74:int_defroster():We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2 % We1_BA_DEF_ev_ctr2
+AORB_3:74:int_defroster():We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr2
+AORB_4:74:int_defroster():We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr2
+AORB_5:74:int_defroster():We1_BA_DEF_ev_ctr3 - 1000 => We1_BA_DEF_ev_ctr3 * 1000
+AORB_6:74:int_defroster():We1_BA_DEF_ev_ctr3 - 1000 => We1_BA_DEF_ev_ctr3 / 1000
+AORB_7:74:int_defroster():We1_BA_DEF_ev_ctr3 - 1000 => We1_BA_DEF_ev_ctr3 % 1000
+AORB_8:74:int_defroster():We1_BA_DEF_ev_ctr3 - 1000 => We1_BA_DEF_ev_ctr3 + 1000
+AORB_9:74:int_defroster():We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000) => We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 * (We1_BA_DEF_ev_ctr3 - 1000)
+AORB_10:74:int_defroster():We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000) => We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 / (We1_BA_DEF_ev_ctr3 - 1000)
+AORB_11:74:int_defroster():We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000) => We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 % (We1_BA_DEF_ev_ctr3 - 1000)
+AORB_12:74:int_defroster():We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000) => We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 + (We1_BA_DEF_ev_ctr3 - 1000)
+AORB_13:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr3
+AORB_14:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr2 / We1_BA_DEF_ev_ctr3
+AORB_15:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr2 % We1_BA_DEF_ev_ctr3
+AORB_16:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3
+AORB_17:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 => (We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3) * We1_BA_DEF_ev_ctr5
+AORB_18:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 => (We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3) / We1_BA_DEF_ev_ctr5
+AORB_19:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 => (We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3) % We1_BA_DEF_ev_ctr5
+AORB_20:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 => We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5
+AORB_21:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr3
+AORB_22:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr2 / We1_BA_DEF_ev_ctr3
+AORB_23:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr2 % We1_BA_DEF_ev_ctr3
+AORB_24:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3
+AORB_25:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 => (We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3) * We1_BA_DEF_ev_ctr5
+AORB_26:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 => (We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3) / We1_BA_DEF_ev_ctr5
+AORB_27:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 => (We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3) % We1_BA_DEF_ev_ctr5
+AORB_28:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 => We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5
+AORS_1:62:int_defroster():We1_BA_DEF_ev_ctr1++ => We1_BA_DEF_ev_ctr1--
+AORS_2:63:int_defroster():We1_BA_DEF_ev_ctr0++ => We1_BA_DEF_ev_ctr0--
+AODU_1:170:int_defroster():-32768 => 32768
+AODS_1:62:int_defroster():We1_BA_DEF_ev_ctr1++ => We1_BA_DEF_ev_ctr1
+AODS_2:63:int_defroster():We1_BA_DEF_ev_ctr0++ => We1_BA_DEF_ev_ctr0
+AOIU_1:39:void_Exception_handler():We6_BE_CONFIRM_ON => -We6_BE_CONFIRM_ON
+AOIU_2:42:void_Exception_handler():We7_BE_LOSGELASSEN => -We7_BE_LOSGELASSEN
+AOIU_3:64:int_defroster():We2_Clip15_OUT => -We2_Clip15_OUT
+AOIU_4:65:int_defroster():Clip_15 => -Clip_15
+AOIU_5:74:int_defroster():We1_BA_DEF_ev_ctr2 => -We1_BA_DEF_ev_ctr2
+AOIU_6:78:int_defroster():We3_Clip15_ON => -We3_Clip15_ON
+AOIU_7:79:int_defroster():Clip_15 => -Clip_15
+AOIU_8:80:int_defroster():We11_BLINK_OUT => -We11_BLINK_OUT
+AOIU_9:83:int_defroster():We12_BLINK_ON => -We12_BLINK_ON
+AOIU_10:87:int_defroster():We5_BE_HANDLING => -We5_BE_HANDLING
+AOIU_11:90:int_defroster():We8_BE_CONFIRM_OUT => -We8_BE_CONFIRM_OUT
+AOIU_12:93:int_defroster():We9_DEF_OUT => -We9_DEF_OUT
+AOIU_13:103:int_defroster():We5_BE_HANDLING => -We5_BE_HANDLING
+AOIU_14:109:int_defroster():We6_BE_CONFIRM_ON => -We6_BE_CONFIRM_ON
+AOIU_15:110:int_defroster():ControlElement_DEF => -ControlElement_DEF
+AOIU_16:115:int_defroster():We7_BE_LOSGELASSEN => -We7_BE_LOSGELASSEN
+AOIU_17:116:int_defroster():ControlElement_DEF => -ControlElement_DEF
+AOIU_18:125:int_defroster():We8_BE_CONFIRM_OUT => -We8_BE_CONFIRM_OUT
+AOIU_19:126:int_defroster():ControlElement_DEF => -ControlElement_DEF
+AOIU_20:131:int_defroster():We9_DEF_OUT => -We9_DEF_OUT
+AOIU_21:132:int_defroster():ControlElement_DEF => -ControlElement_DEF
+AOIU_22:142:int_defroster():We11_BLINK_OUT => -We11_BLINK_OUT
+AOIU_23:151:int_defroster():We12_BLINK_ON => -We12_BLINK_ON
+AOIU_24:166:int_defroster():We1_BA_DEF_ev_ctr2 => -We1_BA_DEF_ev_ctr2
+AOIU_25:169:int_defroster():We1_BA_DEF_ev_ctr2 => -We1_BA_DEF_ev_ctr2
+AOIU_26:175:int_defroster():We7_BE_LOSGELASSEN => -We7_BE_LOSGELASSEN
+AOIU_27:175:int_defroster():We6_BE_CONFIRM_ON => -We6_BE_CONFIRM_ON
+AOIU_28:175:int_defroster():We12_BLINK_ON => -We12_BLINK_ON
+AOIU_29:175:int_defroster():We9_DEF_OUT => -We9_DEF_OUT
+AOIU_30:175:int_defroster():We8_BE_CONFIRM_OUT => -We8_BE_CONFIRM_OUT
+AOIU_31:175:int_defroster():We5_BE_HANDLING => -We5_BE_HANDLING
+AOIU_32:175:int_defroster():We11_BLINK_OUT => -We11_BLINK_OUT
+AOIU_33:175:int_defroster():We2_Clip15_OUT => -We2_Clip15_OUT
+AOIU_34:175:int_defroster():We3_Clip15_ON => -We3_Clip15_ON
+AOIU_35:175:int_defroster():We1_BA_DEF_ev_ctr0 => -We1_BA_DEF_ev_ctr0
+AOIU_36:175:int_defroster():We1_BA_DEF_ev_ctr1 => -We1_BA_DEF_ev_ctr1
+AOIU_37:175:int_defroster():We1_BA_DEF_ev_ctr2 => -We1_BA_DEF_ev_ctr2
+AOIU_38:175:int_defroster():We1_BA_DEF_ev_ctr3 => -We1_BA_DEF_ev_ctr3
+AOIU_39:175:int_defroster():We1_BA_DEF_ev_ctr5 => -We1_BA_DEF_ev_ctr5
+AOIU_40:175:int_defroster():error_e => -error_e
+AOIU_41:175:int_defroster():confirmation_e => -confirmation_e
+AOIU_42:175:int_defroster():Clip_15 => -Clip_15
+AOIU_43:175:int_defroster():ControlElement_DEF => -ControlElement_DEF
+AOIU_44:175:int_defroster():control_led => -control_led
+AOIU_45:175:int_defroster():request => -request
+AOIS_1:39:void_Exception_handler():We6_BE_CONFIRM_ON => ++We6_BE_CONFIRM_ON
+AOIS_2:39:void_Exception_handler():We6_BE_CONFIRM_ON => --We6_BE_CONFIRM_ON
+AOIS_3:39:void_Exception_handler():We6_BE_CONFIRM_ON => We6_BE_CONFIRM_ON++
+AOIS_4:39:void_Exception_handler():We6_BE_CONFIRM_ON => We6_BE_CONFIRM_ON--
+AOIS_5:42:void_Exception_handler():We7_BE_LOSGELASSEN => ++We7_BE_LOSGELASSEN
+AOIS_6:42:void_Exception_handler():We7_BE_LOSGELASSEN => --We7_BE_LOSGELASSEN
+AOIS_7:42:void_Exception_handler():We7_BE_LOSGELASSEN => We7_BE_LOSGELASSEN++
+AOIS_8:42:void_Exception_handler():We7_BE_LOSGELASSEN => We7_BE_LOSGELASSEN--
+AOIS_9:64:int_defroster():We2_Clip15_OUT => ++We2_Clip15_OUT
+AOIS_10:64:int_defroster():We2_Clip15_OUT => --We2_Clip15_OUT
+AOIS_11:64:int_defroster():We2_Clip15_OUT => We2_Clip15_OUT++
+AOIS_12:64:int_defroster():We2_Clip15_OUT => We2_Clip15_OUT--
+AOIS_13:65:int_defroster():Clip_15 => ++Clip_15
+AOIS_14:65:int_defroster():Clip_15 => --Clip_15
+AOIS_15:65:int_defroster():Clip_15 => Clip_15++
+AOIS_16:65:int_defroster():Clip_15 => Clip_15--
+AOIS_17:74:int_defroster():We1_BA_DEF_ev_ctr2 => ++We1_BA_DEF_ev_ctr2
+AOIS_18:74:int_defroster():We1_BA_DEF_ev_ctr2 => --We1_BA_DEF_ev_ctr2
+AOIS_19:74:int_defroster():We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2++
+AOIS_20:74:int_defroster():We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2--
+AOIS_21:74:int_defroster():We1_BA_DEF_ev_ctr2 => ++We1_BA_DEF_ev_ctr2
+AOIS_22:74:int_defroster():We1_BA_DEF_ev_ctr2 => --We1_BA_DEF_ev_ctr2
+AOIS_23:74:int_defroster():We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2++
+AOIS_24:74:int_defroster():We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2--
+AOIS_25:74:int_defroster():We1_BA_DEF_ev_ctr3 => ++We1_BA_DEF_ev_ctr3
+AOIS_26:74:int_defroster():We1_BA_DEF_ev_ctr3 => --We1_BA_DEF_ev_ctr3
+AOIS_27:74:int_defroster():We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr3++
+AOIS_28:74:int_defroster():We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr3--
+AOIS_29:78:int_defroster():We3_Clip15_ON => ++We3_Clip15_ON
+AOIS_30:78:int_defroster():We3_Clip15_ON => --We3_Clip15_ON
+AOIS_31:78:int_defroster():We3_Clip15_ON => We3_Clip15_ON++
+AOIS_32:78:int_defroster():We3_Clip15_ON => We3_Clip15_ON--
+AOIS_33:79:int_defroster():Clip_15 => ++Clip_15
+AOIS_34:79:int_defroster():Clip_15 => --Clip_15
+AOIS_35:79:int_defroster():Clip_15 => Clip_15++
+AOIS_36:79:int_defroster():Clip_15 => Clip_15--
+AOIS_37:80:int_defroster():We11_BLINK_OUT => ++We11_BLINK_OUT
+AOIS_38:80:int_defroster():We11_BLINK_OUT => --We11_BLINK_OUT
+AOIS_39:80:int_defroster():We11_BLINK_OUT => We11_BLINK_OUT++
+AOIS_40:80:int_defroster():We11_BLINK_OUT => We11_BLINK_OUT--
+AOIS_41:83:int_defroster():We12_BLINK_ON => ++We12_BLINK_ON
+AOIS_42:83:int_defroster():We12_BLINK_ON => --We12_BLINK_ON
+AOIS_43:83:int_defroster():We12_BLINK_ON => We12_BLINK_ON++
+AOIS_44:83:int_defroster():We12_BLINK_ON => We12_BLINK_ON--
+AOIS_45:87:int_defroster():We5_BE_HANDLING => ++We5_BE_HANDLING
+AOIS_46:87:int_defroster():We5_BE_HANDLING => --We5_BE_HANDLING
+AOIS_47:87:int_defroster():We5_BE_HANDLING => We5_BE_HANDLING++
+AOIS_48:87:int_defroster():We5_BE_HANDLING => We5_BE_HANDLING--
+AOIS_49:90:int_defroster():We8_BE_CONFIRM_OUT => ++We8_BE_CONFIRM_OUT
+AOIS_50:90:int_defroster():We8_BE_CONFIRM_OUT => --We8_BE_CONFIRM_OUT
+AOIS_51:90:int_defroster():We8_BE_CONFIRM_OUT => We8_BE_CONFIRM_OUT++
+AOIS_52:90:int_defroster():We8_BE_CONFIRM_OUT => We8_BE_CONFIRM_OUT--
+AOIS_53:93:int_defroster():We9_DEF_OUT => ++We9_DEF_OUT
+AOIS_54:93:int_defroster():We9_DEF_OUT => --We9_DEF_OUT
+AOIS_55:93:int_defroster():We9_DEF_OUT => We9_DEF_OUT++
+AOIS_56:93:int_defroster():We9_DEF_OUT => We9_DEF_OUT--
+AOIS_57:103:int_defroster():We5_BE_HANDLING => ++We5_BE_HANDLING
+AOIS_58:103:int_defroster():We5_BE_HANDLING => --We5_BE_HANDLING
+AOIS_59:103:int_defroster():We5_BE_HANDLING => We5_BE_HANDLING++
+AOIS_60:103:int_defroster():We5_BE_HANDLING => We5_BE_HANDLING--
+AOIS_61:104:int_defroster():We1_BA_DEF_ev_ctr1 => ++We1_BA_DEF_ev_ctr1
+AOIS_62:104:int_defroster():We1_BA_DEF_ev_ctr1 => --We1_BA_DEF_ev_ctr1
+AOIS_63:104:int_defroster():We1_BA_DEF_ev_ctr1 => We1_BA_DEF_ev_ctr1++
+AOIS_64:104:int_defroster():We1_BA_DEF_ev_ctr1 => We1_BA_DEF_ev_ctr1--
+AOIS_65:104:int_defroster():confirmation_e => ++confirmation_e
+AOIS_66:104:int_defroster():confirmation_e => --confirmation_e
+AOIS_67:104:int_defroster():confirmation_e => confirmation_e++
+AOIS_68:104:int_defroster():confirmation_e => confirmation_e--
+AOIS_69:104:int_defroster():ControlElement_DEF => ++ControlElement_DEF
+AOIS_70:104:int_defroster():ControlElement_DEF => --ControlElement_DEF
+AOIS_71:104:int_defroster():ControlElement_DEF => ControlElement_DEF++
+AOIS_72:104:int_defroster():ControlElement_DEF => ControlElement_DEF--
+AOIS_73:109:int_defroster():We6_BE_CONFIRM_ON => ++We6_BE_CONFIRM_ON
+AOIS_74:109:int_defroster():We6_BE_CONFIRM_ON => --We6_BE_CONFIRM_ON
+AOIS_75:109:int_defroster():We6_BE_CONFIRM_ON => We6_BE_CONFIRM_ON++
+AOIS_76:109:int_defroster():We6_BE_CONFIRM_ON => We6_BE_CONFIRM_ON--
+AOIS_77:110:int_defroster():ControlElement_DEF => ++ControlElement_DEF
+AOIS_78:110:int_defroster():ControlElement_DEF => --ControlElement_DEF
+AOIS_79:110:int_defroster():ControlElement_DEF => ControlElement_DEF++
+AOIS_80:110:int_defroster():ControlElement_DEF => ControlElement_DEF--
+AOIS_81:115:int_defroster():We7_BE_LOSGELASSEN => ++We7_BE_LOSGELASSEN
+AOIS_82:115:int_defroster():We7_BE_LOSGELASSEN => --We7_BE_LOSGELASSEN
+AOIS_83:115:int_defroster():We7_BE_LOSGELASSEN => We7_BE_LOSGELASSEN++
+AOIS_84:115:int_defroster():We7_BE_LOSGELASSEN => We7_BE_LOSGELASSEN--
+AOIS_85:116:int_defroster():ControlElement_DEF => ++ControlElement_DEF
+AOIS_86:116:int_defroster():ControlElement_DEF => --ControlElement_DEF
+AOIS_87:116:int_defroster():ControlElement_DEF => ControlElement_DEF++
+AOIS_88:116:int_defroster():ControlElement_DEF => ControlElement_DEF--
+AOIS_89:125:int_defroster():We8_BE_CONFIRM_OUT => ++We8_BE_CONFIRM_OUT
+AOIS_90:125:int_defroster():We8_BE_CONFIRM_OUT => --We8_BE_CONFIRM_OUT
+AOIS_91:125:int_defroster():We8_BE_CONFIRM_OUT => We8_BE_CONFIRM_OUT++
+AOIS_92:125:int_defroster():We8_BE_CONFIRM_OUT => We8_BE_CONFIRM_OUT--
+AOIS_93:126:int_defroster():ControlElement_DEF => ++ControlElement_DEF
+AOIS_94:126:int_defroster():ControlElement_DEF => --ControlElement_DEF
+AOIS_95:126:int_defroster():ControlElement_DEF => ControlElement_DEF++
+AOIS_96:126:int_defroster():ControlElement_DEF => ControlElement_DEF--
+AOIS_97:131:int_defroster():We9_DEF_OUT => ++We9_DEF_OUT
+AOIS_98:131:int_defroster():We9_DEF_OUT => --We9_DEF_OUT
+AOIS_99:131:int_defroster():We9_DEF_OUT => We9_DEF_OUT++
+AOIS_100:131:int_defroster():We9_DEF_OUT => We9_DEF_OUT--
+AOIS_101:132:int_defroster():ControlElement_DEF => ++ControlElement_DEF
+AOIS_102:132:int_defroster():ControlElement_DEF => --ControlElement_DEF
+AOIS_103:132:int_defroster():ControlElement_DEF => ControlElement_DEF++
+AOIS_104:132:int_defroster():ControlElement_DEF => ControlElement_DEF--
+AOIS_105:142:int_defroster():We11_BLINK_OUT => ++We11_BLINK_OUT
+AOIS_106:142:int_defroster():We11_BLINK_OUT => --We11_BLINK_OUT
+AOIS_107:142:int_defroster():We11_BLINK_OUT => We11_BLINK_OUT++
+AOIS_108:142:int_defroster():We11_BLINK_OUT => We11_BLINK_OUT--
+AOIS_109:143:int_defroster():We1_BA_DEF_ev_ctr0 => ++We1_BA_DEF_ev_ctr0
+AOIS_110:143:int_defroster():We1_BA_DEF_ev_ctr0 => --We1_BA_DEF_ev_ctr0
+AOIS_111:143:int_defroster():We1_BA_DEF_ev_ctr0 => We1_BA_DEF_ev_ctr0++
+AOIS_112:143:int_defroster():We1_BA_DEF_ev_ctr0 => We1_BA_DEF_ev_ctr0--
+AOIS_113:143:int_defroster():error_e => ++error_e
+AOIS_114:143:int_defroster():error_e => --error_e
+AOIS_115:143:int_defroster():error_e => error_e++
+AOIS_116:143:int_defroster():error_e => error_e--
+AOIS_117:143:int_defroster():confirmation_e => ++confirmation_e
+AOIS_118:143:int_defroster():confirmation_e => --confirmation_e
+AOIS_119:143:int_defroster():confirmation_e => confirmation_e++
+AOIS_120:143:int_defroster():confirmation_e => confirmation_e--
+AOIS_121:146:int_defroster():request => ++request
+AOIS_122:146:int_defroster():request => --request
+AOIS_123:146:int_defroster():request => request++
+AOIS_124:146:int_defroster():request => request--
+AOIS_125:146:int_defroster():error_e => ++error_e
+AOIS_126:146:int_defroster():error_e => --error_e
+AOIS_127:146:int_defroster():error_e => error_e++
+AOIS_128:146:int_defroster():error_e => error_e--
+AOIS_129:151:int_defroster():We12_BLINK_ON => ++We12_BLINK_ON
+AOIS_130:151:int_defroster():We12_BLINK_ON => --We12_BLINK_ON
+AOIS_131:151:int_defroster():We12_BLINK_ON => We12_BLINK_ON++
+AOIS_132:151:int_defroster():We12_BLINK_ON => We12_BLINK_ON--
+AOIS_133:152:int_defroster():request => ++request
+AOIS_134:152:int_defroster():request => --request
+AOIS_135:152:int_defroster():request => request++
+AOIS_136:152:int_defroster():request => request--
+AOIS_137:152:int_defroster():error_e => ++error_e
+AOIS_138:152:int_defroster():error_e => --error_e
+AOIS_139:152:int_defroster():error_e => error_e++
+AOIS_140:152:int_defroster():error_e => error_e--
+AOIS_141:155:int_defroster():We1_BA_DEF_ev_ctr0 => ++We1_BA_DEF_ev_ctr0
+AOIS_142:155:int_defroster():We1_BA_DEF_ev_ctr0 => --We1_BA_DEF_ev_ctr0
+AOIS_143:155:int_defroster():We1_BA_DEF_ev_ctr0 => We1_BA_DEF_ev_ctr0++
+AOIS_144:155:int_defroster():We1_BA_DEF_ev_ctr0 => We1_BA_DEF_ev_ctr0--
+AOIS_145:155:int_defroster():error_e => ++error_e
+AOIS_146:155:int_defroster():error_e => --error_e
+AOIS_147:155:int_defroster():error_e => error_e++
+AOIS_148:155:int_defroster():error_e => error_e--
+AOIS_149:155:int_defroster():confirmation_e => ++confirmation_e
+AOIS_150:155:int_defroster():confirmation_e => --confirmation_e
+AOIS_151:155:int_defroster():confirmation_e => confirmation_e++
+AOIS_152:155:int_defroster():confirmation_e => confirmation_e--
+AOIS_153:166:int_defroster():We1_BA_DEF_ev_ctr2 => ++We1_BA_DEF_ev_ctr2
+AOIS_154:166:int_defroster():We1_BA_DEF_ev_ctr2 => --We1_BA_DEF_ev_ctr2
+AOIS_155:166:int_defroster():We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2++
+AOIS_156:166:int_defroster():We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2--
+AOIS_157:166:int_defroster():We1_BA_DEF_ev_ctr3 => ++We1_BA_DEF_ev_ctr3
+AOIS_158:166:int_defroster():We1_BA_DEF_ev_ctr3 => --We1_BA_DEF_ev_ctr3
+AOIS_159:166:int_defroster():We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr3++
+AOIS_160:166:int_defroster():We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr3--
+AOIS_161:166:int_defroster():We1_BA_DEF_ev_ctr5 => We1_BA_DEF_ev_ctr5++
+AOIS_162:166:int_defroster():We1_BA_DEF_ev_ctr5 => We1_BA_DEF_ev_ctr5--
+AOIS_163:169:int_defroster():We1_BA_DEF_ev_ctr2 => ++We1_BA_DEF_ev_ctr2
+AOIS_164:169:int_defroster():We1_BA_DEF_ev_ctr2 => --We1_BA_DEF_ev_ctr2
+AOIS_165:169:int_defroster():We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2++
+AOIS_166:169:int_defroster():We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2--
+AOIS_167:169:int_defroster():We1_BA_DEF_ev_ctr3 => ++We1_BA_DEF_ev_ctr3
+AOIS_168:169:int_defroster():We1_BA_DEF_ev_ctr3 => --We1_BA_DEF_ev_ctr3
+AOIS_169:169:int_defroster():We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr3++
+AOIS_170:169:int_defroster():We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr3--
+AOIS_171:169:int_defroster():We1_BA_DEF_ev_ctr5 => We1_BA_DEF_ev_ctr5++
+AOIS_172:169:int_defroster():We1_BA_DEF_ev_ctr5 => We1_BA_DEF_ev_ctr5--
+AOIS_173:175:int_defroster():We7_BE_LOSGELASSEN => We7_BE_LOSGELASSEN++
+AOIS_174:175:int_defroster():We7_BE_LOSGELASSEN => We7_BE_LOSGELASSEN--
+AOIS_175:175:int_defroster():We6_BE_CONFIRM_ON => We6_BE_CONFIRM_ON++
+AOIS_176:175:int_defroster():We6_BE_CONFIRM_ON => We6_BE_CONFIRM_ON--
+AOIS_177:175:int_defroster():We12_BLINK_ON => We12_BLINK_ON++
+AOIS_178:175:int_defroster():We12_BLINK_ON => We12_BLINK_ON--
+AOIS_179:175:int_defroster():We9_DEF_OUT => We9_DEF_OUT++
+AOIS_180:175:int_defroster():We9_DEF_OUT => We9_DEF_OUT--
+AOIS_181:175:int_defroster():We8_BE_CONFIRM_OUT => We8_BE_CONFIRM_OUT++
+AOIS_182:175:int_defroster():We8_BE_CONFIRM_OUT => We8_BE_CONFIRM_OUT--
+AOIS_183:175:int_defroster():We5_BE_HANDLING => We5_BE_HANDLING++
+AOIS_184:175:int_defroster():We5_BE_HANDLING => We5_BE_HANDLING--
+AOIS_185:175:int_defroster():We11_BLINK_OUT => We11_BLINK_OUT++
+AOIS_186:175:int_defroster():We11_BLINK_OUT => We11_BLINK_OUT--
+AOIS_187:175:int_defroster():We2_Clip15_OUT => We2_Clip15_OUT++
+AOIS_188:175:int_defroster():We2_Clip15_OUT => We2_Clip15_OUT--
+AOIS_189:175:int_defroster():We3_Clip15_ON => We3_Clip15_ON++
+AOIS_190:175:int_defroster():We3_Clip15_ON => We3_Clip15_ON--
+AOIS_191:175:int_defroster():We1_BA_DEF_ev_ctr0 => We1_BA_DEF_ev_ctr0++
+AOIS_192:175:int_defroster():We1_BA_DEF_ev_ctr0 => We1_BA_DEF_ev_ctr0--
+AOIS_193:175:int_defroster():We1_BA_DEF_ev_ctr1 => We1_BA_DEF_ev_ctr1++
+AOIS_194:175:int_defroster():We1_BA_DEF_ev_ctr1 => We1_BA_DEF_ev_ctr1--
+AOIS_195:175:int_defroster():We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2++
+AOIS_196:175:int_defroster():We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2--
+AOIS_197:175:int_defroster():We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr3++
+AOIS_198:175:int_defroster():We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr3--
+AOIS_199:175:int_defroster():We1_BA_DEF_ev_ctr5 => We1_BA_DEF_ev_ctr5++
+AOIS_200:175:int_defroster():We1_BA_DEF_ev_ctr5 => We1_BA_DEF_ev_ctr5--
+AOIS_201:175:int_defroster():error_e => error_e++
+AOIS_202:175:int_defroster():error_e => error_e--
+AOIS_203:175:int_defroster():confirmation_e => confirmation_e++
+AOIS_204:175:int_defroster():confirmation_e => confirmation_e--
+AOIS_205:175:int_defroster():Clip_15 => Clip_15++
+AOIS_206:175:int_defroster():Clip_15 => Clip_15--
+AOIS_207:175:int_defroster():ControlElement_DEF => ControlElement_DEF++
+AOIS_208:175:int_defroster():ControlElement_DEF => ControlElement_DEF--
+AOIS_209:175:int_defroster():control_led => control_led++
+AOIS_210:175:int_defroster():control_led => control_led--
+AOIS_211:175:int_defroster():request => request++
+AOIS_212:175:int_defroster():request => request--
+ROR_1:39:void_Exception_handler(): 0 != We6_BE_CONFIRM_ON  =>   0 > We6_BE_CONFIRM_ON
+ROR_2:39:void_Exception_handler(): 0 != We6_BE_CONFIRM_ON  =>   0 >= We6_BE_CONFIRM_ON
+ROR_3:39:void_Exception_handler(): 0 != We6_BE_CONFIRM_ON  =>   0 < We6_BE_CONFIRM_ON
+ROR_4:39:void_Exception_handler(): 0 != We6_BE_CONFIRM_ON  =>   0 <= We6_BE_CONFIRM_ON
+ROR_5:39:void_Exception_handler(): 0 != We6_BE_CONFIRM_ON  =>   0 == We6_BE_CONFIRM_ON
+ROR_6:39:void_Exception_handler(): 0 != We6_BE_CONFIRM_ON  =>   true
+ROR_7:39:void_Exception_handler(): 0 != We6_BE_CONFIRM_ON  =>   false
+ROR_8:42:void_Exception_handler(): 0 != We7_BE_LOSGELASSEN  =>   0 > We7_BE_LOSGELASSEN
+ROR_9:42:void_Exception_handler(): 0 != We7_BE_LOSGELASSEN  =>   0 >= We7_BE_LOSGELASSEN
+ROR_10:42:void_Exception_handler(): 0 != We7_BE_LOSGELASSEN  =>   0 < We7_BE_LOSGELASSEN
+ROR_11:42:void_Exception_handler(): 0 != We7_BE_LOSGELASSEN  =>   0 <= We7_BE_LOSGELASSEN
+ROR_12:42:void_Exception_handler(): 0 != We7_BE_LOSGELASSEN  =>   0 == We7_BE_LOSGELASSEN
+ROR_13:42:void_Exception_handler(): 0 != We7_BE_LOSGELASSEN  =>   true
+ROR_14:42:void_Exception_handler(): 0 != We7_BE_LOSGELASSEN  =>   false
+ROR_15:64:int_defroster(): 0 != We2_Clip15_OUT  =>   0 > We2_Clip15_OUT
+ROR_16:64:int_defroster(): 0 != We2_Clip15_OUT  =>   0 >= We2_Clip15_OUT
+ROR_17:64:int_defroster(): 0 != We2_Clip15_OUT  =>   0 < We2_Clip15_OUT
+ROR_18:64:int_defroster(): 0 != We2_Clip15_OUT  =>   0 <= We2_Clip15_OUT
+ROR_19:64:int_defroster(): 0 != We2_Clip15_OUT  =>   0 == We2_Clip15_OUT
+ROR_20:64:int_defroster(): 0 != We2_Clip15_OUT  =>   true
+ROR_21:64:int_defroster(): 0 != We2_Clip15_OUT  =>   false
+ROR_22:65:int_defroster(): 0 != Clip_15  =>   0 > Clip_15
+ROR_23:65:int_defroster(): 0 != Clip_15  =>   0 >= Clip_15
+ROR_24:65:int_defroster(): 0 != Clip_15  =>   0 < Clip_15
+ROR_25:65:int_defroster(): 0 != Clip_15  =>   0 <= Clip_15
+ROR_26:65:int_defroster(): 0 != Clip_15  =>   0 == Clip_15
+ROR_27:65:int_defroster(): 0 != Clip_15  =>   true
+ROR_28:65:int_defroster(): 0 != Clip_15  =>   false
+ROR_29:75:int_defroster(): We1_BA_DEF == We1_BA_DEF_ev  =>   We1_BA_DEF > We1_BA_DEF_ev
+ROR_30:75:int_defroster(): We1_BA_DEF == We1_BA_DEF_ev  =>   We1_BA_DEF >= We1_BA_DEF_ev
+ROR_31:75:int_defroster(): We1_BA_DEF == We1_BA_DEF_ev  =>   We1_BA_DEF < We1_BA_DEF_ev
+ROR_32:75:int_defroster(): We1_BA_DEF == We1_BA_DEF_ev  =>   We1_BA_DEF <= We1_BA_DEF_ev
+ROR_33:75:int_defroster(): We1_BA_DEF == We1_BA_DEF_ev  =>   We1_BA_DEF != We1_BA_DEF_ev
+ROR_34:75:int_defroster(): We1_BA_DEF == We1_BA_DEF_ev  =>   true
+ROR_35:75:int_defroster(): We1_BA_DEF == We1_BA_DEF_ev  =>   false
+ROR_36:78:int_defroster(): 0 != We3_Clip15_ON  =>   0 > We3_Clip15_ON
+ROR_37:78:int_defroster(): 0 != We3_Clip15_ON  =>   0 >= We3_Clip15_ON
+ROR_38:78:int_defroster(): 0 != We3_Clip15_ON  =>   0 < We3_Clip15_ON
+ROR_39:78:int_defroster(): 0 != We3_Clip15_ON  =>   0 <= We3_Clip15_ON
+ROR_40:78:int_defroster(): 0 != We3_Clip15_ON  =>   0 == We3_Clip15_ON
+ROR_41:78:int_defroster(): 0 != We3_Clip15_ON  =>   true
+ROR_42:78:int_defroster(): 0 != We3_Clip15_ON  =>   false
+ROR_43:79:int_defroster(): Clip_15 == 0  =>   Clip_15 > 0
+ROR_44:79:int_defroster(): Clip_15 == 0  =>   Clip_15 >= 0
+ROR_45:79:int_defroster(): Clip_15 == 0  =>   Clip_15 < 0
+ROR_46:79:int_defroster(): Clip_15 == 0  =>   Clip_15 <= 0
+ROR_47:79:int_defroster(): Clip_15 == 0  =>   Clip_15 != 0
+ROR_48:79:int_defroster(): Clip_15 == 0  =>   true
+ROR_49:79:int_defroster(): Clip_15 == 0  =>   false
+ROR_50:80:int_defroster(): 0 != We11_BLINK_OUT  =>   0 > We11_BLINK_OUT
+ROR_51:80:int_defroster(): 0 != We11_BLINK_OUT  =>   0 >= We11_BLINK_OUT
+ROR_52:80:int_defroster(): 0 != We11_BLINK_OUT  =>   0 < We11_BLINK_OUT
+ROR_53:80:int_defroster(): 0 != We11_BLINK_OUT  =>   0 <= We11_BLINK_OUT
+ROR_54:80:int_defroster(): 0 != We11_BLINK_OUT  =>   0 == We11_BLINK_OUT
+ROR_55:80:int_defroster(): 0 != We11_BLINK_OUT  =>   true
+ROR_56:80:int_defroster(): 0 != We11_BLINK_OUT  =>   false
+ROR_57:83:int_defroster(): 0 != We12_BLINK_ON  =>   0 > We12_BLINK_ON
+ROR_58:83:int_defroster(): 0 != We12_BLINK_ON  =>   0 >= We12_BLINK_ON
+ROR_59:83:int_defroster(): 0 != We12_BLINK_ON  =>   0 < We12_BLINK_ON
+ROR_60:83:int_defroster(): 0 != We12_BLINK_ON  =>   0 <= We12_BLINK_ON
+ROR_61:83:int_defroster(): 0 != We12_BLINK_ON  =>   0 == We12_BLINK_ON
+ROR_62:83:int_defroster(): 0 != We12_BLINK_ON  =>   true
+ROR_63:83:int_defroster(): 0 != We12_BLINK_ON  =>   false
+ROR_64:87:int_defroster(): 0 != We5_BE_HANDLING  =>   0 > We5_BE_HANDLING
+ROR_65:87:int_defroster(): 0 != We5_BE_HANDLING  =>   0 >= We5_BE_HANDLING
+ROR_66:87:int_defroster(): 0 != We5_BE_HANDLING  =>   0 < We5_BE_HANDLING
+ROR_67:87:int_defroster(): 0 != We5_BE_HANDLING  =>   0 <= We5_BE_HANDLING
+ROR_68:87:int_defroster(): 0 != We5_BE_HANDLING  =>   0 == We5_BE_HANDLING
+ROR_69:87:int_defroster(): 0 != We5_BE_HANDLING  =>   true
+ROR_70:87:int_defroster(): 0 != We5_BE_HANDLING  =>   false
+ROR_71:90:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>   0 > We8_BE_CONFIRM_OUT
+ROR_72:90:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>   0 >= We8_BE_CONFIRM_OUT
+ROR_73:90:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>   0 < We8_BE_CONFIRM_OUT
+ROR_74:90:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>   0 <= We8_BE_CONFIRM_OUT
+ROR_75:90:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>   0 == We8_BE_CONFIRM_OUT
+ROR_76:90:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>   true
+ROR_77:90:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>   false
+ROR_78:93:int_defroster(): 0 != We9_DEF_OUT  =>   0 > We9_DEF_OUT
+ROR_79:93:int_defroster(): 0 != We9_DEF_OUT  =>   0 >= We9_DEF_OUT
+ROR_80:93:int_defroster(): 0 != We9_DEF_OUT  =>   0 < We9_DEF_OUT
+ROR_81:93:int_defroster(): 0 != We9_DEF_OUT  =>   0 <= We9_DEF_OUT
+ROR_82:93:int_defroster(): 0 != We9_DEF_OUT  =>   0 == We9_DEF_OUT
+ROR_83:93:int_defroster(): 0 != We9_DEF_OUT  =>   true
+ROR_84:93:int_defroster(): 0 != We9_DEF_OUT  =>   false
+ROR_85:103:int_defroster(): 0 != We5_BE_HANDLING  =>   0 > We5_BE_HANDLING
+ROR_86:103:int_defroster(): 0 != We5_BE_HANDLING  =>   0 >= We5_BE_HANDLING
+ROR_87:103:int_defroster(): 0 != We5_BE_HANDLING  =>   0 < We5_BE_HANDLING
+ROR_88:103:int_defroster(): 0 != We5_BE_HANDLING  =>   0 <= We5_BE_HANDLING
+ROR_89:103:int_defroster(): 0 != We5_BE_HANDLING  =>   0 == We5_BE_HANDLING
+ROR_90:103:int_defroster(): 0 != We5_BE_HANDLING  =>   true
+ROR_91:103:int_defroster(): 0 != We5_BE_HANDLING  =>   false
+ROR_92:104:int_defroster(): We1_BA_DEF_ev_ctr1 >= (int) 1000  =>   We1_BA_DEF_ev_ctr1 > (int) 1000
+ROR_93:104:int_defroster(): We1_BA_DEF_ev_ctr1 >= (int) 1000  =>   We1_BA_DEF_ev_ctr1 < (int) 1000
+ROR_94:104:int_defroster(): We1_BA_DEF_ev_ctr1 >= (int) 1000  =>   We1_BA_DEF_ev_ctr1 <= (int) 1000
+ROR_95:104:int_defroster(): We1_BA_DEF_ev_ctr1 >= (int) 1000  =>   We1_BA_DEF_ev_ctr1 == (int) 1000
+ROR_96:104:int_defroster(): We1_BA_DEF_ev_ctr1 >= (int) 1000  =>   We1_BA_DEF_ev_ctr1 != (int) 1000
+ROR_97:104:int_defroster(): We1_BA_DEF_ev_ctr1 >= (int) 1000  =>   true
+ROR_98:104:int_defroster(): We1_BA_DEF_ev_ctr1 >= (int) 1000  =>   false
+ROR_99:104:int_defroster(): confirmation_e == 0  =>   confirmation_e > 0
+ROR_100:104:int_defroster(): confirmation_e == 0  =>   confirmation_e >= 0
+ROR_101:104:int_defroster(): confirmation_e == 0  =>   confirmation_e < 0
+ROR_102:104:int_defroster(): confirmation_e == 0  =>   confirmation_e <= 0
+ROR_103:104:int_defroster(): confirmation_e == 0  =>   confirmation_e != 0
+ROR_104:104:int_defroster(): confirmation_e == 0  =>   true
+ROR_105:104:int_defroster(): confirmation_e == 0  =>   false
+ROR_106:104:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF > 0
+ROR_107:104:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF >= 0
+ROR_108:104:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF < 0
+ROR_109:104:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF <= 0
+ROR_110:104:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF != 0
+ROR_111:104:int_defroster(): ControlElement_DEF == 0  =>   true
+ROR_112:104:int_defroster(): ControlElement_DEF == 0  =>   false
+ROR_113:109:int_defroster(): 0 != We6_BE_CONFIRM_ON  =>   0 > We6_BE_CONFIRM_ON
+ROR_114:109:int_defroster(): 0 != We6_BE_CONFIRM_ON  =>   0 >= We6_BE_CONFIRM_ON
+ROR_115:109:int_defroster(): 0 != We6_BE_CONFIRM_ON  =>   0 < We6_BE_CONFIRM_ON
+ROR_116:109:int_defroster(): 0 != We6_BE_CONFIRM_ON  =>   0 <= We6_BE_CONFIRM_ON
+ROR_117:109:int_defroster(): 0 != We6_BE_CONFIRM_ON  =>   0 == We6_BE_CONFIRM_ON
+ROR_118:109:int_defroster(): 0 != We6_BE_CONFIRM_ON  =>   true
+ROR_119:109:int_defroster(): 0 != We6_BE_CONFIRM_ON  =>   false
+ROR_120:110:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF > 0
+ROR_121:110:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF >= 0
+ROR_122:110:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF < 0
+ROR_123:110:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF <= 0
+ROR_124:110:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF != 0
+ROR_125:110:int_defroster(): ControlElement_DEF == 0  =>   true
+ROR_126:110:int_defroster(): ControlElement_DEF == 0  =>   false
+ROR_127:115:int_defroster(): 0 != We7_BE_LOSGELASSEN  =>   0 > We7_BE_LOSGELASSEN
+ROR_128:115:int_defroster(): 0 != We7_BE_LOSGELASSEN  =>   0 >= We7_BE_LOSGELASSEN
+ROR_129:115:int_defroster(): 0 != We7_BE_LOSGELASSEN  =>   0 < We7_BE_LOSGELASSEN
+ROR_130:115:int_defroster(): 0 != We7_BE_LOSGELASSEN  =>   0 <= We7_BE_LOSGELASSEN
+ROR_131:115:int_defroster(): 0 != We7_BE_LOSGELASSEN  =>   0 == We7_BE_LOSGELASSEN
+ROR_132:115:int_defroster(): 0 != We7_BE_LOSGELASSEN  =>   true
+ROR_133:115:int_defroster(): 0 != We7_BE_LOSGELASSEN  =>   false
+ROR_134:116:int_defroster(): ControlElement_DEF > 0  =>   ControlElement_DEF >= 0
+ROR_135:116:int_defroster(): ControlElement_DEF > 0  =>   ControlElement_DEF < 0
+ROR_136:116:int_defroster(): ControlElement_DEF > 0  =>   ControlElement_DEF <= 0
+ROR_137:116:int_defroster(): ControlElement_DEF > 0  =>   ControlElement_DEF == 0
+ROR_138:116:int_defroster(): ControlElement_DEF > 0  =>   ControlElement_DEF != 0
+ROR_139:116:int_defroster(): ControlElement_DEF > 0  =>   true
+ROR_140:116:int_defroster(): ControlElement_DEF > 0  =>   false
+ROR_141:125:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>   0 > We8_BE_CONFIRM_OUT
+ROR_142:125:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>   0 >= We8_BE_CONFIRM_OUT
+ROR_143:125:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>   0 < We8_BE_CONFIRM_OUT
+ROR_144:125:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>   0 <= We8_BE_CONFIRM_OUT
+ROR_145:125:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>   0 == We8_BE_CONFIRM_OUT
+ROR_146:125:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>   true
+ROR_147:125:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>   false
+ROR_148:126:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF > 0
+ROR_149:126:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF >= 0
+ROR_150:126:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF < 0
+ROR_151:126:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF <= 0
+ROR_152:126:int_defroster(): ControlElement_DEF == 0  =>   ControlElement_DEF != 0
+ROR_153:126:int_defroster(): ControlElement_DEF == 0  =>   true
+ROR_154:126:int_defroster(): ControlElement_DEF == 0  =>   false
+ROR_155:131:int_defroster(): 0 != We9_DEF_OUT  =>   0 > We9_DEF_OUT
+ROR_156:131:int_defroster(): 0 != We9_DEF_OUT  =>   0 >= We9_DEF_OUT
+ROR_157:131:int_defroster(): 0 != We9_DEF_OUT  =>   0 < We9_DEF_OUT
+ROR_158:131:int_defroster(): 0 != We9_DEF_OUT  =>   0 <= We9_DEF_OUT
+ROR_159:131:int_defroster(): 0 != We9_DEF_OUT  =>   0 == We9_DEF_OUT
+ROR_160:131:int_defroster(): 0 != We9_DEF_OUT  =>   true
+ROR_161:131:int_defroster(): 0 != We9_DEF_OUT  =>   false
+ROR_162:132:int_defroster(): ControlElement_DEF > 0  =>   ControlElement_DEF >= 0
+ROR_163:132:int_defroster(): ControlElement_DEF > 0  =>   ControlElement_DEF < 0
+ROR_164:132:int_defroster(): ControlElement_DEF > 0  =>   ControlElement_DEF <= 0
+ROR_165:132:int_defroster(): ControlElement_DEF > 0  =>   ControlElement_DEF == 0
+ROR_166:132:int_defroster(): ControlElement_DEF > 0  =>   ControlElement_DEF != 0
+ROR_167:132:int_defroster(): ControlElement_DEF > 0  =>   true
+ROR_168:132:int_defroster(): ControlElement_DEF > 0  =>   false
+ROR_169:142:int_defroster(): 0 != We11_BLINK_OUT  =>   0 > We11_BLINK_OUT
+ROR_170:142:int_defroster(): 0 != We11_BLINK_OUT  =>   0 >= We11_BLINK_OUT
+ROR_171:142:int_defroster(): 0 != We11_BLINK_OUT  =>   0 < We11_BLINK_OUT
+ROR_172:142:int_defroster(): 0 != We11_BLINK_OUT  =>   0 <= We11_BLINK_OUT
+ROR_173:142:int_defroster(): 0 != We11_BLINK_OUT  =>   0 == We11_BLINK_OUT
+ROR_174:142:int_defroster(): 0 != We11_BLINK_OUT  =>   true
+ROR_175:142:int_defroster(): 0 != We11_BLINK_OUT  =>   false
+ROR_176:143:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>   We1_BA_DEF_ev_ctr0 > (int) 3250
+ROR_177:143:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>   We1_BA_DEF_ev_ctr0 < (int) 3250
+ROR_178:143:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>   We1_BA_DEF_ev_ctr0 <= (int) 3250
+ROR_179:143:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>   We1_BA_DEF_ev_ctr0 == (int) 3250
+ROR_180:143:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>   We1_BA_DEF_ev_ctr0 != (int) 3250
+ROR_181:143:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>   true
+ROR_182:143:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>   false
+ROR_183:143:int_defroster(): error_e > 0  =>   error_e >= 0
+ROR_184:143:int_defroster(): error_e > 0  =>   error_e < 0
+ROR_185:143:int_defroster(): error_e > 0  =>   error_e <= 0
+ROR_186:143:int_defroster(): error_e > 0  =>   error_e == 0
+ROR_187:143:int_defroster(): error_e > 0  =>   error_e != 0
+ROR_188:143:int_defroster(): error_e > 0  =>   true
+ROR_189:143:int_defroster(): error_e > 0  =>   false
+ROR_190:143:int_defroster(): confirmation_e > 0  =>   confirmation_e >= 0
+ROR_191:143:int_defroster(): confirmation_e > 0  =>   confirmation_e < 0
+ROR_192:143:int_defroster(): confirmation_e > 0  =>   confirmation_e <= 0
+ROR_193:143:int_defroster(): confirmation_e > 0  =>   confirmation_e == 0
+ROR_194:143:int_defroster(): confirmation_e > 0  =>   confirmation_e != 0
+ROR_195:143:int_defroster(): confirmation_e > 0  =>   true
+ROR_196:143:int_defroster(): confirmation_e > 0  =>   false
+ROR_197:146:int_defroster(): request > 0  =>   request >= 0
+ROR_198:146:int_defroster(): request > 0  =>   request < 0
+ROR_199:146:int_defroster(): request > 0  =>   request <= 0
+ROR_200:146:int_defroster(): request > 0  =>   request == 0
+ROR_201:146:int_defroster(): request > 0  =>   request != 0
+ROR_202:146:int_defroster(): request > 0  =>   true
+ROR_203:146:int_defroster(): request > 0  =>   false
+ROR_204:146:int_defroster(): error_e == 0  =>   error_e > 0
+ROR_205:146:int_defroster(): error_e == 0  =>   error_e >= 0
+ROR_206:146:int_defroster(): error_e == 0  =>   error_e < 0
+ROR_207:146:int_defroster(): error_e == 0  =>   error_e <= 0
+ROR_208:146:int_defroster(): error_e == 0  =>   error_e != 0
+ROR_209:146:int_defroster(): error_e == 0  =>   true
+ROR_210:146:int_defroster(): error_e == 0  =>   false
+ROR_211:151:int_defroster(): 0 != We12_BLINK_ON  =>   0 > We12_BLINK_ON
+ROR_212:151:int_defroster(): 0 != We12_BLINK_ON  =>   0 >= We12_BLINK_ON
+ROR_213:151:int_defroster(): 0 != We12_BLINK_ON  =>   0 < We12_BLINK_ON
+ROR_214:151:int_defroster(): 0 != We12_BLINK_ON  =>   0 <= We12_BLINK_ON
+ROR_215:151:int_defroster(): 0 != We12_BLINK_ON  =>   0 == We12_BLINK_ON
+ROR_216:151:int_defroster(): 0 != We12_BLINK_ON  =>   true
+ROR_217:151:int_defroster(): 0 != We12_BLINK_ON  =>   false
+ROR_218:152:int_defroster(): request == 0  =>   request > 0
+ROR_219:152:int_defroster(): request == 0  =>   request >= 0
+ROR_220:152:int_defroster(): request == 0  =>   request < 0
+ROR_221:152:int_defroster(): request == 0  =>   request <= 0
+ROR_222:152:int_defroster(): request == 0  =>   request != 0
+ROR_223:152:int_defroster(): request == 0  =>   true
+ROR_224:152:int_defroster(): request == 0  =>   false
+ROR_225:152:int_defroster(): error_e == 0  =>   error_e > 0
+ROR_226:152:int_defroster(): error_e == 0  =>   error_e >= 0
+ROR_227:152:int_defroster(): error_e == 0  =>   error_e < 0
+ROR_228:152:int_defroster(): error_e == 0  =>   error_e <= 0
+ROR_229:152:int_defroster(): error_e == 0  =>   error_e != 0
+ROR_230:152:int_defroster(): error_e == 0  =>   true
+ROR_231:152:int_defroster(): error_e == 0  =>   false
+ROR_232:155:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>   We1_BA_DEF_ev_ctr0 > (int) 3250
+ROR_233:155:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>   We1_BA_DEF_ev_ctr0 < (int) 3250
+ROR_234:155:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>   We1_BA_DEF_ev_ctr0 <= (int) 3250
+ROR_235:155:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>   We1_BA_DEF_ev_ctr0 == (int) 3250
+ROR_236:155:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>   We1_BA_DEF_ev_ctr0 != (int) 3250
+ROR_237:155:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>   true
+ROR_238:155:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>   false
+ROR_239:155:int_defroster(): error_e > 0  =>   error_e >= 0
+ROR_240:155:int_defroster(): error_e > 0  =>   error_e < 0
+ROR_241:155:int_defroster(): error_e > 0  =>   error_e <= 0
+ROR_242:155:int_defroster(): error_e > 0  =>   error_e == 0
+ROR_243:155:int_defroster(): error_e > 0  =>   error_e != 0
+ROR_244:155:int_defroster(): error_e > 0  =>   true
+ROR_245:155:int_defroster(): error_e > 0  =>   false
+ROR_246:155:int_defroster(): confirmation_e > 0  =>   confirmation_e >= 0
+ROR_247:155:int_defroster(): confirmation_e > 0  =>   confirmation_e < 0
+ROR_248:155:int_defroster(): confirmation_e > 0  =>   confirmation_e <= 0
+ROR_249:155:int_defroster(): confirmation_e > 0  =>   confirmation_e == 0
+ROR_250:155:int_defroster(): confirmation_e > 0  =>   confirmation_e != 0
+ROR_251:155:int_defroster(): confirmation_e > 0  =>   true
+ROR_252:155:int_defroster(): confirmation_e > 0  =>   false
+ROR_253:166:int_defroster(): We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024  =>   We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 > 1024
+ROR_254:166:int_defroster(): We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024  =>   We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 >= 1024
+ROR_255:166:int_defroster(): We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024  =>   We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 < 1024
+ROR_256:166:int_defroster(): We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024  =>   We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 <= 1024
+ROR_257:166:int_defroster(): We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024  =>   We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 != 1024
+ROR_258:166:int_defroster(): We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024  =>   true
+ROR_259:166:int_defroster(): We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024  =>   false
+ROR_260:169:int_defroster(): We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024  =>   We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 > 1024
+ROR_261:169:int_defroster(): We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024  =>   We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 >= 1024
+ROR_262:169:int_defroster(): We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024  =>   We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 < 1024
+ROR_263:169:int_defroster(): We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024  =>   We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 <= 1024
+ROR_264:169:int_defroster(): We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024  =>   We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 != 1024
+ROR_265:169:int_defroster(): We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024  =>   true
+ROR_266:169:int_defroster(): We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024  =>   false
+COR_1:104:int_defroster(): We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0  =>   We1_BA_DEF_ev_ctr1 >= (int) 1000 || confirmation_e == 0
+COR_2:104:int_defroster(): We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0  =>   We1_BA_DEF_ev_ctr1 >= (int) 1000 ^ confirmation_e == 0
+COR_3:104:int_defroster(): We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0  =>   We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 || ControlElement_DEF == 0
+COR_4:104:int_defroster(): We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0  =>   (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0) ^ ControlElement_DEF == 0
+COR_5:143:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0  =>   We1_BA_DEF_ev_ctr0 >= (int) 3250 || error_e > 0
+COR_6:143:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0  =>   We1_BA_DEF_ev_ctr0 >= (int) 3250 ^ error_e > 0
+COR_7:143:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0  =>   We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 || confirmation_e > 0
+COR_8:143:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0  =>   (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0) ^ confirmation_e > 0
+COR_9:146:int_defroster(): request > 0 && error_e == 0  =>   request > 0 || error_e == 0
+COR_10:146:int_defroster(): request > 0 && error_e == 0  =>   request > 0 ^ error_e == 0
+COR_11:152:int_defroster(): request == 0 && error_e == 0  =>   request == 0 || error_e == 0
+COR_12:152:int_defroster(): request == 0 && error_e == 0  =>   request == 0 ^ error_e == 0
+COR_13:155:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0  =>   We1_BA_DEF_ev_ctr0 >= (int) 3250 || error_e > 0
+COR_14:155:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0  =>   We1_BA_DEF_ev_ctr0 >= (int) 3250 ^ error_e > 0
+COR_15:155:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0  =>   We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 || confirmation_e > 0
+COR_16:155:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0  =>   (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0) ^ confirmation_e > 0
+COD_1:75:int_defroster():!(We1_BA_DEF == We1_BA_DEF_ev) => We1_BA_DEF == We1_BA_DEF_ev
+COI_1:39:void_Exception_handler(): 0 != We6_BE_CONFIRM_ON  =>  !(0 != We6_BE_CONFIRM_ON)
+COI_2:42:void_Exception_handler(): 0 != We7_BE_LOSGELASSEN  =>  !(0 != We7_BE_LOSGELASSEN)
+COI_3:64:int_defroster(): 0 != We2_Clip15_OUT  =>  !(0 != We2_Clip15_OUT)
+COI_4:65:int_defroster(): 0 != Clip_15  =>  !(0 != Clip_15)
+COI_5:78:int_defroster(): 0 != We3_Clip15_ON  =>  !(0 != We3_Clip15_ON)
+COI_6:79:int_defroster(): Clip_15 == 0  =>  !(Clip_15 == 0)
+COI_7:80:int_defroster(): 0 != We11_BLINK_OUT  =>  !(0 != We11_BLINK_OUT)
+COI_8:83:int_defroster(): 0 != We12_BLINK_ON  =>  !(0 != We12_BLINK_ON)
+COI_9:87:int_defroster(): 0 != We5_BE_HANDLING  =>  !(0 != We5_BE_HANDLING)
+COI_10:90:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>  !(0 != We8_BE_CONFIRM_OUT)
+COI_11:93:int_defroster(): 0 != We9_DEF_OUT  =>  !(0 != We9_DEF_OUT)
+COI_12:103:int_defroster(): 0 != We5_BE_HANDLING  =>  !(0 != We5_BE_HANDLING)
+COI_13:104:int_defroster(): We1_BA_DEF_ev_ctr1 >= (int) 1000  =>  !(We1_BA_DEF_ev_ctr1 >= (int) 1000)
+COI_14:104:int_defroster(): confirmation_e == 0  =>  !(confirmation_e == 0)
+COI_15:104:int_defroster(): We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0  =>  !(We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0)
+COI_16:104:int_defroster(): ControlElement_DEF == 0  =>  !(ControlElement_DEF == 0)
+COI_17:104:int_defroster(): We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0  =>  !(We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0)
+COI_18:109:int_defroster(): 0 != We6_BE_CONFIRM_ON  =>  !(0 != We6_BE_CONFIRM_ON)
+COI_19:110:int_defroster(): ControlElement_DEF == 0  =>  !(ControlElement_DEF == 0)
+COI_20:115:int_defroster(): 0 != We7_BE_LOSGELASSEN  =>  !(0 != We7_BE_LOSGELASSEN)
+COI_21:116:int_defroster(): ControlElement_DEF > 0  =>  !(ControlElement_DEF > 0)
+COI_22:125:int_defroster(): 0 != We8_BE_CONFIRM_OUT  =>  !(0 != We8_BE_CONFIRM_OUT)
+COI_23:126:int_defroster(): ControlElement_DEF == 0  =>  !(ControlElement_DEF == 0)
+COI_24:131:int_defroster(): 0 != We9_DEF_OUT  =>  !(0 != We9_DEF_OUT)
+COI_25:132:int_defroster(): ControlElement_DEF > 0  =>  !(ControlElement_DEF > 0)
+COI_26:142:int_defroster(): 0 != We11_BLINK_OUT  =>  !(0 != We11_BLINK_OUT)
+COI_27:143:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>  !(We1_BA_DEF_ev_ctr0 >= (int) 3250)
+COI_28:143:int_defroster(): error_e > 0  =>  !(error_e > 0)
+COI_29:143:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0  =>  !(We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0)
+COI_30:143:int_defroster(): confirmation_e > 0  =>  !(confirmation_e > 0)
+COI_31:143:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0  =>  !(We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0)
+COI_32:146:int_defroster(): request > 0  =>  !(request > 0)
+COI_33:146:int_defroster(): error_e == 0  =>  !(error_e == 0)
+COI_34:146:int_defroster(): request > 0 && error_e == 0  =>  !(request > 0 && error_e == 0)
+COI_35:151:int_defroster(): 0 != We12_BLINK_ON  =>  !(0 != We12_BLINK_ON)
+COI_36:152:int_defroster(): request == 0  =>  !(request == 0)
+COI_37:152:int_defroster(): error_e == 0  =>  !(error_e == 0)
+COI_38:152:int_defroster(): request == 0 && error_e == 0  =>  !(request == 0 && error_e == 0)
+COI_39:155:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250  =>  !(We1_BA_DEF_ev_ctr0 >= (int) 3250)
+COI_40:155:int_defroster(): error_e > 0  =>  !(error_e > 0)
+COI_41:155:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0  =>  !(We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0)
+COI_42:155:int_defroster(): confirmation_e > 0  =>  !(confirmation_e > 0)
+COI_43:155:int_defroster(): We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0  =>  !(We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0)
+COI_44:166:int_defroster(): We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024  =>  !(We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024)
+COI_45:169:int_defroster(): We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024  =>  !(We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024)
+LOI_1:39:void_Exception_handler():We6_BE_CONFIRM_ON => ~We6_BE_CONFIRM_ON
+LOI_2:42:void_Exception_handler():We7_BE_LOSGELASSEN => ~We7_BE_LOSGELASSEN
+LOI_3:62:int_defroster():We1_BA_DEF_ev_ctr1 => ~We1_BA_DEF_ev_ctr1
+LOI_4:63:int_defroster():We1_BA_DEF_ev_ctr0 => ~We1_BA_DEF_ev_ctr0
+LOI_5:64:int_defroster():We2_Clip15_OUT => ~We2_Clip15_OUT
+LOI_6:65:int_defroster():Clip_15 => ~Clip_15
+LOI_7:74:int_defroster():We1_BA_DEF_ev_ctr2 => ~We1_BA_DEF_ev_ctr2
+LOI_8:74:int_defroster():We1_BA_DEF_ev_ctr2 => ~We1_BA_DEF_ev_ctr2
+LOI_9:74:int_defroster():We1_BA_DEF_ev_ctr3 => ~We1_BA_DEF_ev_ctr3
+LOI_10:75:int_defroster():We1_BA_DEF => ~We1_BA_DEF
+LOI_11:75:int_defroster():We1_BA_DEF_ev => ~We1_BA_DEF_ev
+LOI_12:78:int_defroster():We3_Clip15_ON => ~We3_Clip15_ON
+LOI_13:79:int_defroster():Clip_15 => ~Clip_15
+LOI_14:80:int_defroster():We11_BLINK_OUT => ~We11_BLINK_OUT
+LOI_15:83:int_defroster():We12_BLINK_ON => ~We12_BLINK_ON
+LOI_16:87:int_defroster():We5_BE_HANDLING => ~We5_BE_HANDLING
+LOI_17:90:int_defroster():We8_BE_CONFIRM_OUT => ~We8_BE_CONFIRM_OUT
+LOI_18:93:int_defroster():We9_DEF_OUT => ~We9_DEF_OUT
+LOI_19:103:int_defroster():We5_BE_HANDLING => ~We5_BE_HANDLING
+LOI_20:104:int_defroster():We1_BA_DEF_ev_ctr1 => ~We1_BA_DEF_ev_ctr1
+LOI_21:104:int_defroster():confirmation_e => ~confirmation_e
+LOI_22:104:int_defroster():ControlElement_DEF => ~ControlElement_DEF
+LOI_23:109:int_defroster():We6_BE_CONFIRM_ON => ~We6_BE_CONFIRM_ON
+LOI_24:110:int_defroster():ControlElement_DEF => ~ControlElement_DEF
+LOI_25:115:int_defroster():We7_BE_LOSGELASSEN => ~We7_BE_LOSGELASSEN
+LOI_26:116:int_defroster():ControlElement_DEF => ~ControlElement_DEF
+LOI_27:125:int_defroster():We8_BE_CONFIRM_OUT => ~We8_BE_CONFIRM_OUT
+LOI_28:126:int_defroster():ControlElement_DEF => ~ControlElement_DEF
+LOI_29:131:int_defroster():We9_DEF_OUT => ~We9_DEF_OUT
+LOI_30:132:int_defroster():ControlElement_DEF => ~ControlElement_DEF
+LOI_31:142:int_defroster():We11_BLINK_OUT => ~We11_BLINK_OUT
+LOI_32:143:int_defroster():We1_BA_DEF_ev_ctr0 => ~We1_BA_DEF_ev_ctr0
+LOI_33:143:int_defroster():error_e => ~error_e
+LOI_34:143:int_defroster():confirmation_e => ~confirmation_e
+LOI_35:146:int_defroster():request => ~request
+LOI_36:146:int_defroster():error_e => ~error_e
+LOI_37:151:int_defroster():We12_BLINK_ON => ~We12_BLINK_ON
+LOI_38:152:int_defroster():request => ~request
+LOI_39:152:int_defroster():error_e => ~error_e
+LOI_40:155:int_defroster():We1_BA_DEF_ev_ctr0 => ~We1_BA_DEF_ev_ctr0
+LOI_41:155:int_defroster():error_e => ~error_e
+LOI_42:155:int_defroster():confirmation_e => ~confirmation_e
+LOI_43:166:int_defroster():We1_BA_DEF_ev_ctr2 => ~We1_BA_DEF_ev_ctr2
+LOI_44:166:int_defroster():We1_BA_DEF_ev_ctr3 => ~We1_BA_DEF_ev_ctr3
+LOI_45:166:int_defroster():We1_BA_DEF_ev_ctr5 => ~We1_BA_DEF_ev_ctr5
+LOI_46:169:int_defroster():We1_BA_DEF_ev_ctr2 => ~We1_BA_DEF_ev_ctr2
+LOI_47:169:int_defroster():We1_BA_DEF_ev_ctr3 => ~We1_BA_DEF_ev_ctr3
+LOI_48:169:int_defroster():We1_BA_DEF_ev_ctr5 => ~We1_BA_DEF_ev_ctr5
+LOI_49:175:int_defroster():We7_BE_LOSGELASSEN => ~We7_BE_LOSGELASSEN
+LOI_50:175:int_defroster():We6_BE_CONFIRM_ON => ~We6_BE_CONFIRM_ON
+LOI_51:175:int_defroster():We12_BLINK_ON => ~We12_BLINK_ON
+LOI_52:175:int_defroster():We9_DEF_OUT => ~We9_DEF_OUT
+LOI_53:175:int_defroster():We8_BE_CONFIRM_OUT => ~We8_BE_CONFIRM_OUT
+LOI_54:175:int_defroster():We5_BE_HANDLING => ~We5_BE_HANDLING
+LOI_55:175:int_defroster():We11_BLINK_OUT => ~We11_BLINK_OUT
+LOI_56:175:int_defroster():We2_Clip15_OUT => ~We2_Clip15_OUT
+LOI_57:175:int_defroster():We3_Clip15_ON => ~We3_Clip15_ON
+LOI_58:175:int_defroster():We1_BA_DEF_ev_ctr0 => ~We1_BA_DEF_ev_ctr0
+LOI_59:175:int_defroster():We1_BA_DEF_ev_ctr1 => ~We1_BA_DEF_ev_ctr1
+LOI_60:175:int_defroster():We1_BA_DEF_ev_ctr2 => ~We1_BA_DEF_ev_ctr2
+LOI_61:175:int_defroster():We1_BA_DEF_ev_ctr3 => ~We1_BA_DEF_ev_ctr3
+LOI_62:175:int_defroster():We1_BA_DEF_ev_ctr5 => ~We1_BA_DEF_ev_ctr5
+LOI_63:175:int_defroster():error_e => ~error_e
+LOI_64:175:int_defroster():confirmation_e => ~confirmation_e
+LOI_65:175:int_defroster():Clip_15 => ~Clip_15
+LOI_66:175:int_defroster():ControlElement_DEF => ~ControlElement_DEF
+LOI_67:175:int_defroster():control_led => ~control_led
+LOI_68:175:int_defroster():request => ~request
+SDL_1:39:void_Exception_handler(): if (0 != We6_BE_CONFIRM_ON) {     We6_BE_CONFIRM_ON = 0; } else {     if (0 != We7_BE_LOSGELASSEN) {         We7_BE_LOSGELASSEN = 0;     } }  =>  
+SDL_2:40:void_Exception_handler(): We6_BE_CONFIRM_ON = 0;  =>  
+SDL_3:46:void_Exception_handler(): if (0 != We6_BE_CONFIRM_ON) {     We6_BE_CONFIRM_ON = 0; } else {     if (0 != We7_BE_LOSGELASSEN) {         We7_BE_LOSGELASSEN = 0;     } }  =>   if (true) {     We6_BE_CONFIRM_ON = 0; } else {     if (0 != We7_BE_LOSGELASSEN) {         We7_BE_LOSGELASSEN = 0;     } }
+SDL_4:42:void_Exception_handler(): if (0 != We7_BE_LOSGELASSEN) {     We7_BE_LOSGELASSEN = 0; }  =>  
+SDL_5:43:void_Exception_handler(): We7_BE_LOSGELASSEN = 0;  =>  
+SDL_6:45:void_Exception_handler(): if (0 != We7_BE_LOSGELASSEN) {     We7_BE_LOSGELASSEN = 0; }  =>   if (true) {     We7_BE_LOSGELASSEN = 0; }
+SDL_7:176:int_defroster(): int We1_BA_DEF_ev = 0; int We1_BA_DEF; We1_BA_DEF_ev_ctr1++; We1_BA_DEF_ev_ctr0++; if (0 != We2_Clip15_OUT) {     if (0 != Clip_15) {         We2_Clip15_OUT = 0;         We3_Clip15_ON = 1;         We9_DEF_OUT = 1;         We1_BA_DEF_ev_ctr0 = 0;         We11_BLINK_OUT = 1;         control_led = 0;     } } else {     We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000);     if (!(We1_BA_DEF == We1_BA_DEF_ev)) {         We1_BA_DEF_ev_ctr2 = 0;     }     if (0 != We3_Clip15_ON) {         if (Clip_15 == 0) {             if (0 != We11_BLINK_OUT) {                 We11_BLINK_OUT = 0;             } else {                 if (0 != We12_BLINK_ON) {                     We12_BLINK_ON = 0;                 }             }             if (0 != We5_BE_HANDLING) {                 Exception_handler();             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     We8_BE_CONFIRM_OUT = 0;                 } else {                     if (0 != We9_DEF_OUT) {                         We9_DEF_OUT = 0;                     }                 }             }             We3_Clip15_ON = 0;             request = 0;             control_led = 0;             We2_Clip15_OUT = 1;         } else {             if (0 != We5_BE_HANDLING) {                 if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                     Exception_handler();                     request = 0;                     We9_DEF_OUT = 1;                 } else {                     if (0 != We6_BE_CONFIRM_ON) {                         if (ControlElement_DEF == 0) {                             We6_BE_CONFIRM_ON = 0;                             We7_BE_LOSGELASSEN = 1;                         }                     } else {                         if (0 != We7_BE_LOSGELASSEN) {                             if (ControlElement_DEF > 0) {                                 Exception_handler();                                 request = 0;                                 We8_BE_CONFIRM_OUT = 1;                             }                         }                     }                 }             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     if (ControlElement_DEF == 0) {                         We8_BE_CONFIRM_OUT = 0;                         We9_DEF_OUT = 1;                     }                 } else {                     if (0 != We9_DEF_OUT) {                         if (ControlElement_DEF > 0) {                             We9_DEF_OUT = 0;                             request = 1;                             We1_BA_DEF_ev_ctr1 = 0;                             We5_BE_HANDLING = 1;                             We6_BE_CONFIRM_ON = 1;                         }                     }                 }             }             if (0 != We11_BLINK_OUT) {                 if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                     We11_BLINK_OUT = 0;                 } else {                     if (request > 0 && error_e == 0) {                         We11_BLINK_OUT = 0;                     }                 }             } else {                 if (0 != We12_BLINK_ON) {                     if (request == 0 && error_e == 0) {                         We12_BLINK_ON = 0;                     } else {                         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                             We12_BLINK_ON = 0;                         }                     }                 }             }         }     } else {         We2_Clip15_OUT = 1;     } } if (We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024) {     We1_BA_DEF_ev_ctr2 = 32767; } else {     if (We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024) {         We1_BA_DEF_ev_ctr2 = -32768;     } else {         We1_BA_DEF_ev_ctr2 = 32767;     } } int[] arr = { We7_BE_LOSGELASSEN, We6_BE_CONFIRM_ON, We12_BLINK_ON, We9_DEF_OUT, We8_BE_CONFIRM_OUT, We5_BE_HANDLING, We11_BLINK_OUT, We2_Clip15_OUT, We3_Clip15_ON, We1_BA_DEF_ev_ctr0, We1_BA_DEF_ev_ctr1, We1_BA_DEF_ev_ctr2, We1_BA_DEF_ev_ctr3, We1_BA_DEF_ev_ctr5, error_e, confirmation_e, Clip_15, ControlElement_DEF, control_led, request }; return arr;  =>   int We1_BA_DEF_ev = 0; int We1_BA_DEF; We1_BA_DEF_ev_ctr0++; if (0 != We2_Clip15_OUT) {     if (0 != Clip_15) {         We2_Clip15_OUT = 0;         We3_Clip15_ON = 1;         We9_DEF_OUT = 1;         We1_BA_DEF_ev_ctr0 = 0;         We11_BLINK_OUT = 1;         control_led = 0;     } } else {     We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000);     if (!(We1_BA_DEF == We1_BA_DEF_ev)) {         We1_BA_DEF_ev_ctr2 = 0;     }     if (0 != We3_Clip15_ON) {         if (Clip_15 == 0) {             if (0 != We11_BLINK_OUT) {                 We11_BLINK_OUT = 0;             } else {                 if (0 != We12_BLINK_ON) {                     We12_BLINK_ON = 0;                 }             }             if (0 != We5_BE_HANDLING) {                 Exception_handler();             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     We8_BE_CONFIRM_OUT = 0;                 } else {                     if (0 != We9_DEF_OUT) {                         We9_DEF_OUT = 0;                     }                 }             }             We3_Clip15_ON = 0;             request = 0;             control_led = 0;             We2_Clip15_OUT = 1;         } else {             if (0 != We5_BE_HANDLING) {                 if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                     Exception_handler();                     request = 0;                     We9_DEF_OUT = 1;                 } else {                     if (0 != We6_BE_CONFIRM_ON) {                         if (ControlElement_DEF == 0) {                             We6_BE_CONFIRM_ON = 0;                             We7_BE_LOSGELASSEN = 1;                         }                     } else {                         if (0 != We7_BE_LOSGELASSEN) {                             if (ControlElement_DEF > 0) {                                 Exception_handler();                                 request = 0;                                 We8_BE_CONFIRM_OUT = 1;                             }                         }                     }                 }             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     if (ControlElement_DEF == 0) {                         We8_BE_CONFIRM_OUT = 0;                         We9_DEF_OUT = 1;                     }                 } else {                     if (0 != We9_DEF_OUT) {                         if (ControlElement_DEF > 0) {                             We9_DEF_OUT = 0;                             request = 1;                             We1_BA_DEF_ev_ctr1 = 0;                             We5_BE_HANDLING = 1;                             We6_BE_CONFIRM_ON = 1;                         }                     }                 }             }             if (0 != We11_BLINK_OUT) {                 if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                     We11_BLINK_OUT = 0;                 } else {                     if (request > 0 && error_e == 0) {                         We11_BLINK_OUT = 0;                     }                 }             } else {                 if (0 != We12_BLINK_ON) {                     if (request == 0 && error_e == 0) {                         We12_BLINK_ON = 0;                     } else {                         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                             We12_BLINK_ON = 0;                         }                     }                 }             }         }     } else {         We2_Clip15_OUT = 1;     } } if (We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024) {     We1_BA_DEF_ev_ctr2 = 32767; } else {     if (We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024) {         We1_BA_DEF_ev_ctr2 = -32768;     } else {         We1_BA_DEF_ev_ctr2 = 32767;     } } int[] arr = { We7_BE_LOSGELASSEN, We6_BE_CONFIRM_ON, We12_BLINK_ON, We9_DEF_OUT, We8_BE_CONFIRM_OUT, We5_BE_HANDLING, We11_BLINK_OUT, We2_Clip15_OUT, We3_Clip15_ON, We1_BA_DEF_ev_ctr0, We1_BA_DEF_ev_ctr1, We1_BA_DEF_ev_ctr2, We1_BA_DEF_ev_ctr3, We1_BA_DEF_ev_ctr5, error_e, confirmation_e, Clip_15, ControlElement_DEF, control_led, request }; return arr;
+SDL_8:176:int_defroster(): int We1_BA_DEF_ev = 0; int We1_BA_DEF; We1_BA_DEF_ev_ctr1++; We1_BA_DEF_ev_ctr0++; if (0 != We2_Clip15_OUT) {     if (0 != Clip_15) {         We2_Clip15_OUT = 0;         We3_Clip15_ON = 1;         We9_DEF_OUT = 1;         We1_BA_DEF_ev_ctr0 = 0;         We11_BLINK_OUT = 1;         control_led = 0;     } } else {     We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000);     if (!(We1_BA_DEF == We1_BA_DEF_ev)) {         We1_BA_DEF_ev_ctr2 = 0;     }     if (0 != We3_Clip15_ON) {         if (Clip_15 == 0) {             if (0 != We11_BLINK_OUT) {                 We11_BLINK_OUT = 0;             } else {                 if (0 != We12_BLINK_ON) {                     We12_BLINK_ON = 0;                 }             }             if (0 != We5_BE_HANDLING) {                 Exception_handler();             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     We8_BE_CONFIRM_OUT = 0;                 } else {                     if (0 != We9_DEF_OUT) {                         We9_DEF_OUT = 0;                     }                 }             }             We3_Clip15_ON = 0;             request = 0;             control_led = 0;             We2_Clip15_OUT = 1;         } else {             if (0 != We5_BE_HANDLING) {                 if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                     Exception_handler();                     request = 0;                     We9_DEF_OUT = 1;                 } else {                     if (0 != We6_BE_CONFIRM_ON) {                         if (ControlElement_DEF == 0) {                             We6_BE_CONFIRM_ON = 0;                             We7_BE_LOSGELASSEN = 1;                         }                     } else {                         if (0 != We7_BE_LOSGELASSEN) {                             if (ControlElement_DEF > 0) {                                 Exception_handler();                                 request = 0;                                 We8_BE_CONFIRM_OUT = 1;                             }                         }                     }                 }             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     if (ControlElement_DEF == 0) {                         We8_BE_CONFIRM_OUT = 0;                         We9_DEF_OUT = 1;                     }                 } else {                     if (0 != We9_DEF_OUT) {                         if (ControlElement_DEF > 0) {                             We9_DEF_OUT = 0;                             request = 1;                             We1_BA_DEF_ev_ctr1 = 0;                             We5_BE_HANDLING = 1;                             We6_BE_CONFIRM_ON = 1;                         }                     }                 }             }             if (0 != We11_BLINK_OUT) {                 if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                     We11_BLINK_OUT = 0;                 } else {                     if (request > 0 && error_e == 0) {                         We11_BLINK_OUT = 0;                     }                 }             } else {                 if (0 != We12_BLINK_ON) {                     if (request == 0 && error_e == 0) {                         We12_BLINK_ON = 0;                     } else {                         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                             We12_BLINK_ON = 0;                         }                     }                 }             }         }     } else {         We2_Clip15_OUT = 1;     } } if (We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024) {     We1_BA_DEF_ev_ctr2 = 32767; } else {     if (We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024) {         We1_BA_DEF_ev_ctr2 = -32768;     } else {         We1_BA_DEF_ev_ctr2 = 32767;     } } int[] arr = { We7_BE_LOSGELASSEN, We6_BE_CONFIRM_ON, We12_BLINK_ON, We9_DEF_OUT, We8_BE_CONFIRM_OUT, We5_BE_HANDLING, We11_BLINK_OUT, We2_Clip15_OUT, We3_Clip15_ON, We1_BA_DEF_ev_ctr0, We1_BA_DEF_ev_ctr1, We1_BA_DEF_ev_ctr2, We1_BA_DEF_ev_ctr3, We1_BA_DEF_ev_ctr5, error_e, confirmation_e, Clip_15, ControlElement_DEF, control_led, request }; return arr;  =>   int We1_BA_DEF_ev = 0; int We1_BA_DEF; We1_BA_DEF_ev_ctr1++; if (0 != We2_Clip15_OUT) {     if (0 != Clip_15) {         We2_Clip15_OUT = 0;         We3_Clip15_ON = 1;         We9_DEF_OUT = 1;         We1_BA_DEF_ev_ctr0 = 0;         We11_BLINK_OUT = 1;         control_led = 0;     } } else {     We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000);     if (!(We1_BA_DEF == We1_BA_DEF_ev)) {         We1_BA_DEF_ev_ctr2 = 0;     }     if (0 != We3_Clip15_ON) {         if (Clip_15 == 0) {             if (0 != We11_BLINK_OUT) {                 We11_BLINK_OUT = 0;             } else {                 if (0 != We12_BLINK_ON) {                     We12_BLINK_ON = 0;                 }             }             if (0 != We5_BE_HANDLING) {                 Exception_handler();             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     We8_BE_CONFIRM_OUT = 0;                 } else {                     if (0 != We9_DEF_OUT) {                         We9_DEF_OUT = 0;                     }                 }             }             We3_Clip15_ON = 0;             request = 0;             control_led = 0;             We2_Clip15_OUT = 1;         } else {             if (0 != We5_BE_HANDLING) {                 if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                     Exception_handler();                     request = 0;                     We9_DEF_OUT = 1;                 } else {                     if (0 != We6_BE_CONFIRM_ON) {                         if (ControlElement_DEF == 0) {                             We6_BE_CONFIRM_ON = 0;                             We7_BE_LOSGELASSEN = 1;                         }                     } else {                         if (0 != We7_BE_LOSGELASSEN) {                             if (ControlElement_DEF > 0) {                                 Exception_handler();                                 request = 0;                                 We8_BE_CONFIRM_OUT = 1;                             }                         }                     }                 }             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     if (ControlElement_DEF == 0) {                         We8_BE_CONFIRM_OUT = 0;                         We9_DEF_OUT = 1;                     }                 } else {                     if (0 != We9_DEF_OUT) {                         if (ControlElement_DEF > 0) {                             We9_DEF_OUT = 0;                             request = 1;                             We1_BA_DEF_ev_ctr1 = 0;                             We5_BE_HANDLING = 1;                             We6_BE_CONFIRM_ON = 1;                         }                     }                 }             }             if (0 != We11_BLINK_OUT) {                 if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                     We11_BLINK_OUT = 0;                 } else {                     if (request > 0 && error_e == 0) {                         We11_BLINK_OUT = 0;                     }                 }             } else {                 if (0 != We12_BLINK_ON) {                     if (request == 0 && error_e == 0) {                         We12_BLINK_ON = 0;                     } else {                         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                             We12_BLINK_ON = 0;                         }                     }                 }             }         }     } else {         We2_Clip15_OUT = 1;     } } if (We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024) {     We1_BA_DEF_ev_ctr2 = 32767; } else {     if (We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024) {         We1_BA_DEF_ev_ctr2 = -32768;     } else {         We1_BA_DEF_ev_ctr2 = 32767;     } } int[] arr = { We7_BE_LOSGELASSEN, We6_BE_CONFIRM_ON, We12_BLINK_ON, We9_DEF_OUT, We8_BE_CONFIRM_OUT, We5_BE_HANDLING, We11_BLINK_OUT, We2_Clip15_OUT, We3_Clip15_ON, We1_BA_DEF_ev_ctr0, We1_BA_DEF_ev_ctr1, We1_BA_DEF_ev_ctr2, We1_BA_DEF_ev_ctr3, We1_BA_DEF_ev_ctr5, error_e, confirmation_e, Clip_15, ControlElement_DEF, control_led, request }; return arr;
+SDL_9:75:int_defroster(): int We1_BA_DEF_ev = 0; int We1_BA_DEF; We1_BA_DEF_ev_ctr1++; We1_BA_DEF_ev_ctr0++; if (0 != We2_Clip15_OUT) {     if (0 != Clip_15) {         We2_Clip15_OUT = 0;         We3_Clip15_ON = 1;         We9_DEF_OUT = 1;         We1_BA_DEF_ev_ctr0 = 0;         We11_BLINK_OUT = 1;         control_led = 0;     } } else {     We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000);     if (!(We1_BA_DEF == We1_BA_DEF_ev)) {         We1_BA_DEF_ev_ctr2 = 0;     }     if (0 != We3_Clip15_ON) {         if (Clip_15 == 0) {             if (0 != We11_BLINK_OUT) {                 We11_BLINK_OUT = 0;             } else {                 if (0 != We12_BLINK_ON) {                     We12_BLINK_ON = 0;                 }             }             if (0 != We5_BE_HANDLING) {                 Exception_handler();             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     We8_BE_CONFIRM_OUT = 0;                 } else {                     if (0 != We9_DEF_OUT) {                         We9_DEF_OUT = 0;                     }                 }             }             We3_Clip15_ON = 0;             request = 0;             control_led = 0;             We2_Clip15_OUT = 1;         } else {             if (0 != We5_BE_HANDLING) {                 if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                     Exception_handler();                     request = 0;                     We9_DEF_OUT = 1;                 } else {                     if (0 != We6_BE_CONFIRM_ON) {                         if (ControlElement_DEF == 0) {                             We6_BE_CONFIRM_ON = 0;                             We7_BE_LOSGELASSEN = 1;                         }                     } else {                         if (0 != We7_BE_LOSGELASSEN) {                             if (ControlElement_DEF > 0) {                                 Exception_handler();                                 request = 0;                                 We8_BE_CONFIRM_OUT = 1;                             }                         }                     }                 }             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     if (ControlElement_DEF == 0) {                         We8_BE_CONFIRM_OUT = 0;                         We9_DEF_OUT = 1;                     }                 } else {                     if (0 != We9_DEF_OUT) {                         if (ControlElement_DEF > 0) {                             We9_DEF_OUT = 0;                             request = 1;                             We1_BA_DEF_ev_ctr1 = 0;                             We5_BE_HANDLING = 1;                             We6_BE_CONFIRM_ON = 1;                         }                     }                 }             }             if (0 != We11_BLINK_OUT) {                 if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                     We11_BLINK_OUT = 0;                 } else {                     if (request > 0 && error_e == 0) {                         We11_BLINK_OUT = 0;                     }                 }             } else {                 if (0 != We12_BLINK_ON) {                     if (request == 0 && error_e == 0) {                         We12_BLINK_ON = 0;                     } else {                         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                             We12_BLINK_ON = 0;                         }                     }                 }             }         }     } else {         We2_Clip15_OUT = 1;     } } if (We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024) {     We1_BA_DEF_ev_ctr2 = 32767; } else {     if (We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024) {         We1_BA_DEF_ev_ctr2 = -32768;     } else {         We1_BA_DEF_ev_ctr2 = 32767;     } } int[] arr = { We7_BE_LOSGELASSEN, We6_BE_CONFIRM_ON, We12_BLINK_ON, We9_DEF_OUT, We8_BE_CONFIRM_OUT, We5_BE_HANDLING, We11_BLINK_OUT, We2_Clip15_OUT, We3_Clip15_ON, We1_BA_DEF_ev_ctr0, We1_BA_DEF_ev_ctr1, We1_BA_DEF_ev_ctr2, We1_BA_DEF_ev_ctr3, We1_BA_DEF_ev_ctr5, error_e, confirmation_e, Clip_15, ControlElement_DEF, control_led, request }; return arr;  =>   int We1_BA_DEF_ev = 0; int We1_BA_DEF; We1_BA_DEF_ev_ctr1++; We1_BA_DEF_ev_ctr0++; if (We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024) {     We1_BA_DEF_ev_ctr2 = 32767; } else {     if (We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024) {         We1_BA_DEF_ev_ctr2 = -32768;     } else {         We1_BA_DEF_ev_ctr2 = 32767;     } } int[] arr = { We7_BE_LOSGELASSEN, We6_BE_CONFIRM_ON, We12_BLINK_ON, We9_DEF_OUT, We8_BE_CONFIRM_OUT, We5_BE_HANDLING, We11_BLINK_OUT, We2_Clip15_OUT, We3_Clip15_ON, We1_BA_DEF_ev_ctr0, We1_BA_DEF_ev_ctr1, We1_BA_DEF_ev_ctr2, We1_BA_DEF_ev_ctr3, We1_BA_DEF_ev_ctr5, error_e, confirmation_e, Clip_15, ControlElement_DEF, control_led, request }; return arr;
+SDL_10:168:int_defroster(): int We1_BA_DEF_ev = 0; int We1_BA_DEF; We1_BA_DEF_ev_ctr1++; We1_BA_DEF_ev_ctr0++; if (0 != We2_Clip15_OUT) {     if (0 != Clip_15) {         We2_Clip15_OUT = 0;         We3_Clip15_ON = 1;         We9_DEF_OUT = 1;         We1_BA_DEF_ev_ctr0 = 0;         We11_BLINK_OUT = 1;         control_led = 0;     } } else {     We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000);     if (!(We1_BA_DEF == We1_BA_DEF_ev)) {         We1_BA_DEF_ev_ctr2 = 0;     }     if (0 != We3_Clip15_ON) {         if (Clip_15 == 0) {             if (0 != We11_BLINK_OUT) {                 We11_BLINK_OUT = 0;             } else {                 if (0 != We12_BLINK_ON) {                     We12_BLINK_ON = 0;                 }             }             if (0 != We5_BE_HANDLING) {                 Exception_handler();             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     We8_BE_CONFIRM_OUT = 0;                 } else {                     if (0 != We9_DEF_OUT) {                         We9_DEF_OUT = 0;                     }                 }             }             We3_Clip15_ON = 0;             request = 0;             control_led = 0;             We2_Clip15_OUT = 1;         } else {             if (0 != We5_BE_HANDLING) {                 if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                     Exception_handler();                     request = 0;                     We9_DEF_OUT = 1;                 } else {                     if (0 != We6_BE_CONFIRM_ON) {                         if (ControlElement_DEF == 0) {                             We6_BE_CONFIRM_ON = 0;                             We7_BE_LOSGELASSEN = 1;                         }                     } else {                         if (0 != We7_BE_LOSGELASSEN) {                             if (ControlElement_DEF > 0) {                                 Exception_handler();                                 request = 0;                                 We8_BE_CONFIRM_OUT = 1;                             }                         }                     }                 }             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     if (ControlElement_DEF == 0) {                         We8_BE_CONFIRM_OUT = 0;                         We9_DEF_OUT = 1;                     }                 } else {                     if (0 != We9_DEF_OUT) {                         if (ControlElement_DEF > 0) {                             We9_DEF_OUT = 0;                             request = 1;                             We1_BA_DEF_ev_ctr1 = 0;                             We5_BE_HANDLING = 1;                             We6_BE_CONFIRM_ON = 1;                         }                     }                 }             }             if (0 != We11_BLINK_OUT) {                 if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                     We11_BLINK_OUT = 0;                 } else {                     if (request > 0 && error_e == 0) {                         We11_BLINK_OUT = 0;                     }                 }             } else {                 if (0 != We12_BLINK_ON) {                     if (request == 0 && error_e == 0) {                         We12_BLINK_ON = 0;                     } else {                         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                             We12_BLINK_ON = 0;                         }                     }                 }             }         }     } else {         We2_Clip15_OUT = 1;     } } if (We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024) {     We1_BA_DEF_ev_ctr2 = 32767; } else {     if (We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024) {         We1_BA_DEF_ev_ctr2 = -32768;     } else {         We1_BA_DEF_ev_ctr2 = 32767;     } } int[] arr = { We7_BE_LOSGELASSEN, We6_BE_CONFIRM_ON, We12_BLINK_ON, We9_DEF_OUT, We8_BE_CONFIRM_OUT, We5_BE_HANDLING, We11_BLINK_OUT, We2_Clip15_OUT, We3_Clip15_ON, We1_BA_DEF_ev_ctr0, We1_BA_DEF_ev_ctr1, We1_BA_DEF_ev_ctr2, We1_BA_DEF_ev_ctr3, We1_BA_DEF_ev_ctr5, error_e, confirmation_e, Clip_15, ControlElement_DEF, control_led, request }; return arr;  =>   int We1_BA_DEF_ev = 0; int We1_BA_DEF; We1_BA_DEF_ev_ctr1++; We1_BA_DEF_ev_ctr0++; if (0 != We2_Clip15_OUT) {     if (0 != Clip_15) {         We2_Clip15_OUT = 0;         We3_Clip15_ON = 1;         We9_DEF_OUT = 1;         We1_BA_DEF_ev_ctr0 = 0;         We11_BLINK_OUT = 1;         control_led = 0;     } } else {     We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000);     if (!(We1_BA_DEF == We1_BA_DEF_ev)) {         We1_BA_DEF_ev_ctr2 = 0;     }     if (0 != We3_Clip15_ON) {         if (Clip_15 == 0) {             if (0 != We11_BLINK_OUT) {                 We11_BLINK_OUT = 0;             } else {                 if (0 != We12_BLINK_ON) {                     We12_BLINK_ON = 0;                 }             }             if (0 != We5_BE_HANDLING) {                 Exception_handler();             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     We8_BE_CONFIRM_OUT = 0;                 } else {                     if (0 != We9_DEF_OUT) {                         We9_DEF_OUT = 0;                     }                 }             }             We3_Clip15_ON = 0;             request = 0;             control_led = 0;             We2_Clip15_OUT = 1;         } else {             if (0 != We5_BE_HANDLING) {                 if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                     Exception_handler();                     request = 0;                     We9_DEF_OUT = 1;                 } else {                     if (0 != We6_BE_CONFIRM_ON) {                         if (ControlElement_DEF == 0) {                             We6_BE_CONFIRM_ON = 0;                             We7_BE_LOSGELASSEN = 1;                         }                     } else {                         if (0 != We7_BE_LOSGELASSEN) {                             if (ControlElement_DEF > 0) {                                 Exception_handler();                                 request = 0;                                 We8_BE_CONFIRM_OUT = 1;                             }                         }                     }                 }             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     if (ControlElement_DEF == 0) {                         We8_BE_CONFIRM_OUT = 0;                         We9_DEF_OUT = 1;                     }                 } else {                     if (0 != We9_DEF_OUT) {                         if (ControlElement_DEF > 0) {                             We9_DEF_OUT = 0;                             request = 1;                             We1_BA_DEF_ev_ctr1 = 0;                             We5_BE_HANDLING = 1;                             We6_BE_CONFIRM_ON = 1;                         }                     }                 }             }             if (0 != We11_BLINK_OUT) {                 if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                     We11_BLINK_OUT = 0;                 } else {                     if (request > 0 && error_e == 0) {                         We11_BLINK_OUT = 0;                     }                 }             } else {                 if (0 != We12_BLINK_ON) {                     if (request == 0 && error_e == 0) {                         We12_BLINK_ON = 0;                     } else {                         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                             We12_BLINK_ON = 0;                         }                     }                 }             }         }     } else {         We2_Clip15_OUT = 1;     } } int[] arr = { We7_BE_LOSGELASSEN, We6_BE_CONFIRM_ON, We12_BLINK_ON, We9_DEF_OUT, We8_BE_CONFIRM_OUT, We5_BE_HANDLING, We11_BLINK_OUT, We2_Clip15_OUT, We3_Clip15_ON, We1_BA_DEF_ev_ctr0, We1_BA_DEF_ev_ctr1, We1_BA_DEF_ev_ctr2, We1_BA_DEF_ev_ctr3, We1_BA_DEF_ev_ctr5, error_e, confirmation_e, Clip_15, ControlElement_DEF, control_led, request }; return arr;
+SDL_11:65:int_defroster(): if (0 != Clip_15) {     We2_Clip15_OUT = 0;     We3_Clip15_ON = 1;     We9_DEF_OUT = 1;     We1_BA_DEF_ev_ctr0 = 0;     We11_BLINK_OUT = 1;     control_led = 0; }  =>  
+SDL_12:166:int_defroster(): if (0 != We2_Clip15_OUT) {     if (0 != Clip_15) {         We2_Clip15_OUT = 0;         We3_Clip15_ON = 1;         We9_DEF_OUT = 1;         We1_BA_DEF_ev_ctr0 = 0;         We11_BLINK_OUT = 1;         control_led = 0;     } } else {     We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000);     if (!(We1_BA_DEF == We1_BA_DEF_ev)) {         We1_BA_DEF_ev_ctr2 = 0;     }     if (0 != We3_Clip15_ON) {         if (Clip_15 == 0) {             if (0 != We11_BLINK_OUT) {                 We11_BLINK_OUT = 0;             } else {                 if (0 != We12_BLINK_ON) {                     We12_BLINK_ON = 0;                 }             }             if (0 != We5_BE_HANDLING) {                 Exception_handler();             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     We8_BE_CONFIRM_OUT = 0;                 } else {                     if (0 != We9_DEF_OUT) {                         We9_DEF_OUT = 0;                     }                 }             }             We3_Clip15_ON = 0;             request = 0;             control_led = 0;             We2_Clip15_OUT = 1;         } else {             if (0 != We5_BE_HANDLING) {                 if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                     Exception_handler();                     request = 0;                     We9_DEF_OUT = 1;                 } else {                     if (0 != We6_BE_CONFIRM_ON) {                         if (ControlElement_DEF == 0) {                             We6_BE_CONFIRM_ON = 0;                             We7_BE_LOSGELASSEN = 1;                         }                     } else {                         if (0 != We7_BE_LOSGELASSEN) {                             if (ControlElement_DEF > 0) {                                 Exception_handler();                                 request = 0;                                 We8_BE_CONFIRM_OUT = 1;                             }                         }                     }                 }             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     if (ControlElement_DEF == 0) {                         We8_BE_CONFIRM_OUT = 0;                         We9_DEF_OUT = 1;                     }                 } else {                     if (0 != We9_DEF_OUT) {                         if (ControlElement_DEF > 0) {                             We9_DEF_OUT = 0;                             request = 1;                             We1_BA_DEF_ev_ctr1 = 0;                             We5_BE_HANDLING = 1;                             We6_BE_CONFIRM_ON = 1;                         }                     }                 }             }             if (0 != We11_BLINK_OUT) {                 if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                     We11_BLINK_OUT = 0;                 } else {                     if (request > 0 && error_e == 0) {                         We11_BLINK_OUT = 0;                     }                 }             } else {                 if (0 != We12_BLINK_ON) {                     if (request == 0 && error_e == 0) {                         We12_BLINK_ON = 0;                     } else {                         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                             We12_BLINK_ON = 0;                         }                     }                 }             }         }     } else {         We2_Clip15_OUT = 1;     } }  =>   if (true) {     if (0 != Clip_15) {         We2_Clip15_OUT = 0;         We3_Clip15_ON = 1;         We9_DEF_OUT = 1;         We1_BA_DEF_ev_ctr0 = 0;         We11_BLINK_OUT = 1;         control_led = 0;     } } else {     We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000);     if (!(We1_BA_DEF == We1_BA_DEF_ev)) {         We1_BA_DEF_ev_ctr2 = 0;     }     if (0 != We3_Clip15_ON) {         if (Clip_15 == 0) {             if (0 != We11_BLINK_OUT) {                 We11_BLINK_OUT = 0;             } else {                 if (0 != We12_BLINK_ON) {                     We12_BLINK_ON = 0;                 }             }             if (0 != We5_BE_HANDLING) {                 Exception_handler();             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     We8_BE_CONFIRM_OUT = 0;                 } else {                     if (0 != We9_DEF_OUT) {                         We9_DEF_OUT = 0;                     }                 }             }             We3_Clip15_ON = 0;             request = 0;             control_led = 0;             We2_Clip15_OUT = 1;         } else {             if (0 != We5_BE_HANDLING) {                 if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                     Exception_handler();                     request = 0;                     We9_DEF_OUT = 1;                 } else {                     if (0 != We6_BE_CONFIRM_ON) {                         if (ControlElement_DEF == 0) {                             We6_BE_CONFIRM_ON = 0;                             We7_BE_LOSGELASSEN = 1;                         }                     } else {                         if (0 != We7_BE_LOSGELASSEN) {                             if (ControlElement_DEF > 0) {                                 Exception_handler();                                 request = 0;                                 We8_BE_CONFIRM_OUT = 1;                             }                         }                     }                 }             } else {                 if (0 != We8_BE_CONFIRM_OUT) {                     if (ControlElement_DEF == 0) {                         We8_BE_CONFIRM_OUT = 0;                         We9_DEF_OUT = 1;                     }                 } else {                     if (0 != We9_DEF_OUT) {                         if (ControlElement_DEF > 0) {                             We9_DEF_OUT = 0;                             request = 1;                             We1_BA_DEF_ev_ctr1 = 0;                             We5_BE_HANDLING = 1;                             We6_BE_CONFIRM_ON = 1;                         }                     }                 }             }             if (0 != We11_BLINK_OUT) {                 if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                     We11_BLINK_OUT = 0;                 } else {                     if (request > 0 && error_e == 0) {                         We11_BLINK_OUT = 0;                     }                 }             } else {                 if (0 != We12_BLINK_ON) {                     if (request == 0 && error_e == 0) {                         We12_BLINK_ON = 0;                     } else {                         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                             We12_BLINK_ON = 0;                         }                     }                 }             }         }     } else {         We2_Clip15_OUT = 1;     } }
+SDL_13:164:int_defroster(): We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000); if (!(We1_BA_DEF == We1_BA_DEF_ev)) {     We1_BA_DEF_ev_ctr2 = 0; } if (0 != We3_Clip15_ON) {     if (Clip_15 == 0) {         if (0 != We11_BLINK_OUT) {             We11_BLINK_OUT = 0;         } else {             if (0 != We12_BLINK_ON) {                 We12_BLINK_ON = 0;             }         }         if (0 != We5_BE_HANDLING) {             Exception_handler();         } else {             if (0 != We8_BE_CONFIRM_OUT) {                 We8_BE_CONFIRM_OUT = 0;             } else {                 if (0 != We9_DEF_OUT) {                     We9_DEF_OUT = 0;                 }             }         }         We3_Clip15_ON = 0;         request = 0;         control_led = 0;         We2_Clip15_OUT = 1;     } else {         if (0 != We5_BE_HANDLING) {             if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                 Exception_handler();                 request = 0;                 We9_DEF_OUT = 1;             } else {                 if (0 != We6_BE_CONFIRM_ON) {                     if (ControlElement_DEF == 0) {                         We6_BE_CONFIRM_ON = 0;                         We7_BE_LOSGELASSEN = 1;                     }                 } else {                     if (0 != We7_BE_LOSGELASSEN) {                         if (ControlElement_DEF > 0) {                             Exception_handler();                             request = 0;                             We8_BE_CONFIRM_OUT = 1;                         }                     }                 }             }         } else {             if (0 != We8_BE_CONFIRM_OUT) {                 if (ControlElement_DEF == 0) {                     We8_BE_CONFIRM_OUT = 0;                     We9_DEF_OUT = 1;                 }             } else {                 if (0 != We9_DEF_OUT) {                     if (ControlElement_DEF > 0) {                         We9_DEF_OUT = 0;                         request = 1;                         We1_BA_DEF_ev_ctr1 = 0;                         We5_BE_HANDLING = 1;                         We6_BE_CONFIRM_ON = 1;                     }                 }             }         }         if (0 != We11_BLINK_OUT) {             if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                 We11_BLINK_OUT = 0;             } else {                 if (request > 0 && error_e == 0) {                     We11_BLINK_OUT = 0;                 }             }         } else {             if (0 != We12_BLINK_ON) {                 if (request == 0 && error_e == 0) {                     We12_BLINK_ON = 0;                 } else {                     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                         We12_BLINK_ON = 0;                     }                 }             }         }     } } else {     We2_Clip15_OUT = 1; }  =>   if (!(We1_BA_DEF == We1_BA_DEF_ev)) {     We1_BA_DEF_ev_ctr2 = 0; } if (0 != We3_Clip15_ON) {     if (Clip_15 == 0) {         if (0 != We11_BLINK_OUT) {             We11_BLINK_OUT = 0;         } else {             if (0 != We12_BLINK_ON) {                 We12_BLINK_ON = 0;             }         }         if (0 != We5_BE_HANDLING) {             Exception_handler();         } else {             if (0 != We8_BE_CONFIRM_OUT) {                 We8_BE_CONFIRM_OUT = 0;             } else {                 if (0 != We9_DEF_OUT) {                     We9_DEF_OUT = 0;                 }             }         }         We3_Clip15_ON = 0;         request = 0;         control_led = 0;         We2_Clip15_OUT = 1;     } else {         if (0 != We5_BE_HANDLING) {             if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                 Exception_handler();                 request = 0;                 We9_DEF_OUT = 1;             } else {                 if (0 != We6_BE_CONFIRM_ON) {                     if (ControlElement_DEF == 0) {                         We6_BE_CONFIRM_ON = 0;                         We7_BE_LOSGELASSEN = 1;                     }                 } else {                     if (0 != We7_BE_LOSGELASSEN) {                         if (ControlElement_DEF > 0) {                             Exception_handler();                             request = 0;                             We8_BE_CONFIRM_OUT = 1;                         }                     }                 }             }         } else {             if (0 != We8_BE_CONFIRM_OUT) {                 if (ControlElement_DEF == 0) {                     We8_BE_CONFIRM_OUT = 0;                     We9_DEF_OUT = 1;                 }             } else {                 if (0 != We9_DEF_OUT) {                     if (ControlElement_DEF > 0) {                         We9_DEF_OUT = 0;                         request = 1;                         We1_BA_DEF_ev_ctr1 = 0;                         We5_BE_HANDLING = 1;                         We6_BE_CONFIRM_ON = 1;                     }                 }             }         }         if (0 != We11_BLINK_OUT) {             if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                 We11_BLINK_OUT = 0;             } else {                 if (request > 0 && error_e == 0) {                     We11_BLINK_OUT = 0;                 }             }         } else {             if (0 != We12_BLINK_ON) {                 if (request == 0 && error_e == 0) {                     We12_BLINK_ON = 0;                 } else {                     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                         We12_BLINK_ON = 0;                     }                 }             }         }     } } else {     We2_Clip15_OUT = 1; }
+SDL_14:162:int_defroster(): We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000); if (!(We1_BA_DEF == We1_BA_DEF_ev)) {     We1_BA_DEF_ev_ctr2 = 0; } if (0 != We3_Clip15_ON) {     if (Clip_15 == 0) {         if (0 != We11_BLINK_OUT) {             We11_BLINK_OUT = 0;         } else {             if (0 != We12_BLINK_ON) {                 We12_BLINK_ON = 0;             }         }         if (0 != We5_BE_HANDLING) {             Exception_handler();         } else {             if (0 != We8_BE_CONFIRM_OUT) {                 We8_BE_CONFIRM_OUT = 0;             } else {                 if (0 != We9_DEF_OUT) {                     We9_DEF_OUT = 0;                 }             }         }         We3_Clip15_ON = 0;         request = 0;         control_led = 0;         We2_Clip15_OUT = 1;     } else {         if (0 != We5_BE_HANDLING) {             if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                 Exception_handler();                 request = 0;                 We9_DEF_OUT = 1;             } else {                 if (0 != We6_BE_CONFIRM_ON) {                     if (ControlElement_DEF == 0) {                         We6_BE_CONFIRM_ON = 0;                         We7_BE_LOSGELASSEN = 1;                     }                 } else {                     if (0 != We7_BE_LOSGELASSEN) {                         if (ControlElement_DEF > 0) {                             Exception_handler();                             request = 0;                             We8_BE_CONFIRM_OUT = 1;                         }                     }                 }             }         } else {             if (0 != We8_BE_CONFIRM_OUT) {                 if (ControlElement_DEF == 0) {                     We8_BE_CONFIRM_OUT = 0;                     We9_DEF_OUT = 1;                 }             } else {                 if (0 != We9_DEF_OUT) {                     if (ControlElement_DEF > 0) {                         We9_DEF_OUT = 0;                         request = 1;                         We1_BA_DEF_ev_ctr1 = 0;                         We5_BE_HANDLING = 1;                         We6_BE_CONFIRM_ON = 1;                     }                 }             }         }         if (0 != We11_BLINK_OUT) {             if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                 We11_BLINK_OUT = 0;             } else {                 if (request > 0 && error_e == 0) {                     We11_BLINK_OUT = 0;                 }             }         } else {             if (0 != We12_BLINK_ON) {                 if (request == 0 && error_e == 0) {                     We12_BLINK_ON = 0;                 } else {                     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                         We12_BLINK_ON = 0;                     }                 }             }         }     } } else {     We2_Clip15_OUT = 1; }  =>   We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000); if (0 != We3_Clip15_ON) {     if (Clip_15 == 0) {         if (0 != We11_BLINK_OUT) {             We11_BLINK_OUT = 0;         } else {             if (0 != We12_BLINK_ON) {                 We12_BLINK_ON = 0;             }         }         if (0 != We5_BE_HANDLING) {             Exception_handler();         } else {             if (0 != We8_BE_CONFIRM_OUT) {                 We8_BE_CONFIRM_OUT = 0;             } else {                 if (0 != We9_DEF_OUT) {                     We9_DEF_OUT = 0;                 }             }         }         We3_Clip15_ON = 0;         request = 0;         control_led = 0;         We2_Clip15_OUT = 1;     } else {         if (0 != We5_BE_HANDLING) {             if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                 Exception_handler();                 request = 0;                 We9_DEF_OUT = 1;             } else {                 if (0 != We6_BE_CONFIRM_ON) {                     if (ControlElement_DEF == 0) {                         We6_BE_CONFIRM_ON = 0;                         We7_BE_LOSGELASSEN = 1;                     }                 } else {                     if (0 != We7_BE_LOSGELASSEN) {                         if (ControlElement_DEF > 0) {                             Exception_handler();                             request = 0;                             We8_BE_CONFIRM_OUT = 1;                         }                     }                 }             }         } else {             if (0 != We8_BE_CONFIRM_OUT) {                 if (ControlElement_DEF == 0) {                     We8_BE_CONFIRM_OUT = 0;                     We9_DEF_OUT = 1;                 }             } else {                 if (0 != We9_DEF_OUT) {                     if (ControlElement_DEF > 0) {                         We9_DEF_OUT = 0;                         request = 1;                         We1_BA_DEF_ev_ctr1 = 0;                         We5_BE_HANDLING = 1;                         We6_BE_CONFIRM_ON = 1;                     }                 }             }         }         if (0 != We11_BLINK_OUT) {             if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                 We11_BLINK_OUT = 0;             } else {                 if (request > 0 && error_e == 0) {                     We11_BLINK_OUT = 0;                 }             }         } else {             if (0 != We12_BLINK_ON) {                 if (request == 0 && error_e == 0) {                     We12_BLINK_ON = 0;                 } else {                     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                         We12_BLINK_ON = 0;                     }                 }             }         }     } } else {     We2_Clip15_OUT = 1; }
+SDL_15:78:int_defroster(): We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000); if (!(We1_BA_DEF == We1_BA_DEF_ev)) {     We1_BA_DEF_ev_ctr2 = 0; } if (0 != We3_Clip15_ON) {     if (Clip_15 == 0) {         if (0 != We11_BLINK_OUT) {             We11_BLINK_OUT = 0;         } else {             if (0 != We12_BLINK_ON) {                 We12_BLINK_ON = 0;             }         }         if (0 != We5_BE_HANDLING) {             Exception_handler();         } else {             if (0 != We8_BE_CONFIRM_OUT) {                 We8_BE_CONFIRM_OUT = 0;             } else {                 if (0 != We9_DEF_OUT) {                     We9_DEF_OUT = 0;                 }             }         }         We3_Clip15_ON = 0;         request = 0;         control_led = 0;         We2_Clip15_OUT = 1;     } else {         if (0 != We5_BE_HANDLING) {             if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                 Exception_handler();                 request = 0;                 We9_DEF_OUT = 1;             } else {                 if (0 != We6_BE_CONFIRM_ON) {                     if (ControlElement_DEF == 0) {                         We6_BE_CONFIRM_ON = 0;                         We7_BE_LOSGELASSEN = 1;                     }                 } else {                     if (0 != We7_BE_LOSGELASSEN) {                         if (ControlElement_DEF > 0) {                             Exception_handler();                             request = 0;                             We8_BE_CONFIRM_OUT = 1;                         }                     }                 }             }         } else {             if (0 != We8_BE_CONFIRM_OUT) {                 if (ControlElement_DEF == 0) {                     We8_BE_CONFIRM_OUT = 0;                     We9_DEF_OUT = 1;                 }             } else {                 if (0 != We9_DEF_OUT) {                     if (ControlElement_DEF > 0) {                         We9_DEF_OUT = 0;                         request = 1;                         We1_BA_DEF_ev_ctr1 = 0;                         We5_BE_HANDLING = 1;                         We6_BE_CONFIRM_ON = 1;                     }                 }             }         }         if (0 != We11_BLINK_OUT) {             if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                 We11_BLINK_OUT = 0;             } else {                 if (request > 0 && error_e == 0) {                     We11_BLINK_OUT = 0;                 }             }         } else {             if (0 != We12_BLINK_ON) {                 if (request == 0 && error_e == 0) {                     We12_BLINK_ON = 0;                 } else {                     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                         We12_BLINK_ON = 0;                     }                 }             }         }     } } else {     We2_Clip15_OUT = 1; }  =>   We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000); if (!(We1_BA_DEF == We1_BA_DEF_ev)) {     We1_BA_DEF_ev_ctr2 = 0; }
+SDL_16:71:int_defroster(): We2_Clip15_OUT = 0; We3_Clip15_ON = 1; We9_DEF_OUT = 1; We1_BA_DEF_ev_ctr0 = 0; We11_BLINK_OUT = 1; control_led = 0;  =>   We3_Clip15_ON = 1; We9_DEF_OUT = 1; We1_BA_DEF_ev_ctr0 = 0; We11_BLINK_OUT = 1; control_led = 0;
+SDL_17:71:int_defroster(): We2_Clip15_OUT = 0; We3_Clip15_ON = 1; We9_DEF_OUT = 1; We1_BA_DEF_ev_ctr0 = 0; We11_BLINK_OUT = 1; control_led = 0;  =>   We2_Clip15_OUT = 0; We9_DEF_OUT = 1; We1_BA_DEF_ev_ctr0 = 0; We11_BLINK_OUT = 1; control_led = 0;
+SDL_18:71:int_defroster(): We2_Clip15_OUT = 0; We3_Clip15_ON = 1; We9_DEF_OUT = 1; We1_BA_DEF_ev_ctr0 = 0; We11_BLINK_OUT = 1; control_led = 0;  =>   We2_Clip15_OUT = 0; We3_Clip15_ON = 1; We1_BA_DEF_ev_ctr0 = 0; We11_BLINK_OUT = 1; control_led = 0;
+SDL_19:71:int_defroster(): We2_Clip15_OUT = 0; We3_Clip15_ON = 1; We9_DEF_OUT = 1; We1_BA_DEF_ev_ctr0 = 0; We11_BLINK_OUT = 1; control_led = 0;  =>   We2_Clip15_OUT = 0; We3_Clip15_ON = 1; We9_DEF_OUT = 1; We11_BLINK_OUT = 1; control_led = 0;
+SDL_20:71:int_defroster(): We2_Clip15_OUT = 0; We3_Clip15_ON = 1; We9_DEF_OUT = 1; We1_BA_DEF_ev_ctr0 = 0; We11_BLINK_OUT = 1; control_led = 0;  =>   We2_Clip15_OUT = 0; We3_Clip15_ON = 1; We9_DEF_OUT = 1; We1_BA_DEF_ev_ctr0 = 0; control_led = 0;
+SDL_21:71:int_defroster(): We2_Clip15_OUT = 0; We3_Clip15_ON = 1; We9_DEF_OUT = 1; We1_BA_DEF_ev_ctr0 = 0; We11_BLINK_OUT = 1; control_led = 0;  =>   We2_Clip15_OUT = 0; We3_Clip15_ON = 1; We9_DEF_OUT = 1; We1_BA_DEF_ev_ctr0 = 0; We11_BLINK_OUT = 1;
+SDL_22:73:int_defroster(): if (0 != Clip_15) {     We2_Clip15_OUT = 0;     We3_Clip15_ON = 1;     We9_DEF_OUT = 1;     We1_BA_DEF_ev_ctr0 = 0;     We11_BLINK_OUT = 1;     control_led = 0; }  =>   if (true) {     We2_Clip15_OUT = 0;     We3_Clip15_ON = 1;     We9_DEF_OUT = 1;     We1_BA_DEF_ev_ctr0 = 0;     We11_BLINK_OUT = 1;     control_led = 0; }
+SDL_23:76:int_defroster(): We1_BA_DEF_ev_ctr2 = 0;  =>  
+SDL_24:78:int_defroster(): if (!(We1_BA_DEF == We1_BA_DEF_ev)) {     We1_BA_DEF_ev_ctr2 = 0; }  =>   if (true) {     We1_BA_DEF_ev_ctr2 = 0; }
+SDL_25:79:int_defroster(): if (Clip_15 == 0) {     if (0 != We11_BLINK_OUT) {         We11_BLINK_OUT = 0;     } else {         if (0 != We12_BLINK_ON) {             We12_BLINK_ON = 0;         }     }     if (0 != We5_BE_HANDLING) {         Exception_handler();     } else {         if (0 != We8_BE_CONFIRM_OUT) {             We8_BE_CONFIRM_OUT = 0;         } else {             if (0 != We9_DEF_OUT) {                 We9_DEF_OUT = 0;             }         }     }     We3_Clip15_ON = 0;     request = 0;     control_led = 0;     We2_Clip15_OUT = 1; } else {     if (0 != We5_BE_HANDLING) {         if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {             Exception_handler();             request = 0;             We9_DEF_OUT = 1;         } else {             if (0 != We6_BE_CONFIRM_ON) {                 if (ControlElement_DEF == 0) {                     We6_BE_CONFIRM_ON = 0;                     We7_BE_LOSGELASSEN = 1;                 }             } else {                 if (0 != We7_BE_LOSGELASSEN) {                     if (ControlElement_DEF > 0) {                         Exception_handler();                         request = 0;                         We8_BE_CONFIRM_OUT = 1;                     }                 }             }         }     } else {         if (0 != We8_BE_CONFIRM_OUT) {             if (ControlElement_DEF == 0) {                 We8_BE_CONFIRM_OUT = 0;                 We9_DEF_OUT = 1;             }         } else {             if (0 != We9_DEF_OUT) {                 if (ControlElement_DEF > 0) {                     We9_DEF_OUT = 0;                     request = 1;                     We1_BA_DEF_ev_ctr1 = 0;                     We5_BE_HANDLING = 1;                     We6_BE_CONFIRM_ON = 1;                 }             }         }     }     if (0 != We11_BLINK_OUT) {         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {             We11_BLINK_OUT = 0;         } else {             if (request > 0 && error_e == 0) {                 We11_BLINK_OUT = 0;             }         }     } else {         if (0 != We12_BLINK_ON) {             if (request == 0 && error_e == 0) {                 We12_BLINK_ON = 0;             } else {                 if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                     We12_BLINK_ON = 0;                 }             }         }     } }  =>  
+SDL_26:165:int_defroster(): if (0 != We3_Clip15_ON) {     if (Clip_15 == 0) {         if (0 != We11_BLINK_OUT) {             We11_BLINK_OUT = 0;         } else {             if (0 != We12_BLINK_ON) {                 We12_BLINK_ON = 0;             }         }         if (0 != We5_BE_HANDLING) {             Exception_handler();         } else {             if (0 != We8_BE_CONFIRM_OUT) {                 We8_BE_CONFIRM_OUT = 0;             } else {                 if (0 != We9_DEF_OUT) {                     We9_DEF_OUT = 0;                 }             }         }         We3_Clip15_ON = 0;         request = 0;         control_led = 0;         We2_Clip15_OUT = 1;     } else {         if (0 != We5_BE_HANDLING) {             if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                 Exception_handler();                 request = 0;                 We9_DEF_OUT = 1;             } else {                 if (0 != We6_BE_CONFIRM_ON) {                     if (ControlElement_DEF == 0) {                         We6_BE_CONFIRM_ON = 0;                         We7_BE_LOSGELASSEN = 1;                     }                 } else {                     if (0 != We7_BE_LOSGELASSEN) {                         if (ControlElement_DEF > 0) {                             Exception_handler();                             request = 0;                             We8_BE_CONFIRM_OUT = 1;                         }                     }                 }             }         } else {             if (0 != We8_BE_CONFIRM_OUT) {                 if (ControlElement_DEF == 0) {                     We8_BE_CONFIRM_OUT = 0;                     We9_DEF_OUT = 1;                 }             } else {                 if (0 != We9_DEF_OUT) {                     if (ControlElement_DEF > 0) {                         We9_DEF_OUT = 0;                         request = 1;                         We1_BA_DEF_ev_ctr1 = 0;                         We5_BE_HANDLING = 1;                         We6_BE_CONFIRM_ON = 1;                     }                 }             }         }         if (0 != We11_BLINK_OUT) {             if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                 We11_BLINK_OUT = 0;             } else {                 if (request > 0 && error_e == 0) {                     We11_BLINK_OUT = 0;                 }             }         } else {             if (0 != We12_BLINK_ON) {                 if (request == 0 && error_e == 0) {                     We12_BLINK_ON = 0;                 } else {                     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                         We12_BLINK_ON = 0;                     }                 }             }         }     } } else {     We2_Clip15_OUT = 1; }  =>   if (true) {     if (Clip_15 == 0) {         if (0 != We11_BLINK_OUT) {             We11_BLINK_OUT = 0;         } else {             if (0 != We12_BLINK_ON) {                 We12_BLINK_ON = 0;             }         }         if (0 != We5_BE_HANDLING) {             Exception_handler();         } else {             if (0 != We8_BE_CONFIRM_OUT) {                 We8_BE_CONFIRM_OUT = 0;             } else {                 if (0 != We9_DEF_OUT) {                     We9_DEF_OUT = 0;                 }             }         }         We3_Clip15_ON = 0;         request = 0;         control_led = 0;         We2_Clip15_OUT = 1;     } else {         if (0 != We5_BE_HANDLING) {             if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {                 Exception_handler();                 request = 0;                 We9_DEF_OUT = 1;             } else {                 if (0 != We6_BE_CONFIRM_ON) {                     if (ControlElement_DEF == 0) {                         We6_BE_CONFIRM_ON = 0;                         We7_BE_LOSGELASSEN = 1;                     }                 } else {                     if (0 != We7_BE_LOSGELASSEN) {                         if (ControlElement_DEF > 0) {                             Exception_handler();                             request = 0;                             We8_BE_CONFIRM_OUT = 1;                         }                     }                 }             }         } else {             if (0 != We8_BE_CONFIRM_OUT) {                 if (ControlElement_DEF == 0) {                     We8_BE_CONFIRM_OUT = 0;                     We9_DEF_OUT = 1;                 }             } else {                 if (0 != We9_DEF_OUT) {                     if (ControlElement_DEF > 0) {                         We9_DEF_OUT = 0;                         request = 1;                         We1_BA_DEF_ev_ctr1 = 0;                         We5_BE_HANDLING = 1;                         We6_BE_CONFIRM_ON = 1;                     }                 }             }         }         if (0 != We11_BLINK_OUT) {             if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                 We11_BLINK_OUT = 0;             } else {                 if (request > 0 && error_e == 0) {                     We11_BLINK_OUT = 0;                 }             }         } else {             if (0 != We12_BLINK_ON) {                 if (request == 0 && error_e == 0) {                     We12_BLINK_ON = 0;                 } else {                     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                         We12_BLINK_ON = 0;                     }                 }             }         }     } } else {     We2_Clip15_OUT = 1; }
+SDL_27:163:int_defroster(): We2_Clip15_OUT = 1;  =>  
+SDL_28:95:int_defroster(): if (0 != We11_BLINK_OUT) {     We11_BLINK_OUT = 0; } else {     if (0 != We12_BLINK_ON) {         We12_BLINK_ON = 0;     } } if (0 != We5_BE_HANDLING) {     Exception_handler(); } else {     if (0 != We8_BE_CONFIRM_OUT) {         We8_BE_CONFIRM_OUT = 0;     } else {         if (0 != We9_DEF_OUT) {             We9_DEF_OUT = 0;         }     } } We3_Clip15_ON = 0; request = 0; control_led = 0; We2_Clip15_OUT = 1;  =>   if (0 != We5_BE_HANDLING) {     Exception_handler(); } else {     if (0 != We8_BE_CONFIRM_OUT) {         We8_BE_CONFIRM_OUT = 0;     } else {         if (0 != We9_DEF_OUT) {             We9_DEF_OUT = 0;         }     } } We3_Clip15_ON = 0; request = 0; control_led = 0; We2_Clip15_OUT = 1;
+SDL_29:91:int_defroster(): if (0 != We11_BLINK_OUT) {     We11_BLINK_OUT = 0; } else {     if (0 != We12_BLINK_ON) {         We12_BLINK_ON = 0;     } } if (0 != We5_BE_HANDLING) {     Exception_handler(); } else {     if (0 != We8_BE_CONFIRM_OUT) {         We8_BE_CONFIRM_OUT = 0;     } else {         if (0 != We9_DEF_OUT) {             We9_DEF_OUT = 0;         }     } } We3_Clip15_ON = 0; request = 0; control_led = 0; We2_Clip15_OUT = 1;  =>   if (0 != We11_BLINK_OUT) {     We11_BLINK_OUT = 0; } else {     if (0 != We12_BLINK_ON) {         We12_BLINK_ON = 0;     } } We3_Clip15_ON = 0; request = 0; control_led = 0; We2_Clip15_OUT = 1;
+SDL_30:101:int_defroster(): if (0 != We11_BLINK_OUT) {     We11_BLINK_OUT = 0; } else {     if (0 != We12_BLINK_ON) {         We12_BLINK_ON = 0;     } } if (0 != We5_BE_HANDLING) {     Exception_handler(); } else {     if (0 != We8_BE_CONFIRM_OUT) {         We8_BE_CONFIRM_OUT = 0;     } else {         if (0 != We9_DEF_OUT) {             We9_DEF_OUT = 0;         }     } } We3_Clip15_ON = 0; request = 0; control_led = 0; We2_Clip15_OUT = 1;  =>   if (0 != We11_BLINK_OUT) {     We11_BLINK_OUT = 0; } else {     if (0 != We12_BLINK_ON) {         We12_BLINK_ON = 0;     } } if (0 != We5_BE_HANDLING) {     Exception_handler(); } else {     if (0 != We8_BE_CONFIRM_OUT) {         We8_BE_CONFIRM_OUT = 0;     } else {         if (0 != We9_DEF_OUT) {             We9_DEF_OUT = 0;         }     } } request = 0; control_led = 0; We2_Clip15_OUT = 1;
+SDL_31:101:int_defroster(): if (0 != We11_BLINK_OUT) {     We11_BLINK_OUT = 0; } else {     if (0 != We12_BLINK_ON) {         We12_BLINK_ON = 0;     } } if (0 != We5_BE_HANDLING) {     Exception_handler(); } else {     if (0 != We8_BE_CONFIRM_OUT) {         We8_BE_CONFIRM_OUT = 0;     } else {         if (0 != We9_DEF_OUT) {             We9_DEF_OUT = 0;         }     } } We3_Clip15_ON = 0; request = 0; control_led = 0; We2_Clip15_OUT = 1;  =>   if (0 != We11_BLINK_OUT) {     We11_BLINK_OUT = 0; } else {     if (0 != We12_BLINK_ON) {         We12_BLINK_ON = 0;     } } if (0 != We5_BE_HANDLING) {     Exception_handler(); } else {     if (0 != We8_BE_CONFIRM_OUT) {         We8_BE_CONFIRM_OUT = 0;     } else {         if (0 != We9_DEF_OUT) {             We9_DEF_OUT = 0;         }     } } We3_Clip15_ON = 0; control_led = 0; We2_Clip15_OUT = 1;
+SDL_32:101:int_defroster(): if (0 != We11_BLINK_OUT) {     We11_BLINK_OUT = 0; } else {     if (0 != We12_BLINK_ON) {         We12_BLINK_ON = 0;     } } if (0 != We5_BE_HANDLING) {     Exception_handler(); } else {     if (0 != We8_BE_CONFIRM_OUT) {         We8_BE_CONFIRM_OUT = 0;     } else {         if (0 != We9_DEF_OUT) {             We9_DEF_OUT = 0;         }     } } We3_Clip15_ON = 0; request = 0; control_led = 0; We2_Clip15_OUT = 1;  =>   if (0 != We11_BLINK_OUT) {     We11_BLINK_OUT = 0; } else {     if (0 != We12_BLINK_ON) {         We12_BLINK_ON = 0;     } } if (0 != We5_BE_HANDLING) {     Exception_handler(); } else {     if (0 != We8_BE_CONFIRM_OUT) {         We8_BE_CONFIRM_OUT = 0;     } else {         if (0 != We9_DEF_OUT) {             We9_DEF_OUT = 0;         }     } } We3_Clip15_ON = 0; request = 0; We2_Clip15_OUT = 1;
+SDL_33:101:int_defroster(): if (0 != We11_BLINK_OUT) {     We11_BLINK_OUT = 0; } else {     if (0 != We12_BLINK_ON) {         We12_BLINK_ON = 0;     } } if (0 != We5_BE_HANDLING) {     Exception_handler(); } else {     if (0 != We8_BE_CONFIRM_OUT) {         We8_BE_CONFIRM_OUT = 0;     } else {         if (0 != We9_DEF_OUT) {             We9_DEF_OUT = 0;         }     } } We3_Clip15_ON = 0; request = 0; control_led = 0; We2_Clip15_OUT = 1;  =>   if (0 != We11_BLINK_OUT) {     We11_BLINK_OUT = 0; } else {     if (0 != We12_BLINK_ON) {         We12_BLINK_ON = 0;     } } if (0 != We5_BE_HANDLING) {     Exception_handler(); } else {     if (0 != We8_BE_CONFIRM_OUT) {         We8_BE_CONFIRM_OUT = 0;     } else {         if (0 != We9_DEF_OUT) {             We9_DEF_OUT = 0;         }     } } We3_Clip15_ON = 0; request = 0; control_led = 0;
+SDL_34:162:int_defroster(): if (Clip_15 == 0) {     if (0 != We11_BLINK_OUT) {         We11_BLINK_OUT = 0;     } else {         if (0 != We12_BLINK_ON) {             We12_BLINK_ON = 0;         }     }     if (0 != We5_BE_HANDLING) {         Exception_handler();     } else {         if (0 != We8_BE_CONFIRM_OUT) {             We8_BE_CONFIRM_OUT = 0;         } else {             if (0 != We9_DEF_OUT) {                 We9_DEF_OUT = 0;             }         }     }     We3_Clip15_ON = 0;     request = 0;     control_led = 0;     We2_Clip15_OUT = 1; } else {     if (0 != We5_BE_HANDLING) {         if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {             Exception_handler();             request = 0;             We9_DEF_OUT = 1;         } else {             if (0 != We6_BE_CONFIRM_ON) {                 if (ControlElement_DEF == 0) {                     We6_BE_CONFIRM_ON = 0;                     We7_BE_LOSGELASSEN = 1;                 }             } else {                 if (0 != We7_BE_LOSGELASSEN) {                     if (ControlElement_DEF > 0) {                         Exception_handler();                         request = 0;                         We8_BE_CONFIRM_OUT = 1;                     }                 }             }         }     } else {         if (0 != We8_BE_CONFIRM_OUT) {             if (ControlElement_DEF == 0) {                 We8_BE_CONFIRM_OUT = 0;                 We9_DEF_OUT = 1;             }         } else {             if (0 != We9_DEF_OUT) {                 if (ControlElement_DEF > 0) {                     We9_DEF_OUT = 0;                     request = 1;                     We1_BA_DEF_ev_ctr1 = 0;                     We5_BE_HANDLING = 1;                     We6_BE_CONFIRM_ON = 1;                 }             }         }     }     if (0 != We11_BLINK_OUT) {         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {             We11_BLINK_OUT = 0;         } else {             if (request > 0 && error_e == 0) {                 We11_BLINK_OUT = 0;             }         }     } else {         if (0 != We12_BLINK_ON) {             if (request == 0 && error_e == 0) {                 We12_BLINK_ON = 0;             } else {                 if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                     We12_BLINK_ON = 0;                 }             }         }     } }  =>   if (true) {     if (0 != We11_BLINK_OUT) {         We11_BLINK_OUT = 0;     } else {         if (0 != We12_BLINK_ON) {             We12_BLINK_ON = 0;         }     }     if (0 != We5_BE_HANDLING) {         Exception_handler();     } else {         if (0 != We8_BE_CONFIRM_OUT) {             We8_BE_CONFIRM_OUT = 0;         } else {             if (0 != We9_DEF_OUT) {                 We9_DEF_OUT = 0;             }         }     }     We3_Clip15_ON = 0;     request = 0;     control_led = 0;     We2_Clip15_OUT = 1; } else {     if (0 != We5_BE_HANDLING) {         if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {             Exception_handler();             request = 0;             We9_DEF_OUT = 1;         } else {             if (0 != We6_BE_CONFIRM_ON) {                 if (ControlElement_DEF == 0) {                     We6_BE_CONFIRM_ON = 0;                     We7_BE_LOSGELASSEN = 1;                 }             } else {                 if (0 != We7_BE_LOSGELASSEN) {                     if (ControlElement_DEF > 0) {                         Exception_handler();                         request = 0;                         We8_BE_CONFIRM_OUT = 1;                     }                 }             }         }     } else {         if (0 != We8_BE_CONFIRM_OUT) {             if (ControlElement_DEF == 0) {                 We8_BE_CONFIRM_OUT = 0;                 We9_DEF_OUT = 1;             }         } else {             if (0 != We9_DEF_OUT) {                 if (ControlElement_DEF > 0) {                     We9_DEF_OUT = 0;                     request = 1;                     We1_BA_DEF_ev_ctr1 = 0;                     We5_BE_HANDLING = 1;                     We6_BE_CONFIRM_ON = 1;                 }             }         }     }     if (0 != We11_BLINK_OUT) {         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {             We11_BLINK_OUT = 0;         } else {             if (request > 0 && error_e == 0) {                 We11_BLINK_OUT = 0;             }         }     } else {         if (0 != We12_BLINK_ON) {             if (request == 0 && error_e == 0) {                 We12_BLINK_ON = 0;             } else {                 if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                     We12_BLINK_ON = 0;                 }             }         }     } }
+SDL_35:122:int_defroster(): if (0 != We5_BE_HANDLING) {     if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {         Exception_handler();         request = 0;         We9_DEF_OUT = 1;     } else {         if (0 != We6_BE_CONFIRM_ON) {             if (ControlElement_DEF == 0) {                 We6_BE_CONFIRM_ON = 0;                 We7_BE_LOSGELASSEN = 1;             }         } else {             if (0 != We7_BE_LOSGELASSEN) {                 if (ControlElement_DEF > 0) {                     Exception_handler();                     request = 0;                     We8_BE_CONFIRM_OUT = 1;                 }             }         }     } } else {     if (0 != We8_BE_CONFIRM_OUT) {         if (ControlElement_DEF == 0) {             We8_BE_CONFIRM_OUT = 0;             We9_DEF_OUT = 1;         }     } else {         if (0 != We9_DEF_OUT) {             if (ControlElement_DEF > 0) {                 We9_DEF_OUT = 0;                 request = 1;                 We1_BA_DEF_ev_ctr1 = 0;                 We5_BE_HANDLING = 1;                 We6_BE_CONFIRM_ON = 1;             }         }     } } if (0 != We11_BLINK_OUT) {     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {         We11_BLINK_OUT = 0;     } else {         if (request > 0 && error_e == 0) {             We11_BLINK_OUT = 0;         }     } } else {     if (0 != We12_BLINK_ON) {         if (request == 0 && error_e == 0) {             We12_BLINK_ON = 0;         } else {             if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                 We12_BLINK_ON = 0;             }         }     } }  =>   if (0 != We11_BLINK_OUT) {     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {         We11_BLINK_OUT = 0;     } else {         if (request > 0 && error_e == 0) {             We11_BLINK_OUT = 0;         }     } } else {     if (0 != We12_BLINK_ON) {         if (request == 0 && error_e == 0) {             We12_BLINK_ON = 0;         } else {             if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                 We12_BLINK_ON = 0;             }         }     } }
+SDL_36:142:int_defroster(): if (0 != We5_BE_HANDLING) {     if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {         Exception_handler();         request = 0;         We9_DEF_OUT = 1;     } else {         if (0 != We6_BE_CONFIRM_ON) {             if (ControlElement_DEF == 0) {                 We6_BE_CONFIRM_ON = 0;                 We7_BE_LOSGELASSEN = 1;             }         } else {             if (0 != We7_BE_LOSGELASSEN) {                 if (ControlElement_DEF > 0) {                     Exception_handler();                     request = 0;                     We8_BE_CONFIRM_OUT = 1;                 }             }         }     } } else {     if (0 != We8_BE_CONFIRM_OUT) {         if (ControlElement_DEF == 0) {             We8_BE_CONFIRM_OUT = 0;             We9_DEF_OUT = 1;         }     } else {         if (0 != We9_DEF_OUT) {             if (ControlElement_DEF > 0) {                 We9_DEF_OUT = 0;                 request = 1;                 We1_BA_DEF_ev_ctr1 = 0;                 We5_BE_HANDLING = 1;                 We6_BE_CONFIRM_ON = 1;             }         }     } } if (0 != We11_BLINK_OUT) {     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {         We11_BLINK_OUT = 0;     } else {         if (request > 0 && error_e == 0) {             We11_BLINK_OUT = 0;         }     } } else {     if (0 != We12_BLINK_ON) {         if (request == 0 && error_e == 0) {             We12_BLINK_ON = 0;         } else {             if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                 We12_BLINK_ON = 0;             }         }     } }  =>   if (0 != We5_BE_HANDLING) {     if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {         Exception_handler();         request = 0;         We9_DEF_OUT = 1;     } else {         if (0 != We6_BE_CONFIRM_ON) {             if (ControlElement_DEF == 0) {                 We6_BE_CONFIRM_ON = 0;                 We7_BE_LOSGELASSEN = 1;             }         } else {             if (0 != We7_BE_LOSGELASSEN) {                 if (ControlElement_DEF > 0) {                     Exception_handler();                     request = 0;                     We8_BE_CONFIRM_OUT = 1;                 }             }         }     } } else {     if (0 != We8_BE_CONFIRM_OUT) {         if (ControlElement_DEF == 0) {             We8_BE_CONFIRM_OUT = 0;             We9_DEF_OUT = 1;         }     } else {         if (0 != We9_DEF_OUT) {             if (ControlElement_DEF > 0) {                 We9_DEF_OUT = 0;                 request = 1;                 We1_BA_DEF_ev_ctr1 = 0;                 We5_BE_HANDLING = 1;                 We6_BE_CONFIRM_ON = 1;             }         }     } }
+SDL_37:81:int_defroster(): We11_BLINK_OUT = 0;  =>  
+SDL_38:87:int_defroster(): if (0 != We11_BLINK_OUT) {     We11_BLINK_OUT = 0; } else {     if (0 != We12_BLINK_ON) {         We12_BLINK_ON = 0;     } }  =>   if (true) {     We11_BLINK_OUT = 0; } else {     if (0 != We12_BLINK_ON) {         We12_BLINK_ON = 0;     } }
+SDL_39:83:int_defroster(): if (0 != We12_BLINK_ON) {     We12_BLINK_ON = 0; }  =>  
+SDL_40:84:int_defroster(): We12_BLINK_ON = 0;  =>  
+SDL_41:86:int_defroster(): if (0 != We12_BLINK_ON) {     We12_BLINK_ON = 0; }  =>   if (true) {     We12_BLINK_ON = 0; }
+SDL_42:88:int_defroster(): Exception_handler();  =>  
+SDL_43:98:int_defroster(): if (0 != We5_BE_HANDLING) {     Exception_handler(); } else {     if (0 != We8_BE_CONFIRM_OUT) {         We8_BE_CONFIRM_OUT = 0;     } else {         if (0 != We9_DEF_OUT) {             We9_DEF_OUT = 0;         }     } }  =>   if (true) {     Exception_handler(); } else {     if (0 != We8_BE_CONFIRM_OUT) {         We8_BE_CONFIRM_OUT = 0;     } else {         if (0 != We9_DEF_OUT) {             We9_DEF_OUT = 0;         }     } }
+SDL_44:90:int_defroster(): if (0 != We8_BE_CONFIRM_OUT) {     We8_BE_CONFIRM_OUT = 0; } else {     if (0 != We9_DEF_OUT) {         We9_DEF_OUT = 0;     } }  =>  
+SDL_45:91:int_defroster(): We8_BE_CONFIRM_OUT = 0;  =>  
+SDL_46:97:int_defroster(): if (0 != We8_BE_CONFIRM_OUT) {     We8_BE_CONFIRM_OUT = 0; } else {     if (0 != We9_DEF_OUT) {         We9_DEF_OUT = 0;     } }  =>   if (true) {     We8_BE_CONFIRM_OUT = 0; } else {     if (0 != We9_DEF_OUT) {         We9_DEF_OUT = 0;     } }
+SDL_47:93:int_defroster(): if (0 != We9_DEF_OUT) {     We9_DEF_OUT = 0; }  =>  
+SDL_48:94:int_defroster(): We9_DEF_OUT = 0;  =>  
+SDL_49:96:int_defroster(): if (0 != We9_DEF_OUT) {     We9_DEF_OUT = 0; }  =>   if (true) {     We9_DEF_OUT = 0; }
+SDL_50:104:int_defroster(): if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {     Exception_handler();     request = 0;     We9_DEF_OUT = 1; } else {     if (0 != We6_BE_CONFIRM_ON) {         if (ControlElement_DEF == 0) {             We6_BE_CONFIRM_ON = 0;             We7_BE_LOSGELASSEN = 1;         }     } else {         if (0 != We7_BE_LOSGELASSEN) {             if (ControlElement_DEF > 0) {                 Exception_handler();                 request = 0;                 We8_BE_CONFIRM_OUT = 1;             }         }     } }  =>  
+SDL_51:142:int_defroster(): if (0 != We5_BE_HANDLING) {     if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {         Exception_handler();         request = 0;         We9_DEF_OUT = 1;     } else {         if (0 != We6_BE_CONFIRM_ON) {             if (ControlElement_DEF == 0) {                 We6_BE_CONFIRM_ON = 0;                 We7_BE_LOSGELASSEN = 1;             }         } else {             if (0 != We7_BE_LOSGELASSEN) {                 if (ControlElement_DEF > 0) {                     Exception_handler();                     request = 0;                     We8_BE_CONFIRM_OUT = 1;                 }             }         }     } } else {     if (0 != We8_BE_CONFIRM_OUT) {         if (ControlElement_DEF == 0) {             We8_BE_CONFIRM_OUT = 0;             We9_DEF_OUT = 1;         }     } else {         if (0 != We9_DEF_OUT) {             if (ControlElement_DEF > 0) {                 We9_DEF_OUT = 0;                 request = 1;                 We1_BA_DEF_ev_ctr1 = 0;                 We5_BE_HANDLING = 1;                 We6_BE_CONFIRM_ON = 1;             }         }     } }  =>   if (true) {     if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {         Exception_handler();         request = 0;         We9_DEF_OUT = 1;     } else {         if (0 != We6_BE_CONFIRM_ON) {             if (ControlElement_DEF == 0) {                 We6_BE_CONFIRM_ON = 0;                 We7_BE_LOSGELASSEN = 1;             }         } else {             if (0 != We7_BE_LOSGELASSEN) {                 if (ControlElement_DEF > 0) {                     Exception_handler();                     request = 0;                     We8_BE_CONFIRM_OUT = 1;                 }             }         }     } } else {     if (0 != We8_BE_CONFIRM_OUT) {         if (ControlElement_DEF == 0) {             We8_BE_CONFIRM_OUT = 0;             We9_DEF_OUT = 1;         }     } else {         if (0 != We9_DEF_OUT) {             if (ControlElement_DEF > 0) {                 We9_DEF_OUT = 0;                 request = 1;                 We1_BA_DEF_ev_ctr1 = 0;                 We5_BE_HANDLING = 1;                 We6_BE_CONFIRM_ON = 1;             }         }     } }
+SDL_52:125:int_defroster(): if (0 != We8_BE_CONFIRM_OUT) {     if (ControlElement_DEF == 0) {         We8_BE_CONFIRM_OUT = 0;         We9_DEF_OUT = 1;     } } else {     if (0 != We9_DEF_OUT) {         if (ControlElement_DEF > 0) {             We9_DEF_OUT = 0;             request = 1;             We1_BA_DEF_ev_ctr1 = 0;             We5_BE_HANDLING = 1;             We6_BE_CONFIRM_ON = 1;         }     } }  =>  
+SDL_53:107:int_defroster(): Exception_handler(); request = 0; We9_DEF_OUT = 1;  =>   request = 0; We9_DEF_OUT = 1;
+SDL_54:107:int_defroster(): Exception_handler(); request = 0; We9_DEF_OUT = 1;  =>   Exception_handler(); We9_DEF_OUT = 1;
+SDL_55:107:int_defroster(): Exception_handler(); request = 0; We9_DEF_OUT = 1;  =>   Exception_handler(); request = 0;
+SDL_56:124:int_defroster(): if (We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0) {     Exception_handler();     request = 0;     We9_DEF_OUT = 1; } else {     if (0 != We6_BE_CONFIRM_ON) {         if (ControlElement_DEF == 0) {             We6_BE_CONFIRM_ON = 0;             We7_BE_LOSGELASSEN = 1;         }     } else {         if (0 != We7_BE_LOSGELASSEN) {             if (ControlElement_DEF > 0) {                 Exception_handler();                 request = 0;                 We8_BE_CONFIRM_OUT = 1;             }         }     } }  =>   if (true) {     Exception_handler();     request = 0;     We9_DEF_OUT = 1; } else {     if (0 != We6_BE_CONFIRM_ON) {         if (ControlElement_DEF == 0) {             We6_BE_CONFIRM_ON = 0;             We7_BE_LOSGELASSEN = 1;         }     } else {         if (0 != We7_BE_LOSGELASSEN) {             if (ControlElement_DEF > 0) {                 Exception_handler();                 request = 0;                 We8_BE_CONFIRM_OUT = 1;             }         }     } }
+SDL_57:109:int_defroster(): if (0 != We6_BE_CONFIRM_ON) {     if (ControlElement_DEF == 0) {         We6_BE_CONFIRM_ON = 0;         We7_BE_LOSGELASSEN = 1;     } } else {     if (0 != We7_BE_LOSGELASSEN) {         if (ControlElement_DEF > 0) {             Exception_handler();             request = 0;             We8_BE_CONFIRM_OUT = 1;         }     } }  =>  
+SDL_58:110:int_defroster(): if (ControlElement_DEF == 0) {     We6_BE_CONFIRM_ON = 0;     We7_BE_LOSGELASSEN = 1; }  =>  
+SDL_59:123:int_defroster(): if (0 != We6_BE_CONFIRM_ON) {     if (ControlElement_DEF == 0) {         We6_BE_CONFIRM_ON = 0;         We7_BE_LOSGELASSEN = 1;     } } else {     if (0 != We7_BE_LOSGELASSEN) {         if (ControlElement_DEF > 0) {             Exception_handler();             request = 0;             We8_BE_CONFIRM_OUT = 1;         }     } }  =>   if (true) {     if (ControlElement_DEF == 0) {         We6_BE_CONFIRM_ON = 0;         We7_BE_LOSGELASSEN = 1;     } } else {     if (0 != We7_BE_LOSGELASSEN) {         if (ControlElement_DEF > 0) {             Exception_handler();             request = 0;             We8_BE_CONFIRM_OUT = 1;         }     } }
+SDL_60:115:int_defroster(): if (0 != We7_BE_LOSGELASSEN) {     if (ControlElement_DEF > 0) {         Exception_handler();         request = 0;         We8_BE_CONFIRM_OUT = 1;     } }  =>  
+SDL_61:112:int_defroster(): We6_BE_CONFIRM_ON = 0; We7_BE_LOSGELASSEN = 1;  =>   We7_BE_LOSGELASSEN = 1;
+SDL_62:112:int_defroster(): We6_BE_CONFIRM_ON = 0; We7_BE_LOSGELASSEN = 1;  =>   We6_BE_CONFIRM_ON = 0;
+SDL_63:114:int_defroster(): if (ControlElement_DEF == 0) {     We6_BE_CONFIRM_ON = 0;     We7_BE_LOSGELASSEN = 1; }  =>   if (true) {     We6_BE_CONFIRM_ON = 0;     We7_BE_LOSGELASSEN = 1; }
+SDL_64:116:int_defroster(): if (ControlElement_DEF > 0) {     Exception_handler();     request = 0;     We8_BE_CONFIRM_OUT = 1; }  =>  
+SDL_65:122:int_defroster(): if (0 != We7_BE_LOSGELASSEN) {     if (ControlElement_DEF > 0) {         Exception_handler();         request = 0;         We8_BE_CONFIRM_OUT = 1;     } }  =>   if (true) {     if (ControlElement_DEF > 0) {         Exception_handler();         request = 0;         We8_BE_CONFIRM_OUT = 1;     } }
+SDL_66:119:int_defroster(): Exception_handler(); request = 0; We8_BE_CONFIRM_OUT = 1;  =>   request = 0; We8_BE_CONFIRM_OUT = 1;
+SDL_67:119:int_defroster(): Exception_handler(); request = 0; We8_BE_CONFIRM_OUT = 1;  =>   Exception_handler(); We8_BE_CONFIRM_OUT = 1;
+SDL_68:119:int_defroster(): Exception_handler(); request = 0; We8_BE_CONFIRM_OUT = 1;  =>   Exception_handler(); request = 0;
+SDL_69:121:int_defroster(): if (ControlElement_DEF > 0) {     Exception_handler();     request = 0;     We8_BE_CONFIRM_OUT = 1; }  =>   if (true) {     Exception_handler();     request = 0;     We8_BE_CONFIRM_OUT = 1; }
+SDL_70:126:int_defroster(): if (ControlElement_DEF == 0) {     We8_BE_CONFIRM_OUT = 0;     We9_DEF_OUT = 1; }  =>  
+SDL_71:141:int_defroster(): if (0 != We8_BE_CONFIRM_OUT) {     if (ControlElement_DEF == 0) {         We8_BE_CONFIRM_OUT = 0;         We9_DEF_OUT = 1;     } } else {     if (0 != We9_DEF_OUT) {         if (ControlElement_DEF > 0) {             We9_DEF_OUT = 0;             request = 1;             We1_BA_DEF_ev_ctr1 = 0;             We5_BE_HANDLING = 1;             We6_BE_CONFIRM_ON = 1;         }     } }  =>   if (true) {     if (ControlElement_DEF == 0) {         We8_BE_CONFIRM_OUT = 0;         We9_DEF_OUT = 1;     } } else {     if (0 != We9_DEF_OUT) {         if (ControlElement_DEF > 0) {             We9_DEF_OUT = 0;             request = 1;             We1_BA_DEF_ev_ctr1 = 0;             We5_BE_HANDLING = 1;             We6_BE_CONFIRM_ON = 1;         }     } }
+SDL_72:131:int_defroster(): if (0 != We9_DEF_OUT) {     if (ControlElement_DEF > 0) {         We9_DEF_OUT = 0;         request = 1;         We1_BA_DEF_ev_ctr1 = 0;         We5_BE_HANDLING = 1;         We6_BE_CONFIRM_ON = 1;     } }  =>  
+SDL_73:128:int_defroster(): We8_BE_CONFIRM_OUT = 0; We9_DEF_OUT = 1;  =>   We9_DEF_OUT = 1;
+SDL_74:128:int_defroster(): We8_BE_CONFIRM_OUT = 0; We9_DEF_OUT = 1;  =>   We8_BE_CONFIRM_OUT = 0;
+SDL_75:130:int_defroster(): if (ControlElement_DEF == 0) {     We8_BE_CONFIRM_OUT = 0;     We9_DEF_OUT = 1; }  =>   if (true) {     We8_BE_CONFIRM_OUT = 0;     We9_DEF_OUT = 1; }
+SDL_76:132:int_defroster(): if (ControlElement_DEF > 0) {     We9_DEF_OUT = 0;     request = 1;     We1_BA_DEF_ev_ctr1 = 0;     We5_BE_HANDLING = 1;     We6_BE_CONFIRM_ON = 1; }  =>  
+SDL_77:140:int_defroster(): if (0 != We9_DEF_OUT) {     if (ControlElement_DEF > 0) {         We9_DEF_OUT = 0;         request = 1;         We1_BA_DEF_ev_ctr1 = 0;         We5_BE_HANDLING = 1;         We6_BE_CONFIRM_ON = 1;     } }  =>   if (true) {     if (ControlElement_DEF > 0) {         We9_DEF_OUT = 0;         request = 1;         We1_BA_DEF_ev_ctr1 = 0;         We5_BE_HANDLING = 1;         We6_BE_CONFIRM_ON = 1;     } }
+SDL_78:137:int_defroster(): We9_DEF_OUT = 0; request = 1; We1_BA_DEF_ev_ctr1 = 0; We5_BE_HANDLING = 1; We6_BE_CONFIRM_ON = 1;  =>   request = 1; We1_BA_DEF_ev_ctr1 = 0; We5_BE_HANDLING = 1; We6_BE_CONFIRM_ON = 1;
+SDL_79:137:int_defroster(): We9_DEF_OUT = 0; request = 1; We1_BA_DEF_ev_ctr1 = 0; We5_BE_HANDLING = 1; We6_BE_CONFIRM_ON = 1;  =>   We9_DEF_OUT = 0; We1_BA_DEF_ev_ctr1 = 0; We5_BE_HANDLING = 1; We6_BE_CONFIRM_ON = 1;
+SDL_80:137:int_defroster(): We9_DEF_OUT = 0; request = 1; We1_BA_DEF_ev_ctr1 = 0; We5_BE_HANDLING = 1; We6_BE_CONFIRM_ON = 1;  =>   We9_DEF_OUT = 0; request = 1; We5_BE_HANDLING = 1; We6_BE_CONFIRM_ON = 1;
+SDL_81:137:int_defroster(): We9_DEF_OUT = 0; request = 1; We1_BA_DEF_ev_ctr1 = 0; We5_BE_HANDLING = 1; We6_BE_CONFIRM_ON = 1;  =>   We9_DEF_OUT = 0; request = 1; We1_BA_DEF_ev_ctr1 = 0; We6_BE_CONFIRM_ON = 1;
+SDL_82:137:int_defroster(): We9_DEF_OUT = 0; request = 1; We1_BA_DEF_ev_ctr1 = 0; We5_BE_HANDLING = 1; We6_BE_CONFIRM_ON = 1;  =>   We9_DEF_OUT = 0; request = 1; We1_BA_DEF_ev_ctr1 = 0; We5_BE_HANDLING = 1;
+SDL_83:139:int_defroster(): if (ControlElement_DEF > 0) {     We9_DEF_OUT = 0;     request = 1;     We1_BA_DEF_ev_ctr1 = 0;     We5_BE_HANDLING = 1;     We6_BE_CONFIRM_ON = 1; }  =>   if (true) {     We9_DEF_OUT = 0;     request = 1;     We1_BA_DEF_ev_ctr1 = 0;     We5_BE_HANDLING = 1;     We6_BE_CONFIRM_ON = 1; }
+SDL_84:143:int_defroster(): if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {     We11_BLINK_OUT = 0; } else {     if (request > 0 && error_e == 0) {         We11_BLINK_OUT = 0;     } }  =>  
+SDL_85:161:int_defroster(): if (0 != We11_BLINK_OUT) {     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {         We11_BLINK_OUT = 0;     } else {         if (request > 0 && error_e == 0) {             We11_BLINK_OUT = 0;         }     } } else {     if (0 != We12_BLINK_ON) {         if (request == 0 && error_e == 0) {             We12_BLINK_ON = 0;         } else {             if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                 We12_BLINK_ON = 0;             }         }     } }  =>   if (true) {     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {         We11_BLINK_OUT = 0;     } else {         if (request > 0 && error_e == 0) {             We11_BLINK_OUT = 0;         }     } } else {     if (0 != We12_BLINK_ON) {         if (request == 0 && error_e == 0) {             We12_BLINK_ON = 0;         } else {             if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {                 We12_BLINK_ON = 0;             }         }     } }
+SDL_86:151:int_defroster(): if (0 != We12_BLINK_ON) {     if (request == 0 && error_e == 0) {         We12_BLINK_ON = 0;     } else {         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {             We12_BLINK_ON = 0;         }     } }  =>  
+SDL_87:144:int_defroster(): We11_BLINK_OUT = 0;  =>  
+SDL_88:150:int_defroster(): if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {     We11_BLINK_OUT = 0; } else {     if (request > 0 && error_e == 0) {         We11_BLINK_OUT = 0;     } }  =>   if (true) {     We11_BLINK_OUT = 0; } else {     if (request > 0 && error_e == 0) {         We11_BLINK_OUT = 0;     } }
+SDL_89:146:int_defroster(): if (request > 0 && error_e == 0) {     We11_BLINK_OUT = 0; }  =>  
+SDL_90:147:int_defroster(): We11_BLINK_OUT = 0;  =>  
+SDL_91:149:int_defroster(): if (request > 0 && error_e == 0) {     We11_BLINK_OUT = 0; }  =>   if (true) {     We11_BLINK_OUT = 0; }
+SDL_92:152:int_defroster(): if (request == 0 && error_e == 0) {     We12_BLINK_ON = 0; } else {     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {         We12_BLINK_ON = 0;     } }  =>  
+SDL_93:160:int_defroster(): if (0 != We12_BLINK_ON) {     if (request == 0 && error_e == 0) {         We12_BLINK_ON = 0;     } else {         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {             We12_BLINK_ON = 0;         }     } }  =>   if (true) {     if (request == 0 && error_e == 0) {         We12_BLINK_ON = 0;     } else {         if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {             We12_BLINK_ON = 0;         }     } }
+SDL_94:153:int_defroster(): We12_BLINK_ON = 0;  =>  
+SDL_95:159:int_defroster(): if (request == 0 && error_e == 0) {     We12_BLINK_ON = 0; } else {     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {         We12_BLINK_ON = 0;     } }  =>   if (true) {     We12_BLINK_ON = 0; } else {     if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {         We12_BLINK_ON = 0;     } }
+SDL_96:155:int_defroster(): if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {     We12_BLINK_ON = 0; }  =>  
+SDL_97:156:int_defroster(): We12_BLINK_ON = 0;  =>  
+SDL_98:158:int_defroster(): if (We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0) {     We12_BLINK_ON = 0; }  =>   if (true) {     We12_BLINK_ON = 0; }
+SDL_99:167:int_defroster(): We1_BA_DEF_ev_ctr2 = 32767;  =>  
+SDL_100:175:int_defroster(): if (We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024) {     We1_BA_DEF_ev_ctr2 = 32767; } else {     if (We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024) {         We1_BA_DEF_ev_ctr2 = -32768;     } else {         We1_BA_DEF_ev_ctr2 = 32767;     } }  =>   if (true) {     We1_BA_DEF_ev_ctr2 = 32767; } else {     if (We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024) {         We1_BA_DEF_ev_ctr2 = -32768;     } else {         We1_BA_DEF_ev_ctr2 = 32767;     } }
+SDL_101:169:int_defroster(): if (We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024) {     We1_BA_DEF_ev_ctr2 = -32768; } else {     We1_BA_DEF_ev_ctr2 = 32767; }  =>  
+SDL_102:170:int_defroster(): We1_BA_DEF_ev_ctr2 = -32768;  =>  
+SDL_103:174:int_defroster(): if (We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024) {     We1_BA_DEF_ev_ctr2 = -32768; } else {     We1_BA_DEF_ev_ctr2 = 32767; }  =>   if (true) {     We1_BA_DEF_ev_ctr2 = -32768; } else {     We1_BA_DEF_ev_ctr2 = 32767; }
+SDL_104:172:int_defroster(): We1_BA_DEF_ev_ctr2 = 32767;  =>  
+SDL_105:177:int_defroster(): return arr;  =>   return 0;
+VDL_1:39:void_Exception_handler():0 != We6_BE_CONFIRM_ON => 0
+VDL_2:42:void_Exception_handler():0 != We7_BE_LOSGELASSEN => 0
+VDL_3:62:int_defroster():We1_BA_DEF_ev_ctr1++ =>  
+VDL_4:63:int_defroster():We1_BA_DEF_ev_ctr0++ =>  
+VDL_5:64:int_defroster():0 != We2_Clip15_OUT => 0
+VDL_6:65:int_defroster():0 != Clip_15 => 0
+VDL_7:74:int_defroster():We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2
+VDL_8:74:int_defroster():We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2
+VDL_9:74:int_defroster():We1_BA_DEF_ev_ctr3 - 1000 => 1000
+VDL_10:75:int_defroster():We1_BA_DEF == We1_BA_DEF_ev => We1_BA_DEF_ev
+VDL_11:75:int_defroster():We1_BA_DEF == We1_BA_DEF_ev => We1_BA_DEF
+VDL_12:78:int_defroster():0 != We3_Clip15_ON => 0
+VDL_13:79:int_defroster():Clip_15 == 0 => 0
+VDL_14:80:int_defroster():0 != We11_BLINK_OUT => 0
+VDL_15:83:int_defroster():0 != We12_BLINK_ON => 0
+VDL_16:87:int_defroster():0 != We5_BE_HANDLING => 0
+VDL_17:90:int_defroster():0 != We8_BE_CONFIRM_OUT => 0
+VDL_18:93:int_defroster():0 != We9_DEF_OUT => 0
+VDL_19:103:int_defroster():0 != We5_BE_HANDLING => 0
+VDL_20:104:int_defroster():We1_BA_DEF_ev_ctr1 >= (int) 1000 => (int) 1000
+VDL_21:104:int_defroster():confirmation_e == 0 => 0
+VDL_22:104:int_defroster():ControlElement_DEF == 0 => 0
+VDL_23:109:int_defroster():0 != We6_BE_CONFIRM_ON => 0
+VDL_24:110:int_defroster():ControlElement_DEF == 0 => 0
+VDL_25:115:int_defroster():0 != We7_BE_LOSGELASSEN => 0
+VDL_26:116:int_defroster():ControlElement_DEF > 0 => 0
+VDL_27:125:int_defroster():0 != We8_BE_CONFIRM_OUT => 0
+VDL_28:126:int_defroster():ControlElement_DEF == 0 => 0
+VDL_29:131:int_defroster():0 != We9_DEF_OUT => 0
+VDL_30:132:int_defroster():ControlElement_DEF > 0 => 0
+VDL_31:142:int_defroster():0 != We11_BLINK_OUT => 0
+VDL_32:143:int_defroster():We1_BA_DEF_ev_ctr0 >= (int) 3250 => (int) 3250
+VDL_33:143:int_defroster():error_e > 0 => 0
+VDL_34:143:int_defroster():confirmation_e > 0 => 0
+VDL_35:146:int_defroster():request > 0 => 0
+VDL_36:146:int_defroster():error_e == 0 => 0
+VDL_37:151:int_defroster():0 != We12_BLINK_ON => 0
+VDL_38:152:int_defroster():request == 0 => 0
+VDL_39:152:int_defroster():error_e == 0 => 0
+VDL_40:155:int_defroster():We1_BA_DEF_ev_ctr0 >= (int) 3250 => (int) 3250
+VDL_41:155:int_defroster():error_e > 0 => 0
+VDL_42:155:int_defroster():confirmation_e > 0 => 0
+VDL_43:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr3
+VDL_44:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr2
+VDL_45:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 => We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3
+VDL_46:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr3
+VDL_47:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr2
+VDL_48:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 => We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3
+ODL_1:39:void_Exception_handler():0 != We6_BE_CONFIRM_ON => 0
+ODL_2:39:void_Exception_handler():0 != We6_BE_CONFIRM_ON => We6_BE_CONFIRM_ON
+ODL_3:42:void_Exception_handler():0 != We7_BE_LOSGELASSEN => 0
+ODL_4:42:void_Exception_handler():0 != We7_BE_LOSGELASSEN => We7_BE_LOSGELASSEN
+ODL_5:62:int_defroster():We1_BA_DEF_ev_ctr1++ => We1_BA_DEF_ev_ctr1
+ODL_6:63:int_defroster():We1_BA_DEF_ev_ctr0++ => We1_BA_DEF_ev_ctr0
+ODL_7:64:int_defroster():0 != We2_Clip15_OUT => 0
+ODL_8:64:int_defroster():0 != We2_Clip15_OUT => We2_Clip15_OUT
+ODL_9:65:int_defroster():0 != Clip_15 => 0
+ODL_10:65:int_defroster():0 != Clip_15 => Clip_15
+ODL_11:74:int_defroster():We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2
+ODL_12:74:int_defroster():We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 => We1_BA_DEF_ev_ctr2
+ODL_13:74:int_defroster():We1_BA_DEF_ev_ctr3 - 1000 => We1_BA_DEF_ev_ctr3
+ODL_14:74:int_defroster():We1_BA_DEF_ev_ctr3 - 1000 => 1000
+ODL_15:74:int_defroster():We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000) => We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2
+ODL_16:74:int_defroster():We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - (We1_BA_DEF_ev_ctr3 - 1000) => We1_BA_DEF_ev_ctr3 - 1000
+ODL_17:75:int_defroster():We1_BA_DEF == We1_BA_DEF_ev => We1_BA_DEF
+ODL_18:75:int_defroster():We1_BA_DEF == We1_BA_DEF_ev => We1_BA_DEF_ev
+ODL_19:75:int_defroster():!(We1_BA_DEF == We1_BA_DEF_ev) => We1_BA_DEF == We1_BA_DEF_ev
+ODL_20:78:int_defroster():0 != We3_Clip15_ON => 0
+ODL_21:78:int_defroster():0 != We3_Clip15_ON => We3_Clip15_ON
+ODL_22:79:int_defroster():Clip_15 == 0 => Clip_15
+ODL_23:79:int_defroster():Clip_15 == 0 => 0
+ODL_24:80:int_defroster():0 != We11_BLINK_OUT => 0
+ODL_25:80:int_defroster():0 != We11_BLINK_OUT => We11_BLINK_OUT
+ODL_26:83:int_defroster():0 != We12_BLINK_ON => 0
+ODL_27:83:int_defroster():0 != We12_BLINK_ON => We12_BLINK_ON
+ODL_28:87:int_defroster():0 != We5_BE_HANDLING => 0
+ODL_29:87:int_defroster():0 != We5_BE_HANDLING => We5_BE_HANDLING
+ODL_30:90:int_defroster():0 != We8_BE_CONFIRM_OUT => 0
+ODL_31:90:int_defroster():0 != We8_BE_CONFIRM_OUT => We8_BE_CONFIRM_OUT
+ODL_32:93:int_defroster():0 != We9_DEF_OUT => 0
+ODL_33:93:int_defroster():0 != We9_DEF_OUT => We9_DEF_OUT
+ODL_34:103:int_defroster():0 != We5_BE_HANDLING => 0
+ODL_35:103:int_defroster():0 != We5_BE_HANDLING => We5_BE_HANDLING
+ODL_36:104:int_defroster():We1_BA_DEF_ev_ctr1 >= (int) 1000 => We1_BA_DEF_ev_ctr1
+ODL_37:104:int_defroster():We1_BA_DEF_ev_ctr1 >= (int) 1000 => (int) 1000
+ODL_38:104:int_defroster():confirmation_e == 0 => confirmation_e
+ODL_39:104:int_defroster():confirmation_e == 0 => 0
+ODL_40:104:int_defroster():We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 => We1_BA_DEF_ev_ctr1 >= (int) 1000
+ODL_41:104:int_defroster():We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 => confirmation_e == 0
+ODL_42:104:int_defroster():ControlElement_DEF == 0 => ControlElement_DEF
+ODL_43:104:int_defroster():ControlElement_DEF == 0 => 0
+ODL_44:104:int_defroster():We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0 => We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0
+ODL_45:104:int_defroster():We1_BA_DEF_ev_ctr1 >= (int) 1000 && confirmation_e == 0 && ControlElement_DEF == 0 => ControlElement_DEF == 0
+ODL_46:109:int_defroster():0 != We6_BE_CONFIRM_ON => 0
+ODL_47:109:int_defroster():0 != We6_BE_CONFIRM_ON => We6_BE_CONFIRM_ON
+ODL_48:110:int_defroster():ControlElement_DEF == 0 => ControlElement_DEF
+ODL_49:110:int_defroster():ControlElement_DEF == 0 => 0
+ODL_50:115:int_defroster():0 != We7_BE_LOSGELASSEN => 0
+ODL_51:115:int_defroster():0 != We7_BE_LOSGELASSEN => We7_BE_LOSGELASSEN
+ODL_52:116:int_defroster():ControlElement_DEF > 0 => ControlElement_DEF
+ODL_53:116:int_defroster():ControlElement_DEF > 0 => 0
+ODL_54:125:int_defroster():0 != We8_BE_CONFIRM_OUT => 0
+ODL_55:125:int_defroster():0 != We8_BE_CONFIRM_OUT => We8_BE_CONFIRM_OUT
+ODL_56:126:int_defroster():ControlElement_DEF == 0 => ControlElement_DEF
+ODL_57:126:int_defroster():ControlElement_DEF == 0 => 0
+ODL_58:131:int_defroster():0 != We9_DEF_OUT => 0
+ODL_59:131:int_defroster():0 != We9_DEF_OUT => We9_DEF_OUT
+ODL_60:132:int_defroster():ControlElement_DEF > 0 => ControlElement_DEF
+ODL_61:132:int_defroster():ControlElement_DEF > 0 => 0
+ODL_62:142:int_defroster():0 != We11_BLINK_OUT => 0
+ODL_63:142:int_defroster():0 != We11_BLINK_OUT => We11_BLINK_OUT
+ODL_64:143:int_defroster():We1_BA_DEF_ev_ctr0 >= (int) 3250 => We1_BA_DEF_ev_ctr0
+ODL_65:143:int_defroster():We1_BA_DEF_ev_ctr0 >= (int) 3250 => (int) 3250
+ODL_66:143:int_defroster():error_e > 0 => error_e
+ODL_67:143:int_defroster():error_e > 0 => 0
+ODL_68:143:int_defroster():We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 => We1_BA_DEF_ev_ctr0 >= (int) 3250
+ODL_69:143:int_defroster():We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 => error_e > 0
+ODL_70:143:int_defroster():confirmation_e > 0 => confirmation_e
+ODL_71:143:int_defroster():confirmation_e > 0 => 0
+ODL_72:143:int_defroster():We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0 => We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0
+ODL_73:143:int_defroster():We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0 => confirmation_e > 0
+ODL_74:146:int_defroster():request > 0 => request
+ODL_75:146:int_defroster():request > 0 => 0
+ODL_76:146:int_defroster():error_e == 0 => error_e
+ODL_77:146:int_defroster():error_e == 0 => 0
+ODL_78:146:int_defroster():request > 0 && error_e == 0 => request > 0
+ODL_79:146:int_defroster():request > 0 && error_e == 0 => error_e == 0
+ODL_80:151:int_defroster():0 != We12_BLINK_ON => 0
+ODL_81:151:int_defroster():0 != We12_BLINK_ON => We12_BLINK_ON
+ODL_82:152:int_defroster():request == 0 => request
+ODL_83:152:int_defroster():request == 0 => 0
+ODL_84:152:int_defroster():error_e == 0 => error_e
+ODL_85:152:int_defroster():error_e == 0 => 0
+ODL_86:152:int_defroster():request == 0 && error_e == 0 => request == 0
+ODL_87:152:int_defroster():request == 0 && error_e == 0 => error_e == 0
+ODL_88:155:int_defroster():We1_BA_DEF_ev_ctr0 >= (int) 3250 => We1_BA_DEF_ev_ctr0
+ODL_89:155:int_defroster():We1_BA_DEF_ev_ctr0 >= (int) 3250 => (int) 3250
+ODL_90:155:int_defroster():error_e > 0 => error_e
+ODL_91:155:int_defroster():error_e > 0 => 0
+ODL_92:155:int_defroster():We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 => We1_BA_DEF_ev_ctr0 >= (int) 3250
+ODL_93:155:int_defroster():We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 => error_e > 0
+ODL_94:155:int_defroster():confirmation_e > 0 => confirmation_e
+ODL_95:155:int_defroster():confirmation_e > 0 => 0
+ODL_96:155:int_defroster():We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0 => We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0
+ODL_97:155:int_defroster():We1_BA_DEF_ev_ctr0 >= (int) 3250 && error_e > 0 && confirmation_e > 0 => confirmation_e > 0
+ODL_98:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr2
+ODL_99:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr3
+ODL_100:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 => We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3
+ODL_101:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 => We1_BA_DEF_ev_ctr5
+ODL_102:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024 => We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5
+ODL_103:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024 => 1024
+ODL_104:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr2
+ODL_105:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 => We1_BA_DEF_ev_ctr3
+ODL_106:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 => We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3
+ODL_107:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 => We1_BA_DEF_ev_ctr5
+ODL_108:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024 => We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5
+ODL_109:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024 => 1024
+ODL_110:170:int_defroster():-32768 => 32768
+CDL_1:39:void_Exception_handler():0 != We6_BE_CONFIRM_ON => We6_BE_CONFIRM_ON
+CDL_2:42:void_Exception_handler():0 != We7_BE_LOSGELASSEN => We7_BE_LOSGELASSEN
+CDL_3:64:int_defroster():0 != We2_Clip15_OUT => We2_Clip15_OUT
+CDL_4:65:int_defroster():0 != Clip_15 => Clip_15
+CDL_5:74:int_defroster():We1_BA_DEF_ev_ctr3 - 1000 => We1_BA_DEF_ev_ctr3
+CDL_6:78:int_defroster():0 != We3_Clip15_ON => We3_Clip15_ON
+CDL_7:79:int_defroster():Clip_15 == 0 => Clip_15
+CDL_8:80:int_defroster():0 != We11_BLINK_OUT => We11_BLINK_OUT
+CDL_9:83:int_defroster():0 != We12_BLINK_ON => We12_BLINK_ON
+CDL_10:87:int_defroster():0 != We5_BE_HANDLING => We5_BE_HANDLING
+CDL_11:90:int_defroster():0 != We8_BE_CONFIRM_OUT => We8_BE_CONFIRM_OUT
+CDL_12:93:int_defroster():0 != We9_DEF_OUT => We9_DEF_OUT
+CDL_13:103:int_defroster():0 != We5_BE_HANDLING => We5_BE_HANDLING
+CDL_14:104:int_defroster():confirmation_e == 0 => confirmation_e
+CDL_15:104:int_defroster():ControlElement_DEF == 0 => ControlElement_DEF
+CDL_16:109:int_defroster():0 != We6_BE_CONFIRM_ON => We6_BE_CONFIRM_ON
+CDL_17:110:int_defroster():ControlElement_DEF == 0 => ControlElement_DEF
+CDL_18:115:int_defroster():0 != We7_BE_LOSGELASSEN => We7_BE_LOSGELASSEN
+CDL_19:116:int_defroster():ControlElement_DEF > 0 => ControlElement_DEF
+CDL_20:125:int_defroster():0 != We8_BE_CONFIRM_OUT => We8_BE_CONFIRM_OUT
+CDL_21:126:int_defroster():ControlElement_DEF == 0 => ControlElement_DEF
+CDL_22:131:int_defroster():0 != We9_DEF_OUT => We9_DEF_OUT
+CDL_23:132:int_defroster():ControlElement_DEF > 0 => ControlElement_DEF
+CDL_24:142:int_defroster():0 != We11_BLINK_OUT => We11_BLINK_OUT
+CDL_25:143:int_defroster():error_e > 0 => error_e
+CDL_26:143:int_defroster():confirmation_e > 0 => confirmation_e
+CDL_27:146:int_defroster():request > 0 => request
+CDL_28:146:int_defroster():error_e == 0 => error_e
+CDL_29:151:int_defroster():0 != We12_BLINK_ON => We12_BLINK_ON
+CDL_30:152:int_defroster():request == 0 => request
+CDL_31:152:int_defroster():error_e == 0 => error_e
+CDL_32:155:int_defroster():error_e > 0 => error_e
+CDL_33:155:int_defroster():confirmation_e > 0 => confirmation_e
+CDL_34:166:int_defroster():We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5 == 1024 => We1_BA_DEF_ev_ctr2 + We1_BA_DEF_ev_ctr3 + We1_BA_DEF_ev_ctr5
+CDL_35:169:int_defroster():We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5 == 1024 => We1_BA_DEF_ev_ctr2 - We1_BA_DEF_ev_ctr3 - We1_BA_DEF_ev_ctr5
+CDL_36:170:int_defroster():-32768 =>  

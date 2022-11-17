@@ -1,0 +1,36 @@
+#
+Mutant name: ROR_313
+Status: Equivalent
+Operator: ROR
+Type statement: Block
+Position score: 1
+Operator score: 0.8571428571428571
+Program graph node: 1
+
+#
+Mutant name: ROR_503
+Status: Equivalent
+Operator: ROR
+Type statement: Block
+Position score: 1
+Operator score: 0.8571428571428571
+Program graph node: 1
+
+#
+Mutant name: ROR_542
+Status: Equivalent
+Operator: ROR
+Type statement: Block
+Position score: 1
+Operator score: 0.8571428571428571
+Program graph node: 3
+
+#
+Mutant name: ROR_474
+Status: Equivalent
+Operator: ROR
+Type statement: Block
+Position score: 1
+Operator score: 0.8571428571428571
+Program graph node: 3
+

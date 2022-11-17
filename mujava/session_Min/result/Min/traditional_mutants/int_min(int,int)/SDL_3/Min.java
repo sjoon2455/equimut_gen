@@ -1,0 +1,16 @@
+// This is a mutant program.
+// Author : ysma
+
+public class Min
+{
+
+    public static  int min( int I, int J )
+    {
+        int Min;
+        Min = I;
+        if (J < I) {
+        }
+        return Min;
+    }
+
+}

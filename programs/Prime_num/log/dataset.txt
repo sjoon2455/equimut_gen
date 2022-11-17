@@ -1,0 +1,36 @@
+ABS
+@@ -26 +26 @@
+-	System.out.printf("\nThe total is %d",h);
++	System.out.printf("\nThe total is %d",Math.abs(h));
+
+ABS
+@@ -8 +8 @@
+-		k=(int)Math.sqrt(m+1);
++		k=(int)Math.sqrt(Math.abs(m)+1);
+
+AORB
+@@ -8 +8 @@
+-		k=(int)Math.sqrt(m+1);
++		k=(int)Math.sqrt(m/1);
+
+AOIS
+@@ -26 +26 @@
+-	System.out.printf("\nThe total is %d",h);
++	System.out.printf("\nThe total is %d",h--);
+
+AORB
+@@ -8 +8 @@
+-		k=(int)Math.sqrt(m+1);
++		k=(int)Math.sqrt(m*1);
+
+AOIS
+@@ -26 +26 @@
+-	System.out.printf("\nThe total is %d",h);
++	System.out.printf("\nThe total is %d",h++);
+
+ABS
+@@ -19 +19 @@
+-			System.out.printf("%-4d",m);
++			System.out.printf("%-4d",Math.abs(m));
+
+ABS: 3, AORB: 2, AOIS: 2

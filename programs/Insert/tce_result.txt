@@ -1,0 +1,80 @@
+==============Program===============
+Insert
+==============Mut_Type==============
+common_equivalent
+====================================
+ABS_113
+NEQ
+ABS_164
+NEQ
+AOIS_264
+TCEQ
+AOIS_321
+NEQ
+AOIS_393
+NEQ
+AOIS_418
+TCEQ
+AOIS_431
+TCEQ
+AOIS_458
+TCEQ
+AOIS_460
+NEQ
+AOIS_479
+TCEQ
+AOIS_521
+TCEQ
+AOIS_575
+NEQ
+AOIS_578
+TCEQ
+AOIS_59
+TCEQ
+AOIS_623
+TCEQ
+AOIS_80
+TCEQ
+ROR_174
+NEQ
+Total #: 17
+TCEQ #: 10
+NEQ #: 7
+==============Mut_Type==============
+myequivalent
+====================================
+AOIU_4
+NEQ
+LOI_4
+NEQ
+ROR_10
+NEQ
+ROR_12
+NEQ
+ROR_13
+NEQ
+ROR_26
+NEQ
+Total #: 6
+TCEQ #: 0
+NEQ #: 6
+==============Mut_Type==============
+myequivalent-made
+====================================
+ABS_1
+NEQ
+ABS_2
+NEQ
+ABS_3
+NEQ
+ABS_4
+NEQ
+ABS_5
+NEQ
+ABS_6
+NEQ
+ABS_7
+NEQ
+Total #: 7
+TCEQ #: 0
+NEQ #: 7

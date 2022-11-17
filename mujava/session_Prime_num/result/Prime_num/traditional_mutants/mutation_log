@@ -1,0 +1,141 @@
+AORB_1:15:int_primenum():m + 1 => m * 1
+AORB_2:15:int_primenum():m + 1 => m / 1
+AORB_3:15:int_primenum():m + 1 => m % 1
+AORB_4:15:int_primenum():m + 1 => m - 1
+AORB_5:17:int_primenum():m % i => m * i
+AORB_6:17:int_primenum():m % i => m / i
+AORB_7:17:int_primenum():m % i => m + i
+AORB_8:17:int_primenum():m % i => m - i
+AORS_1:14:int_primenum():m++ => m--
+AORS_2:16:int_primenum():i++ => i--
+AORS_3:23:int_primenum():h++ => h--
+AODS_1:23:int_primenum():h++ => h
+AOIU_1:14:int_primenum():m => -m
+AOIU_2:15:int_primenum():m => -m
+AOIU_3:16:int_primenum():i => -i
+AOIU_4:16:int_primenum():k => -k
+AOIU_5:17:int_primenum():m => -m
+AOIU_6:22:int_primenum():leap => -leap
+AOIU_7:27:int_primenum():h => -h
+AOIU_8:27:int_primenum():leap => -leap
+AOIS_1:14:int_primenum():m => ++m
+AOIS_2:14:int_primenum():m => --m
+AOIS_3:14:int_primenum():m => m++
+AOIS_4:14:int_primenum():m => m--
+AOIS_5:15:int_primenum():m => ++m
+AOIS_6:15:int_primenum():m => --m
+AOIS_7:15:int_primenum():m => m++
+AOIS_8:15:int_primenum():m => m--
+AOIS_9:16:int_primenum():i => ++i
+AOIS_10:16:int_primenum():i => --i
+AOIS_11:16:int_primenum():i => i++
+AOIS_12:16:int_primenum():i => i--
+AOIS_13:16:int_primenum():k => ++k
+AOIS_14:16:int_primenum():k => --k
+AOIS_15:16:int_primenum():k => k++
+AOIS_16:16:int_primenum():k => k--
+AOIS_17:17:int_primenum():m => ++m
+AOIS_18:17:int_primenum():m => --m
+AOIS_19:17:int_primenum():m => m++
+AOIS_20:17:int_primenum():m => m--
+AOIS_21:17:int_primenum():i => ++i
+AOIS_22:17:int_primenum():i => --i
+AOIS_23:17:int_primenum():i => i++
+AOIS_24:17:int_primenum():i => i--
+AOIS_25:22:int_primenum():leap => ++leap
+AOIS_26:22:int_primenum():leap => --leap
+AOIS_27:22:int_primenum():leap => leap++
+AOIS_28:22:int_primenum():leap => leap--
+AOIS_29:27:int_primenum():h => h++
+AOIS_30:27:int_primenum():h => h--
+AOIS_31:27:int_primenum():leap => leap++
+AOIS_32:27:int_primenum():leap => leap--
+ROR_1:14:int_primenum(): m <= 5  =>   m > 5
+ROR_2:14:int_primenum(): m <= 5  =>   m >= 5
+ROR_3:14:int_primenum(): m <= 5  =>   m < 5
+ROR_4:14:int_primenum(): m <= 5  =>   m == 5
+ROR_5:14:int_primenum(): m <= 5  =>   m != 5
+ROR_6:14:int_primenum(): m <= 5  =>   true
+ROR_7:14:int_primenum(): m <= 5  =>   false
+ROR_8:16:int_primenum(): i <= k  =>   i > k
+ROR_9:16:int_primenum(): i <= k  =>   i >= k
+ROR_10:16:int_primenum(): i <= k  =>   i < k
+ROR_11:16:int_primenum(): i <= k  =>   i == k
+ROR_12:16:int_primenum(): i <= k  =>   i != k
+ROR_13:16:int_primenum(): i <= k  =>   true
+ROR_14:16:int_primenum(): i <= k  =>   false
+ROR_15:17:int_primenum(): m % i == 0  =>   m % i > 0
+ROR_16:17:int_primenum(): m % i == 0  =>   m % i >= 0
+ROR_17:17:int_primenum(): m % i == 0  =>   m % i < 0
+ROR_18:17:int_primenum(): m % i == 0  =>   m % i <= 0
+ROR_19:17:int_primenum(): m % i == 0  =>   m % i != 0
+ROR_20:17:int_primenum(): m % i == 0  =>   true
+ROR_21:17:int_primenum(): m % i == 0  =>   false
+ROR_22:22:int_primenum(): leap != 0  =>   leap > 0
+ROR_23:22:int_primenum(): leap != 0  =>   leap >= 0
+ROR_24:22:int_primenum(): leap != 0  =>   leap < 0
+ROR_25:22:int_primenum(): leap != 0  =>   leap <= 0
+ROR_26:22:int_primenum(): leap != 0  =>   leap == 0
+ROR_27:22:int_primenum(): leap != 0  =>   true
+ROR_28:22:int_primenum(): leap != 0  =>   false
+COI_1:14:int_primenum(): m <= 5  =>  !(m <= 5)
+COI_2:16:int_primenum(): i <= k  =>  !(i <= k)
+COI_3:17:int_primenum(): m % i == 0  =>  !(m % i == 0)
+COI_4:22:int_primenum(): leap != 0  =>  !(leap != 0)
+LOI_1:14:int_primenum():m => ~m
+LOI_2:14:int_primenum():m => ~m
+LOI_3:15:int_primenum():m => ~m
+LOI_4:16:int_primenum():i => ~i
+LOI_5:16:int_primenum():k => ~k
+LOI_6:16:int_primenum():i => ~i
+LOI_7:17:int_primenum():m => ~m
+LOI_8:17:int_primenum():i => ~i
+LOI_9:22:int_primenum():leap => ~leap
+LOI_10:23:int_primenum():h => ~h
+LOI_11:27:int_primenum():h => ~h
+LOI_12:27:int_primenum():leap => ~leap
+SDL_1:15:int_primenum(): int m; int i; int k; int h = 0; int leap = 1; for (m = 1; m <= 5; m++) {     k = (int) Math.sqrt( m + 1 );     for (i = 2; i <= k; i++) {         if (m % i == 0) {             leap = 0;             break;         }     }     if (leap != 0) {         h++;     }     leap = 1; } return new int[]{ h, leap };  =>   int m; int i; int k; int h = 0; int leap = 1; return new int[]{ h, leap };
+SDL_2:25:int_primenum(): k = (int) Math.sqrt( m + 1 ); for (i = 2; i <= k; i++) {     if (m % i == 0) {         leap = 0;         break;     } } if (leap != 0) {     h++; } leap = 1;  =>   for (i = 2; i <= k; i++) {     if (m % i == 0) {         leap = 0;         break;     } } if (leap != 0) {     h++; } leap = 1;
+SDL_3:20:int_primenum(): k = (int) Math.sqrt( m + 1 ); for (i = 2; i <= k; i++) {     if (m % i == 0) {         leap = 0;         break;     } } if (leap != 0) {     h++; } leap = 1;  =>   k = (int) Math.sqrt( m + 1 ); if (leap != 0) {     h++; } leap = 1;
+SDL_4:23:int_primenum(): k = (int) Math.sqrt( m + 1 ); for (i = 2; i <= k; i++) {     if (m % i == 0) {         leap = 0;         break;     } } if (leap != 0) {     h++; } leap = 1;  =>   k = (int) Math.sqrt( m + 1 ); for (i = 2; i <= k; i++) {     if (m % i == 0) {         leap = 0;         break;     } } leap = 1;
+SDL_5:25:int_primenum(): k = (int) Math.sqrt( m + 1 ); for (i = 2; i <= k; i++) {     if (m % i == 0) {         leap = 0;         break;     } } if (leap != 0) {     h++; } leap = 1;  =>   k = (int) Math.sqrt( m + 1 ); for (i = 2; i <= k; i++) {     if (m % i == 0) {         leap = 0;         break;     } } if (leap != 0) {     h++; }
+SDL_6:27:int_primenum(): for (m = 1; m <= 5; m++) {     k = (int) Math.sqrt( m + 1 );     for (i = 2; i <= k; i++) {         if (m % i == 0) {             leap = 0;             break;         }     }     if (leap != 0) {         h++;     }     leap = 1; }  =>   for (;; m++) {     k = (int) Math.sqrt( m + 1 );     for (i = 2; i <= k; i++) {         if (m % i == 0) {             leap = 0;             break;         }     }     if (leap != 0) {         h++;     }     leap = 1; }
+SDL_7:27:int_primenum(): for (m = 1; m <= 5; m++) {     k = (int) Math.sqrt( m + 1 );     for (i = 2; i <= k; i++) {         if (m % i == 0) {             leap = 0;             break;         }     }     if (leap != 0) {         h++;     }     leap = 1; }  =>   for (; m <= 5;) {     k = (int) Math.sqrt( m + 1 );     for (i = 2; i <= k; i++) {         if (m % i == 0) {             leap = 0;             break;         }     }     if (leap != 0) {         h++;     }     leap = 1; }
+SDL_8:17:int_primenum(): if (m % i == 0) {     leap = 0;     break; }  =>  
+SDL_9:22:int_primenum(): for (i = 2; i <= k; i++) {     if (m % i == 0) {         leap = 0;         break;     } }  =>   for (;; i++) {     if (m % i == 0) {         leap = 0;         break;     } }
+SDL_10:22:int_primenum(): for (i = 2; i <= k; i++) {     if (m % i == 0) {         leap = 0;         break;     } }  =>   for (; i <= k;) {     if (m % i == 0) {         leap = 0;         break;     } }
+SDL_11:19:int_primenum(): leap = 0; break;  =>   break;
+SDL_12:19:int_primenum(): leap = 0; break;  =>   leap = 0;
+SDL_13:21:int_primenum(): if (m % i == 0) {     leap = 0;     break; }  =>   if (true) {     leap = 0;     break; }
+SDL_14:23:int_primenum(): h++;  =>  
+SDL_15:25:int_primenum(): if (leap != 0) {     h++; }  =>   if (true) {     h++; }
+SDL_16:28:int_primenum(): return new int[]{ h, leap };  =>   return 0;
+VDL_1:14:int_primenum():m <= 5 => 5
+VDL_2:14:int_primenum():m++ =>  
+VDL_3:15:int_primenum():m + 1 => 1
+VDL_4:16:int_primenum():i <= k => k
+VDL_5:16:int_primenum():i <= k => i
+VDL_6:16:int_primenum():i++ =>  
+VDL_7:17:int_primenum():m % i => i
+VDL_8:17:int_primenum():m % i => m
+VDL_9:22:int_primenum():leap != 0 => 0
+VDL_10:23:int_primenum():h++ =>  
+ODL_1:14:int_primenum():m <= 5 => m
+ODL_2:14:int_primenum():m <= 5 => 5
+ODL_3:14:int_primenum():m++ => m
+ODL_4:15:int_primenum():m + 1 => m
+ODL_5:15:int_primenum():m + 1 => 1
+ODL_6:16:int_primenum():i <= k => i
+ODL_7:16:int_primenum():i <= k => k
+ODL_8:16:int_primenum():i++ => i
+ODL_9:17:int_primenum():m % i => m
+ODL_10:17:int_primenum():m % i => i
+ODL_11:17:int_primenum():m % i == 0 => m % i
+ODL_12:17:int_primenum():m % i == 0 => 0
+ODL_13:22:int_primenum():leap != 0 => leap
+ODL_14:22:int_primenum():leap != 0 => 0
+ODL_15:23:int_primenum():h++ => h
+CDL_1:14:int_primenum():m <= 5 => m
+CDL_2:15:int_primenum():m + 1 => m
+CDL_3:17:int_primenum():m % i == 0 => m % i
+CDL_4:22:int_primenum():leap != 0 => leap

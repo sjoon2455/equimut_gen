@@ -1,0 +1,58 @@
+AORB
+@@ -1429 +1429 @@
+-			float nAifsd = sifs + 2 * slot;
++			float nAifsd = sifs * (2 * slot);
+
+AORB
+@@ -1429 +1429 @@
+-			float nAifsd = sifs + 2 * slot;
++			float nAifsd = sifs + 2 / slot;
+
+ROR
+@@ -1477 +1477 @@
+-		if (position != -1) {
++		if (position > -1) {
+
+AORB
+@@ -1429 +1429 @@
+-			float nAifsd = sifs + 2 * slot;
++			float nAifsd = sifs + 2 - slot;
+
+AORB
+@@ -1429 +1429 @@
+-			float nAifsd = sifs + 2 * slot;
++			float nAifsd = sifs + 2 % slot;
+
+AORB
+@@ -1429 +1429 @@
+-			float nAifsd = sifs + 2 * slot;
++			float nAifsd = sifs - 2 * slot;
+
+ROR
+@@ -1471 +1471 @@
+-		for (int i = 0; i < nodesList.size(); i++) {
++		for (int i = 0; i != nodesList.size(); i++) {
+
+AORB
+@@ -1429 +1429 @@
+-			float nAifsd = sifs + 2 * slot;
++			float nAifsd = sifs % (2 * slot);
+
+AORB
+@@ -1429 +1429 @@
+-			float nAifsd = sifs + 2 * slot;
++			float nAifsd = sifs + 2 + slot;
+
+AORB
+@@ -1429 +1429 @@
+-			float nAifsd = sifs + 2 * slot;
++			float nAifsd = sifs / (2 * slot);
+
+CR
+@@ -1429 +1429 @@
+-			float nAifsd = sifs + 2 * slot;
++			float nAifsd = sifs + 0 * slot;
+
+Total: 11
+AORB: 8, ROR: 2, CR: 1
+private int padBits(int rate, int psdu)

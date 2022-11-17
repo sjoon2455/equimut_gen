@@ -1,0 +1,46 @@
+AORB
+@@ -12 +12 @@
+-		for(j=i+1;j<5;j++)
++		for(j=i/1;j<5;j++)
+
+AOIS
+@@ -17 +17 @@
+-				a[i]=a[j];
++				a[i]=a[j]++;
+
+AOIS
+@@ -18 +18 @@
+-				a[j]=xyz;
++				a[j]=xyz++;
+
+AOIS
+@@ -16 +16 @@
+-				xyz=a[i];
++				xyz=a[i]++;
+
+AOIS
+@@ -16 +16 @@
+-				xyz=a[i];
++				xyz=a[i]--;
+
+AOIS
+@@ -17 +17 @@
+-				a[i]=a[j];
++				a[i]=a[j]--;
+
+AOIS
+@@ -18 +18 @@
+-				a[j]=xyz;
++				a[j]=xyz--;
+
+ROR
+@@ -14 +14 @@
+-			if(a[i]<a[j])
++			if(a[i]<=a[j])
+
+AORB
+@@ -12 +12 @@
+-		for(j=i+1;j<5;j++)
++		for(j=i*1;j<5;j++)
+
+AORB: 2, AOIS: 6, ROR: 1

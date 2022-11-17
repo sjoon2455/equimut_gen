@@ -1,0 +1,13 @@
+Program Name;Mutant Name;Result;Status;Operator;Program Graph Node;Primitive Arc?;Source Primitive Arc?;Target Primitive Arc?;Equivalent?;Distance Begin;Distance Begin (min);Distance Begin (max);Distance Begin (avg);Distance End;Distance End (min);Distance End (max);Distance End (avg);Source Node;Target Node;Sources Nodes are primitive?;Targets Nodes are primitive?;Complexity;Type Statement;PS;OS;pageRank;hub;authority
+Bubble;AORB_3;Nonequivalent;Nonequivalent;AORB;4;0;0;0;0;0;[3, 7, 6, 7];3;7;5.75;[3, 7, 6, 7];3;7;5.75;[3, 7];[8, 5];[0, 1];[0, 1];7;For;0.8064516129032258;0.5;0.224;0.0;0.0
+Bubble;ROR_15;Nonequivalent;Nonequivalent;ROR;5;0;1;1;0;0;[4, 8, 7, 8];4;8;6.75;[5, 6];5;6;5.5;[4];[7, 6];[0];[1, 1];2;If;0.8571428571428571;0.7777777777777778;0.115;0.618;0.0
+Bubble;AORB_2;Nonequivalent;Nonequivalent;AORB;4;0;0;0;0;0;[3, 7, 6, 7];3;7;5.75;[3, 7, 6, 7];3;7;5.75;[3, 7];[8, 5];[0, 1];[0, 1];7;For;0.8064516129032258;0.5;0.224;0.0;0.0
+Bubble;AOIS_21;Nonequivalent;Nonequivalent;AOIS;2;0;0;0;0;0;[1, 5];1;5;3.0;[1, 5, 9, 8, 9];1;9;6.4;[1, 8];[9, 3];[0, 0];[0, 0];3;For;0.7142857142857143;0.7115384615384616;0.155;0.0;0.0
+Bubble;ROR_4;Nonequivalent;Nonequivalent;ROR;2;0;0;0;0;0;[1, 5];1;5;3.0;[1, 5, 9, 8, 9];1;9;6.4;[1, 8];[9, 3];[0, 0];[0, 0];3;For;0.7142857142857143;0.7777777777777778;0.155;0.0;0.0
+Bubble;AOIS_27;Nonequivalent;Nonequivalent;AOIS;4;0;0;0;0;0;[3, 7, 6, 7];3;7;5.75;[3, 7, 6, 7];3;7;5.75;[3, 7];[8, 5];[0, 1];[0, 1];7;For;0.8064516129032258;0.7115384615384616;0.224;0.0;0.0
+Bubble;AOIS_25;Nonequivalent;Nonequivalent;AOIS;4;0;0;0;0;0;[3, 7, 6, 7];3;7;5.75;[3, 7, 6, 7];3;7;5.75;[3, 7];[8, 5];[0, 1];[0, 1];7;For;0.8064516129032258;0.7115384615384616;0.224;0.0;0.0
+Bubble;CDL_2;Nonequivalent;Nonequivalent;CDL;4;0;0;0;0;0;[3, 7, 6, 7];3;7;5.75;[3, 7, 6, 7];3;7;5.75;[3, 7];[8, 5];[0, 1];[0, 1];7;For;0.8064516129032258;0.0;0.224;0.0;0.0
+Bubble;AORB_1;Nonequivalent;Nonequivalent;AORB;4;0;0;0;0;0;[3, 7, 6, 7];3;7;5.75;[3, 7, 6, 7];3;7;5.75;[3, 7];[8, 5];[0, 1];[0, 1];7;For;0.8064516129032258;0.5;0.224;0.0;0.0
+Bubble;ODL_4;Nonequivalent;Nonequivalent;ODL;4;0;0;0;0;0;[3, 7, 6, 7];3;7;5.75;[3, 7, 6, 7];3;7;5.75;[3, 7];[8, 5];[0, 1];[0, 1];7;For;0.8064516129032258;0.5;0.224;0.0;0.0
+Bubble;AOIS_39;Nonequivalent;Nonequivalent;AOIS;5;0;1;1;0;0;[4, 8, 7, 8];4;8;6.75;[5, 6];5;6;5.5;[4];[7, 6];[0];[1, 1];2;If;0.8571428571428571;0.7115384615384616;0.115;0.618;0.0
+Bubble;AOIS_23;Nonequivalent;Nonequivalent;AOIS;2;0;0;0;0;0;[1, 5];1;5;3.0;[1, 5, 9, 8, 9];1;9;6.4;[1, 8];[9, 3];[0, 0];[0, 0];3;For;0.7142857142857143;0.7115384615384616;0.155;0.0;0.0

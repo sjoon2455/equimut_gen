@@ -1,0 +1,63 @@
+#
+Mutant name: AORB_2
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 0.96875
+Operator score: 0.85
+Program graph node: 4
+
+#
+Mutant name: AORB_5
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 0.9655172413793104
+Operator score: 0.85
+Program graph node: 5
+
+#
+Mutant name: AORB_10
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 0.96875
+Operator score: 0.85
+Program graph node: 4
+
+#
+Mutant name: AORB_8
+Status: Equivalent
+Operator: AORB
+Type statement: If
+Position score: 1
+Operator score: 0.85
+Program graph node: 1
+
+#
+Mutant name: AORB_13
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 0.96875
+Operator score: 0.85
+Program graph node: 4
+
+#
+Mutant name: AORB_12
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 0.9655172413793104
+Operator score: 0.85
+Program graph node: 5
+
+#
+Mutant name: AORB_1
+Status: Equivalent
+Operator: AORB
+Type statement: Assignment
+Position score: 0.9655172413793104
+Operator score: 0.85
+Program graph node: 5
+

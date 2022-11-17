@@ -1,0 +1,546 @@
+AORB_1:42:java.lang.String_encodeName(java.lang.String):length + 8 => length * 8
+AORB_2:42:java.lang.String_encodeName(java.lang.String):length + 8 => length / 8
+AORB_3:42:java.lang.String_encodeName(java.lang.String):length + 8 => length % 8
+AORB_4:42:java.lang.String_encodeName(java.lang.String):length + 8 => length - 8
+AORB_5:82:java.lang.String_decodeName(java.lang.String):length + 8 => length * 8
+AORB_6:82:java.lang.String_decodeName(java.lang.String):length + 8 => length / 8
+AORB_7:82:java.lang.String_decodeName(java.lang.String):length + 8 => length % 8
+AORB_8:82:java.lang.String_decodeName(java.lang.String):length + 8 => length - 8
+AORB_9:89:java.lang.String_decodeName(java.lang.String):dollarReplacement.length() - 1 => dollarReplacement.length() * 1
+AORB_10:89:java.lang.String_decodeName(java.lang.String):dollarReplacement.length() - 1 => dollarReplacement.length() / 1
+AORB_11:89:java.lang.String_decodeName(java.lang.String):dollarReplacement.length() - 1 => dollarReplacement.length() % 1
+AORB_12:89:java.lang.String_decodeName(java.lang.String):dollarReplacement.length() - 1 => dollarReplacement.length() + 1
+AORB_13:93:java.lang.String_decodeName(java.lang.String):escapeCharReplacement.length() - 1 => escapeCharReplacement.length() * 1
+AORB_14:93:java.lang.String_decodeName(java.lang.String):escapeCharReplacement.length() - 1 => escapeCharReplacement.length() / 1
+AORB_15:93:java.lang.String_decodeName(java.lang.String):escapeCharReplacement.length() - 1 => escapeCharReplacement.length() % 1
+AORB_16:93:java.lang.String_decodeName(java.lang.String):escapeCharReplacement.length() - 1 => escapeCharReplacement.length() + 1
+AORS_1:33:java.lang.String_encodeName(java.lang.String):i++ => i--
+AORS_2:46:java.lang.String_encodeName(java.lang.String):i++ => i--
+AORS_3:73:java.lang.String_decodeName(java.lang.String):i++ => i--
+AORS_4:86:java.lang.String_decodeName(java.lang.String):i++ => i--
+AOIU_1:33:java.lang.String_encodeName(java.lang.String):i => -i
+AOIU_2:33:java.lang.String_encodeName(java.lang.String):length => -length
+AOIU_3:34:java.lang.String_encodeName(java.lang.String):i => -i
+AOIU_4:39:java.lang.String_encodeName(java.lang.String):i => -i
+AOIU_5:39:java.lang.String_encodeName(java.lang.String):length => -length
+AOIU_6:42:java.lang.String_encodeName(java.lang.String):length => -length
+AOIU_7:43:java.lang.String_encodeName(java.lang.String):i => -i
+AOIU_8:44:java.lang.String_encodeName(java.lang.String):i => -i
+AOIU_9:46:java.lang.String_encodeName(java.lang.String):i => -i
+AOIU_10:46:java.lang.String_encodeName(java.lang.String):length => -length
+AOIU_11:47:java.lang.String_encodeName(java.lang.String):i => -i
+AOIU_12:48:java.lang.String_encodeName(java.lang.String):c => -c
+AOIU_13:51:java.lang.String_encodeName(java.lang.String):c => -c
+AOIU_14:54:java.lang.String_encodeName(java.lang.String):c => -c
+AOIU_15:73:java.lang.String_decodeName(java.lang.String):i => -i
+AOIU_16:73:java.lang.String_decodeName(java.lang.String):length => -length
+AOIU_17:74:java.lang.String_decodeName(java.lang.String):i => -i
+AOIU_18:79:java.lang.String_decodeName(java.lang.String):i => -i
+AOIU_19:79:java.lang.String_decodeName(java.lang.String):length => -length
+AOIU_20:82:java.lang.String_decodeName(java.lang.String):length => -length
+AOIU_21:83:java.lang.String_decodeName(java.lang.String):i => -i
+AOIU_22:84:java.lang.String_decodeName(java.lang.String):i => -i
+AOIU_23:86:java.lang.String_decodeName(java.lang.String):i => -i
+AOIU_24:86:java.lang.String_decodeName(java.lang.String):length => -length
+AOIU_25:87:java.lang.String_decodeName(java.lang.String):i => -i
+AOIU_26:96:java.lang.String_decodeName(java.lang.String):c => -c
+AOIS_1:33:java.lang.String_encodeName(java.lang.String):i => ++i
+AOIS_2:33:java.lang.String_encodeName(java.lang.String):i => --i
+AOIS_3:33:java.lang.String_encodeName(java.lang.String):i => i++
+AOIS_4:33:java.lang.String_encodeName(java.lang.String):i => i--
+AOIS_5:33:java.lang.String_encodeName(java.lang.String):length => ++length
+AOIS_6:33:java.lang.String_encodeName(java.lang.String):length => --length
+AOIS_7:33:java.lang.String_encodeName(java.lang.String):length => length++
+AOIS_8:33:java.lang.String_encodeName(java.lang.String):length => length--
+AOIS_9:34:java.lang.String_encodeName(java.lang.String):i => i++
+AOIS_10:34:java.lang.String_encodeName(java.lang.String):i => i--
+AOIS_11:35:java.lang.String_encodeName(java.lang.String):c => ++c
+AOIS_12:35:java.lang.String_encodeName(java.lang.String):c => --c
+AOIS_13:35:java.lang.String_encodeName(java.lang.String):c => c++
+AOIS_14:35:java.lang.String_encodeName(java.lang.String):c => c--
+AOIS_15:35:java.lang.String_encodeName(java.lang.String):c => ++c
+AOIS_16:35:java.lang.String_encodeName(java.lang.String):c => --c
+AOIS_17:35:java.lang.String_encodeName(java.lang.String):c => c++
+AOIS_18:35:java.lang.String_encodeName(java.lang.String):c => c--
+AOIS_19:39:java.lang.String_encodeName(java.lang.String):i => ++i
+AOIS_20:39:java.lang.String_encodeName(java.lang.String):i => --i
+AOIS_21:39:java.lang.String_encodeName(java.lang.String):i => i++
+AOIS_22:39:java.lang.String_encodeName(java.lang.String):i => i--
+AOIS_23:39:java.lang.String_encodeName(java.lang.String):length => ++length
+AOIS_24:39:java.lang.String_encodeName(java.lang.String):length => --length
+AOIS_25:39:java.lang.String_encodeName(java.lang.String):length => length++
+AOIS_26:39:java.lang.String_encodeName(java.lang.String):length => length--
+AOIS_27:42:java.lang.String_encodeName(java.lang.String):length => ++length
+AOIS_28:42:java.lang.String_encodeName(java.lang.String):length => --length
+AOIS_29:42:java.lang.String_encodeName(java.lang.String):length => length++
+AOIS_30:42:java.lang.String_encodeName(java.lang.String):length => length--
+AOIS_31:43:java.lang.String_encodeName(java.lang.String):i => ++i
+AOIS_32:43:java.lang.String_encodeName(java.lang.String):i => --i
+AOIS_33:43:java.lang.String_encodeName(java.lang.String):i => i++
+AOIS_34:43:java.lang.String_encodeName(java.lang.String):i => i--
+AOIS_35:44:java.lang.String_encodeName(java.lang.String):i => i++
+AOIS_36:44:java.lang.String_encodeName(java.lang.String):i => i--
+AOIS_37:46:java.lang.String_encodeName(java.lang.String):i => ++i
+AOIS_38:46:java.lang.String_encodeName(java.lang.String):i => --i
+AOIS_39:46:java.lang.String_encodeName(java.lang.String):i => i++
+AOIS_40:46:java.lang.String_encodeName(java.lang.String):i => i--
+AOIS_41:46:java.lang.String_encodeName(java.lang.String):length => ++length
+AOIS_42:46:java.lang.String_encodeName(java.lang.String):length => --length
+AOIS_43:46:java.lang.String_encodeName(java.lang.String):length => length++
+AOIS_44:46:java.lang.String_encodeName(java.lang.String):length => length--
+AOIS_45:47:java.lang.String_encodeName(java.lang.String):i => i++
+AOIS_46:47:java.lang.String_encodeName(java.lang.String):i => i--
+AOIS_47:48:java.lang.String_encodeName(java.lang.String):c => ++c
+AOIS_48:48:java.lang.String_encodeName(java.lang.String):c => --c
+AOIS_49:48:java.lang.String_encodeName(java.lang.String):c => c++
+AOIS_50:48:java.lang.String_encodeName(java.lang.String):c => c--
+AOIS_51:51:java.lang.String_encodeName(java.lang.String):c => ++c
+AOIS_52:51:java.lang.String_encodeName(java.lang.String):c => --c
+AOIS_53:51:java.lang.String_encodeName(java.lang.String):c => c++
+AOIS_54:51:java.lang.String_encodeName(java.lang.String):c => c--
+AOIS_55:54:java.lang.String_encodeName(java.lang.String):c => c++
+AOIS_56:54:java.lang.String_encodeName(java.lang.String):c => c--
+AOIS_57:73:java.lang.String_decodeName(java.lang.String):i => ++i
+AOIS_58:73:java.lang.String_decodeName(java.lang.String):i => --i
+AOIS_59:73:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_60:73:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_61:73:java.lang.String_decodeName(java.lang.String):length => ++length
+AOIS_62:73:java.lang.String_decodeName(java.lang.String):length => --length
+AOIS_63:73:java.lang.String_decodeName(java.lang.String):length => length++
+AOIS_64:73:java.lang.String_decodeName(java.lang.String):length => length--
+AOIS_65:74:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_66:74:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_67:75:java.lang.String_decodeName(java.lang.String):c => ++c
+AOIS_68:75:java.lang.String_decodeName(java.lang.String):c => --c
+AOIS_69:75:java.lang.String_decodeName(java.lang.String):c => c++
+AOIS_70:75:java.lang.String_decodeName(java.lang.String):c => c--
+AOIS_71:75:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => ++dollarReplacementFirstChar
+AOIS_72:75:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => --dollarReplacementFirstChar
+AOIS_73:75:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => dollarReplacementFirstChar++
+AOIS_74:75:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => dollarReplacementFirstChar--
+AOIS_75:75:java.lang.String_decodeName(java.lang.String):c => ++c
+AOIS_76:75:java.lang.String_decodeName(java.lang.String):c => --c
+AOIS_77:75:java.lang.String_decodeName(java.lang.String):c => c++
+AOIS_78:75:java.lang.String_decodeName(java.lang.String):c => c--
+AOIS_79:75:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => ++escapeReplacementFirstChar
+AOIS_80:75:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => --escapeReplacementFirstChar
+AOIS_81:75:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => escapeReplacementFirstChar++
+AOIS_82:75:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => escapeReplacementFirstChar--
+AOIS_83:79:java.lang.String_decodeName(java.lang.String):i => ++i
+AOIS_84:79:java.lang.String_decodeName(java.lang.String):i => --i
+AOIS_85:79:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_86:79:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_87:79:java.lang.String_decodeName(java.lang.String):length => ++length
+AOIS_88:79:java.lang.String_decodeName(java.lang.String):length => --length
+AOIS_89:79:java.lang.String_decodeName(java.lang.String):length => length++
+AOIS_90:79:java.lang.String_decodeName(java.lang.String):length => length--
+AOIS_91:82:java.lang.String_decodeName(java.lang.String):length => ++length
+AOIS_92:82:java.lang.String_decodeName(java.lang.String):length => --length
+AOIS_93:82:java.lang.String_decodeName(java.lang.String):length => length++
+AOIS_94:82:java.lang.String_decodeName(java.lang.String):length => length--
+AOIS_95:83:java.lang.String_decodeName(java.lang.String):i => ++i
+AOIS_96:83:java.lang.String_decodeName(java.lang.String):i => --i
+AOIS_97:83:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_98:83:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_99:84:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_100:84:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_101:86:java.lang.String_decodeName(java.lang.String):i => ++i
+AOIS_102:86:java.lang.String_decodeName(java.lang.String):i => --i
+AOIS_103:86:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_104:86:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_105:86:java.lang.String_decodeName(java.lang.String):length => ++length
+AOIS_106:86:java.lang.String_decodeName(java.lang.String):length => --length
+AOIS_107:86:java.lang.String_decodeName(java.lang.String):length => length++
+AOIS_108:86:java.lang.String_decodeName(java.lang.String):length => length--
+AOIS_109:87:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_110:87:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_111:88:java.lang.String_decodeName(java.lang.String):c => ++c
+AOIS_112:88:java.lang.String_decodeName(java.lang.String):c => --c
+AOIS_113:88:java.lang.String_decodeName(java.lang.String):c => c++
+AOIS_114:88:java.lang.String_decodeName(java.lang.String):c => c--
+AOIS_115:88:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => ++dollarReplacementFirstChar
+AOIS_116:88:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => --dollarReplacementFirstChar
+AOIS_117:88:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => dollarReplacementFirstChar++
+AOIS_118:88:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => dollarReplacementFirstChar--
+AOIS_119:88:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_120:88:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_121:92:java.lang.String_decodeName(java.lang.String):c => ++c
+AOIS_122:92:java.lang.String_decodeName(java.lang.String):c => --c
+AOIS_123:92:java.lang.String_decodeName(java.lang.String):c => c++
+AOIS_124:92:java.lang.String_decodeName(java.lang.String):c => c--
+AOIS_125:92:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => ++escapeReplacementFirstChar
+AOIS_126:92:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => --escapeReplacementFirstChar
+AOIS_127:92:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => escapeReplacementFirstChar++
+AOIS_128:92:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => escapeReplacementFirstChar--
+AOIS_129:92:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_130:92:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_131:96:java.lang.String_decodeName(java.lang.String):c => c++
+AOIS_132:96:java.lang.String_decodeName(java.lang.String):c => c--
+ROR_1:29:java.lang.String_encodeName(java.lang.String): ref == null  =>   ref != null
+ROR_2:30:java.lang.String_encodeName(java.lang.String): s == null  =>   s != null
+ROR_3:33:java.lang.String_encodeName(java.lang.String): i < length  =>   i > length
+ROR_4:33:java.lang.String_encodeName(java.lang.String): i < length  =>   i >= length
+ROR_5:33:java.lang.String_encodeName(java.lang.String): i < length  =>   i <= length
+ROR_6:33:java.lang.String_encodeName(java.lang.String): i < length  =>   i == length
+ROR_7:33:java.lang.String_encodeName(java.lang.String): i < length  =>   i != length
+ROR_8:33:java.lang.String_encodeName(java.lang.String): i < length  =>   true
+ROR_9:33:java.lang.String_encodeName(java.lang.String): i < length  =>   false
+ROR_10:35:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c > '$'
+ROR_11:35:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c >= '$'
+ROR_12:35:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c < '$'
+ROR_13:35:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c <= '$'
+ROR_14:35:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c != '$'
+ROR_15:35:java.lang.String_encodeName(java.lang.String): c == '$'  =>   true
+ROR_16:35:java.lang.String_encodeName(java.lang.String): c == '$'  =>   false
+ROR_17:35:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c > '_'
+ROR_18:35:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c >= '_'
+ROR_19:35:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c < '_'
+ROR_20:35:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c <= '_'
+ROR_21:35:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c != '_'
+ROR_22:35:java.lang.String_encodeName(java.lang.String): c == '_'  =>   true
+ROR_23:35:java.lang.String_encodeName(java.lang.String): c == '_'  =>   false
+ROR_24:39:java.lang.String_encodeName(java.lang.String): i == length  =>   i > length
+ROR_25:39:java.lang.String_encodeName(java.lang.String): i == length  =>   i >= length
+ROR_26:39:java.lang.String_encodeName(java.lang.String): i == length  =>   i < length
+ROR_27:39:java.lang.String_encodeName(java.lang.String): i == length  =>   i <= length
+ROR_28:39:java.lang.String_encodeName(java.lang.String): i == length  =>   i != length
+ROR_29:39:java.lang.String_encodeName(java.lang.String): i == length  =>   true
+ROR_30:39:java.lang.String_encodeName(java.lang.String): i == length  =>   false
+ROR_31:43:java.lang.String_encodeName(java.lang.String): i > 0  =>   i >= 0
+ROR_32:43:java.lang.String_encodeName(java.lang.String): i > 0  =>   i < 0
+ROR_33:43:java.lang.String_encodeName(java.lang.String): i > 0  =>   i <= 0
+ROR_34:43:java.lang.String_encodeName(java.lang.String): i > 0  =>   i == 0
+ROR_35:43:java.lang.String_encodeName(java.lang.String): i > 0  =>   i != 0
+ROR_36:43:java.lang.String_encodeName(java.lang.String): i > 0  =>   true
+ROR_37:43:java.lang.String_encodeName(java.lang.String): i > 0  =>   false
+ROR_38:46:java.lang.String_encodeName(java.lang.String): i < length  =>   i > length
+ROR_39:46:java.lang.String_encodeName(java.lang.String): i < length  =>   i >= length
+ROR_40:46:java.lang.String_encodeName(java.lang.String): i < length  =>   i <= length
+ROR_41:46:java.lang.String_encodeName(java.lang.String): i < length  =>   i == length
+ROR_42:46:java.lang.String_encodeName(java.lang.String): i < length  =>   i != length
+ROR_43:46:java.lang.String_encodeName(java.lang.String): i < length  =>   true
+ROR_44:46:java.lang.String_encodeName(java.lang.String): i < length  =>   false
+ROR_45:48:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c > '$'
+ROR_46:48:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c >= '$'
+ROR_47:48:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c < '$'
+ROR_48:48:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c <= '$'
+ROR_49:48:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c != '$'
+ROR_50:48:java.lang.String_encodeName(java.lang.String): c == '$'  =>   true
+ROR_51:48:java.lang.String_encodeName(java.lang.String): c == '$'  =>   false
+ROR_52:51:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c > '_'
+ROR_53:51:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c >= '_'
+ROR_54:51:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c < '_'
+ROR_55:51:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c <= '_'
+ROR_56:51:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c != '_'
+ROR_57:51:java.lang.String_encodeName(java.lang.String): c == '_'  =>   true
+ROR_58:51:java.lang.String_encodeName(java.lang.String): c == '_'  =>   false
+ROR_59:67:java.lang.String_decodeName(java.lang.String): ref == null  =>   ref != null
+ROR_60:68:java.lang.String_decodeName(java.lang.String): s == null  =>   s != null
+ROR_61:73:java.lang.String_decodeName(java.lang.String): i < length  =>   i > length
+ROR_62:73:java.lang.String_decodeName(java.lang.String): i < length  =>   i >= length
+ROR_63:73:java.lang.String_decodeName(java.lang.String): i < length  =>   i <= length
+ROR_64:73:java.lang.String_decodeName(java.lang.String): i < length  =>   i == length
+ROR_65:73:java.lang.String_decodeName(java.lang.String): i < length  =>   i != length
+ROR_66:73:java.lang.String_decodeName(java.lang.String): i < length  =>   true
+ROR_67:73:java.lang.String_decodeName(java.lang.String): i < length  =>   false
+ROR_68:75:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c > dollarReplacementFirstChar
+ROR_69:75:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c >= dollarReplacementFirstChar
+ROR_70:75:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c < dollarReplacementFirstChar
+ROR_71:75:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c <= dollarReplacementFirstChar
+ROR_72:75:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c != dollarReplacementFirstChar
+ROR_73:75:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   true
+ROR_74:75:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   false
+ROR_75:75:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c > escapeReplacementFirstChar
+ROR_76:75:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c >= escapeReplacementFirstChar
+ROR_77:75:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c < escapeReplacementFirstChar
+ROR_78:75:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c <= escapeReplacementFirstChar
+ROR_79:75:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c != escapeReplacementFirstChar
+ROR_80:75:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   true
+ROR_81:75:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   false
+ROR_82:79:java.lang.String_decodeName(java.lang.String): i == length  =>   i > length
+ROR_83:79:java.lang.String_decodeName(java.lang.String): i == length  =>   i >= length
+ROR_84:79:java.lang.String_decodeName(java.lang.String): i == length  =>   i < length
+ROR_85:79:java.lang.String_decodeName(java.lang.String): i == length  =>   i <= length
+ROR_86:79:java.lang.String_decodeName(java.lang.String): i == length  =>   i != length
+ROR_87:79:java.lang.String_decodeName(java.lang.String): i == length  =>   true
+ROR_88:79:java.lang.String_decodeName(java.lang.String): i == length  =>   false
+ROR_89:83:java.lang.String_decodeName(java.lang.String): i > 0  =>   i >= 0
+ROR_90:83:java.lang.String_decodeName(java.lang.String): i > 0  =>   i < 0
+ROR_91:83:java.lang.String_decodeName(java.lang.String): i > 0  =>   i <= 0
+ROR_92:83:java.lang.String_decodeName(java.lang.String): i > 0  =>   i == 0
+ROR_93:83:java.lang.String_decodeName(java.lang.String): i > 0  =>   i != 0
+ROR_94:83:java.lang.String_decodeName(java.lang.String): i > 0  =>   true
+ROR_95:83:java.lang.String_decodeName(java.lang.String): i > 0  =>   false
+ROR_96:86:java.lang.String_decodeName(java.lang.String): i < length  =>   i > length
+ROR_97:86:java.lang.String_decodeName(java.lang.String): i < length  =>   i >= length
+ROR_98:86:java.lang.String_decodeName(java.lang.String): i < length  =>   i <= length
+ROR_99:86:java.lang.String_decodeName(java.lang.String): i < length  =>   i == length
+ROR_100:86:java.lang.String_decodeName(java.lang.String): i < length  =>   i != length
+ROR_101:86:java.lang.String_decodeName(java.lang.String): i < length  =>   true
+ROR_102:86:java.lang.String_decodeName(java.lang.String): i < length  =>   false
+ROR_103:88:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c > dollarReplacementFirstChar
+ROR_104:88:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c >= dollarReplacementFirstChar
+ROR_105:88:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c < dollarReplacementFirstChar
+ROR_106:88:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c <= dollarReplacementFirstChar
+ROR_107:88:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c != dollarReplacementFirstChar
+ROR_108:88:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   true
+ROR_109:88:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   false
+ROR_110:92:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c > escapeReplacementFirstChar
+ROR_111:92:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c >= escapeReplacementFirstChar
+ROR_112:92:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c < escapeReplacementFirstChar
+ROR_113:92:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c <= escapeReplacementFirstChar
+ROR_114:92:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c != escapeReplacementFirstChar
+ROR_115:92:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   true
+ROR_116:92:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   false
+COR_1:35:java.lang.String_encodeName(java.lang.String): c == '$' || c == '_'  =>   c == '$' && c == '_'
+COR_2:35:java.lang.String_encodeName(java.lang.String): c == '$' || c == '_'  =>   c == '$' ^ c == '_'
+COR_3:75:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar || c == escapeReplacementFirstChar  =>   c == dollarReplacementFirstChar && c == escapeReplacementFirstChar
+COR_4:75:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar || c == escapeReplacementFirstChar  =>   c == dollarReplacementFirstChar ^ c == escapeReplacementFirstChar
+COR_5:88:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )  =>   c == dollarReplacementFirstChar || name.startsWith( dollarReplacement, i )
+COR_6:88:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )  =>   c == dollarReplacementFirstChar ^ name.startsWith( dollarReplacement, i )
+COR_7:92:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )  =>   c == escapeReplacementFirstChar || name.startsWith( escapeCharReplacement, i )
+COR_8:92:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )  =>   c == escapeReplacementFirstChar ^ name.startsWith( escapeCharReplacement, i )
+COI_1:29:java.lang.String_encodeName(java.lang.String): ref == null  =>  !(ref == null)
+COI_2:30:java.lang.String_encodeName(java.lang.String): s == null  =>  !(s == null)
+COI_3:33:java.lang.String_encodeName(java.lang.String): i < length  =>  !(i < length)
+COI_4:35:java.lang.String_encodeName(java.lang.String): c == '$'  =>  !(c == '$')
+COI_5:35:java.lang.String_encodeName(java.lang.String): c == '_'  =>  !(c == '_')
+COI_6:35:java.lang.String_encodeName(java.lang.String): c == '$' || c == '_'  =>  !(c == '$' || c == '_')
+COI_7:39:java.lang.String_encodeName(java.lang.String): i == length  =>  !(i == length)
+COI_8:43:java.lang.String_encodeName(java.lang.String): i > 0  =>  !(i > 0)
+COI_9:46:java.lang.String_encodeName(java.lang.String): i < length  =>  !(i < length)
+COI_10:48:java.lang.String_encodeName(java.lang.String): c == '$'  =>  !(c == '$')
+COI_11:51:java.lang.String_encodeName(java.lang.String): c == '_'  =>  !(c == '_')
+COI_12:67:java.lang.String_decodeName(java.lang.String): ref == null  =>  !(ref == null)
+COI_13:68:java.lang.String_decodeName(java.lang.String): s == null  =>  !(s == null)
+COI_14:73:java.lang.String_decodeName(java.lang.String): i < length  =>  !(i < length)
+COI_15:75:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>  !(c == dollarReplacementFirstChar)
+COI_16:75:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>  !(c == escapeReplacementFirstChar)
+COI_17:75:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar || c == escapeReplacementFirstChar  =>  !(c == dollarReplacementFirstChar || c == escapeReplacementFirstChar)
+COI_18:79:java.lang.String_decodeName(java.lang.String): i == length  =>  !(i == length)
+COI_19:83:java.lang.String_decodeName(java.lang.String): i > 0  =>  !(i > 0)
+COI_20:86:java.lang.String_decodeName(java.lang.String): i < length  =>  !(i < length)
+COI_21:88:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>  !(c == dollarReplacementFirstChar)
+COI_22:88:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )  =>  !(c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i ))
+COI_23:92:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>  !(c == escapeReplacementFirstChar)
+COI_24:92:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )  =>  !(c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i ))
+LOI_1:33:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_2:33:java.lang.String_encodeName(java.lang.String):length => ~length
+LOI_3:33:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_4:34:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_5:35:java.lang.String_encodeName(java.lang.String):c => ~c
+LOI_6:35:java.lang.String_encodeName(java.lang.String):c => ~c
+LOI_7:39:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_8:39:java.lang.String_encodeName(java.lang.String):length => ~length
+LOI_9:42:java.lang.String_encodeName(java.lang.String):length => ~length
+LOI_10:43:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_11:44:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_12:46:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_13:46:java.lang.String_encodeName(java.lang.String):length => ~length
+LOI_14:46:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_15:47:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_16:48:java.lang.String_encodeName(java.lang.String):c => ~c
+LOI_17:51:java.lang.String_encodeName(java.lang.String):c => ~c
+LOI_18:54:java.lang.String_encodeName(java.lang.String):c => ~c
+LOI_19:73:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_20:73:java.lang.String_decodeName(java.lang.String):length => ~length
+LOI_21:73:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_22:74:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_23:75:java.lang.String_decodeName(java.lang.String):c => ~c
+LOI_24:75:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => ~dollarReplacementFirstChar
+LOI_25:75:java.lang.String_decodeName(java.lang.String):c => ~c
+LOI_26:75:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => ~escapeReplacementFirstChar
+LOI_27:79:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_28:79:java.lang.String_decodeName(java.lang.String):length => ~length
+LOI_29:82:java.lang.String_decodeName(java.lang.String):length => ~length
+LOI_30:83:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_31:84:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_32:86:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_33:86:java.lang.String_decodeName(java.lang.String):length => ~length
+LOI_34:86:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_35:87:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_36:88:java.lang.String_decodeName(java.lang.String):c => ~c
+LOI_37:88:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => ~dollarReplacementFirstChar
+LOI_38:88:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_39:92:java.lang.String_decodeName(java.lang.String):c => ~c
+LOI_40:92:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => ~escapeReplacementFirstChar
+LOI_41:92:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_42:96:java.lang.String_decodeName(java.lang.String):c => ~c
+ASRS_1:89:java.lang.String_decodeName(java.lang.String):i += dollarReplacement.length() - 1 => i /= dollarReplacement.length() - 1
+ASRS_2:89:java.lang.String_decodeName(java.lang.String):i += dollarReplacement.length() - 1 => i *= dollarReplacement.length() - 1
+ASRS_3:89:java.lang.String_decodeName(java.lang.String):i += dollarReplacement.length() - 1 => i -= dollarReplacement.length() - 1
+ASRS_4:89:java.lang.String_decodeName(java.lang.String):i += dollarReplacement.length() - 1 => i %= dollarReplacement.length() - 1
+ASRS_5:93:java.lang.String_decodeName(java.lang.String):i += escapeCharReplacement.length() - 1 => i /= escapeCharReplacement.length() - 1
+ASRS_6:93:java.lang.String_decodeName(java.lang.String):i += escapeCharReplacement.length() - 1 => i *= escapeCharReplacement.length() - 1
+ASRS_7:93:java.lang.String_decodeName(java.lang.String):i += escapeCharReplacement.length() - 1 => i -= escapeCharReplacement.length() - 1
+ASRS_8:93:java.lang.String_decodeName(java.lang.String):i += escapeCharReplacement.length() - 1 => i %= escapeCharReplacement.length() - 1
+SDL_1:23:XmlFriendlyNameCoder(java.lang.String,java.lang.String): this.dollarReplacement = dollarReplacement; this.escapeCharReplacement = escapeCharReplacement;  =>   this.escapeCharReplacement = escapeCharReplacement;
+SDL_2:23:XmlFriendlyNameCoder(java.lang.String,java.lang.String): this.dollarReplacement = dollarReplacement; this.escapeCharReplacement = escapeCharReplacement;  =>   this.dollarReplacement = dollarReplacement;
+SDL_3:31:java.lang.String_encodeName(java.lang.String): final java.lang.ref.WeakReference ref = (java.lang.ref.WeakReference) escapeCache.get( name ); java.lang.String s = (java.lang.String) (ref == null ? null : ref.get()); if (s == null) {     final int length = name.length();     int i = 0;     for (; i < length; i++) {         char c = name.charAt( i );         if (c == '$' || c == '_') {             break;         }     }     if (i == length) {         return name;     }     final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 );     if (i > 0) {         result.append( name.substring( 0, i ) );     }     for (; i < length; i++) {         char c = name.charAt( i );         if (c == '$') {             result.append( dollarReplacement );         } else {             if (c == '_') {                 result.append( escapeCharReplacement );             } else {                 result.append( c );             }         }     }     s = result.toString();     escapeCache.put( name, new java.lang.ref.WeakReference( s ) ); } return s;  =>   final java.lang.ref.WeakReference ref = (java.lang.ref.WeakReference) escapeCache.get( name ); java.lang.String s = (java.lang.String) (ref == null ? null : ref.get()); return s;
+SDL_4:54:java.lang.String_encodeName(java.lang.String): final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } } s = result.toString(); escapeCache.put( name, new java.lang.ref.WeakReference( s ) );  =>   final int length = name.length(); int i = 0; if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } } s = result.toString(); escapeCache.put( name, new java.lang.ref.WeakReference( s ) );
+SDL_5:57:java.lang.String_encodeName(java.lang.String): final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } } s = result.toString(); escapeCache.put( name, new java.lang.ref.WeakReference( s ) );  =>   final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } } s = result.toString(); escapeCache.put( name, new java.lang.ref.WeakReference( s ) );
+SDL_6:57:java.lang.String_encodeName(java.lang.String): final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } } s = result.toString(); escapeCache.put( name, new java.lang.ref.WeakReference( s ) );  =>   final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } } s = result.toString(); escapeCache.put( name, new java.lang.ref.WeakReference( s ) );
+SDL_7:48:java.lang.String_encodeName(java.lang.String): final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } } s = result.toString(); escapeCache.put( name, new java.lang.ref.WeakReference( s ) );  =>   final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } s = result.toString(); escapeCache.put( name, new java.lang.ref.WeakReference( s ) );
+SDL_8:59:java.lang.String_encodeName(java.lang.String): final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } } s = result.toString(); escapeCache.put( name, new java.lang.ref.WeakReference( s ) );  =>   final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } } escapeCache.put( name, new java.lang.ref.WeakReference( s ) );
+SDL_9:59:java.lang.String_encodeName(java.lang.String): final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } } s = result.toString(); escapeCache.put( name, new java.lang.ref.WeakReference( s ) );  =>   final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } } s = result.toString();
+SDL_10:61:java.lang.String_encodeName(java.lang.String): if (s == null) {     final int length = name.length();     int i = 0;     for (; i < length; i++) {         char c = name.charAt( i );         if (c == '$' || c == '_') {             break;         }     }     if (i == length) {         return name;     }     final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 );     if (i > 0) {         result.append( name.substring( 0, i ) );     }     for (; i < length; i++) {         char c = name.charAt( i );         if (c == '$') {             result.append( dollarReplacement );         } else {             if (c == '_') {                 result.append( escapeCharReplacement );             } else {                 result.append( c );             }         }     }     s = result.toString();     escapeCache.put( name, new java.lang.ref.WeakReference( s ) ); }  =>   if (true) {     final int length = name.length();     int i = 0;     for (; i < length; i++) {         char c = name.charAt( i );         if (c == '$' || c == '_') {             break;         }     }     if (i == length) {         return name;     }     final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 );     if (i > 0) {         result.append( name.substring( 0, i ) );     }     for (; i < length; i++) {         char c = name.charAt( i );         if (c == '$') {             result.append( dollarReplacement );         } else {             if (c == '_') {                 result.append( escapeCharReplacement );             } else {                 result.append( c );             }         }     }     s = result.toString();     escapeCache.put( name, new java.lang.ref.WeakReference( s ) ); }
+SDL_11:35:java.lang.String_encodeName(java.lang.String): char c = name.charAt( i ); if (c == '$' || c == '_') {     break; }  =>   char c = name.charAt( i );
+SDL_12:39:java.lang.String_encodeName(java.lang.String): for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } }  =>   for (;; i++) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } }
+SDL_13:39:java.lang.String_encodeName(java.lang.String): for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } }  =>   for (; i < length;) {     char c = name.charAt( i );     if (c == '$' || c == '_') {         break;     } }
+SDL_14:36:java.lang.String_encodeName(java.lang.String): break;  =>  
+SDL_15:38:java.lang.String_encodeName(java.lang.String): if (c == '$' || c == '_') {     break; }  =>   if (true) {     break; }
+SDL_16:42:java.lang.String_encodeName(java.lang.String): if (i == length) {     return name; }  =>   if (true) {     return name; }
+SDL_17:41:java.lang.String_encodeName(java.lang.String): return name;  =>   return \"\";
+SDL_18:44:java.lang.String_encodeName(java.lang.String): result.append( name.substring( 0, i ) );  =>  
+SDL_19:46:java.lang.String_encodeName(java.lang.String): if (i > 0) {     result.append( name.substring( 0, i ) ); }  =>   if (true) {     result.append( name.substring( 0, i ) ); }
+SDL_20:48:java.lang.String_encodeName(java.lang.String): char c = name.charAt( i ); if (c == '$') {     result.append( dollarReplacement ); } else {     if (c == '_') {         result.append( escapeCharReplacement );     } else {         result.append( c );     } }  =>   char c = name.charAt( i );
+SDL_21:58:java.lang.String_encodeName(java.lang.String): for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } }  =>   for (;; i++) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } }
+SDL_22:58:java.lang.String_encodeName(java.lang.String): for (; i < length; i++) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } }  =>   for (; i < length;) {     char c = name.charAt( i );     if (c == '$') {         result.append( dollarReplacement );     } else {         if (c == '_') {             result.append( escapeCharReplacement );         } else {             result.append( c );         }     } }
+SDL_23:49:java.lang.String_encodeName(java.lang.String): result.append( dollarReplacement );  =>  
+SDL_24:57:java.lang.String_encodeName(java.lang.String): if (c == '$') {     result.append( dollarReplacement ); } else {     if (c == '_') {         result.append( escapeCharReplacement );     } else {         result.append( c );     } }  =>   if (true) {     result.append( dollarReplacement ); } else {     if (c == '_') {         result.append( escapeCharReplacement );     } else {         result.append( c );     } }
+SDL_25:51:java.lang.String_encodeName(java.lang.String): if (c == '_') {     result.append( escapeCharReplacement ); } else {     result.append( c ); }  =>  
+SDL_26:52:java.lang.String_encodeName(java.lang.String): result.append( escapeCharReplacement );  =>  
+SDL_27:56:java.lang.String_encodeName(java.lang.String): if (c == '_') {     result.append( escapeCharReplacement ); } else {     result.append( c ); }  =>   if (true) {     result.append( escapeCharReplacement ); } else {     result.append( c ); }
+SDL_28:54:java.lang.String_encodeName(java.lang.String): result.append( c );  =>  
+SDL_29:62:java.lang.String_encodeName(java.lang.String): return s;  =>   return \"\";
+SDL_30:69:java.lang.String_decodeName(java.lang.String): final java.lang.ref.WeakReference ref = (java.lang.ref.WeakReference) unescapeCache.get( name ); java.lang.String s = (java.lang.String) (ref == null ? null : ref.get()); if (s == null) {     final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 );     final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 );     final int length = name.length();     int i = 0;     for (; i < length; i++) {         char c = name.charAt( i );         if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {             break;         }     }     if (i == length) {         return name;     }     final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 );     if (i > 0) {         result.append( name.substring( 0, i ) );     }     for (; i < length; i++) {         char c = name.charAt( i );         if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {             i += dollarReplacement.length() - 1;             result.append( '$' );         } else {             if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {                 i += escapeCharReplacement.length() - 1;                 result.append( '_' );             } else {                 result.append( c );             }         }     }     s = result.toString();     unescapeCache.put( name, new java.lang.ref.WeakReference( s ) ); } return s;  =>   final java.lang.ref.WeakReference ref = (java.lang.ref.WeakReference) unescapeCache.get( name ); java.lang.String s = (java.lang.String) (ref == null ? null : ref.get()); return s;
+SDL_31:96:java.lang.String_decodeName(java.lang.String): final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 ); final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 ); final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } } s = result.toString(); unescapeCache.put( name, new java.lang.ref.WeakReference( s ) );  =>   final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 ); final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 ); final int length = name.length(); int i = 0; if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } } s = result.toString(); unescapeCache.put( name, new java.lang.ref.WeakReference( s ) );
+SDL_32:99:java.lang.String_decodeName(java.lang.String): final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 ); final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 ); final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } } s = result.toString(); unescapeCache.put( name, new java.lang.ref.WeakReference( s ) );  =>   final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 ); final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 ); final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } } s = result.toString(); unescapeCache.put( name, new java.lang.ref.WeakReference( s ) );
+SDL_33:99:java.lang.String_decodeName(java.lang.String): final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 ); final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 ); final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } } s = result.toString(); unescapeCache.put( name, new java.lang.ref.WeakReference( s ) );  =>   final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 ); final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 ); final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } } s = result.toString(); unescapeCache.put( name, new java.lang.ref.WeakReference( s ) );
+SDL_34:88:java.lang.String_decodeName(java.lang.String): final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 ); final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 ); final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } } s = result.toString(); unescapeCache.put( name, new java.lang.ref.WeakReference( s ) );  =>   final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 ); final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 ); final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } s = result.toString(); unescapeCache.put( name, new java.lang.ref.WeakReference( s ) );
+SDL_35:101:java.lang.String_decodeName(java.lang.String): final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 ); final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 ); final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } } s = result.toString(); unescapeCache.put( name, new java.lang.ref.WeakReference( s ) );  =>   final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 ); final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 ); final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } } unescapeCache.put( name, new java.lang.ref.WeakReference( s ) );
+SDL_36:101:java.lang.String_decodeName(java.lang.String): final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 ); final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 ); final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } } s = result.toString(); unescapeCache.put( name, new java.lang.ref.WeakReference( s ) );  =>   final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 ); final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 ); final int length = name.length(); int i = 0; for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } } if (i == length) {     return name; } final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 ); if (i > 0) {     result.append( name.substring( 0, i ) ); } for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } } s = result.toString();
+SDL_37:103:java.lang.String_decodeName(java.lang.String): if (s == null) {     final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 );     final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 );     final int length = name.length();     int i = 0;     for (; i < length; i++) {         char c = name.charAt( i );         if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {             break;         }     }     if (i == length) {         return name;     }     final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 );     if (i > 0) {         result.append( name.substring( 0, i ) );     }     for (; i < length; i++) {         char c = name.charAt( i );         if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {             i += dollarReplacement.length() - 1;             result.append( '$' );         } else {             if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {                 i += escapeCharReplacement.length() - 1;                 result.append( '_' );             } else {                 result.append( c );             }         }     }     s = result.toString();     unescapeCache.put( name, new java.lang.ref.WeakReference( s ) ); }  =>   if (true) {     final char dollarReplacementFirstChar = dollarReplacement.charAt( 0 );     final char escapeReplacementFirstChar = escapeCharReplacement.charAt( 0 );     final int length = name.length();     int i = 0;     for (; i < length; i++) {         char c = name.charAt( i );         if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {             break;         }     }     if (i == length) {         return name;     }     final java.lang.StringBuffer result = new java.lang.StringBuffer( length + 8 );     if (i > 0) {         result.append( name.substring( 0, i ) );     }     for (; i < length; i++) {         char c = name.charAt( i );         if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {             i += dollarReplacement.length() - 1;             result.append( '$' );         } else {             if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {                 i += escapeCharReplacement.length() - 1;                 result.append( '_' );             } else {                 result.append( c );             }         }     }     s = result.toString();     unescapeCache.put( name, new java.lang.ref.WeakReference( s ) ); }
+SDL_38:75:java.lang.String_decodeName(java.lang.String): char c = name.charAt( i ); if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {     break; }  =>   char c = name.charAt( i );
+SDL_39:79:java.lang.String_decodeName(java.lang.String): for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } }  =>   for (;; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } }
+SDL_40:79:java.lang.String_decodeName(java.lang.String): for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } }  =>   for (; i < length;) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {         break;     } }
+SDL_41:76:java.lang.String_decodeName(java.lang.String): break;  =>  
+SDL_42:78:java.lang.String_decodeName(java.lang.String): if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {     break; }  =>   if (true) {     break; }
+SDL_43:82:java.lang.String_decodeName(java.lang.String): if (i == length) {     return name; }  =>   if (true) {     return name; }
+SDL_44:81:java.lang.String_decodeName(java.lang.String): return name;  =>   return \"\";
+SDL_45:84:java.lang.String_decodeName(java.lang.String): result.append( name.substring( 0, i ) );  =>  
+SDL_46:86:java.lang.String_decodeName(java.lang.String): if (i > 0) {     result.append( name.substring( 0, i ) ); }  =>   if (true) {     result.append( name.substring( 0, i ) ); }
+SDL_47:88:java.lang.String_decodeName(java.lang.String): char c = name.charAt( i ); if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {     i += dollarReplacement.length() - 1;     result.append( '$' ); } else {     if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {         i += escapeCharReplacement.length() - 1;         result.append( '_' );     } else {         result.append( c );     } }  =>   char c = name.charAt( i );
+SDL_48:100:java.lang.String_decodeName(java.lang.String): for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } }  =>   for (;; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } }
+SDL_49:100:java.lang.String_decodeName(java.lang.String): for (; i < length; i++) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } }  =>   for (; i < length;) {     char c = name.charAt( i );     if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {         i += dollarReplacement.length() - 1;         result.append( '$' );     } else {         if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {             i += escapeCharReplacement.length() - 1;             result.append( '_' );         } else {             result.append( c );         }     } }
+SDL_50:90:java.lang.String_decodeName(java.lang.String): i += dollarReplacement.length() - 1; result.append( '$' );  =>   result.append( '$' );
+SDL_51:90:java.lang.String_decodeName(java.lang.String): i += dollarReplacement.length() - 1; result.append( '$' );  =>   i += dollarReplacement.length() - 1;
+SDL_52:99:java.lang.String_decodeName(java.lang.String): if (c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )) {     i += dollarReplacement.length() - 1;     result.append( '$' ); } else {     if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {         i += escapeCharReplacement.length() - 1;         result.append( '_' );     } else {         result.append( c );     } }  =>   if (true) {     i += dollarReplacement.length() - 1;     result.append( '$' ); } else {     if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {         i += escapeCharReplacement.length() - 1;         result.append( '_' );     } else {         result.append( c );     } }
+SDL_53:92:java.lang.String_decodeName(java.lang.String): if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {     i += escapeCharReplacement.length() - 1;     result.append( '_' ); } else {     result.append( c ); }  =>  
+SDL_54:94:java.lang.String_decodeName(java.lang.String): i += escapeCharReplacement.length() - 1; result.append( '_' );  =>   result.append( '_' );
+SDL_55:94:java.lang.String_decodeName(java.lang.String): i += escapeCharReplacement.length() - 1; result.append( '_' );  =>   i += escapeCharReplacement.length() - 1;
+SDL_56:98:java.lang.String_decodeName(java.lang.String): if (c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )) {     i += escapeCharReplacement.length() - 1;     result.append( '_' ); } else {     result.append( c ); }  =>   if (true) {     i += escapeCharReplacement.length() - 1;     result.append( '_' ); } else {     result.append( c ); }
+SDL_57:96:java.lang.String_decodeName(java.lang.String): result.append( c );  =>  
+SDL_58:104:java.lang.String_decodeName(java.lang.String): return s;  =>   return \"\";
+VDL_1:29:java.lang.String_encodeName(java.lang.String):ref == null => null
+VDL_2:30:java.lang.String_encodeName(java.lang.String):s == null => null
+VDL_3:33:java.lang.String_encodeName(java.lang.String):i < length => length
+VDL_4:33:java.lang.String_encodeName(java.lang.String):i < length => i
+VDL_5:33:java.lang.String_encodeName(java.lang.String):i++ =>  
+VDL_6:35:java.lang.String_encodeName(java.lang.String):c == '$' => '$'
+VDL_7:35:java.lang.String_encodeName(java.lang.String):c == '_' => '_'
+VDL_8:39:java.lang.String_encodeName(java.lang.String):i == length => length
+VDL_9:39:java.lang.String_encodeName(java.lang.String):i == length => i
+VDL_10:42:java.lang.String_encodeName(java.lang.String):length + 8 => 8
+VDL_11:43:java.lang.String_encodeName(java.lang.String):i > 0 => 0
+VDL_12:46:java.lang.String_encodeName(java.lang.String):i < length => length
+VDL_13:46:java.lang.String_encodeName(java.lang.String):i < length => i
+VDL_14:46:java.lang.String_encodeName(java.lang.String):i++ =>  
+VDL_15:48:java.lang.String_encodeName(java.lang.String):c == '$' => '$'
+VDL_16:51:java.lang.String_encodeName(java.lang.String):c == '_' => '_'
+VDL_17:67:java.lang.String_decodeName(java.lang.String):ref == null => null
+VDL_18:68:java.lang.String_decodeName(java.lang.String):s == null => null
+VDL_19:73:java.lang.String_decodeName(java.lang.String):i < length => length
+VDL_20:73:java.lang.String_decodeName(java.lang.String):i < length => i
+VDL_21:73:java.lang.String_decodeName(java.lang.String):i++ =>  
+VDL_22:75:java.lang.String_decodeName(java.lang.String):c == dollarReplacementFirstChar => dollarReplacementFirstChar
+VDL_23:75:java.lang.String_decodeName(java.lang.String):c == dollarReplacementFirstChar => c
+VDL_24:75:java.lang.String_decodeName(java.lang.String):c == escapeReplacementFirstChar => escapeReplacementFirstChar
+VDL_25:75:java.lang.String_decodeName(java.lang.String):c == escapeReplacementFirstChar => c
+VDL_26:79:java.lang.String_decodeName(java.lang.String):i == length => length
+VDL_27:79:java.lang.String_decodeName(java.lang.String):i == length => i
+VDL_28:82:java.lang.String_decodeName(java.lang.String):length + 8 => 8
+VDL_29:83:java.lang.String_decodeName(java.lang.String):i > 0 => 0
+VDL_30:86:java.lang.String_decodeName(java.lang.String):i < length => length
+VDL_31:86:java.lang.String_decodeName(java.lang.String):i < length => i
+VDL_32:86:java.lang.String_decodeName(java.lang.String):i++ =>  
+VDL_33:88:java.lang.String_decodeName(java.lang.String):c == dollarReplacementFirstChar => dollarReplacementFirstChar
+VDL_34:88:java.lang.String_decodeName(java.lang.String):c == dollarReplacementFirstChar => c
+VDL_35:92:java.lang.String_decodeName(java.lang.String):c == escapeReplacementFirstChar => escapeReplacementFirstChar
+VDL_36:92:java.lang.String_decodeName(java.lang.String):c == escapeReplacementFirstChar => c
+ODL_1:29:java.lang.String_encodeName(java.lang.String):ref == null => ref
+ODL_2:29:java.lang.String_encodeName(java.lang.String):ref == null => null
+ODL_3:30:java.lang.String_encodeName(java.lang.String):s == null => s
+ODL_4:30:java.lang.String_encodeName(java.lang.String):s == null => null
+ODL_5:33:java.lang.String_encodeName(java.lang.String):i < length => i
+ODL_6:33:java.lang.String_encodeName(java.lang.String):i < length => length
+ODL_7:33:java.lang.String_encodeName(java.lang.String):i++ => i
+ODL_8:35:java.lang.String_encodeName(java.lang.String):c == '$' => c
+ODL_9:35:java.lang.String_encodeName(java.lang.String):c == '$' => '$'
+ODL_10:35:java.lang.String_encodeName(java.lang.String):c == '_' => c
+ODL_11:35:java.lang.String_encodeName(java.lang.String):c == '_' => '_'
+ODL_12:35:java.lang.String_encodeName(java.lang.String):c == '$' || c == '_' => c == '$'
+ODL_13:35:java.lang.String_encodeName(java.lang.String):c == '$' || c == '_' => c == '_'
+ODL_14:39:java.lang.String_encodeName(java.lang.String):i == length => i
+ODL_15:39:java.lang.String_encodeName(java.lang.String):i == length => length
+ODL_16:42:java.lang.String_encodeName(java.lang.String):length + 8 => length
+ODL_17:42:java.lang.String_encodeName(java.lang.String):length + 8 => 8
+ODL_18:43:java.lang.String_encodeName(java.lang.String):i > 0 => i
+ODL_19:43:java.lang.String_encodeName(java.lang.String):i > 0 => 0
+ODL_20:46:java.lang.String_encodeName(java.lang.String):i < length => i
+ODL_21:46:java.lang.String_encodeName(java.lang.String):i < length => length
+ODL_22:46:java.lang.String_encodeName(java.lang.String):i++ => i
+ODL_23:48:java.lang.String_encodeName(java.lang.String):c == '$' => c
+ODL_24:48:java.lang.String_encodeName(java.lang.String):c == '$' => '$'
+ODL_25:51:java.lang.String_encodeName(java.lang.String):c == '_' => c
+ODL_26:51:java.lang.String_encodeName(java.lang.String):c == '_' => '_'
+ODL_27:67:java.lang.String_decodeName(java.lang.String):ref == null => ref
+ODL_28:67:java.lang.String_decodeName(java.lang.String):ref == null => null
+ODL_29:68:java.lang.String_decodeName(java.lang.String):s == null => s
+ODL_30:68:java.lang.String_decodeName(java.lang.String):s == null => null
+ODL_31:73:java.lang.String_decodeName(java.lang.String):i < length => i
+ODL_32:73:java.lang.String_decodeName(java.lang.String):i < length => length
+ODL_33:73:java.lang.String_decodeName(java.lang.String):i++ => i
+ODL_34:75:java.lang.String_decodeName(java.lang.String):c == dollarReplacementFirstChar => c
+ODL_35:75:java.lang.String_decodeName(java.lang.String):c == dollarReplacementFirstChar => dollarReplacementFirstChar
+ODL_36:75:java.lang.String_decodeName(java.lang.String):c == escapeReplacementFirstChar => c
+ODL_37:75:java.lang.String_decodeName(java.lang.String):c == escapeReplacementFirstChar => escapeReplacementFirstChar
+ODL_38:75:java.lang.String_decodeName(java.lang.String):c == dollarReplacementFirstChar || c == escapeReplacementFirstChar => c == dollarReplacementFirstChar
+ODL_39:75:java.lang.String_decodeName(java.lang.String):c == dollarReplacementFirstChar || c == escapeReplacementFirstChar => c == escapeReplacementFirstChar
+ODL_40:79:java.lang.String_decodeName(java.lang.String):i == length => i
+ODL_41:79:java.lang.String_decodeName(java.lang.String):i == length => length
+ODL_42:82:java.lang.String_decodeName(java.lang.String):length + 8 => length
+ODL_43:82:java.lang.String_decodeName(java.lang.String):length + 8 => 8
+ODL_44:83:java.lang.String_decodeName(java.lang.String):i > 0 => i
+ODL_45:83:java.lang.String_decodeName(java.lang.String):i > 0 => 0
+ODL_46:86:java.lang.String_decodeName(java.lang.String):i < length => i
+ODL_47:86:java.lang.String_decodeName(java.lang.String):i < length => length
+ODL_48:86:java.lang.String_decodeName(java.lang.String):i++ => i
+ODL_49:88:java.lang.String_decodeName(java.lang.String):c == dollarReplacementFirstChar => c
+ODL_50:88:java.lang.String_decodeName(java.lang.String):c == dollarReplacementFirstChar => dollarReplacementFirstChar
+ODL_51:88:java.lang.String_decodeName(java.lang.String):c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i ) => c == dollarReplacementFirstChar
+ODL_52:88:java.lang.String_decodeName(java.lang.String):c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i ) => name.startsWith( dollarReplacement, i )
+ODL_53:89:java.lang.String_decodeName(java.lang.String):dollarReplacement.length() - 1 => dollarReplacement.length()
+ODL_54:89:java.lang.String_decodeName(java.lang.String):dollarReplacement.length() - 1 => 1
+ODL_55:89:java.lang.String_decodeName(java.lang.String):i += dollarReplacement.length() - 1 => i = dollarReplacement.length() - 1
+ODL_56:92:java.lang.String_decodeName(java.lang.String):c == escapeReplacementFirstChar => c
+ODL_57:92:java.lang.String_decodeName(java.lang.String):c == escapeReplacementFirstChar => escapeReplacementFirstChar
+ODL_58:92:java.lang.String_decodeName(java.lang.String):c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i ) => c == escapeReplacementFirstChar
+ODL_59:92:java.lang.String_decodeName(java.lang.String):c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i ) => name.startsWith( escapeCharReplacement, i )
+ODL_60:93:java.lang.String_decodeName(java.lang.String):escapeCharReplacement.length() - 1 => escapeCharReplacement.length()
+ODL_61:93:java.lang.String_decodeName(java.lang.String):escapeCharReplacement.length() - 1 => 1
+ODL_62:93:java.lang.String_decodeName(java.lang.String):i += escapeCharReplacement.length() - 1 => i = escapeCharReplacement.length() - 1
+CDL_1:29:java.lang.String_encodeName(java.lang.String):ref == null => ref
+CDL_2:30:java.lang.String_encodeName(java.lang.String):s == null => s
+CDL_3:35:java.lang.String_encodeName(java.lang.String):c == '$' => c
+CDL_4:35:java.lang.String_encodeName(java.lang.String):c == '_' => c
+CDL_5:42:java.lang.String_encodeName(java.lang.String):length + 8 => length
+CDL_6:43:java.lang.String_encodeName(java.lang.String):i > 0 => i
+CDL_7:48:java.lang.String_encodeName(java.lang.String):c == '$' => c
+CDL_8:51:java.lang.String_encodeName(java.lang.String):c == '_' => c
+CDL_9:67:java.lang.String_decodeName(java.lang.String):ref == null => ref
+CDL_10:68:java.lang.String_decodeName(java.lang.String):s == null => s
+CDL_11:82:java.lang.String_decodeName(java.lang.String):length + 8 => length
+CDL_12:83:java.lang.String_decodeName(java.lang.String):i > 0 => i
+CDL_13:89:java.lang.String_decodeName(java.lang.String):dollarReplacement.length() - 1 => dollarReplacement.length()
+CDL_14:93:java.lang.String_decodeName(java.lang.String):escapeCharReplacement.length() - 1 => escapeCharReplacement.length()

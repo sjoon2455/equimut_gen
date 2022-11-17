@@ -1,0 +1,510 @@
+AORB_1:18:double_func(double):100000 * 0.1 => 100000 / 0.1
+AORB_2:18:double_func(double):100000 * 0.1 => 100000 % 0.1
+AORB_3:18:double_func(double):100000 * 0.1 => 100000 + 0.1
+AORB_4:18:double_func(double):100000 * 0.1 => 100000 - 0.1
+AORB_5:19:double_func(double):100000 * 0.1 => 100000 / 0.1
+AORB_6:19:double_func(double):100000 * 0.1 => 100000 % 0.1
+AORB_7:19:double_func(double):100000 * 0.1 => 100000 + 0.1
+AORB_8:19:double_func(double):100000 * 0.1 => 100000 - 0.1
+AORB_9:19:double_func(double):100000 * 0.075 => 100000 / 0.075
+AORB_10:19:double_func(double):100000 * 0.075 => 100000 % 0.075
+AORB_11:19:double_func(double):100000 * 0.075 => 100000 + 0.075
+AORB_12:19:double_func(double):100000 * 0.075 => 100000 - 0.075
+AORB_13:19:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 * (100000 * 0.075)
+AORB_14:19:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 / (100000 * 0.075)
+AORB_15:19:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 % (100000 * 0.075)
+AORB_16:19:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 - 100000 * 0.075
+AORB_17:20:double_func(double):100000 * 0.1 => 100000 / 0.1
+AORB_18:20:double_func(double):100000 * 0.1 => 100000 % 0.1
+AORB_19:20:double_func(double):100000 * 0.1 => 100000 + 0.1
+AORB_20:20:double_func(double):100000 * 0.1 => 100000 - 0.1
+AORB_21:20:double_func(double):100000 * 0.075 => 100000 / 0.075
+AORB_22:20:double_func(double):100000 * 0.075 => 100000 % 0.075
+AORB_23:20:double_func(double):100000 * 0.075 => 100000 + 0.075
+AORB_24:20:double_func(double):100000 * 0.075 => 100000 - 0.075
+AORB_25:20:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 * (100000 * 0.075)
+AORB_26:20:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 / (100000 * 0.075)
+AORB_27:20:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 % (100000 * 0.075)
+AORB_28:20:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 - 100000 * 0.075
+AORB_29:20:double_func(double):200000 * 0.05 => 200000 / 0.05
+AORB_30:20:double_func(double):200000 * 0.05 => 200000 % 0.05
+AORB_31:20:double_func(double):200000 * 0.05 => 200000 + 0.05
+AORB_32:20:double_func(double):200000 * 0.05 => 200000 - 0.05
+AORB_33:20:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => (100000 * 0.1 + 100000 * 0.075) * (200000 * 0.05)
+AORB_34:20:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => (100000 * 0.1 + 100000 * 0.075) / (200000 * 0.05)
+AORB_35:20:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => (100000 * 0.1 + 100000 * 0.075) % (200000 * 0.05)
+AORB_36:20:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => 100000 * 0.1 + 100000 * 0.075 - 200000 * 0.05
+AORB_37:21:double_func(double):100000 * 0.1 => 100000 / 0.1
+AORB_38:21:double_func(double):100000 * 0.1 => 100000 % 0.1
+AORB_39:21:double_func(double):100000 * 0.1 => 100000 + 0.1
+AORB_40:21:double_func(double):100000 * 0.1 => 100000 - 0.1
+AORB_41:21:double_func(double):100000 * 0.075 => 100000 / 0.075
+AORB_42:21:double_func(double):100000 * 0.075 => 100000 % 0.075
+AORB_43:21:double_func(double):100000 * 0.075 => 100000 + 0.075
+AORB_44:21:double_func(double):100000 * 0.075 => 100000 - 0.075
+AORB_45:21:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 * (100000 * 0.075)
+AORB_46:21:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 / (100000 * 0.075)
+AORB_47:21:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 % (100000 * 0.075)
+AORB_48:21:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 - 100000 * 0.075
+AORB_49:21:double_func(double):200000 * 0.05 => 200000 / 0.05
+AORB_50:21:double_func(double):200000 * 0.05 => 200000 % 0.05
+AORB_51:21:double_func(double):200000 * 0.05 => 200000 + 0.05
+AORB_52:21:double_func(double):200000 * 0.05 => 200000 - 0.05
+AORB_53:21:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => (100000 * 0.1 + 100000 * 0.075) * (200000 * 0.05)
+AORB_54:21:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => (100000 * 0.1 + 100000 * 0.075) / (200000 * 0.05)
+AORB_55:21:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => (100000 * 0.1 + 100000 * 0.075) % (200000 * 0.05)
+AORB_56:21:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => 100000 * 0.1 + 100000 * 0.075 - 200000 * 0.05
+AORB_57:21:double_func(double):200000 * 0.03 => 200000 / 0.03
+AORB_58:21:double_func(double):200000 * 0.03 => 200000 % 0.03
+AORB_59:21:double_func(double):200000 * 0.03 => 200000 + 0.03
+AORB_60:21:double_func(double):200000 * 0.03 => 200000 - 0.03
+AORB_61:21:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 => (100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05) * (200000 * 0.03)
+AORB_62:21:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 => (100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05) / (200000 * 0.03)
+AORB_63:21:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 => (100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05) % (200000 * 0.03)
+AORB_64:21:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 => 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 - 200000 * 0.03
+AORB_65:22:double_func(double):100000 * 0.1 => 100000 / 0.1
+AORB_66:22:double_func(double):100000 * 0.1 => 100000 % 0.1
+AORB_67:22:double_func(double):100000 * 0.1 => 100000 + 0.1
+AORB_68:22:double_func(double):100000 * 0.1 => 100000 - 0.1
+AORB_69:22:double_func(double):100000 * 0.075 => 100000 / 0.075
+AORB_70:22:double_func(double):100000 * 0.075 => 100000 % 0.075
+AORB_71:22:double_func(double):100000 * 0.075 => 100000 + 0.075
+AORB_72:22:double_func(double):100000 * 0.075 => 100000 - 0.075
+AORB_73:22:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 * (100000 * 0.075)
+AORB_74:22:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 / (100000 * 0.075)
+AORB_75:22:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 % (100000 * 0.075)
+AORB_76:22:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1 - 100000 * 0.075
+AORB_77:22:double_func(double):200000 * 0.05 => 200000 / 0.05
+AORB_78:22:double_func(double):200000 * 0.05 => 200000 % 0.05
+AORB_79:22:double_func(double):200000 * 0.05 => 200000 + 0.05
+AORB_80:22:double_func(double):200000 * 0.05 => 200000 - 0.05
+AORB_81:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => (100000 * 0.1 + 100000 * 0.075) * (200000 * 0.05)
+AORB_82:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => (100000 * 0.1 + 100000 * 0.075) / (200000 * 0.05)
+AORB_83:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => (100000 * 0.1 + 100000 * 0.075) % (200000 * 0.05)
+AORB_84:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => 100000 * 0.1 + 100000 * 0.075 - 200000 * 0.05
+AORB_85:22:double_func(double):200000 * 0.03 => 200000 / 0.03
+AORB_86:22:double_func(double):200000 * 0.03 => 200000 % 0.03
+AORB_87:22:double_func(double):200000 * 0.03 => 200000 + 0.03
+AORB_88:22:double_func(double):200000 * 0.03 => 200000 - 0.03
+AORB_89:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 => (100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05) * (200000 * 0.03)
+AORB_90:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 => (100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05) / (200000 * 0.03)
+AORB_91:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 => (100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05) % (200000 * 0.03)
+AORB_92:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 => 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 - 200000 * 0.03
+AORB_93:22:double_func(double):400000 * 0.015 => 400000 / 0.015
+AORB_94:22:double_func(double):400000 * 0.015 => 400000 % 0.015
+AORB_95:22:double_func(double):400000 * 0.015 => 400000 + 0.015
+AORB_96:22:double_func(double):400000 * 0.015 => 400000 - 0.015
+AORB_97:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015 => (100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03) * (400000 * 0.015)
+AORB_98:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015 => (100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03) / (400000 * 0.015)
+AORB_99:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015 => (100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03) % (400000 * 0.015)
+AORB_100:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015 => 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 - 400000 * 0.015
+AORB_101:24:double_func(double):i * 0.1 => i / 0.1
+AORB_102:24:double_func(double):i * 0.1 => i % 0.1
+AORB_103:24:double_func(double):i * 0.1 => i + 0.1
+AORB_104:24:double_func(double):i * 0.1 => i - 0.1
+AORB_105:27:double_func(double):i * 0.075 => i / 0.075
+AORB_106:27:double_func(double):i * 0.075 => i % 0.075
+AORB_107:27:double_func(double):i * 0.075 => i + 0.075
+AORB_108:27:double_func(double):i * 0.075 => i - 0.075
+AORB_109:27:double_func(double):bonus1 + i * 0.075 => bonus1 * (i * 0.075)
+AORB_110:27:double_func(double):bonus1 + i * 0.075 => bonus1 / (i * 0.075)
+AORB_111:27:double_func(double):bonus1 + i * 0.075 => bonus1 % (i * 0.075)
+AORB_112:27:double_func(double):bonus1 + i * 0.075 => bonus1 - i * 0.075
+AORB_113:27:double_func(double):100000 * 0.075 => 100000 / 0.075
+AORB_114:27:double_func(double):100000 * 0.075 => 100000 % 0.075
+AORB_115:27:double_func(double):100000 * 0.075 => 100000 + 0.075
+AORB_116:27:double_func(double):100000 * 0.075 => 100000 - 0.075
+AORB_117:27:double_func(double):bonus1 + i * 0.075 - 100000 * 0.075 => (bonus1 + i * 0.075) * (100000 * 0.075)
+AORB_118:27:double_func(double):bonus1 + i * 0.075 - 100000 * 0.075 => (bonus1 + i * 0.075) / (100000 * 0.075)
+AORB_119:27:double_func(double):bonus1 + i * 0.075 - 100000 * 0.075 => (bonus1 + i * 0.075) % (100000 * 0.075)
+AORB_120:27:double_func(double):bonus1 + i * 0.075 - 100000 * 0.075 => bonus1 + i * 0.075 + 100000 * 0.075
+AORB_121:30:double_func(double):i * 0.05 => i / 0.05
+AORB_122:30:double_func(double):i * 0.05 => i % 0.05
+AORB_123:30:double_func(double):i * 0.05 => i + 0.05
+AORB_124:30:double_func(double):i * 0.05 => i - 0.05
+AORB_125:30:double_func(double):bonus2 + i * 0.05 => bonus2 * (i * 0.05)
+AORB_126:30:double_func(double):bonus2 + i * 0.05 => bonus2 / (i * 0.05)
+AORB_127:30:double_func(double):bonus2 + i * 0.05 => bonus2 % (i * 0.05)
+AORB_128:30:double_func(double):bonus2 + i * 0.05 => bonus2 - i * 0.05
+AORB_129:30:double_func(double):200000 * 0.05 => 200000 / 0.05
+AORB_130:30:double_func(double):200000 * 0.05 => 200000 % 0.05
+AORB_131:30:double_func(double):200000 * 0.05 => 200000 + 0.05
+AORB_132:30:double_func(double):200000 * 0.05 => 200000 - 0.05
+AORB_133:30:double_func(double):bonus2 + i * 0.05 - 200000 * 0.05 => (bonus2 + i * 0.05) * (200000 * 0.05)
+AORB_134:30:double_func(double):bonus2 + i * 0.05 - 200000 * 0.05 => (bonus2 + i * 0.05) / (200000 * 0.05)
+AORB_135:30:double_func(double):bonus2 + i * 0.05 - 200000 * 0.05 => (bonus2 + i * 0.05) % (200000 * 0.05)
+AORB_136:30:double_func(double):bonus2 + i * 0.05 - 200000 * 0.05 => bonus2 + i * 0.05 + 200000 * 0.05
+AORB_137:33:double_func(double):i * 0.03 => i / 0.03
+AORB_138:33:double_func(double):i * 0.03 => i % 0.03
+AORB_139:33:double_func(double):i * 0.03 => i + 0.03
+AORB_140:33:double_func(double):i * 0.03 => i - 0.03
+AORB_141:33:double_func(double):bonus4 + i * 0.03 => bonus4 * (i * 0.03)
+AORB_142:33:double_func(double):bonus4 + i * 0.03 => bonus4 / (i * 0.03)
+AORB_143:33:double_func(double):bonus4 + i * 0.03 => bonus4 % (i * 0.03)
+AORB_144:33:double_func(double):bonus4 + i * 0.03 => bonus4 - i * 0.03
+AORB_145:33:double_func(double):400000 * 0.03 => 400000 / 0.03
+AORB_146:33:double_func(double):400000 * 0.03 => 400000 % 0.03
+AORB_147:33:double_func(double):400000 * 0.03 => 400000 + 0.03
+AORB_148:33:double_func(double):400000 * 0.03 => 400000 - 0.03
+AORB_149:33:double_func(double):bonus4 + i * 0.03 - 400000 * 0.03 => (bonus4 + i * 0.03) * (400000 * 0.03)
+AORB_150:33:double_func(double):bonus4 + i * 0.03 - 400000 * 0.03 => (bonus4 + i * 0.03) / (400000 * 0.03)
+AORB_151:33:double_func(double):bonus4 + i * 0.03 - 400000 * 0.03 => (bonus4 + i * 0.03) % (400000 * 0.03)
+AORB_152:33:double_func(double):bonus4 + i * 0.03 - 400000 * 0.03 => bonus4 + i * 0.03 + 400000 * 0.03
+AORB_153:36:double_func(double):i * 0.015 => i / 0.015
+AORB_154:36:double_func(double):i * 0.015 => i % 0.015
+AORB_155:36:double_func(double):i * 0.015 => i + 0.015
+AORB_156:36:double_func(double):i * 0.015 => i - 0.015
+AORB_157:36:double_func(double):bonus6 + i * 0.015 => bonus6 * (i * 0.015)
+AORB_158:36:double_func(double):bonus6 + i * 0.015 => bonus6 / (i * 0.015)
+AORB_159:36:double_func(double):bonus6 + i * 0.015 => bonus6 % (i * 0.015)
+AORB_160:36:double_func(double):bonus6 + i * 0.015 => bonus6 - i * 0.015
+AORB_161:36:double_func(double):600000 * 0.015 => 600000 / 0.015
+AORB_162:36:double_func(double):600000 * 0.015 => 600000 % 0.015
+AORB_163:36:double_func(double):600000 * 0.015 => 600000 + 0.015
+AORB_164:36:double_func(double):600000 * 0.015 => 600000 - 0.015
+AORB_165:36:double_func(double):bonus6 + i * 0.015 - 600000 * 0.015 => (bonus6 + i * 0.015) * (600000 * 0.015)
+AORB_166:36:double_func(double):bonus6 + i * 0.015 - 600000 * 0.015 => (bonus6 + i * 0.015) / (600000 * 0.015)
+AORB_167:36:double_func(double):bonus6 + i * 0.015 - 600000 * 0.015 => (bonus6 + i * 0.015) % (600000 * 0.015)
+AORB_168:36:double_func(double):bonus6 + i * 0.015 - 600000 * 0.015 => bonus6 + i * 0.015 + 600000 * 0.015
+AORB_169:38:double_func(double):i * 0.01 => i / 0.01
+AORB_170:38:double_func(double):i * 0.01 => i % 0.01
+AORB_171:38:double_func(double):i * 0.01 => i + 0.01
+AORB_172:38:double_func(double):i * 0.01 => i - 0.01
+AORB_173:38:double_func(double):bonus10 + i * 0.01 => bonus10 * (i * 0.01)
+AORB_174:38:double_func(double):bonus10 + i * 0.01 => bonus10 / (i * 0.01)
+AORB_175:38:double_func(double):bonus10 + i * 0.01 => bonus10 % (i * 0.01)
+AORB_176:38:double_func(double):bonus10 + i * 0.01 => bonus10 - i * 0.01
+AORB_177:38:double_func(double):1000000 * 0.01 => 1000000 / 0.01
+AORB_178:38:double_func(double):1000000 * 0.01 => 1000000 % 0.01
+AORB_179:38:double_func(double):1000000 * 0.01 => 1000000 + 0.01
+AORB_180:38:double_func(double):1000000 * 0.01 => 1000000 - 0.01
+AORB_181:38:double_func(double):bonus10 + i * 0.01 - 1000000 * 0.01 => (bonus10 + i * 0.01) * (1000000 * 0.01)
+AORB_182:38:double_func(double):bonus10 + i * 0.01 - 1000000 * 0.01 => (bonus10 + i * 0.01) / (1000000 * 0.01)
+AORB_183:38:double_func(double):bonus10 + i * 0.01 - 1000000 * 0.01 => (bonus10 + i * 0.01) % (1000000 * 0.01)
+AORB_184:38:double_func(double):bonus10 + i * 0.01 - 1000000 * 0.01 => bonus10 + i * 0.01 + 1000000 * 0.01
+AOIU_1:23:double_func(double):i => -i
+AOIU_2:24:double_func(double):i => -i
+AOIU_3:26:double_func(double):i => -i
+AOIU_4:27:double_func(double):bonus1 => -bonus1
+AOIU_5:29:double_func(double):i => -i
+AOIU_6:30:double_func(double):bonus2 => -bonus2
+AOIU_7:32:double_func(double):i => -i
+AOIU_8:33:double_func(double):bonus4 => -bonus4
+AOIU_9:35:double_func(double):i => -i
+AOIU_10:36:double_func(double):bonus6 => -bonus6
+AOIU_11:38:double_func(double):bonus10 => -bonus10
+AOIU_12:44:double_func(double):bonus => -bonus
+AOIS_1:23:double_func(double):i => ++i
+AOIS_2:23:double_func(double):i => --i
+AOIS_3:23:double_func(double):i => i++
+AOIS_4:23:double_func(double):i => i--
+AOIS_5:24:double_func(double):i => ++i
+AOIS_6:24:double_func(double):i => --i
+AOIS_7:24:double_func(double):i => i++
+AOIS_8:24:double_func(double):i => i--
+AOIS_9:26:double_func(double):i => ++i
+AOIS_10:26:double_func(double):i => --i
+AOIS_11:26:double_func(double):i => i++
+AOIS_12:26:double_func(double):i => i--
+AOIS_13:27:double_func(double):bonus1 => ++bonus1
+AOIS_14:27:double_func(double):bonus1 => --bonus1
+AOIS_15:27:double_func(double):bonus1 => bonus1++
+AOIS_16:27:double_func(double):bonus1 => bonus1--
+AOIS_17:27:double_func(double):i => ++i
+AOIS_18:27:double_func(double):i => --i
+AOIS_19:27:double_func(double):i => i++
+AOIS_20:27:double_func(double):i => i--
+AOIS_21:29:double_func(double):i => ++i
+AOIS_22:29:double_func(double):i => --i
+AOIS_23:29:double_func(double):i => i++
+AOIS_24:29:double_func(double):i => i--
+AOIS_25:30:double_func(double):bonus2 => ++bonus2
+AOIS_26:30:double_func(double):bonus2 => --bonus2
+AOIS_27:30:double_func(double):bonus2 => bonus2++
+AOIS_28:30:double_func(double):bonus2 => bonus2--
+AOIS_29:30:double_func(double):i => ++i
+AOIS_30:30:double_func(double):i => --i
+AOIS_31:30:double_func(double):i => i++
+AOIS_32:30:double_func(double):i => i--
+AOIS_33:32:double_func(double):i => ++i
+AOIS_34:32:double_func(double):i => --i
+AOIS_35:32:double_func(double):i => i++
+AOIS_36:32:double_func(double):i => i--
+AOIS_37:33:double_func(double):bonus4 => ++bonus4
+AOIS_38:33:double_func(double):bonus4 => --bonus4
+AOIS_39:33:double_func(double):bonus4 => bonus4++
+AOIS_40:33:double_func(double):bonus4 => bonus4--
+AOIS_41:33:double_func(double):i => ++i
+AOIS_42:33:double_func(double):i => --i
+AOIS_43:33:double_func(double):i => i++
+AOIS_44:33:double_func(double):i => i--
+AOIS_45:35:double_func(double):i => ++i
+AOIS_46:35:double_func(double):i => --i
+AOIS_47:35:double_func(double):i => i++
+AOIS_48:35:double_func(double):i => i--
+AOIS_49:36:double_func(double):bonus6 => ++bonus6
+AOIS_50:36:double_func(double):bonus6 => --bonus6
+AOIS_51:36:double_func(double):bonus6 => bonus6++
+AOIS_52:36:double_func(double):bonus6 => bonus6--
+AOIS_53:36:double_func(double):i => ++i
+AOIS_54:36:double_func(double):i => --i
+AOIS_55:36:double_func(double):i => i++
+AOIS_56:36:double_func(double):i => i--
+AOIS_57:38:double_func(double):bonus10 => ++bonus10
+AOIS_58:38:double_func(double):bonus10 => --bonus10
+AOIS_59:38:double_func(double):bonus10 => bonus10++
+AOIS_60:38:double_func(double):bonus10 => bonus10--
+AOIS_61:38:double_func(double):i => ++i
+AOIS_62:38:double_func(double):i => --i
+AOIS_63:38:double_func(double):i => i++
+AOIS_64:38:double_func(double):i => i--
+AOIS_65:44:double_func(double):bonus => bonus++
+AOIS_66:44:double_func(double):bonus => bonus--
+ROR_1:23:double_func(double): i <= 100000  =>   i > 100000
+ROR_2:23:double_func(double): i <= 100000  =>   i >= 100000
+ROR_3:23:double_func(double): i <= 100000  =>   i < 100000
+ROR_4:23:double_func(double): i <= 100000  =>   i == 100000
+ROR_5:23:double_func(double): i <= 100000  =>   i != 100000
+ROR_6:23:double_func(double): i <= 100000  =>   true
+ROR_7:23:double_func(double): i <= 100000  =>   false
+ROR_8:26:double_func(double): i <= 200000  =>   i > 200000
+ROR_9:26:double_func(double): i <= 200000  =>   i >= 200000
+ROR_10:26:double_func(double): i <= 200000  =>   i < 200000
+ROR_11:26:double_func(double): i <= 200000  =>   i == 200000
+ROR_12:26:double_func(double): i <= 200000  =>   i != 200000
+ROR_13:26:double_func(double): i <= 200000  =>   true
+ROR_14:26:double_func(double): i <= 200000  =>   false
+ROR_15:29:double_func(double): i <= 400000  =>   i > 400000
+ROR_16:29:double_func(double): i <= 400000  =>   i >= 400000
+ROR_17:29:double_func(double): i <= 400000  =>   i < 400000
+ROR_18:29:double_func(double): i <= 400000  =>   i == 400000
+ROR_19:29:double_func(double): i <= 400000  =>   i != 400000
+ROR_20:29:double_func(double): i <= 400000  =>   true
+ROR_21:29:double_func(double): i <= 400000  =>   false
+ROR_22:32:double_func(double): i <= 600000  =>   i > 600000
+ROR_23:32:double_func(double): i <= 600000  =>   i >= 600000
+ROR_24:32:double_func(double): i <= 600000  =>   i < 600000
+ROR_25:32:double_func(double): i <= 600000  =>   i == 600000
+ROR_26:32:double_func(double): i <= 600000  =>   i != 600000
+ROR_27:32:double_func(double): i <= 600000  =>   true
+ROR_28:32:double_func(double): i <= 600000  =>   false
+ROR_29:35:double_func(double): i <= 1000000  =>   i > 1000000
+ROR_30:35:double_func(double): i <= 1000000  =>   i >= 1000000
+ROR_31:35:double_func(double): i <= 1000000  =>   i < 1000000
+ROR_32:35:double_func(double): i <= 1000000  =>   i == 1000000
+ROR_33:35:double_func(double): i <= 1000000  =>   i != 1000000
+ROR_34:35:double_func(double): i <= 1000000  =>   true
+ROR_35:35:double_func(double): i <= 1000000  =>   false
+COI_1:23:double_func(double): i <= 100000  =>  !(i <= 100000)
+COI_2:26:double_func(double): i <= 200000  =>  !(i <= 200000)
+COI_3:29:double_func(double): i <= 400000  =>  !(i <= 400000)
+COI_4:32:double_func(double): i <= 600000  =>  !(i <= 600000)
+COI_5:35:double_func(double): i <= 1000000  =>  !(i <= 1000000)
+LOI_1:23:double_func(double):i => ~i
+LOI_2:24:double_func(double):i => ~i
+LOI_3:26:double_func(double):i => ~i
+LOI_4:27:double_func(double):bonus1 => ~bonus1
+LOI_5:27:double_func(double):i => ~i
+LOI_6:29:double_func(double):i => ~i
+LOI_7:30:double_func(double):bonus2 => ~bonus2
+LOI_8:30:double_func(double):i => ~i
+LOI_9:32:double_func(double):i => ~i
+LOI_10:33:double_func(double):bonus4 => ~bonus4
+LOI_11:33:double_func(double):i => ~i
+LOI_12:35:double_func(double):i => ~i
+LOI_13:36:double_func(double):bonus6 => ~bonus6
+LOI_14:36:double_func(double):i => ~i
+LOI_15:38:double_func(double):bonus10 => ~bonus10
+LOI_16:38:double_func(double):i => ~i
+LOI_17:44:double_func(double):bonus => ~bonus
+SDL_1:44:double_func(double): double bonus1; double bonus2; double bonus4; double bonus6; double bonus10; double bonus; bonus1 = 100000 * 0.1; bonus2 = 100000 * 0.1 + 100000 * 0.075; bonus4 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05; bonus6 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03; bonus10 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015; if (i <= 100000) {     bonus = i * 0.1; } else {     if (i <= 200000) {         bonus = bonus1 + i * 0.075 - 100000 * 0.075;     } else {         if (i <= 400000) {             bonus = bonus2 + i * 0.05 - 200000 * 0.05;         } else {             if (i <= 600000) {                 bonus = bonus4 + i * 0.03 - 400000 * 0.03;             } else {                 if (i <= 1000000) {                     bonus = bonus6 + i * 0.015 - 600000 * 0.015;                 } else {                     bonus = bonus10 + i * 0.01 - 1000000 * 0.01;                 }             }         }     } } return bonus;  =>   double bonus1; double bonus2; double bonus4; double bonus6; double bonus10; double bonus; bonus2 = 100000 * 0.1 + 100000 * 0.075; bonus4 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05; bonus6 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03; bonus10 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015; if (i <= 100000) {     bonus = i * 0.1; } else {     if (i <= 200000) {         bonus = bonus1 + i * 0.075 - 100000 * 0.075;     } else {         if (i <= 400000) {             bonus = bonus2 + i * 0.05 - 200000 * 0.05;         } else {             if (i <= 600000) {                 bonus = bonus4 + i * 0.03 - 400000 * 0.03;             } else {                 if (i <= 1000000) {                     bonus = bonus6 + i * 0.015 - 600000 * 0.015;                 } else {                     bonus = bonus10 + i * 0.01 - 1000000 * 0.01;                 }             }         }     } } return bonus;
+SDL_2:44:double_func(double): double bonus1; double bonus2; double bonus4; double bonus6; double bonus10; double bonus; bonus1 = 100000 * 0.1; bonus2 = 100000 * 0.1 + 100000 * 0.075; bonus4 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05; bonus6 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03; bonus10 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015; if (i <= 100000) {     bonus = i * 0.1; } else {     if (i <= 200000) {         bonus = bonus1 + i * 0.075 - 100000 * 0.075;     } else {         if (i <= 400000) {             bonus = bonus2 + i * 0.05 - 200000 * 0.05;         } else {             if (i <= 600000) {                 bonus = bonus4 + i * 0.03 - 400000 * 0.03;             } else {                 if (i <= 1000000) {                     bonus = bonus6 + i * 0.015 - 600000 * 0.015;                 } else {                     bonus = bonus10 + i * 0.01 - 1000000 * 0.01;                 }             }         }     } } return bonus;  =>   double bonus1; double bonus2; double bonus4; double bonus6; double bonus10; double bonus; bonus1 = 100000 * 0.1; bonus4 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05; bonus6 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03; bonus10 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015; if (i <= 100000) {     bonus = i * 0.1; } else {     if (i <= 200000) {         bonus = bonus1 + i * 0.075 - 100000 * 0.075;     } else {         if (i <= 400000) {             bonus = bonus2 + i * 0.05 - 200000 * 0.05;         } else {             if (i <= 600000) {                 bonus = bonus4 + i * 0.03 - 400000 * 0.03;             } else {                 if (i <= 1000000) {                     bonus = bonus6 + i * 0.015 - 600000 * 0.015;                 } else {                     bonus = bonus10 + i * 0.01 - 1000000 * 0.01;                 }             }         }     } } return bonus;
+SDL_3:44:double_func(double): double bonus1; double bonus2; double bonus4; double bonus6; double bonus10; double bonus; bonus1 = 100000 * 0.1; bonus2 = 100000 * 0.1 + 100000 * 0.075; bonus4 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05; bonus6 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03; bonus10 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015; if (i <= 100000) {     bonus = i * 0.1; } else {     if (i <= 200000) {         bonus = bonus1 + i * 0.075 - 100000 * 0.075;     } else {         if (i <= 400000) {             bonus = bonus2 + i * 0.05 - 200000 * 0.05;         } else {             if (i <= 600000) {                 bonus = bonus4 + i * 0.03 - 400000 * 0.03;             } else {                 if (i <= 1000000) {                     bonus = bonus6 + i * 0.015 - 600000 * 0.015;                 } else {                     bonus = bonus10 + i * 0.01 - 1000000 * 0.01;                 }             }         }     } } return bonus;  =>   double bonus1; double bonus2; double bonus4; double bonus6; double bonus10; double bonus; bonus1 = 100000 * 0.1; bonus2 = 100000 * 0.1 + 100000 * 0.075; bonus6 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03; bonus10 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015; if (i <= 100000) {     bonus = i * 0.1; } else {     if (i <= 200000) {         bonus = bonus1 + i * 0.075 - 100000 * 0.075;     } else {         if (i <= 400000) {             bonus = bonus2 + i * 0.05 - 200000 * 0.05;         } else {             if (i <= 600000) {                 bonus = bonus4 + i * 0.03 - 400000 * 0.03;             } else {                 if (i <= 1000000) {                     bonus = bonus6 + i * 0.015 - 600000 * 0.015;                 } else {                     bonus = bonus10 + i * 0.01 - 1000000 * 0.01;                 }             }         }     } } return bonus;
+SDL_4:44:double_func(double): double bonus1; double bonus2; double bonus4; double bonus6; double bonus10; double bonus; bonus1 = 100000 * 0.1; bonus2 = 100000 * 0.1 + 100000 * 0.075; bonus4 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05; bonus6 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03; bonus10 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015; if (i <= 100000) {     bonus = i * 0.1; } else {     if (i <= 200000) {         bonus = bonus1 + i * 0.075 - 100000 * 0.075;     } else {         if (i <= 400000) {             bonus = bonus2 + i * 0.05 - 200000 * 0.05;         } else {             if (i <= 600000) {                 bonus = bonus4 + i * 0.03 - 400000 * 0.03;             } else {                 if (i <= 1000000) {                     bonus = bonus6 + i * 0.015 - 600000 * 0.015;                 } else {                     bonus = bonus10 + i * 0.01 - 1000000 * 0.01;                 }             }         }     } } return bonus;  =>   double bonus1; double bonus2; double bonus4; double bonus6; double bonus10; double bonus; bonus1 = 100000 * 0.1; bonus2 = 100000 * 0.1 + 100000 * 0.075; bonus4 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05; bonus10 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015; if (i <= 100000) {     bonus = i * 0.1; } else {     if (i <= 200000) {         bonus = bonus1 + i * 0.075 - 100000 * 0.075;     } else {         if (i <= 400000) {             bonus = bonus2 + i * 0.05 - 200000 * 0.05;         } else {             if (i <= 600000) {                 bonus = bonus4 + i * 0.03 - 400000 * 0.03;             } else {                 if (i <= 1000000) {                     bonus = bonus6 + i * 0.015 - 600000 * 0.015;                 } else {                     bonus = bonus10 + i * 0.01 - 1000000 * 0.01;                 }             }         }     } } return bonus;
+SDL_5:44:double_func(double): double bonus1; double bonus2; double bonus4; double bonus6; double bonus10; double bonus; bonus1 = 100000 * 0.1; bonus2 = 100000 * 0.1 + 100000 * 0.075; bonus4 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05; bonus6 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03; bonus10 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015; if (i <= 100000) {     bonus = i * 0.1; } else {     if (i <= 200000) {         bonus = bonus1 + i * 0.075 - 100000 * 0.075;     } else {         if (i <= 400000) {             bonus = bonus2 + i * 0.05 - 200000 * 0.05;         } else {             if (i <= 600000) {                 bonus = bonus4 + i * 0.03 - 400000 * 0.03;             } else {                 if (i <= 1000000) {                     bonus = bonus6 + i * 0.015 - 600000 * 0.015;                 } else {                     bonus = bonus10 + i * 0.01 - 1000000 * 0.01;                 }             }         }     } } return bonus;  =>   double bonus1; double bonus2; double bonus4; double bonus6; double bonus10; double bonus; bonus1 = 100000 * 0.1; bonus2 = 100000 * 0.1 + 100000 * 0.075; bonus4 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05; bonus6 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03; if (i <= 100000) {     bonus = i * 0.1; } else {     if (i <= 200000) {         bonus = bonus1 + i * 0.075 - 100000 * 0.075;     } else {         if (i <= 400000) {             bonus = bonus2 + i * 0.05 - 200000 * 0.05;         } else {             if (i <= 600000) {                 bonus = bonus4 + i * 0.03 - 400000 * 0.03;             } else {                 if (i <= 1000000) {                     bonus = bonus6 + i * 0.015 - 600000 * 0.015;                 } else {                     bonus = bonus10 + i * 0.01 - 1000000 * 0.01;                 }             }         }     } } return bonus;
+SDL_6:24:double_func(double): double bonus1; double bonus2; double bonus4; double bonus6; double bonus10; double bonus; bonus1 = 100000 * 0.1; bonus2 = 100000 * 0.1 + 100000 * 0.075; bonus4 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05; bonus6 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03; bonus10 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015; if (i <= 100000) {     bonus = i * 0.1; } else {     if (i <= 200000) {         bonus = bonus1 + i * 0.075 - 100000 * 0.075;     } else {         if (i <= 400000) {             bonus = bonus2 + i * 0.05 - 200000 * 0.05;         } else {             if (i <= 600000) {                 bonus = bonus4 + i * 0.03 - 400000 * 0.03;             } else {                 if (i <= 1000000) {                     bonus = bonus6 + i * 0.015 - 600000 * 0.015;                 } else {                     bonus = bonus10 + i * 0.01 - 1000000 * 0.01;                 }             }         }     } } return bonus;  =>   double bonus1; double bonus2; double bonus4; double bonus6; double bonus10; double bonus; bonus1 = 100000 * 0.1; bonus2 = 100000 * 0.1 + 100000 * 0.075; bonus4 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05; bonus6 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03; bonus10 = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015; return bonus;
+SDL_7:24:double_func(double): bonus = i * 0.1;  =>  
+SDL_8:44:double_func(double): if (i <= 100000) {     bonus = i * 0.1; } else {     if (i <= 200000) {         bonus = bonus1 + i * 0.075 - 100000 * 0.075;     } else {         if (i <= 400000) {             bonus = bonus2 + i * 0.05 - 200000 * 0.05;         } else {             if (i <= 600000) {                 bonus = bonus4 + i * 0.03 - 400000 * 0.03;             } else {                 if (i <= 1000000) {                     bonus = bonus6 + i * 0.015 - 600000 * 0.015;                 } else {                     bonus = bonus10 + i * 0.01 - 1000000 * 0.01;                 }             }         }     } }  =>   if (true) {     bonus = i * 0.1; } else {     if (i <= 200000) {         bonus = bonus1 + i * 0.075 - 100000 * 0.075;     } else {         if (i <= 400000) {             bonus = bonus2 + i * 0.05 - 200000 * 0.05;         } else {             if (i <= 600000) {                 bonus = bonus4 + i * 0.03 - 400000 * 0.03;             } else {                 if (i <= 1000000) {                     bonus = bonus6 + i * 0.015 - 600000 * 0.015;                 } else {                     bonus = bonus10 + i * 0.01 - 1000000 * 0.01;                 }             }         }     } }
+SDL_9:26:double_func(double): if (i <= 200000) {     bonus = bonus1 + i * 0.075 - 100000 * 0.075; } else {     if (i <= 400000) {         bonus = bonus2 + i * 0.05 - 200000 * 0.05;     } else {         if (i <= 600000) {             bonus = bonus4 + i * 0.03 - 400000 * 0.03;         } else {             if (i <= 1000000) {                 bonus = bonus6 + i * 0.015 - 600000 * 0.015;             } else {                 bonus = bonus10 + i * 0.01 - 1000000 * 0.01;             }         }     } }  =>  
+SDL_10:27:double_func(double): bonus = bonus1 + i * 0.075 - 100000 * 0.075;  =>  
+SDL_11:43:double_func(double): if (i <= 200000) {     bonus = bonus1 + i * 0.075 - 100000 * 0.075; } else {     if (i <= 400000) {         bonus = bonus2 + i * 0.05 - 200000 * 0.05;     } else {         if (i <= 600000) {             bonus = bonus4 + i * 0.03 - 400000 * 0.03;         } else {             if (i <= 1000000) {                 bonus = bonus6 + i * 0.015 - 600000 * 0.015;             } else {                 bonus = bonus10 + i * 0.01 - 1000000 * 0.01;             }         }     } }  =>   if (true) {     bonus = bonus1 + i * 0.075 - 100000 * 0.075; } else {     if (i <= 400000) {         bonus = bonus2 + i * 0.05 - 200000 * 0.05;     } else {         if (i <= 600000) {             bonus = bonus4 + i * 0.03 - 400000 * 0.03;         } else {             if (i <= 1000000) {                 bonus = bonus6 + i * 0.015 - 600000 * 0.015;             } else {                 bonus = bonus10 + i * 0.01 - 1000000 * 0.01;             }         }     } }
+SDL_12:29:double_func(double): if (i <= 400000) {     bonus = bonus2 + i * 0.05 - 200000 * 0.05; } else {     if (i <= 600000) {         bonus = bonus4 + i * 0.03 - 400000 * 0.03;     } else {         if (i <= 1000000) {             bonus = bonus6 + i * 0.015 - 600000 * 0.015;         } else {             bonus = bonus10 + i * 0.01 - 1000000 * 0.01;         }     } }  =>  
+SDL_13:30:double_func(double): bonus = bonus2 + i * 0.05 - 200000 * 0.05;  =>  
+SDL_14:42:double_func(double): if (i <= 400000) {     bonus = bonus2 + i * 0.05 - 200000 * 0.05; } else {     if (i <= 600000) {         bonus = bonus4 + i * 0.03 - 400000 * 0.03;     } else {         if (i <= 1000000) {             bonus = bonus6 + i * 0.015 - 600000 * 0.015;         } else {             bonus = bonus10 + i * 0.01 - 1000000 * 0.01;         }     } }  =>   if (true) {     bonus = bonus2 + i * 0.05 - 200000 * 0.05; } else {     if (i <= 600000) {         bonus = bonus4 + i * 0.03 - 400000 * 0.03;     } else {         if (i <= 1000000) {             bonus = bonus6 + i * 0.015 - 600000 * 0.015;         } else {             bonus = bonus10 + i * 0.01 - 1000000 * 0.01;         }     } }
+SDL_15:32:double_func(double): if (i <= 600000) {     bonus = bonus4 + i * 0.03 - 400000 * 0.03; } else {     if (i <= 1000000) {         bonus = bonus6 + i * 0.015 - 600000 * 0.015;     } else {         bonus = bonus10 + i * 0.01 - 1000000 * 0.01;     } }  =>  
+SDL_16:33:double_func(double): bonus = bonus4 + i * 0.03 - 400000 * 0.03;  =>  
+SDL_17:41:double_func(double): if (i <= 600000) {     bonus = bonus4 + i * 0.03 - 400000 * 0.03; } else {     if (i <= 1000000) {         bonus = bonus6 + i * 0.015 - 600000 * 0.015;     } else {         bonus = bonus10 + i * 0.01 - 1000000 * 0.01;     } }  =>   if (true) {     bonus = bonus4 + i * 0.03 - 400000 * 0.03; } else {     if (i <= 1000000) {         bonus = bonus6 + i * 0.015 - 600000 * 0.015;     } else {         bonus = bonus10 + i * 0.01 - 1000000 * 0.01;     } }
+SDL_18:35:double_func(double): if (i <= 1000000) {     bonus = bonus6 + i * 0.015 - 600000 * 0.015; } else {     bonus = bonus10 + i * 0.01 - 1000000 * 0.01; }  =>  
+SDL_19:36:double_func(double): bonus = bonus6 + i * 0.015 - 600000 * 0.015;  =>  
+SDL_20:40:double_func(double): if (i <= 1000000) {     bonus = bonus6 + i * 0.015 - 600000 * 0.015; } else {     bonus = bonus10 + i * 0.01 - 1000000 * 0.01; }  =>   if (true) {     bonus = bonus6 + i * 0.015 - 600000 * 0.015; } else {     bonus = bonus10 + i * 0.01 - 1000000 * 0.01; }
+SDL_21:38:double_func(double): bonus = bonus10 + i * 0.01 - 1000000 * 0.01;  =>  
+SDL_22:45:double_func(double): return bonus;  =>   return 0;
+VDL_1:23:double_func(double):i <= 100000 => 100000
+VDL_2:24:double_func(double):i * 0.1 => 0.1
+VDL_3:26:double_func(double):i <= 200000 => 200000
+VDL_4:27:double_func(double):i * 0.075 => 0.075
+VDL_5:27:double_func(double):bonus1 + i * 0.075 => i * 0.075
+VDL_6:29:double_func(double):i <= 400000 => 400000
+VDL_7:30:double_func(double):i * 0.05 => 0.05
+VDL_8:30:double_func(double):bonus2 + i * 0.05 => i * 0.05
+VDL_9:32:double_func(double):i <= 600000 => 600000
+VDL_10:33:double_func(double):i * 0.03 => 0.03
+VDL_11:33:double_func(double):bonus4 + i * 0.03 => i * 0.03
+VDL_12:35:double_func(double):i <= 1000000 => 1000000
+VDL_13:36:double_func(double):i * 0.015 => 0.015
+VDL_14:36:double_func(double):bonus6 + i * 0.015 => i * 0.015
+VDL_15:38:double_func(double):i * 0.01 => 0.01
+VDL_16:38:double_func(double):bonus10 + i * 0.01 => i * 0.01
+ODL_1:18:double_func(double):100000 * 0.1 => 100000
+ODL_2:18:double_func(double):100000 * 0.1 => 0.1
+ODL_3:19:double_func(double):100000 * 0.1 => 100000
+ODL_4:19:double_func(double):100000 * 0.1 => 0.1
+ODL_5:19:double_func(double):100000 * 0.075 => 100000
+ODL_6:19:double_func(double):100000 * 0.075 => 0.075
+ODL_7:19:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1
+ODL_8:19:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.075
+ODL_9:20:double_func(double):100000 * 0.1 => 100000
+ODL_10:20:double_func(double):100000 * 0.1 => 0.1
+ODL_11:20:double_func(double):100000 * 0.075 => 100000
+ODL_12:20:double_func(double):100000 * 0.075 => 0.075
+ODL_13:20:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1
+ODL_14:20:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.075
+ODL_15:20:double_func(double):200000 * 0.05 => 200000
+ODL_16:20:double_func(double):200000 * 0.05 => 0.05
+ODL_17:20:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => 100000 * 0.1 + 100000 * 0.075
+ODL_18:20:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => 200000 * 0.05
+ODL_19:21:double_func(double):100000 * 0.1 => 100000
+ODL_20:21:double_func(double):100000 * 0.1 => 0.1
+ODL_21:21:double_func(double):100000 * 0.075 => 100000
+ODL_22:21:double_func(double):100000 * 0.075 => 0.075
+ODL_23:21:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1
+ODL_24:21:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.075
+ODL_25:21:double_func(double):200000 * 0.05 => 200000
+ODL_26:21:double_func(double):200000 * 0.05 => 0.05
+ODL_27:21:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => 100000 * 0.1 + 100000 * 0.075
+ODL_28:21:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => 200000 * 0.05
+ODL_29:21:double_func(double):200000 * 0.03 => 200000
+ODL_30:21:double_func(double):200000 * 0.03 => 0.03
+ODL_31:21:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 => 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05
+ODL_32:21:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 => 200000 * 0.03
+ODL_33:22:double_func(double):100000 * 0.1 => 100000
+ODL_34:22:double_func(double):100000 * 0.1 => 0.1
+ODL_35:22:double_func(double):100000 * 0.075 => 100000
+ODL_36:22:double_func(double):100000 * 0.075 => 0.075
+ODL_37:22:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.1
+ODL_38:22:double_func(double):100000 * 0.1 + 100000 * 0.075 => 100000 * 0.075
+ODL_39:22:double_func(double):200000 * 0.05 => 200000
+ODL_40:22:double_func(double):200000 * 0.05 => 0.05
+ODL_41:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => 100000 * 0.1 + 100000 * 0.075
+ODL_42:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 => 200000 * 0.05
+ODL_43:22:double_func(double):200000 * 0.03 => 200000
+ODL_44:22:double_func(double):200000 * 0.03 => 0.03
+ODL_45:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 => 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05
+ODL_46:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 => 200000 * 0.03
+ODL_47:22:double_func(double):400000 * 0.015 => 400000
+ODL_48:22:double_func(double):400000 * 0.015 => 0.015
+ODL_49:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015 => 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03
+ODL_50:22:double_func(double):100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015 => 400000 * 0.015
+ODL_51:23:double_func(double):i <= 100000 => i
+ODL_52:23:double_func(double):i <= 100000 => 100000
+ODL_53:24:double_func(double):i * 0.1 => i
+ODL_54:24:double_func(double):i * 0.1 => 0.1
+ODL_55:26:double_func(double):i <= 200000 => i
+ODL_56:26:double_func(double):i <= 200000 => 200000
+ODL_57:27:double_func(double):i * 0.075 => i
+ODL_58:27:double_func(double):i * 0.075 => 0.075
+ODL_59:27:double_func(double):bonus1 + i * 0.075 => bonus1
+ODL_60:27:double_func(double):bonus1 + i * 0.075 => i * 0.075
+ODL_61:27:double_func(double):100000 * 0.075 => 100000
+ODL_62:27:double_func(double):100000 * 0.075 => 0.075
+ODL_63:27:double_func(double):bonus1 + i * 0.075 - 100000 * 0.075 => bonus1 + i * 0.075
+ODL_64:27:double_func(double):bonus1 + i * 0.075 - 100000 * 0.075 => 100000 * 0.075
+ODL_65:29:double_func(double):i <= 400000 => i
+ODL_66:29:double_func(double):i <= 400000 => 400000
+ODL_67:30:double_func(double):i * 0.05 => i
+ODL_68:30:double_func(double):i * 0.05 => 0.05
+ODL_69:30:double_func(double):bonus2 + i * 0.05 => bonus2
+ODL_70:30:double_func(double):bonus2 + i * 0.05 => i * 0.05
+ODL_71:30:double_func(double):200000 * 0.05 => 200000
+ODL_72:30:double_func(double):200000 * 0.05 => 0.05
+ODL_73:30:double_func(double):bonus2 + i * 0.05 - 200000 * 0.05 => bonus2 + i * 0.05
+ODL_74:30:double_func(double):bonus2 + i * 0.05 - 200000 * 0.05 => 200000 * 0.05
+ODL_75:32:double_func(double):i <= 600000 => i
+ODL_76:32:double_func(double):i <= 600000 => 600000
+ODL_77:33:double_func(double):i * 0.03 => i
+ODL_78:33:double_func(double):i * 0.03 => 0.03
+ODL_79:33:double_func(double):bonus4 + i * 0.03 => bonus4
+ODL_80:33:double_func(double):bonus4 + i * 0.03 => i * 0.03
+ODL_81:33:double_func(double):400000 * 0.03 => 400000
+ODL_82:33:double_func(double):400000 * 0.03 => 0.03
+ODL_83:33:double_func(double):bonus4 + i * 0.03 - 400000 * 0.03 => bonus4 + i * 0.03
+ODL_84:33:double_func(double):bonus4 + i * 0.03 - 400000 * 0.03 => 400000 * 0.03
+ODL_85:35:double_func(double):i <= 1000000 => i
+ODL_86:35:double_func(double):i <= 1000000 => 1000000
+ODL_87:36:double_func(double):i * 0.015 => i
+ODL_88:36:double_func(double):i * 0.015 => 0.015
+ODL_89:36:double_func(double):bonus6 + i * 0.015 => bonus6
+ODL_90:36:double_func(double):bonus6 + i * 0.015 => i * 0.015
+ODL_91:36:double_func(double):600000 * 0.015 => 600000
+ODL_92:36:double_func(double):600000 * 0.015 => 0.015
+ODL_93:36:double_func(double):bonus6 + i * 0.015 - 600000 * 0.015 => bonus6 + i * 0.015
+ODL_94:36:double_func(double):bonus6 + i * 0.015 - 600000 * 0.015 => 600000 * 0.015
+ODL_95:38:double_func(double):i * 0.01 => i
+ODL_96:38:double_func(double):i * 0.01 => 0.01
+ODL_97:38:double_func(double):bonus10 + i * 0.01 => bonus10
+ODL_98:38:double_func(double):bonus10 + i * 0.01 => i * 0.01
+ODL_99:38:double_func(double):1000000 * 0.01 => 1000000
+ODL_100:38:double_func(double):1000000 * 0.01 => 0.01
+ODL_101:38:double_func(double):bonus10 + i * 0.01 - 1000000 * 0.01 => bonus10 + i * 0.01
+ODL_102:38:double_func(double):bonus10 + i * 0.01 - 1000000 * 0.01 => 1000000 * 0.01
+CDL_1:18:double_func(double):100000 * 0.1 => 0.1
+CDL_2:18:double_func(double):100000 * 0.1 => 100000
+CDL_3:19:double_func(double):100000 * 0.1 => 0.1
+CDL_4:19:double_func(double):100000 * 0.1 => 100000
+CDL_5:19:double_func(double):100000 * 0.075 => 0.075
+CDL_6:19:double_func(double):100000 * 0.075 => 100000
+CDL_7:20:double_func(double):100000 * 0.1 => 0.1
+CDL_8:20:double_func(double):100000 * 0.1 => 100000
+CDL_9:20:double_func(double):100000 * 0.075 => 0.075
+CDL_10:20:double_func(double):100000 * 0.075 => 100000
+CDL_11:20:double_func(double):200000 * 0.05 => 0.05
+CDL_12:20:double_func(double):200000 * 0.05 => 200000
+CDL_13:21:double_func(double):100000 * 0.1 => 0.1
+CDL_14:21:double_func(double):100000 * 0.1 => 100000
+CDL_15:21:double_func(double):100000 * 0.075 => 0.075
+CDL_16:21:double_func(double):100000 * 0.075 => 100000
+CDL_17:21:double_func(double):200000 * 0.05 => 0.05
+CDL_18:21:double_func(double):200000 * 0.05 => 200000
+CDL_19:21:double_func(double):200000 * 0.03 => 0.03
+CDL_20:21:double_func(double):200000 * 0.03 => 200000
+CDL_21:22:double_func(double):100000 * 0.1 => 0.1
+CDL_22:22:double_func(double):100000 * 0.1 => 100000
+CDL_23:22:double_func(double):100000 * 0.075 => 0.075
+CDL_24:22:double_func(double):100000 * 0.075 => 100000
+CDL_25:22:double_func(double):200000 * 0.05 => 0.05
+CDL_26:22:double_func(double):200000 * 0.05 => 200000
+CDL_27:22:double_func(double):200000 * 0.03 => 0.03
+CDL_28:22:double_func(double):200000 * 0.03 => 200000
+CDL_29:22:double_func(double):400000 * 0.015 => 0.015
+CDL_30:22:double_func(double):400000 * 0.015 => 400000
+CDL_31:23:double_func(double):i <= 100000 => i
+CDL_32:24:double_func(double):i * 0.1 => i
+CDL_33:26:double_func(double):i <= 200000 => i
+CDL_34:27:double_func(double):i * 0.075 => i
+CDL_35:27:double_func(double):100000 * 0.075 => 0.075
+CDL_36:27:double_func(double):100000 * 0.075 => 100000
+CDL_37:29:double_func(double):i <= 400000 => i
+CDL_38:30:double_func(double):i * 0.05 => i
+CDL_39:30:double_func(double):200000 * 0.05 => 0.05
+CDL_40:30:double_func(double):200000 * 0.05 => 200000
+CDL_41:32:double_func(double):i <= 600000 => i
+CDL_42:33:double_func(double):i * 0.03 => i
+CDL_43:33:double_func(double):400000 * 0.03 => 0.03
+CDL_44:33:double_func(double):400000 * 0.03 => 400000
+CDL_45:35:double_func(double):i <= 1000000 => i
+CDL_46:36:double_func(double):i * 0.015 => i
+CDL_47:36:double_func(double):600000 * 0.015 => 0.015
+CDL_48:36:double_func(double):600000 * 0.015 => 600000
+CDL_49:38:double_func(double):i * 0.01 => i
+CDL_50:38:double_func(double):1000000 * 0.01 => 0.01
+CDL_51:38:double_func(double):1000000 * 0.01 => 1000000

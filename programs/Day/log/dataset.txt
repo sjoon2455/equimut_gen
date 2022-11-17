@@ -1,0 +1,94 @@
+ROR
+@@ -36 +36 @@
+-	if(year%400==0||(year%4==0&&year%100!=0))
++	if(year%400<=0||(year%4==0&&year%100!=0))
+
+AOIS
+@@ -36 +36 @@
+-	if(year%400==0||(year%4==0&&year%100!=0))
++	if(year%400==0||(year%4==0&&year%100!=0))
+@@ -40 +40 @@
+-	if(leap==1&&month>2)
++	if(leap==1&&month-->2)
+
+AOIS
+@@ -36 +36 @@
+-	if(year%400==0||(year%4==0&&year%100!=0))
++	if(year%400==0||(year%4==0&&year%100!=0))
+@@ -40 +40 @@
+-	if(leap==1&&month>2)
++	if(leap==1&&month++>2)
+
+AOIS
+@@ -36 +36 @@
+-	if(year%400==0||(year%4==0&&year%100!=0))
++	if(year%400==0||(year%4==0&&year%100!=0))
+@@ -40 +40 @@
+-	if(leap==1&&month>2)
++	if(leap++==1&&month>2)
+
+AOIS
+@@ -36 +36 @@
+-	if(year%400==0||(year%4==0&&year%100!=0))
++	if(year%400==0||(year%4==0&&year--%100!=0))
+
+AOIS
+@@ -36 +36 @@
+-	if(year%400==0||(year%4==0&&year%100!=0))
++	if(year%400==0||(year%4==0&&year%100!=0))
+@@ -40 +40 @@
+-	if(leap==1&&month>2)
++	if(leap--==1&&month>2)
+
+ROR
+@@ -36 +36 @@
+-	if(year%400==0||(year%4==0&&year%100!=0))
++	if(year%400==0||(year%4==0&&year%100!=0))
+@@ -40 +40 @@
+-	if(leap==1&&month>2)
++	if(leap>=1&&month>2)
+
+ABS
+@@ -35,2 +35,2 @@
+-	sum=sum+day;
+-	if(year%400==0||(year%4==0&&year%100!=0))
++	sum=sum+abs(day);
++	if(year%400==0||(year%4==0&&year%100!=0))
+
+AOIS
+@@ -35,2 +35,2 @@
+-	sum=sum+day;
+-	if(year%400==0||(year%4==0&&year%100!=0))
++	sum=sum+day++;
++	if(year%400==0||(year%4==0&&year%100!=0))
+
+ROR
+@@ -36 +36 @@
+-	if(year%400==0||(year%4==0&&year%100!=0))
++	if(year%400==0||(year%4==0&&year%100>0))
+
+AOIS
+@@ -36 +36 @@
+-	if(year%400==0||(year%4==0&&year%100!=0))
++	if(year%400==0||(year%4==0&&year++%100!=0))
+
+AOIS
+@@ -35,2 +35,2 @@
+-	sum=sum+day;
+-	if(year%400==0||(year%4==0&&year%100!=0))
++	sum=sum+day--;
++	if(year%400==0||(year%4==0&&year%100!=0))
+
+ABS
+@@ -35,2 +35,2 @@
+-	sum=sum+day;
+-	if(year%400==0||(year%4==0&&year%100!=0))
++	sum=abs(sum)+day;
++	if(year%400==0||(year%4==0&&year%100!=0))
+
+ROR
+@@ -36 +36 @@
+-	if(year%400==0||(year%4==0&&year%100!=0))
++	if(year%400==0||(year%4<=0&&year%100!=0))
+
+ROR: 4, AOIS: 8, ABS: 2

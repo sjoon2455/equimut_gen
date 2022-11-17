@@ -1,0 +1,3 @@
+void_quicksort(int,int,int)
+int_sort(int)
+void_swap(int,int,int)

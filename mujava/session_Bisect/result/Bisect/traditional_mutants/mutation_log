@@ -1,0 +1,223 @@
+AORB_1:16:double_sqrt(double):x * x => x / x
+AORB_2:16:double_sqrt(double):x * x => x % x
+AORB_3:16:double_sqrt(double):x * x => x + x
+AORB_4:16:double_sqrt(double):x * x => x - x
+AORB_5:16:double_sqrt(double):x * x - N => x * x * N
+AORB_6:16:double_sqrt(double):x * x - N => x * x / N
+AORB_7:16:double_sqrt(double):x * x - N => x * x % N
+AORB_8:16:double_sqrt(double):x * x - N => x * x + N
+AORB_9:22:double_sqrt(double):M + x => M * x
+AORB_10:22:double_sqrt(double):M + x => M / x
+AORB_11:22:double_sqrt(double):M + x => M % x
+AORB_12:22:double_sqrt(double):M + x => M - x
+AORB_13:22:double_sqrt(double):(M + x) / 2 => (M + x) * 2
+AORB_14:22:double_sqrt(double):(M + x) / 2 => (M + x) % 2
+AORB_15:22:double_sqrt(double):(M + x) / 2 => M + x + 2
+AORB_16:22:double_sqrt(double):(M + x) / 2 => M + x - 2
+AORB_17:26:double_sqrt(double):m + x => m * x
+AORB_18:26:double_sqrt(double):m + x => m / x
+AORB_19:26:double_sqrt(double):m + x => m % x
+AORB_20:26:double_sqrt(double):m + x => m - x
+AORB_21:26:double_sqrt(double):(m + x) / 2 => (m + x) * 2
+AORB_22:26:double_sqrt(double):(m + x) / 2 => (m + x) % 2
+AORB_23:26:double_sqrt(double):(m + x) / 2 => m + x + 2
+AORB_24:26:double_sqrt(double):(m + x) / 2 => m + x - 2
+AORB_25:29:double_sqrt(double):x * x => x / x
+AORB_26:29:double_sqrt(double):x * x => x % x
+AORB_27:29:double_sqrt(double):x * x => x + x
+AORB_28:29:double_sqrt(double):x * x => x - x
+AORB_29:29:double_sqrt(double):x * x - N => x * x * N
+AORB_30:29:double_sqrt(double):x * x - N => x * x / N
+AORB_31:29:double_sqrt(double):x * x - N => x * x % N
+AORB_32:29:double_sqrt(double):x * x - N => x * x + N
+AOIU_1:12:double_sqrt(double):N => -N
+AOIU_2:13:double_sqrt(double):N => -N
+AOIU_3:15:double_sqrt(double):x => -x
+AOIU_4:16:double_sqrt(double):x => -x
+AOIU_5:19:double_sqrt(double):diff => -diff
+AOIU_6:19:double_sqrt(double):mEpsilon => -mEpsilon
+AOIU_7:20:double_sqrt(double):diff => -diff
+AOIU_8:21:double_sqrt(double):x => -x
+AOIU_9:22:double_sqrt(double):M => -M
+AOIU_10:24:double_sqrt(double):diff => -diff
+AOIU_11:25:double_sqrt(double):x => -x
+AOIU_12:26:double_sqrt(double):m => -m
+AOIU_13:29:double_sqrt(double):x => -x
+AOIU_14:31:double_sqrt(double):x => -x
+AOIU_15:32:double_sqrt(double):r => -r
+AOIU_16:33:double_sqrt(double):r => -r
+AOIS_1:12:double_sqrt(double):N => N++
+AOIS_2:12:double_sqrt(double):N => N--
+AOIS_3:13:double_sqrt(double):N => N++
+AOIS_4:13:double_sqrt(double):N => N--
+AOIS_5:15:double_sqrt(double):x => x++
+AOIS_6:15:double_sqrt(double):x => x--
+AOIS_7:16:double_sqrt(double):x => ++x
+AOIS_8:16:double_sqrt(double):x => --x
+AOIS_9:16:double_sqrt(double):x => x++
+AOIS_10:16:double_sqrt(double):x => x--
+AOIS_11:16:double_sqrt(double):x => ++x
+AOIS_12:16:double_sqrt(double):x => --x
+AOIS_13:16:double_sqrt(double):x => x++
+AOIS_14:16:double_sqrt(double):x => x--
+AOIS_15:16:double_sqrt(double):N => N++
+AOIS_16:16:double_sqrt(double):N => N--
+AOIS_17:19:double_sqrt(double):diff => ++diff
+AOIS_18:19:double_sqrt(double):diff => --diff
+AOIS_19:19:double_sqrt(double):diff => diff++
+AOIS_20:19:double_sqrt(double):diff => diff--
+AOIS_21:19:double_sqrt(double):mEpsilon => ++mEpsilon
+AOIS_22:19:double_sqrt(double):mEpsilon => --mEpsilon
+AOIS_23:19:double_sqrt(double):mEpsilon => mEpsilon++
+AOIS_24:19:double_sqrt(double):mEpsilon => mEpsilon--
+AOIS_25:20:double_sqrt(double):diff => ++diff
+AOIS_26:20:double_sqrt(double):diff => --diff
+AOIS_27:20:double_sqrt(double):diff => diff++
+AOIS_28:20:double_sqrt(double):diff => diff--
+AOIS_29:21:double_sqrt(double):x => ++x
+AOIS_30:21:double_sqrt(double):x => --x
+AOIS_31:21:double_sqrt(double):x => x++
+AOIS_32:21:double_sqrt(double):x => x--
+AOIS_33:22:double_sqrt(double):M => ++M
+AOIS_34:22:double_sqrt(double):M => --M
+AOIS_35:22:double_sqrt(double):M => M++
+AOIS_36:22:double_sqrt(double):M => M--
+AOIS_37:22:double_sqrt(double):x => ++x
+AOIS_38:22:double_sqrt(double):x => --x
+AOIS_39:22:double_sqrt(double):x => x++
+AOIS_40:22:double_sqrt(double):x => x--
+AOIS_41:24:double_sqrt(double):diff => ++diff
+AOIS_42:24:double_sqrt(double):diff => --diff
+AOIS_43:24:double_sqrt(double):diff => diff++
+AOIS_44:24:double_sqrt(double):diff => diff--
+AOIS_45:25:double_sqrt(double):x => ++x
+AOIS_46:25:double_sqrt(double):x => --x
+AOIS_47:25:double_sqrt(double):x => x++
+AOIS_48:25:double_sqrt(double):x => x--
+AOIS_49:26:double_sqrt(double):m => ++m
+AOIS_50:26:double_sqrt(double):m => --m
+AOIS_51:26:double_sqrt(double):m => m++
+AOIS_52:26:double_sqrt(double):m => m--
+AOIS_53:26:double_sqrt(double):x => ++x
+AOIS_54:26:double_sqrt(double):x => --x
+AOIS_55:26:double_sqrt(double):x => x++
+AOIS_56:26:double_sqrt(double):x => x--
+AOIS_57:29:double_sqrt(double):x => ++x
+AOIS_58:29:double_sqrt(double):x => --x
+AOIS_59:29:double_sqrt(double):x => x++
+AOIS_60:29:double_sqrt(double):x => x--
+AOIS_61:29:double_sqrt(double):x => ++x
+AOIS_62:29:double_sqrt(double):x => --x
+AOIS_63:29:double_sqrt(double):x => x++
+AOIS_64:29:double_sqrt(double):x => x--
+AOIS_65:29:double_sqrt(double):N => N++
+AOIS_66:29:double_sqrt(double):N => N--
+AOIS_67:31:double_sqrt(double):x => ++x
+AOIS_68:31:double_sqrt(double):x => --x
+AOIS_69:31:double_sqrt(double):x => x++
+AOIS_70:31:double_sqrt(double):x => x--
+AOIS_71:32:double_sqrt(double):r => ++r
+AOIS_72:32:double_sqrt(double):r => --r
+AOIS_73:32:double_sqrt(double):r => r++
+AOIS_74:32:double_sqrt(double):r => r--
+AOIS_75:33:double_sqrt(double):r => r++
+AOIS_76:33:double_sqrt(double):r => r--
+ROR_1:19:double_sqrt(double): Math.abs( diff ) > mEpsilon  =>   Math.abs( diff ) >= mEpsilon
+ROR_2:19:double_sqrt(double): Math.abs( diff ) > mEpsilon  =>   Math.abs( diff ) < mEpsilon
+ROR_3:19:double_sqrt(double): Math.abs( diff ) > mEpsilon  =>   Math.abs( diff ) <= mEpsilon
+ROR_4:19:double_sqrt(double): Math.abs( diff ) > mEpsilon  =>   Math.abs( diff ) == mEpsilon
+ROR_5:19:double_sqrt(double): Math.abs( diff ) > mEpsilon  =>   Math.abs( diff ) != mEpsilon
+ROR_6:19:double_sqrt(double): Math.abs( diff ) > mEpsilon  =>   true
+ROR_7:19:double_sqrt(double): Math.abs( diff ) > mEpsilon  =>   false
+ROR_8:20:double_sqrt(double): diff < 0  =>   diff > 0
+ROR_9:20:double_sqrt(double): diff < 0  =>   diff >= 0
+ROR_10:20:double_sqrt(double): diff < 0  =>   diff <= 0
+ROR_11:20:double_sqrt(double): diff < 0  =>   diff == 0
+ROR_12:20:double_sqrt(double): diff < 0  =>   diff != 0
+ROR_13:20:double_sqrt(double): diff < 0  =>   true
+ROR_14:20:double_sqrt(double): diff < 0  =>   false
+ROR_15:24:double_sqrt(double): diff > 0  =>   diff >= 0
+ROR_16:24:double_sqrt(double): diff > 0  =>   diff < 0
+ROR_17:24:double_sqrt(double): diff > 0  =>   diff <= 0
+ROR_18:24:double_sqrt(double): diff > 0  =>   diff == 0
+ROR_19:24:double_sqrt(double): diff > 0  =>   diff != 0
+ROR_20:24:double_sqrt(double): diff > 0  =>   true
+ROR_21:24:double_sqrt(double): diff > 0  =>   false
+COI_1:19:double_sqrt(double): Math.abs( diff ) > mEpsilon  =>  !(Math.abs( diff ) > mEpsilon)
+COI_2:20:double_sqrt(double): diff < 0  =>  !(diff < 0)
+COI_3:24:double_sqrt(double): diff > 0  =>  !(diff > 0)
+LOI_1:12:double_sqrt(double):N => ~N
+LOI_2:13:double_sqrt(double):N => ~N
+LOI_3:15:double_sqrt(double):x => ~x
+LOI_4:16:double_sqrt(double):x => ~x
+LOI_5:16:double_sqrt(double):x => ~x
+LOI_6:16:double_sqrt(double):N => ~N
+LOI_7:19:double_sqrt(double):diff => ~diff
+LOI_8:19:double_sqrt(double):mEpsilon => ~mEpsilon
+LOI_9:20:double_sqrt(double):diff => ~diff
+LOI_10:21:double_sqrt(double):x => ~x
+LOI_11:22:double_sqrt(double):M => ~M
+LOI_12:22:double_sqrt(double):x => ~x
+LOI_13:24:double_sqrt(double):diff => ~diff
+LOI_14:25:double_sqrt(double):x => ~x
+LOI_15:26:double_sqrt(double):m => ~m
+LOI_16:26:double_sqrt(double):x => ~x
+LOI_17:29:double_sqrt(double):x => ~x
+LOI_18:29:double_sqrt(double):x => ~x
+LOI_19:29:double_sqrt(double):N => ~N
+LOI_20:31:double_sqrt(double):x => ~x
+LOI_21:32:double_sqrt(double):r => ~r
+LOI_22:33:double_sqrt(double):r => ~r
+SDL_1:22:double_sqrt(double): double x = N; double M = N; double m = 1; double r = x; double diff = x * x - N; double mEpsilon = 0.01; double mResult; while (Math.abs( diff ) > mEpsilon) {     if (diff < 0) {         m = x;         x = (M + x) / 2;     } else {         if (diff > 0) {             M = x;             x = (m + x) / 2;         }     }     diff = x * x - N; } r = x; mResult = r; return r;  =>   double x = N; double M = N; double m = 1; double r = x; double diff = x * x - N; double mEpsilon = 0.01; double mResult; r = x; mResult = r; return r;
+SDL_2:33:double_sqrt(double): double x = N; double M = N; double m = 1; double r = x; double diff = x * x - N; double mEpsilon = 0.01; double mResult; while (Math.abs( diff ) > mEpsilon) {     if (diff < 0) {         m = x;         x = (M + x) / 2;     } else {         if (diff > 0) {             M = x;             x = (m + x) / 2;         }     }     diff = x * x - N; } r = x; mResult = r; return r;  =>   double x = N; double M = N; double m = 1; double r = x; double diff = x * x - N; double mEpsilon = 0.01; double mResult; while (Math.abs( diff ) > mEpsilon) {     if (diff < 0) {         m = x;         x = (M + x) / 2;     } else {         if (diff > 0) {             M = x;             x = (m + x) / 2;         }     }     diff = x * x - N; } mResult = r; return r;
+SDL_3:33:double_sqrt(double): double x = N; double M = N; double m = 1; double r = x; double diff = x * x - N; double mEpsilon = 0.01; double mResult; while (Math.abs( diff ) > mEpsilon) {     if (diff < 0) {         m = x;         x = (M + x) / 2;     } else {         if (diff > 0) {             M = x;             x = (m + x) / 2;         }     }     diff = x * x - N; } r = x; mResult = r; return r;  =>   double x = N; double M = N; double m = 1; double r = x; double diff = x * x - N; double mEpsilon = 0.01; double mResult; while (Math.abs( diff ) > mEpsilon) {     if (diff < 0) {         m = x;         x = (M + x) / 2;     } else {         if (diff > 0) {             M = x;             x = (m + x) / 2;         }     }     diff = x * x - N; } r = x; return r;
+SDL_4:21:double_sqrt(double): if (diff < 0) {     m = x;     x = (M + x) / 2; } else {     if (diff > 0) {         M = x;         x = (m + x) / 2;     } } diff = x * x - N;  =>   diff = x * x - N;
+SDL_5:29:double_sqrt(double): if (diff < 0) {     m = x;     x = (M + x) / 2; } else {     if (diff > 0) {         M = x;         x = (m + x) / 2;     } } diff = x * x - N;  =>   if (diff < 0) {     m = x;     x = (M + x) / 2; } else {     if (diff > 0) {         M = x;         x = (m + x) / 2;     } }
+SDL_6:31:double_sqrt(double): while (Math.abs( diff ) > mEpsilon) {     if (diff < 0) {         m = x;         x = (M + x) / 2;     } else {         if (diff > 0) {             M = x;             x = (m + x) / 2;         }     }     diff = x * x - N; }  =>   while (true) {     if (diff < 0) {         m = x;         x = (M + x) / 2;     } else {         if (diff > 0) {             M = x;             x = (m + x) / 2;         }     }     diff = x * x - N; }
+SDL_7:22:double_sqrt(double): m = x; x = (M + x) / 2;  =>   x = (M + x) / 2;
+SDL_8:22:double_sqrt(double): m = x; x = (M + x) / 2;  =>   m = x;
+SDL_9:29:double_sqrt(double): if (diff < 0) {     m = x;     x = (M + x) / 2; } else {     if (diff > 0) {         M = x;         x = (m + x) / 2;     } }  =>   if (true) {     m = x;     x = (M + x) / 2; } else {     if (diff > 0) {         M = x;         x = (m + x) / 2;     } }
+SDL_10:24:double_sqrt(double): if (diff > 0) {     M = x;     x = (m + x) / 2; }  =>  
+SDL_11:26:double_sqrt(double): M = x; x = (m + x) / 2;  =>   x = (m + x) / 2;
+SDL_12:26:double_sqrt(double): M = x; x = (m + x) / 2;  =>   M = x;
+SDL_13:28:double_sqrt(double): if (diff > 0) {     M = x;     x = (m + x) / 2; }  =>   if (true) {     M = x;     x = (m + x) / 2; }
+SDL_14:34:double_sqrt(double): return r;  =>   return 0;
+VDL_1:16:double_sqrt(double):x * x => x
+VDL_2:16:double_sqrt(double):x * x => x
+VDL_3:16:double_sqrt(double):x * x - N => x * x
+VDL_4:19:double_sqrt(double):Math.abs( diff ) > mEpsilon => Math.abs( diff )
+VDL_5:20:double_sqrt(double):diff < 0 => 0
+VDL_6:22:double_sqrt(double):M + x => x
+VDL_7:22:double_sqrt(double):M + x => M
+VDL_8:24:double_sqrt(double):diff > 0 => 0
+VDL_9:26:double_sqrt(double):m + x => x
+VDL_10:26:double_sqrt(double):m + x => m
+VDL_11:29:double_sqrt(double):x * x => x
+VDL_12:29:double_sqrt(double):x * x => x
+VDL_13:29:double_sqrt(double):x * x - N => x * x
+ODL_1:16:double_sqrt(double):x * x => x
+ODL_2:16:double_sqrt(double):x * x => x
+ODL_3:16:double_sqrt(double):x * x - N => x * x
+ODL_4:16:double_sqrt(double):x * x - N => N
+ODL_5:19:double_sqrt(double):Math.abs( diff ) > mEpsilon => Math.abs( diff )
+ODL_6:19:double_sqrt(double):Math.abs( diff ) > mEpsilon => mEpsilon
+ODL_7:20:double_sqrt(double):diff < 0 => diff
+ODL_8:20:double_sqrt(double):diff < 0 => 0
+ODL_9:22:double_sqrt(double):M + x => M
+ODL_10:22:double_sqrt(double):M + x => x
+ODL_11:22:double_sqrt(double):(M + x) / 2 => M + x
+ODL_12:22:double_sqrt(double):(M + x) / 2 => 2
+ODL_13:24:double_sqrt(double):diff > 0 => diff
+ODL_14:24:double_sqrt(double):diff > 0 => 0
+ODL_15:26:double_sqrt(double):m + x => m
+ODL_16:26:double_sqrt(double):m + x => x
+ODL_17:26:double_sqrt(double):(m + x) / 2 => m + x
+ODL_18:26:double_sqrt(double):(m + x) / 2 => 2
+ODL_19:29:double_sqrt(double):x * x => x
+ODL_20:29:double_sqrt(double):x * x => x
+ODL_21:29:double_sqrt(double):x * x - N => x * x
+ODL_22:29:double_sqrt(double):x * x - N => N
+CDL_1:20:double_sqrt(double):diff < 0 => diff
+CDL_2:22:double_sqrt(double):(M + x) / 2 => M + x
+CDL_3:24:double_sqrt(double):diff > 0 => diff
+CDL_4:26:double_sqrt(double):(m + x) / 2 => m + x

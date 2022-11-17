@@ -1,0 +1,50 @@
+Compiled from "Prime_num.java"
+public class Prime_num {
+  public Prime_num();
+    Code:
+       0: aload_0
+       1: invokespecial #9                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static int primenum(java.lang.String[]);
+    Code:
+       0: iconst_0
+       1: istore_1
+       2: iconst_1
+       3: istore_2
+       4: iconst_1
+       5: istore_3
+       6: iload_3
+       7: iconst_5
+       8: if_icmpgt     62
+      11: iload_3
+      12: iconst_1
+      13: iadd
+      14: i2d
+      15: invokestatic  #17                 // Method java/lang/Math.sqrt:(D)D
+      18: d2i
+      19: istore_0
+      20: iconst_2
+      21: istore        4
+      23: iload         4
+      25: iload_0
+      26: if_icmpgt     47
+      29: iload_3
+      30: iload         4
+      32: irem
+      33: ifne          41
+      36: iconst_0
+      37: istore_2
+      38: goto          47
+      41: iinc          4, 1
+      44: goto          23
+      47: iload_2
+      48: ifeq          54
+      51: iinc          1, 1
+      54: iconst_1
+      55: istore_2
+      56: iinc          3, 1
+      59: goto          6
+      62: iload_1
+      63: ireturn
+}

@@ -1,0 +1,149 @@
+AORB_1:23:int_sort(int,int,int,int,int):i + 1 => i * 1
+AORB_2:23:int_sort(int,int,int,int,int):i + 1 => i / 1
+AORB_3:23:int_sort(int,int,int,int,int):i + 1 => i % 1
+AORB_4:23:int_sort(int,int,int,int,int):i + 1 => i - 1
+AORS_1:22:int_sort(int,int,int,int,int):i++ => i--
+AORS_2:23:int_sort(int,int,int,int,int):j++ => j--
+AOIU_1:17:int_sort(int,int,int,int,int):b => -b
+AOIU_2:18:int_sort(int,int,int,int,int):c => -c
+AOIU_3:19:int_sort(int,int,int,int,int):d => -d
+AOIU_4:20:int_sort(int,int,int,int,int):e => -e
+AOIU_5:21:int_sort(int,int,int,int,int):f => -f
+AOIU_6:22:int_sort(int,int,int,int,int):i => -i
+AOIU_7:23:int_sort(int,int,int,int,int):i => -i
+AOIU_8:23:int_sort(int,int,int,int,int):j => -j
+AOIU_9:24:int_sort(int,int,int,int,int):i => -i
+AOIU_10:24:int_sort(int,int,int,int,int):j => -j
+AOIU_11:25:int_sort(int,int,int,int,int):i => -i
+AOIU_12:26:int_sort(int,int,int,int,int):j => -j
+AOIU_13:27:int_sort(int,int,int,int,int):xyz => -xyz
+AOIS_1:17:int_sort(int,int,int,int,int):b => ++b
+AOIS_2:17:int_sort(int,int,int,int,int):b => --b
+AOIS_3:17:int_sort(int,int,int,int,int):b => b++
+AOIS_4:17:int_sort(int,int,int,int,int):b => b--
+AOIS_5:18:int_sort(int,int,int,int,int):c => ++c
+AOIS_6:18:int_sort(int,int,int,int,int):c => --c
+AOIS_7:18:int_sort(int,int,int,int,int):c => c++
+AOIS_8:18:int_sort(int,int,int,int,int):c => c--
+AOIS_9:19:int_sort(int,int,int,int,int):d => ++d
+AOIS_10:19:int_sort(int,int,int,int,int):d => --d
+AOIS_11:19:int_sort(int,int,int,int,int):d => d++
+AOIS_12:19:int_sort(int,int,int,int,int):d => d--
+AOIS_13:20:int_sort(int,int,int,int,int):e => ++e
+AOIS_14:20:int_sort(int,int,int,int,int):e => --e
+AOIS_15:20:int_sort(int,int,int,int,int):e => e++
+AOIS_16:20:int_sort(int,int,int,int,int):e => e--
+AOIS_17:21:int_sort(int,int,int,int,int):f => ++f
+AOIS_18:21:int_sort(int,int,int,int,int):f => --f
+AOIS_19:21:int_sort(int,int,int,int,int):f => f++
+AOIS_20:21:int_sort(int,int,int,int,int):f => f--
+AOIS_21:22:int_sort(int,int,int,int,int):i => ++i
+AOIS_22:22:int_sort(int,int,int,int,int):i => --i
+AOIS_23:22:int_sort(int,int,int,int,int):i => i++
+AOIS_24:22:int_sort(int,int,int,int,int):i => i--
+AOIS_25:23:int_sort(int,int,int,int,int):i => ++i
+AOIS_26:23:int_sort(int,int,int,int,int):i => --i
+AOIS_27:23:int_sort(int,int,int,int,int):i => i++
+AOIS_28:23:int_sort(int,int,int,int,int):i => i--
+AOIS_29:23:int_sort(int,int,int,int,int):j => ++j
+AOIS_30:23:int_sort(int,int,int,int,int):j => --j
+AOIS_31:23:int_sort(int,int,int,int,int):j => j++
+AOIS_32:23:int_sort(int,int,int,int,int):j => j--
+AOIS_33:24:int_sort(int,int,int,int,int):i => ++i
+AOIS_34:24:int_sort(int,int,int,int,int):i => --i
+AOIS_35:24:int_sort(int,int,int,int,int):i => i++
+AOIS_36:24:int_sort(int,int,int,int,int):i => i--
+AOIS_37:24:int_sort(int,int,int,int,int):j => ++j
+AOIS_38:24:int_sort(int,int,int,int,int):j => --j
+AOIS_39:24:int_sort(int,int,int,int,int):j => j++
+AOIS_40:24:int_sort(int,int,int,int,int):j => j--
+AOIS_41:25:int_sort(int,int,int,int,int):i => ++i
+AOIS_42:25:int_sort(int,int,int,int,int):i => --i
+AOIS_43:25:int_sort(int,int,int,int,int):i => i++
+AOIS_44:25:int_sort(int,int,int,int,int):i => i--
+AOIS_45:26:int_sort(int,int,int,int,int):j => ++j
+AOIS_46:26:int_sort(int,int,int,int,int):j => --j
+AOIS_47:26:int_sort(int,int,int,int,int):j => j++
+AOIS_48:26:int_sort(int,int,int,int,int):j => j--
+AOIS_49:27:int_sort(int,int,int,int,int):xyz => ++xyz
+AOIS_50:27:int_sort(int,int,int,int,int):xyz => --xyz
+AOIS_51:27:int_sort(int,int,int,int,int):xyz => xyz++
+AOIS_52:27:int_sort(int,int,int,int,int):xyz => xyz--
+ROR_1:22:int_sort(int,int,int,int,int): i < 5  =>   i > 5
+ROR_2:22:int_sort(int,int,int,int,int): i < 5  =>   i >= 5
+ROR_3:22:int_sort(int,int,int,int,int): i < 5  =>   i <= 5
+ROR_4:22:int_sort(int,int,int,int,int): i < 5  =>   i == 5
+ROR_5:22:int_sort(int,int,int,int,int): i < 5  =>   i != 5
+ROR_6:22:int_sort(int,int,int,int,int): i < 5  =>   true
+ROR_7:22:int_sort(int,int,int,int,int): i < 5  =>   false
+ROR_8:23:int_sort(int,int,int,int,int): j < 5  =>   j > 5
+ROR_9:23:int_sort(int,int,int,int,int): j < 5  =>   j >= 5
+ROR_10:23:int_sort(int,int,int,int,int): j < 5  =>   j <= 5
+ROR_11:23:int_sort(int,int,int,int,int): j < 5  =>   j == 5
+ROR_12:23:int_sort(int,int,int,int,int): j < 5  =>   j != 5
+ROR_13:23:int_sort(int,int,int,int,int): j < 5  =>   true
+ROR_14:23:int_sort(int,int,int,int,int): j < 5  =>   false
+ROR_15:24:int_sort(int,int,int,int,int): a[i] < a[j]  =>   a[i] > a[j]
+ROR_16:24:int_sort(int,int,int,int,int): a[i] < a[j]  =>   a[i] >= a[j]
+ROR_17:24:int_sort(int,int,int,int,int): a[i] < a[j]  =>   a[i] <= a[j]
+ROR_18:24:int_sort(int,int,int,int,int): a[i] < a[j]  =>   a[i] == a[j]
+ROR_19:24:int_sort(int,int,int,int,int): a[i] < a[j]  =>   a[i] != a[j]
+ROR_20:24:int_sort(int,int,int,int,int): a[i] < a[j]  =>   true
+ROR_21:24:int_sort(int,int,int,int,int): a[i] < a[j]  =>   false
+COI_1:22:int_sort(int,int,int,int,int): i < 5  =>  !(i < 5)
+COI_2:23:int_sort(int,int,int,int,int): j < 5  =>  !(j < 5)
+COI_3:24:int_sort(int,int,int,int,int): a[i] < a[j]  =>  !(a[i] < a[j])
+LOI_1:17:int_sort(int,int,int,int,int):b => ~b
+LOI_2:18:int_sort(int,int,int,int,int):c => ~c
+LOI_3:19:int_sort(int,int,int,int,int):d => ~d
+LOI_4:20:int_sort(int,int,int,int,int):e => ~e
+LOI_5:21:int_sort(int,int,int,int,int):f => ~f
+LOI_6:22:int_sort(int,int,int,int,int):i => ~i
+LOI_7:22:int_sort(int,int,int,int,int):i => ~i
+LOI_8:23:int_sort(int,int,int,int,int):i => ~i
+LOI_9:23:int_sort(int,int,int,int,int):j => ~j
+LOI_10:23:int_sort(int,int,int,int,int):j => ~j
+LOI_11:24:int_sort(int,int,int,int,int):i => ~i
+LOI_12:24:int_sort(int,int,int,int,int):j => ~j
+LOI_13:25:int_sort(int,int,int,int,int):i => ~i
+LOI_14:26:int_sort(int,int,int,int,int):i => ~i
+LOI_15:26:int_sort(int,int,int,int,int):j => ~j
+LOI_16:27:int_sort(int,int,int,int,int):j => ~j
+LOI_17:27:int_sort(int,int,int,int,int):xyz => ~xyz
+SDL_1:31:int_sort(int,int,int,int,int): int i; int j; int xyz; int y; int[] a = new int[5]; a[0] = b; a[1] = c; a[2] = d; a[3] = e; a[4] = f; for (i = 0; i < 5; i++) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } } return a;  =>   int i; int j; int xyz; int y; int[] a = new int[5]; a[1] = c; a[2] = d; a[3] = e; a[4] = f; for (i = 0; i < 5; i++) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } } return a;
+SDL_2:31:int_sort(int,int,int,int,int): int i; int j; int xyz; int y; int[] a = new int[5]; a[0] = b; a[1] = c; a[2] = d; a[3] = e; a[4] = f; for (i = 0; i < 5; i++) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } } return a;  =>   int i; int j; int xyz; int y; int[] a = new int[5]; a[0] = b; a[2] = d; a[3] = e; a[4] = f; for (i = 0; i < 5; i++) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } } return a;
+SDL_3:31:int_sort(int,int,int,int,int): int i; int j; int xyz; int y; int[] a = new int[5]; a[0] = b; a[1] = c; a[2] = d; a[3] = e; a[4] = f; for (i = 0; i < 5; i++) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } } return a;  =>   int i; int j; int xyz; int y; int[] a = new int[5]; a[0] = b; a[1] = c; a[3] = e; a[4] = f; for (i = 0; i < 5; i++) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } } return a;
+SDL_4:31:int_sort(int,int,int,int,int): int i; int j; int xyz; int y; int[] a = new int[5]; a[0] = b; a[1] = c; a[2] = d; a[3] = e; a[4] = f; for (i = 0; i < 5; i++) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } } return a;  =>   int i; int j; int xyz; int y; int[] a = new int[5]; a[0] = b; a[1] = c; a[2] = d; a[4] = f; for (i = 0; i < 5; i++) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } } return a;
+SDL_5:31:int_sort(int,int,int,int,int): int i; int j; int xyz; int y; int[] a = new int[5]; a[0] = b; a[1] = c; a[2] = d; a[3] = e; a[4] = f; for (i = 0; i < 5; i++) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } } return a;  =>   int i; int j; int xyz; int y; int[] a = new int[5]; a[0] = b; a[1] = c; a[2] = d; a[3] = e; for (i = 0; i < 5; i++) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } } return a;
+SDL_6:23:int_sort(int,int,int,int,int): int i; int j; int xyz; int y; int[] a = new int[5]; a[0] = b; a[1] = c; a[2] = d; a[3] = e; a[4] = f; for (i = 0; i < 5; i++) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } } return a;  =>   int i; int j; int xyz; int y; int[] a = new int[5]; a[0] = b; a[1] = c; a[2] = d; a[3] = e; a[4] = f; return a;
+SDL_7:23:int_sort(int,int,int,int,int): for (j = i + 1; j < 5; j++) {     if (a[i] < a[j]) {         xyz = a[i];         a[i] = a[j];         a[j] = xyz;     } }  =>  
+SDL_8:31:int_sort(int,int,int,int,int): for (i = 0; i < 5; i++) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } }  =>   for (;; i++) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } }
+SDL_9:31:int_sort(int,int,int,int,int): for (i = 0; i < 5; i++) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } }  =>   for (; i < 5;) {     for (j = i + 1; j < 5; j++) {         if (a[i] < a[j]) {             xyz = a[i];             a[i] = a[j];             a[j] = xyz;         }     } }
+SDL_10:24:int_sort(int,int,int,int,int): if (a[i] < a[j]) {     xyz = a[i];     a[i] = a[j];     a[j] = xyz; }  =>  
+SDL_11:30:int_sort(int,int,int,int,int): for (j = i + 1; j < 5; j++) {     if (a[i] < a[j]) {         xyz = a[i];         a[i] = a[j];         a[j] = xyz;     } }  =>   for (;; j++) {     if (a[i] < a[j]) {         xyz = a[i];         a[i] = a[j];         a[j] = xyz;     } }
+SDL_12:30:int_sort(int,int,int,int,int): for (j = i + 1; j < 5; j++) {     if (a[i] < a[j]) {         xyz = a[i];         a[i] = a[j];         a[j] = xyz;     } }  =>   for (; j < 5;) {     if (a[i] < a[j]) {         xyz = a[i];         a[i] = a[j];         a[j] = xyz;     } }
+SDL_13:27:int_sort(int,int,int,int,int): xyz = a[i]; a[i] = a[j]; a[j] = xyz;  =>   a[i] = a[j]; a[j] = xyz;
+SDL_14:27:int_sort(int,int,int,int,int): xyz = a[i]; a[i] = a[j]; a[j] = xyz;  =>   xyz = a[i]; a[j] = xyz;
+SDL_15:27:int_sort(int,int,int,int,int): xyz = a[i]; a[i] = a[j]; a[j] = xyz;  =>   xyz = a[i]; a[i] = a[j];
+SDL_16:29:int_sort(int,int,int,int,int): if (a[i] < a[j]) {     xyz = a[i];     a[i] = a[j];     a[j] = xyz; }  =>   if (true) {     xyz = a[i];     a[i] = a[j];     a[j] = xyz; }
+SDL_17:32:int_sort(int,int,int,int,int): return a;  =>   return 0;
+VDL_1:22:int_sort(int,int,int,int,int):i < 5 => 5
+VDL_2:22:int_sort(int,int,int,int,int):i++ =>  
+VDL_3:23:int_sort(int,int,int,int,int):i + 1 => 1
+VDL_4:23:int_sort(int,int,int,int,int):j < 5 => 5
+VDL_5:23:int_sort(int,int,int,int,int):j++ =>  
+VDL_6:24:int_sort(int,int,int,int,int):a[i] < a[j] => a[j]
+VDL_7:24:int_sort(int,int,int,int,int):a[i] < a[j] => a[i]
+ODL_1:22:int_sort(int,int,int,int,int):i < 5 => i
+ODL_2:22:int_sort(int,int,int,int,int):i < 5 => 5
+ODL_3:22:int_sort(int,int,int,int,int):i++ => i
+ODL_4:23:int_sort(int,int,int,int,int):i + 1 => i
+ODL_5:23:int_sort(int,int,int,int,int):i + 1 => 1
+ODL_6:23:int_sort(int,int,int,int,int):j < 5 => j
+ODL_7:23:int_sort(int,int,int,int,int):j < 5 => 5
+ODL_8:23:int_sort(int,int,int,int,int):j++ => j
+ODL_9:24:int_sort(int,int,int,int,int):a[i] < a[j] => a[i]
+ODL_10:24:int_sort(int,int,int,int,int):a[i] < a[j] => a[j]
+CDL_1:22:int_sort(int,int,int,int,int):i < 5 => i
+CDL_2:23:int_sort(int,int,int,int,int):i + 1 => i
+CDL_3:23:int_sort(int,int,int,int,int):j < 5 => j

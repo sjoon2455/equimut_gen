@@ -1,0 +1,126 @@
+#
+Mutant name: AOIS_36
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.7878787878787878
+Program graph node: 8
+
+#
+Mutant name: AOIS_56
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.6666666666666666
+Operator score: 0.7878787878787878
+Program graph node: 11
+
+#
+Mutant name: AOIS_60
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.7878787878787878
+Program graph node: 13
+
+#
+Mutant name: AOIS_31
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.7878787878787878
+Program graph node: 6
+
+#
+Mutant name: AOIS_66
+Status: Equivalent
+Operator: AOIS
+Type statement: Return
+Position score: 0.6666666666666666
+Operator score: 0.7878787878787878
+Program graph node: 15
+
+#
+Mutant name: AOIS_27
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.5
+Operator score: 0.7878787878787878
+Program graph node: 4
+
+#
+Mutant name: AOIS_28
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.5
+Operator score: 0.7878787878787878
+Program graph node: 4
+
+#
+Mutant name: AOIS_32
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.7878787878787878
+Program graph node: 6
+
+#
+Mutant name: AOIS_65
+Status: Equivalent
+Operator: AOIS
+Type statement: Return
+Position score: 0.6666666666666666
+Operator score: 0.7878787878787878
+Program graph node: 15
+
+#
+Mutant name: AOIS_64
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.7878787878787878
+Program graph node: 14
+
+#
+Mutant name: AOIS_63
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.7878787878787878
+Program graph node: 14
+
+#
+Mutant name: AOIS_59
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.7878787878787878
+Program graph node: 13
+
+#
+Mutant name: AOIS_55
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.6666666666666666
+Operator score: 0.7878787878787878
+Program graph node: 11
+
+#
+Mutant name: AOIS_35
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7142857142857143
+Operator score: 0.7878787878787878
+Program graph node: 8
+

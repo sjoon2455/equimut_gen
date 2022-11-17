@@ -1,0 +1,65 @@
+AOIS
+@@ -58 +58 @@
+-		if (0 != Clip_15 )
++		if (0 != Clip_15-- )
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( We1_BA_DEF == --We1_BA_DEF_ev ))
+
+AOIS
+@@ -58 +58 @@
+-		if (0 != Clip_15 )
++		if (0 != Clip_15++ )
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( We1_BA_DEF-- == We1_BA_DEF_ev ))
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev-- ))
+
+ABS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * (-abs(We1_BA_DEF_ev_ctr2)) - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( ++We1_BA_DEF == We1_BA_DEF_ev ))
+
+ABS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( -abs(We1_BA_DEF_ev_ctr3) - 1000);
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( We1_BA_DEF == ++We1_BA_DEF_ev ))
+
+ABS
+@@ -70 +70 @@
+-		We1_BA_DEF = We1_BA_DEF_ev_ctr2 * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
++		We1_BA_DEF = -abs(We1_BA_DEF_ev_ctr2) * We1_BA_DEF_ev_ctr2 - ( We1_BA_DEF_ev_ctr3 - 1000);
+
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( --We1_BA_DEF == We1_BA_DEF_ev ))
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev++ ))
+
+AOIS
+@@ -71 +71 @@
+-		if ( ! ( We1_BA_DEF == We1_BA_DEF_ev ))
++		if ( ! ( We1_BA_DEF++ == We1_BA_DEF_ev ))

@@ -1,0 +1,24 @@
+mutant name, is equivalent?, distinguished by
+AOIS_27, 1, -
+AOIS_28, 1, -
+AOIS_31, 1, -
+AOIS_32, 1, -
+AOIS_35, 1, -
+AOIS_36, 1, -
+AOIS_55, 1, -
+AOIS_56, 1, -
+AOIS_59, 1, -
+AOIS_60, 1, -
+AOIS_63, 1, -
+AOIS_64, 1, -
+AOIS_65, 1, -
+AOIS_66, 1, -
+AOIU_10, 0, [V=2;VVV=1;VV=-1]
+AOIU_12, 0, [V=-1;VVV=0;VV=-1]
+AOIU_6, 0, [V=0;VVV=-1;VV=1]
+AOIU_7, 0, [V=0;VVV=1;VV=2]
+ROR_10, 1, -
+ROR_17, 1, -
+ROR_22, 1, -
+ROR_29, 1, -
+ROR_3, 1, -

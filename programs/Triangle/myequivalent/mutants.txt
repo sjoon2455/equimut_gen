@@ -1,0 +1,180 @@
+#
+Mutant name: AOIS_98
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 21
+
+#
+Mutant name: AOIS_107
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.7346938775510204
+Operator score: 0.6328125
+Program graph node: 24
+
+#
+Mutant name: AOIS_111
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.7346938775510204
+Operator score: 0.6328125
+Program graph node: 24
+
+#
+Mutant name: AOIS_94
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 21
+
+#
+Mutant name: AOIS_99
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 21
+
+#
+Mutant name: AOIU_3
+Status: Equivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 1.0
+Operator score: 0.7272727272727273
+Program graph node: 7
+
+#
+Mutant name: AOIS_93
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 21
+
+#
+Mutant name: AOIS_100
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 21
+
+#
+Mutant name: COR_6
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.87248322147651
+Operator score: 0.7857142857142857
+Program graph node: 16
+
+#
+Mutant name: ODL_14
+Status: Equivalent
+Operator: ODL
+Type statement: Assignment
+Position score: 1.0
+Operator score: 0.71875
+Program graph node: 7
+
+#
+Mutant name: ODL_18
+Status: Equivalent
+Operator: ODL
+Type statement: Assignment
+Position score: 0.6666666666666666
+Operator score: 0.71875
+Program graph node: 9
+
+#
+Mutant name: AOIU_6
+Status: Equivalent
+Operator: AOIU
+Type statement: Assignment
+Position score: 0.6666666666666666
+Operator score: 0.7272727272727273
+Program graph node: 9
+
+#
+Mutant name: COR_8
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 0.87248322147651
+Operator score: 0.7857142857142857
+Program graph node: 16
+
+#
+Mutant name: AOIS_114
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.7346938775510204
+Operator score: 0.6328125
+Program graph node: 24
+
+#
+Mutant name: AOIS_113
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.7346938775510204
+Operator score: 0.6328125
+Program graph node: 24
+
+#
+Mutant name: COR_2
+Status: Equivalent
+Operator: COR
+Type statement: If
+Position score: 1
+Operator score: 0.7857142857142857
+Program graph node: 4
+
+#
+Mutant name: AOIS_112
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.7346938775510204
+Operator score: 0.6328125
+Program graph node: 24
+
+#
+Mutant name: AOIS_97
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1.0
+Operator score: 0.6328125
+Program graph node: 21
+
+#
+Mutant name: AOIU_10
+Status: Equivalent
+Operator: AOIU
+Type statement: If
+Position score: 0.87248322147651
+Operator score: 0.7272727272727273
+Program graph node: 16
+
+#
+Mutant name: AOIS_108
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.7346938775510204
+Operator score: 0.6328125
+Program graph node: 24
+

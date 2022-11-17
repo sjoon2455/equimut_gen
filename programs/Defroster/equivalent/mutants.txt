@@ -1,0 +1,117 @@
+#
+Mutant name: AOIS_1
+Status: Equivalent
+Operator: AOIS
+Type statement: Declaration
+Position score: 1
+Operator score: 0.09433962264150944
+Program graph node: 2
+
+#
+Mutant name: AOIS_2
+Status: Equivalent
+Operator: AOIS
+Type statement: Declaration
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 5
+
+#
+Mutant name: AOIS_3
+Status: Equivalent
+Operator: AOIS
+Type statement: Declaration
+Position score: 1
+Operator score: 0.09433962264150944
+Program graph node: 2
+
+#
+Mutant name: AOIS_4
+Status: Equivalent
+Operator: AOIS
+Type statement: Declaration
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 5
+
+#
+Mutant name: AOIS_5
+Status: Equivalent
+Operator: AOIS
+Type statement: Declaration
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 5
+
+#
+Mutant name: ABS_6
+Status: Equivalent
+Operator: ABS
+Type statement: If
+Position score: 0.0
+Operator score: 1
+Program graph node: 5
+
+#
+Mutant name: AOIS_7
+Status: Equivalent
+Operator: AOIS
+Type statement: Declaration
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 5
+
+#
+Mutant name: ABS_8
+Status: Equivalent
+Operator: ABS
+Type statement: If
+Position score: 0.0
+Operator score: 1
+Program graph node: 5
+
+#
+Mutant name: AOIS_9
+Status: Equivalent
+Operator: AOIS
+Type statement: Declaration
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 5
+
+#
+Mutant name: ABS_10
+Status: Equivalent
+Operator: ABS
+Type statement: If
+Position score: 0.0
+Operator score: 1
+Program graph node: 5
+
+#
+Mutant name: AOIS_11
+Status: Equivalent
+Operator: AOIS
+Type statement: Declaration
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 5
+
+#
+Mutant name: AOIS_12
+Status: Equivalent
+Operator: AOIS
+Type statement: Declaration
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 5
+
+#
+Mutant name: AOIS_13
+Status: Equivalent
+Operator: AOIS
+Type statement: Declaration
+Position score: 0.0
+Operator score: 0.09433962264150944
+Program graph node: 5
+

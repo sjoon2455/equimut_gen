@@ -1,0 +1,65 @@
+AOIS
+@@ -31 +31 @@
+-            quicksort( data, upper + 1, last );
++            quicksort( data, upper++ + 1, last );
+
+AOIS
+@@ -31 +31 @@
+-            quicksort( data, upper + 1, last );
++            quicksort( data, upper-- + 1, last );
+
+AOIS
+@@ -31 +31 @@
+-            quicksort( data, upper + 1, last );
++            quicksort( data, upper + 1, last++ );
+
+AOIS
+@@ -46 +46 @@
+-        swap( data, data.length - 1, max );
++        swap( data, data.length - 1, max++ );
+
+AOIS
+@@ -54 +54 @@
+-        data[j] = tmp;
++        data[j] = tmp++;
+
+AOIS
+@@ -28 +28 @@
+-            quicksort( data, first, upper - 1 );
++            quicksort( data, first--, upper - 1 );
+
+AOIS
+@@ -31 +31 @@
+-            quicksort( data, upper + 1, last );
++            quicksort( data, upper + 1, last-- );
+
+AOIS
+@@ -46 +46 @@
+-        swap( data, data.length - 1, max );
++        swap( data, data.length - 1, max-- );
+
+AOIS
+@@ -54 +54 @@
+-        data[j] = tmp;
++        data[j] = tmp--;
+
+ROR
+@@ -42 +42 @@
+-            if (data[max] < data[i]) {
++            if (data[max] <= data[i]) {
+
+AOIS
+@@ -28 +28 @@
+-            quicksort( data, first, upper - 1 );
++            quicksort( data, first++, upper - 1 );
+
+ROR
+@@ -41 +41 @@
+-        for (int i = 1; i < data.length; i++) {
++        for (int i = 1; i != data.length; i++) {
+
+Total: 12
+AOIS: 10, ROR: 2
+private  void quicksort( int[] data, int first, int last )
+public  void swap( int[] data, int i, int j )
+public  void sort( int[] data )

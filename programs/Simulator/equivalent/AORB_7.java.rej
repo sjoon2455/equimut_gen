@@ -1,0 +1,5 @@
+--- AORB_7.java
++++ AORB_7.java
+@@ -1429 +1429 @@
+-			float nAifsd = sifs + 2 * slot;
++			float nAifsd = sifs + 2 + slot;

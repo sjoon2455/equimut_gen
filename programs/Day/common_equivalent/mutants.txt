@@ -1,0 +1,117 @@
+#
+Mutant name: ROR_590
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 1
+Operator score: 0.8571428571428571
+Program graph node: 15
+
+#
+Mutant name: AOIS_500
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1
+Operator score: 0.375
+Program graph node: 19
+
+#
+Mutant name: ROR_499
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 1
+Operator score: 0.8571428571428571
+Program graph node: 15
+
+#
+Mutant name: AOIS_501
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1
+Operator score: 0.375
+Program graph node: 19
+
+#
+Mutant name: AOIS_603
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1
+Operator score: 0.375
+Program graph node: 19
+
+#
+Mutant name: AOIS_272
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1
+Operator score: 0.375
+Program graph node: 15
+
+#
+Mutant name: AOIS_478
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 1.0
+Operator score: 0.375
+Program graph node: 13
+
+#
+Mutant name: ABS_5
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 1.0
+Operator score: 1
+Program graph node: 13
+
+#
+Mutant name: ROR_166
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 1
+Operator score: 0.8571428571428571
+Program graph node: 15
+
+#
+Mutant name: AOIS_134
+Status: Equivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 1.0
+Operator score: 0.375
+Program graph node: 13
+
+#
+Mutant name: AOIS_241
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1
+Operator score: 0.375
+Program graph node: 15
+
+#
+Mutant name: AOIS_190
+Status: Equivalent
+Operator: AOIS
+Type statement: If
+Position score: 1
+Operator score: 0.375
+Program graph node: 19
+
+#
+Mutant name: ROR_706
+Status: Equivalent
+Operator: ROR
+Type statement: If
+Position score: 1
+Operator score: 0.8571428571428571
+Program graph node: 19
+

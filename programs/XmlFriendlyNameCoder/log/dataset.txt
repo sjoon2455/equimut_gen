@@ -1,0 +1,118 @@
+ROD
+@@ -167 +167 @@
+-            if (i == length) {
++            if (false) {
+
+AORB
+@@ -172 +172 @@
+-            final StringBuffer result = new StringBuffer(length + 8);
++            final StringBuffer result = new StringBuffer(length * 8);
+
+ROR
+@@ -161 +161 @@
+-                if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {
++                if (c == dollarReplacementFirstChar || c <= escapeReplacementFirstChar) {
+
+ROR
+@@ -184 +184 @@
+-                } else if (c == escapeReplacementFirstChar
++                } else if (c >= escapeReplacementFirstChar
+
+AOIU
+@@ -175 +175 @@
+-            if (i > 0) {
++            if (i > -1) {
+
+AORB
+@@ -172 +172 @@
+-            final StringBuffer result = new StringBuffer(length + 8);
++            final StringBuffer result = new StringBuffer(length / 8);
+
+ROR
+@@ -175 +175 @@
+-            if (i > 0) {
++            if (i >= 0) {
+
+ROR
+@@ -161 +161 @@
+-                if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {
++                if (c <= dollarReplacementFirstChar || c == escapeReplacementFirstChar) {
+
+ROR
+@@ -179 +179 @@
+-            for (; i < length; i++ ) {
++            for (; i != length; i++ ) {
+
+ROR
+@@ -161 +161 @@
+-                if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {
++                if (c >= dollarReplacementFirstChar || c == escapeReplacementFirstChar) {
+
+SEOD
+@@ -181 +181 @@
+-                if (c == dollarReplacementFirstChar && name.startsWith(dollarReplacement, i)) {
++                if (c == dollarReplacementFirstChar) {
+
+AORB
+@@ -172 +172 @@
+-            final StringBuffer result = new StringBuffer(length + 8);
++            final StringBuffer result = new StringBuffer(length % 8);
+
+ROR
+@@ -184 +184 @@
+-                } else if (c == escapeReplacementFirstChar
++                } else if (c <= escapeReplacementFirstChar
+
+ROD
+@@ -181 +181 @@
+-                if (c == dollarReplacementFirstChar && name.startsWith(dollarReplacement, i)) {
++                if (name.startsWith(dollarReplacement, i)) {
+
+CR
+@@ -172 +172 @@
+-            final StringBuffer result = new StringBuffer(length + 8);
++            final StringBuffer result = new StringBuffer(length + 0);
+
+ROR
+@@ -181 +181 @@
+-                if (c == dollarReplacementFirstChar && name.startsWith(dollarReplacement, i)) {
++                if (c <= dollarReplacementFirstChar && name.startsWith(dollarReplacement, i)) {
+
+FCDL
+@@ -194 +194 @@
+-            unescapeCache.put(name, new WeakReference(s));
++            ;
+
+ROR
+@@ -158 +158 @@
+-            for (; i < length; i++ ) {
++            for (; i != length; i++ ) {
+
+ROR
+@@ -175 +175 @@
+-            if (i > 0) {
++            if (i != 0) {
+
+ROR
+@@ -161 +161 @@
+-                if (c == dollarReplacementFirstChar || c == escapeReplacementFirstChar) {
++                if (c == dollarReplacementFirstChar || c >= escapeReplacementFirstChar) {
+
+ROD
+@@ -158 +158 @@
+-            for (; i < length; i++ ) {
++            for (; false; i++ ) {
+
+ROR
+@@ -167 +167 @@
+-            if (i == length) {
++            if (i >= length) {
+
+ROR
+@@ -181 +181 @@
+-                if (c == dollarReplacementFirstChar && name.startsWith(dollarReplacement, i)) {
++                if (c >= dollarReplacementFirstChar && name.startsWith(dollarReplacement, i)) {
+
+Total: 23
+ROD: 3, AORB: 3, ROR: 13, AOIU: 1, SEOD: 1, CR: 1, FCDL: 1
+private String decodeName(String name)

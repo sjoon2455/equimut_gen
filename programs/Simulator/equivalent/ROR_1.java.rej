@@ -1,0 +1,5 @@
+--- ROR_1.java
++++ ROR_1.java
+@@ -1477 +1477 @@
+-		if (position != -1) {
++		if (position > -1) {

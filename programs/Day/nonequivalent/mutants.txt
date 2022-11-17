@@ -1,0 +1,216 @@
+#
+Mutant name: AOIS_20
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.375
+Program graph node: 18
+
+#
+Mutant name: LOI_6
+Status: Nonequivalent
+Operator: LOI
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.8888888888888888
+Program graph node: 18
+
+#
+Mutant name: ODL_11
+Status: Nonequivalent
+Operator: ODL
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.7142857142857143
+Program graph node: 18
+
+#
+Mutant name: AOIS_17
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.375
+Program graph node: 18
+
+#
+Mutant name: CDL_1
+Status: Nonequivalent
+Operator: CDL
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.3333333333333333
+Program graph node: 18
+
+#
+Mutant name: AORB_16
+Status: Nonequivalent
+Operator: AORB
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.75
+Program graph node: 18
+
+#
+Mutant name: AOIS_10
+Status: Nonequivalent
+Operator: AOIS
+Type statement: Assignment
+Position score: 0.7894736842105263
+Operator score: 0.375
+Program graph node: 16
+
+#
+Mutant name: AORB_5
+Status: Nonequivalent
+Operator: AORB
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.75
+Program graph node: 18
+
+#
+Mutant name: AOIS_2
+Status: Nonequivalent
+Operator: AOIS
+Type statement: Function Call
+Position score: 0.5
+Operator score: 0.375
+Program graph node: 1
+
+#
+Mutant name: AOIS_27
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.75
+Operator score: 0.375
+Program graph node: 22
+
+#
+Mutant name: ROR_29
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.75
+Operator score: 0.8571428571428571
+Program graph node: 22
+
+#
+Mutant name: AOIS_28
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.75
+Operator score: 0.375
+Program graph node: 22
+
+#
+Mutant name: VDL_5
+Status: Nonequivalent
+Operator: VDL
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.8333333333333334
+Program graph node: 18
+
+#
+Mutant name: ODL_3
+Status: Nonequivalent
+Operator: ODL
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.7142857142857143
+Program graph node: 18
+
+#
+Mutant name: AORB_13
+Status: Nonequivalent
+Operator: AORB
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.75
+Program graph node: 18
+
+#
+Mutant name: CDL_5
+Status: Nonequivalent
+Operator: CDL
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.3333333333333333
+Program graph node: 18
+
+#
+Mutant name: AOIS_1
+Status: Nonequivalent
+Operator: AOIS
+Type statement: Function Call
+Position score: 0.5
+Operator score: 0.375
+Program graph node: 1
+
+#
+Mutant name: ODL_15
+Status: Nonequivalent
+Operator: ODL
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.7142857142857143
+Program graph node: 18
+
+#
+Mutant name: AORB_15
+Status: Nonequivalent
+Operator: AORB
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.75
+Program graph node: 18
+
+#
+Mutant name: ROR_20
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.8571428571428571
+Program graph node: 18
+
+#
+Mutant name: AOIS_18
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.375
+Program graph node: 18
+
+#
+Mutant name: ODL_12
+Status: Nonequivalent
+Operator: ODL
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.7142857142857143
+Program graph node: 18
+
+#
+Mutant name: ROR_16
+Status: Nonequivalent
+Operator: ROR
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.8571428571428571
+Program graph node: 18
+
+#
+Mutant name: AOIS_19
+Status: Nonequivalent
+Operator: AOIS
+Type statement: If
+Position score: 0.6986301369863014
+Operator score: 0.375
+Program graph node: 18
+

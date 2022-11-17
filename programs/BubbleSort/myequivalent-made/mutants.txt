@@ -1,0 +1,45 @@
+#
+Mutant name: ABS_1
+Status: Equivalent
+Operator: ABS
+Type statement: If
+Position score: 0.96875
+Operator score: 1
+Program graph node: 4
+
+#
+Mutant name: ABS_2
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 0.9655172413793104
+Operator score: 1
+Program graph node: 5
+
+#
+Mutant name: ABS_3
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 1.0
+Operator score: 1
+Program graph node: 6
+
+#
+Mutant name: ABS_4
+Status: Equivalent
+Operator: ABS
+Type statement: Assignment
+Position score: 1.0
+Operator score: 1
+Program graph node: 6
+
+#
+Mutant name: ABS_5
+Status: Equivalent
+Operator: ABS
+Type statement: Declaration
+Position score: 0.8888888888888888
+Operator score: 1
+Program graph node: 8
+
